@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ashen-crown.github.io/sitemap.xml
