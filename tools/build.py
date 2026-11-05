@@ -15,10 +15,10 @@ TEMPLATE = (ROOT / "tools/page.template.html").read_text(encoding="utf-8")
 META = {
     "ko": {
         "url": BASE,
-        "title": "Ashen Crown 에션 크라운 | 수집형 RPG · 외부 시험 참가 모집",
-        "description": "Ashen Crown(에션 크라운)은 날아오는 마법까지 막아 내는 실시간 전투, 급습·정예·네임드 몬스터, 레이드와 유물 던전 파밍, 에픽·신화 장비를 갖춘 PC 수집형 RPG입니다. Steam 출시 준비 중, 외부 시험 참가자를 모집합니다.",
-        "keywords": "Ashen Crown, 에션 크라운, 애션 크라운, 에센 크라운, 수집형 RPG, 스팀 RPG, 인디 게임, 외부 시험, 베타 테스트",
-        "og_title": "Ashen Crown 에션 크라운 | 수집형 RPG",
+        "title": "Ashen Crown 애션 크라운 | 수집형 RPG · 외부 시험 참가 모집",
+        "description": "Ashen Crown(애션 크라운)은 날아오는 마법까지 막아 내는 실시간 전투, 급습·정예·네임드 몬스터, 레이드와 유물 던전 파밍, 에픽·신화 장비를 갖춘 PC 수집형 RPG입니다. Steam 출시 준비 중, 외부 시험 참가자를 모집합니다.",
+        "keywords": "Ashen Crown, 애션 크라운, 에션 크라운, 에센 크라운, 수집형 RPG, 스팀 RPG, 인디 게임, 외부 시험, 베타 테스트",
+        "og_title": "Ashen Crown 애션 크라운 | 수집형 RPG",
         "og_description": "날아오는 마법까지 막아 내는 전투, 매번 다른 몬스터, 레이드와 유물 던전, 에픽·신화 장비. 외부 시험 참가자 모집 중.",
         "locale": "ko_KR", "alt_locale": "en_US",
         "ld_description": "날아오는 마법까지 막아 내는 실시간 전투, 다양한 몬스터, 레이드·유물 던전 파밍, 에픽·신화 장비를 갖춘 수집형 RPG.",

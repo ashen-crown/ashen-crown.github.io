@@ -1,6 +1,6 @@
 # Ashen Crown
 
-Ashen Crown(에션 크라운) 게임 소개 홈페이지입니다. GitHub Pages로 공개됩니다.
+Ashen Crown(애션 크라운) 게임 소개 홈페이지입니다. GitHub Pages로 공개됩니다.
 
 - 주소: https://ashen-crown.github.io/ (영어: https://ashen-crown.github.io/en/)
 - 문의: ashencrown.support@gmail.com
