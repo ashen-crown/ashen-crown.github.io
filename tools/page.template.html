@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Ashen Crown 애션 크라운 | 수집형 RPG · 외부 시험 참가 모집</title>
-<meta name="description" content="Ashen Crown(애션 크라운)은 날아오는 마법까지 막아 내는 실시간 전투, 급습·정예·네임드 몬스터, 레이드와 유물 던전 파밍, 에픽·신화 장비를 갖춘 PC 수집형 RPG입니다. Steam 출시 준비 중, 외부 시험 참가자를 모집합니다.">
+<meta name="description" content="Ashen Crown(애션 크라운)은 동료 다섯과 실시간 전투를 지휘하고, 1인칭 유물 던전을 직접 탐험하고, 동료 10명으로 레이드 보스에 도전하고, 영토를 다스리는 PC 수집형 RPG입니다. 혼자 플레이하는 게임이며 외부 시험 참가자를 모집합니다.">
 <meta name="keywords" content="Ashen Crown, 애션 크라운, 에션 크라운, 에센 크라운, 수집형 RPG, 스팀 RPG, 인디 게임, 외부 시험, 베타 테스트">
 <meta name="robots" content="noindex">
 <link rel="canonical" href="https://ashen-crown.github.io/">
@@ -13,7 +13,7 @@
 <meta name="naver-site-verification" content="12018c44fcaab160494fe43e80b8a69a7717e039">
 <meta property="og:site_name" content="Ashen Crown">
 <meta property="og:title" content="Ashen Crown 애션 크라운 | 수집형 RPG">
-<meta property="og:description" content="날아오는 마법까지 막아 내는 전투, 매번 다른 몬스터, 레이드와 유물 던전, 에픽·신화 장비. 외부 시험 참가자 모집 중.">
+<meta property="og:description" content="직접 걸어 들어가는 1인칭 유물 던전, 동료 10명으로 맞서는 레이드, 영토 경영, 날아오는 공격을 막아 내는 전투. 외부 시험 참가자 모집 중.">
 <meta property="og:image" content="https://ashen-crown.github.io/img/hero-bg.webp">
 <meta property="og:image:width" content="1672">
 <meta property="og:image:height" content="941">
@@ -23,7 +23,7 @@
 <meta property="og:locale:alternate" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"VideoGame","name":"Ashen Crown","alternateName":["애션 크라운","에션 크라운","에센 크라운"],"url":"https://ashen-crown.github.io/","image":"https://ashen-crown.github.io/img/hero-bg.webp","description":"날아오는 마법까지 막아 내는 실시간 전투, 다양한 몬스터, 레이드·유물 던전 파밍, 에픽·신화 장비를 갖춘 수집형 RPG.","genre":["RPG","Collectible RPG"],"gamePlatform":"PC","operatingSystem":"Windows","inLanguage":["ko","en"],"offers":{"@type":"Offer","price":"0","priceCurrency":"KRW"},"publisher":{"@type":"Organization","name":"Ashen Crown","email":"ashencrown.support@gmail.com"}}
+{"@context":"https://schema.org","@type":"VideoGame","name":"Ashen Crown","alternateName":["애션 크라운","에션 크라운","에센 크라운"],"url":"https://ashen-crown.github.io/","image":"https://ashen-crown.github.io/img/hero-bg.webp","description":"실시간 파티 전투, 1인칭 유물 던전 탐험, 동료 10명 레이드, 영토 경영을 갖춘 싱글 플레이 수집형 RPG.","genre":["RPG","Collectible RPG"],"gamePlatform":"PC","operatingSystem":"Windows","inLanguage":["ko","en"],"offers":{"@type":"Offer","price":"0","priceCurrency":"KRW"},"publisher":{"@type":"Organization","name":"Ashen Crown","email":"ashencrown.support@gmail.com"}}
 </script>
 <meta name="theme-color" content="#14110f">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -193,6 +193,32 @@ dialog.lightbox p{color:var(--dust);text-align:center;font-size:14px;margin-top:
 footer{margin-top:88px;border-top:1px solid var(--rule);padding-block:28px 40px;color:var(--dust);font-size:13.5px}
 footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between}
 
+/* 2026-11-06: four pillars, relic dungeon band, journeys */
+.pillars{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:0;padding:0;list-style:none}
+.pillars a{display:grid;gap:4px;height:100%;padding:14px 16px;border:1px solid var(--rule);border-radius:10px;background:rgba(29,25,21,.88);color:var(--bone);text-decoration:none}
+.pillars a:hover{border-color:#6b5640}
+.pillars b{font-family:var(--display);font-size:18px;color:var(--ember)}
+.pillars span{font-size:14px;color:var(--dust);line-height:1.5}
+.pillars .hot{border-color:#7a5a32;background:linear-gradient(160deg,rgba(224,162,78,.16),rgba(29,25,21,.9) 60%)}
+.band{margin-top:72px;padding-block:64px;background:linear-gradient(180deg,#1b1611,#120f0c);border-block:1px solid #4a3a28}
+section.band{padding-top:64px}
+.band .sec-head h2{font-size:clamp(28px,4.2vw,40px)}
+.band .kicker{color:var(--bone);font-family:var(--display);font-size:clamp(17px,2.2vw,21px)}
+.vid{display:grid;gap:8px;margin-bottom:22px}
+.journey{counter-reset:j;list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.journey li{counter-increment:j;display:grid;gap:8px;align-content:start;min-width:0}
+.journey h3{font-size:17px;display:flex;gap:10px;align-items:baseline}
+.journey h3::before{content:counter(j);font-family:var(--latin);color:var(--ember);font-size:15px}
+.journey p{font-size:14px;color:var(--dust);line-height:1.55}
+.facts2{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.facts2 span{border:1px solid #4a3a28;border-radius:999px;padding:4px 12px;font-size:13.5px;color:#d6ccbc}
+.trio{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:14px}
+.trio > *{min-width:0}
+.trio figcaption{font-size:13px}
+.dev{font-size:13.5px;color:var(--dust);margin-top:14px}
+@media (max-width:860px){.pillars{grid-template-columns:1fr 1fr}.journey,.trio{grid-template-columns:1fr 1fr}}
+@media (max-width:460px){.pillars,.journey,.trio{grid-template-columns:minmax(0,1fr)}}
+
 @media (max-width:860px){
   .hero .wrap{padding-top:24px;padding-bottom:24px}
   .hero-grid{grid-template-columns:minmax(0,1fr);gap:22px}
@@ -224,8 +250,9 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-betw
     <a class="brand" href="#top">ASHEN <span>CROWN</span></a>
     <ul>
       <li><a href="#defense"><span lang="ko">전투</span><span lang="en">Combat</span></a></li>
-      <li><a href="#monsters"><span lang="ko">몬스터</span><span lang="en">Monsters</span></a></li>
-      <li><a href="#farming"><span lang="ko">파밍</span><span lang="en">Farming</span></a></li>
+      <li><a href="#relic"><span lang="ko">유물 던전</span><span lang="en">Relic Dungeons</span></a></li>
+      <li><a href="#raid"><span lang="ko">레이드</span><span lang="en">Raids</span></a></li>
+      <li><a href="#territory"><span lang="ko">영토</span><span lang="en">Territory</span></a></li>
       <li><a href="#loot"><span lang="ko">장비</span><span lang="en">Loot</span></a></li>
       <li><a href="#playtest"><span lang="ko">시험 참가</span><span lang="en">Playtest</span></a></li>
       <li><a href="#faq">FAQ</a></li>
@@ -248,37 +275,43 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-betw
           <img lang="ko" src="img/logo-ko.webp" alt="애션 크라운 Ashen Crown" width="1200" height="421">
           <img lang="en" src="img/logo-en.webp" alt="Ashen Crown" width="1200" height="192">
         </div>
-        <p class="eyebrow"><span lang="ko">PC 수집형 RPG · 개발 중</span><span lang="en">PC collectible RPG · In development</span></p>
+        <p class="eyebrow"><span lang="ko">PC 싱글 플레이 수집형 RPG · 개발 중</span><span lang="en">Single-player collectible RPG for PC · In development</span></p>
         <h1>
-          <span lang="ko">날아오는 마법을 막고,<br>쏘아 떨어뜨리세요</span>
-          <span lang="en">Stop spells mid-air.<br>Command your party.</span>
+          <span lang="ko">막고, 반격하고,<br>직접 던전으로 내려가세요</span>
+          <span lang="en">Block. Strike back.<br>Then go down into the dungeon yourself.</span>
         </h1>
         <p class="lead">
-          <span lang="ko">다섯 동료로 파티를 꾸리고, 실시간 전투를 지휘하세요. 요격과 방벽, 완벽 방어를 실제 전투 영상으로 만나보세요.</span>
-          <span lang="en">Build a party of five and lead real-time battles. See intercepts, barriers and Perfect Guards in action.</span>
+          <span lang="ko">다섯 동료로 실시간 전투를 지휘하고, 1인칭으로 유물 던전을 탐험하고, 동료 10명으로 레이드 보스에 맞서고, 되찾은 영토를 다스리는 다크 판타지 RPG입니다.</span>
+          <span lang="en">A dark fantasy RPG: lead five companions in real-time battles, explore relic dungeons in first person, take on raid bosses with ten companions, and rule the lands you win back.</span>
         </p>
         <div class="cta">
           <a class="btn btn-primary" href="#playtest"><span lang="ko">외부 시험 참가하기</span><span lang="en">Join the playtest</span></a>
-          <a class="btn btn-ghost" href="#defense"><span lang="ko">전투 자세히 보기</span><span lang="en">Explore combat</span></a>
+          <a class="btn btn-ghost" href="#relic"><span lang="ko">유물 던전 보기</span><span lang="en">See the relic dungeons</span></a>
         </div>
-        <p class="availability"><span lang="ko">무료 시험 · Steam 페이지 준비 중</span><span lang="en">Free playtest · Steam page coming soon</span></p>
+        <p class="availability"><span lang="ko">무료 시험 · 출시일 미정 · Steam 페이지 준비 중</span><span lang="en">Free playtest · Release date TBD · Steam page coming soon</span></p>
       </div>
       <figure class="hero-gameplay">
-        <div class="media-label"><span lang="ko">실제 전투 영상</span><span lang="en">ACTUAL GAMEPLAY</span><span>4-1</span></div>
-        <video class="shot clip" id="heroGameplay" controls muted loop playsinline preload="metadata" poster="img/defense-perfect.webp" width="1280" height="720" aria-label="4-1 실제 전투: 방벽이 파티를 지키고, 날아오는 기술을 격추하고, 완벽 방어로 막아 내는 장면">
-          <source src="video/defense.webm" type="video/webm">
-          <source src="video/defense.mp4" type="video/mp4">
+        <div class="media-label"><span lang="ko">실제 전투 영상</span><span lang="en">ACTUAL GAMEPLAY</span><span>4-1 HARD</span></div>
+        <video class="shot clip" id="heroGameplay" controls muted loop playsinline preload="metadata" poster="img/combat-poster.webp" width="1280" height="720" aria-label="4-1 Hard 실제 전투: 정예 부대와 네임드 모래벌레의 공격을 동료가 막고 요격한 뒤 반격하는 장면">
+          <source src="video/combat.mp4" type="video/mp4">
         </video>
-        <figcaption><span lang="ko">실제 전투. 방벽이 파티를 지키는 동안 날아오는 기술을 격추하고, 마지막 한 발은 완벽 방어로 받아 냅니다.</span><span lang="en">Live gameplay: a barrier holds while incoming attacks are shot down, and the last one meets a Perfect Guard.</span></figcaption>
+        <figcaption><span lang="ko">정예 부대와 네임드 「모래폭풍의 왕릉 모래벌레」를 상대로, 수호자가 방패로 막고 동료들이 날아오는 공격을 요격한 뒤 필살기로 반격합니다.</span><span lang="en">Against an elite squad and a named sandworm, the guardian blocks with his shield, the party intercepts incoming attacks, then strikes back with signature skills.</span></figcaption>
       </figure>
     </div>
     <div class="facts">
       <span lang="ko">장르 <b>수집형 RPG</b></span><span lang="en">Genre <b>Collectible RPG</b></span>
       <span lang="ko">플랫폼 <b>PC (Steam)</b></span><span lang="en">Platform <b>PC (Steam)</b></span>
       <span lang="ko">가격 <b>무료</b></span><span lang="en">Price <b>Free to play</b></span>
+      <span lang="ko">플레이 <b>1인</b></span><span lang="en">Players <b>1 (single-player)</b></span>
       <span lang="ko">동료 <b>94명</b></span><span lang="en">Companions <b>94</b></span>
       <span lang="ko">스토리 <b>8장</b></span><span lang="en">Story <b>8 chapters</b></span>
     </div>
+    <ul class="pillars" style="margin-top:22px">
+      <li><a href="#defense"><b lang="ko">전투</b><b lang="en">Combat</b><span lang="ko">날아오는 공격을 막고, 쏘아 떨어뜨리고, 반격합니다.</span><span lang="en">Block, shoot down and counter incoming attacks.</span></a></li>
+      <li><a class="hot" href="#relic"><b lang="ko">유물 던전</b><b lang="en">Relic dungeons</b><span lang="ko">1인칭으로 걸어 들어가 함정과 수수께끼를 풉니다.</span><span lang="en">Walk in first person, through traps and riddles.</span></a></li>
+      <li><a href="#raid"><b lang="ko">레이드</b><b lang="en">Raids</b><span lang="ko">동료 10명으로 패턴이 바뀌는 보스에 맞섭니다.</span><span lang="en">Ten companions against a boss that changes phases.</span></a></li>
+      <li><a href="#territory"><b lang="ko">영토</b><b lang="en">Territory</b><span lang="ko">동료를 주둔시켜 다스리고, 침공을 막아 냅니다.</span><span lang="en">Station companions, run your lands, hold off invasions.</span></a></li>
+    </ul>
   </div>
 </header>
 
@@ -298,12 +331,12 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-betw
       <div class="defense-media">
         <div class="pair2">
           <figure>
-            <button type="button" class="zoom" data-ko="방벽이 날아온 공격을 받아 내는 순간. 오른쪽 위에 날아오는 기술과 요격·방벽 버튼이 뜹니다" data-en="The barrier takes a hit. Incoming attacks and the intercept and barrier buttons are listed top right"><img class="shot" src="img/defense-shootdown.webp" alt="보른 앞에 세운 방벽이 날아온 공격을 받아 내고, 오른쪽 위에 날아오는 기술 목록과 요격·방벽 버튼이 뜬 장면" loading="lazy" width="1280" height="720"></button>
-            <figcaption><span lang="ko">방벽이 공격을 받아 냅니다. 오른쪽 위에 무엇이 누구에게 날아오는지 뜹니다.</span><span lang="en">The barrier takes the hit; the top-right panel lists what's incoming and at whom.</span></figcaption>
+            <button type="button" class="zoom" data-ko="수호자 보른이 동료의 방패로 공격을 받아 냅니다. 아래 「막음」 숫자가 이번 전투에서 막아 낸 횟수입니다" data-en="Guardian Born takes the hit with Ally Shield; the Blocked counter shows how many attacks the party has stopped"><img class="shot" src="img/defense-guard.webp" alt="수호자 보른이 동료의 방패로 정예 부대의 공격을 막아 내는 장면" loading="lazy" width="1600" height="900"></button>
+            <figcaption><span lang="ko">수호자가 방패로 받아 내고, 그사이 동료들이 반격합니다.</span><span lang="en">The guardian holds the line while the others strike back.</span></figcaption>
           </figure>
           <figure>
-            <button type="button" class="zoom" data-ko="수호자 보른의 완벽 방어" data-en="Born's Perfect Guard"><img class="shot" src="img/defense-perfect.webp" alt="수호자 보른이 방패로 공격을 받아 내며 「완벽 방어!」 문구가 뜬 장면" loading="lazy" width="1280" height="720"></button>
-            <figcaption><span lang="ko">테두리가 금색일 때 맞춰 막으면 「완벽 방어」가 터집니다.</span><span lang="en">Time it while the ring glows gold for a Perfect Guard.</span></figcaption>
+            <button type="button" class="zoom" data-ko="네임드 모래벌레가 쏜 「모래의 낙인」. 화면에 무엇이 누구에게 날아오는지와 요격·방벽 단추가 뜹니다" data-en="The named sandworm fires Sand Brand; the panel shows what is incoming, at whom, with intercept and barrier buttons"><img class="shot" src="img/defense-intercept.webp" alt="네임드 모래벌레의 공격이 날아오고, 요격과 방벽 단추가 뜬 장면" loading="lazy" width="1600" height="900"></button>
+            <figcaption><span lang="ko">날아오는 기술마다 요격할지, 방벽으로 받을지 고를 수 있습니다.</span><span lang="en">For each incoming skill, choose to intercept it or raise a barrier.</span></figcaption>
           </figure>
         </div>
       </div>
@@ -317,6 +350,118 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-betw
       </ul>
     </div>
     <p class="note"><span lang="ko">동료 94명 중 88명이 저마다 다른 대응 방식을 가지고 있고, 막는 확률은 능력치·기술·장비로 키울 수 있습니다.</span><span lang="en">88 of the 94 companions react in their own way, and the odds of success can be raised with stats, skills and gear.</span></p>
+  </div>
+</section>
+
+<section id="relic" class="band">
+  <div class="wrap">
+    <div class="sec-head">
+      <small>02 · RELIC DUNGEONS</small>
+      <h2><span lang="ko">더 강해지기 위해, 직접 모험을 떠난다</span><span lang="en">To grow stronger, you go in yourself</span></h2>
+      <p class="kicker" lang="ko">유물 던전은 메뉴를 누르면 끝나는 콘텐츠가 아닙니다. 탐험대를 꾸려 지하 성소로 내려가, 1인칭으로 회랑을 걷고 길을 찾습니다.</p>
+      <p class="kicker" lang="en">Relic dungeons aren't a menu you tap through. You form an expedition, descend into an underground sanctuary, and find your own way through its halls in first person.</p>
+      <p lang="ko">함정 발판은 동료의 직업에 따라 안전하게 해체할 수 있고, 룬 석판의 수수께끼를 풀어야 수호자의 문이 열립니다. 회랑에서 마주친 적과는 그 자리에서 싸우고, 층 문지기를 쓰러뜨리면 다음 층으로 내려갈 문을 고릅니다.</p>
+      <p lang="en">Pressure plates can be disarmed safely if you brought the right class, and the guardian's door only opens once you solve the rune tablet's riddle. Enemies in the halls are fought on the spot; beat the floor's gatekeeper and you choose which door leads down.</p>
+    </div>
+    <figure class="vid">
+      <video class="shot clip lazyplay" controls muted loop playsinline preload="none" poster="img/relic-poster.webp" width="1280" height="720" aria-label="유물 던전 실제 플레이: 1인칭 회랑 탐험, 보물상자 발견, 정예 전투와 적 증원, 층 문지기 전투와 승리">
+        <source src="video/relic.mp4" type="video/mp4">
+      </video>
+      <figcaption><span lang="ko">실제 플레이 · 잿빛 지하 성소 1층. 회랑을 걷다 보물상자를 발견하고, 정예와 증원을 물리친 뒤 층 문지기와 싸웁니다.</span><span lang="en">Actual gameplay, Ash Sanctuary floor 1: walking the halls, spotting a chest, beating an elite and its reinforcements, then the floor's gatekeeper.</span></figcaption>
+    </figure>
+    <ol class="journey">
+      <li>
+        <button type="button" class="zoom" data-ko="출발 전 보급 가방. 야영 도구·자물쇠 따개·함정 탐지 향을 골라 챙깁니다" data-en="The supply bag before departure: camping kit, lockpicks and trap-sense incense"><img class="shot" src="img/relic-prep.webp" alt="유물 던전 출발 전 보급 가방 화면" loading="lazy" width="1600" height="900"></button>
+        <h3><span lang="ko">준비</span><span lang="en">Prepare</span></h3>
+        <p lang="ko">탐험대 다섯 명을 고르고 보급 가방을 챙깁니다. 넣은 보급품은 이번 탐험에서만 씁니다.</p>
+        <p lang="en">Pick five explorers and pack the supply bag. What you pack is only for this run.</p>
+      </li>
+      <li>
+        <button type="button" class="zoom" data-ko="회랑 앞 압력판 함정, 그 너머에 정예 고블린 궁수가 기다립니다" data-en="A pressure plate in the corridor, with an elite goblin archer waiting beyond"><img class="shot" src="img/relic-trap.webp" alt="1인칭 회랑의 압력판 함정과 그 너머의 고블린 궁수" loading="lazy" width="1600" height="900"></button>
+        <h3><span lang="ko">1인칭 탐험</span><span lang="en">Explore in first person</span></h3>
+        <p lang="ko">한 칸씩 걸으며 지도를 채웁니다. 바닥의 압력판, 벽 너머의 적, 숨은 길을 직접 살펴야 합니다.</p>
+        <p lang="en">Map the floor step by step. Watch the floor for plates, the halls for enemies, the walls for hidden paths.</p>
+      </li>
+      <li>
+        <button type="button" class="zoom" data-ko="함정 조사 창. 파티에 있는 궁수의 정찰 특성 덕분에 보급품 소모 없이 해체할 수 있습니다" data-en="The trap screen: thanks to the archer in the party, the plate can be disarmed without spending supplies"><img class="shot" src="img/relic-trap-choice.webp" alt="함정 해체와 강행 돌파 중 고르는 화면" loading="lazy" width="1600" height="900"></button>
+        <h3><span lang="ko">함정과 장치</span><span lang="en">Traps and devices</span></h3>
+        <p lang="ko">해체할지, 다치더라도 강행 돌파할지 고릅니다. 궁수·척후가 있으면 안전하게 해체합니다.</p>
+        <p lang="en">Disarm it, or force through and take the damage. Archers and scouts make disarming safe.</p>
+      </li>
+      <li>
+        <button type="button" class="zoom" data-ko="룬 석판의 수수께끼. 마법사 동료에게 해독을 부탁하거나 직접 문양을 고를 수 있습니다" data-en="A rune tablet's riddle: ask a mage to read it, or pick the symbol yourself"><img class="shot" src="img/relic-rune.webp" alt="룬 석판 수수께끼 화면: 태양·달·별 문양 중 하나를 고른다" loading="lazy" width="1600" height="900"></button>
+        <h3><span lang="ko">수수께끼</span><span lang="en">Riddles</span></h3>
+        <p lang="ko">룬 석판의 문장을 읽고 맞는 문양을 눌러야 수호자의 봉인문이 열립니다.</p>
+        <p lang="en">Read the tablet, press the right symbol, and the guardian's sealed door opens.</p>
+      </li>
+      <li>
+        <button type="button" class="zoom" data-ko="층 문지기 전투. 정예 고블린 궁수와 증원이 나타납니다" data-en="The gatekeeper fight: an elite goblin archer and its reinforcements"><img class="shot" src="img/relic-fight.webp" alt="유물 던전 층 문지기 전투 화면" loading="lazy" width="1600" height="900"></button>
+        <h3><span lang="ko">현장 전투</span><span lang="en">Fight where you stand</span></h3>
+        <p lang="ko">회랑에서 만난 적과 그 자리에서 싸웁니다. 입은 피해는 탐험이 끝날 때까지 이어집니다.</p>
+        <p lang="en">Fights happen right in the corridor, and wounds carry over for the rest of the run.</p>
+      </li>
+      <li>
+        <button type="button" class="zoom" data-ko="층을 돌파하면 다음 층의 문을 고릅니다: 전투의 문·함정 회랑·쉼터의 문" data-en="Clear the floor, then pick the next door: Battle, Trap Corridor or Shelter"><img class="shot" src="img/relic-next.webp" alt="1층 돌파 후 다음 층 입구를 고르는 화면" loading="lazy" width="1600" height="900"></button>
+        <h3><span lang="ko">보상과 다음 층</span><span lang="en">Rewards and the next floor</span></h3>
+        <p lang="ko">보물상자와 전투에서 재료를 얻고, 귀환 포탈을 지나 더 깊은 층으로 내려갑니다.</p>
+        <p lang="en">Loot chests and fights, step through the return portal, and head deeper.</p>
+      </li>
+    </ol>
+    <div class="facts2">
+      <span lang="ko">잿빛 지하 성소 100층 · 핏빛 지하 성소 150층</span><span lang="en">Ash Sanctuary, 100 floors · Blood Sanctuary, 150 floors</span>
+      <span lang="ko">10층마다 체크포인트</span><span lang="en">Checkpoint every 10 floors</span>
+      <span lang="ko">유적 탐험 11곳 · 챕터 전투 8곳은 이야기 진행에 따라 열림</span><span lang="en">11 ruins and 8 chapter battles unlock as the story goes on</span>
+    </div>
+    <p class="dev"><span lang="ko">개발 중인 화면입니다. 층 수, 보상, 조작은 시험을 거치며 바뀔 수 있습니다.</span><span lang="en">In development: floor counts, rewards and controls may change during testing.</span></p>
+  </div>
+</section>
+
+<section id="raid">
+  <div class="wrap">
+    <div class="sec-head">
+      <small>03 · RAIDS</small>
+      <h2><span lang="ko">동료 10명으로 맞서는 결전 레이드</span><span lang="en">Ten companions against one boss</span></h2>
+      <p lang="ko">보스를 고르고, 키운 동료 중 10명을 골라 출전합니다. 보스는 예고 후 큰 기술을 쓰고, 체력이 줄면 격노 단계로 넘어가며, 마지막에는 「최후의 발악」을 합니다. 기술로 Break 게이지를 채워 대기술을 끊고, 폭주 시간 전에 끝내야 합니다.</p>
+      <p lang="en">Choose a boss and pick ten of your own companions. The boss telegraphs its big attacks, turns to a rage phase as it weakens, and makes a desperate last stand at the end. Fill its Break gauge with skills to cancel the big moves, and finish before the enrage timer runs out.</p>
+    </div>
+    <figure class="vid">
+      <video class="shot clip lazyplay" controls muted loop playsinline preload="none" poster="img/raid-poster.webp" width="1280" height="720" aria-label="결전 레이드 실제 플레이: 악룡 베일가르 등장, 필살기, Break로 대기술 차단, 최후의 발악과 승리">
+        <source src="video/raid.mp4" type="video/mp4">
+      </video>
+      <figcaption><span lang="ko">실제 플레이 · 악룡 베일가르. 등장 → 필살기 → Break로 「일식의 숨결」 차단 → 최후의 발악 → 승리.</span><span lang="en">Actual gameplay, Veilgar the dragon: entrance, signature skills, Break cancels Eclipse Breath, the last stand, victory.</span></figcaption>
+    </figure>
+    <div class="trio">
+      <figure><button type="button" class="zoom" data-ko="레이드 선택과 10인 편성. 이번 주 남은 기회와 보상이 함께 보입니다" data-en="Raid select and the ten-companion line-up, with this week's attempts and rewards"><img class="shot" src="img/raid-select.webp" alt="결전 레이드 선택과 10인 파티 편성 화면" loading="lazy" width="1600" height="900"></button><figcaption><span lang="ko">보스와 난이도를 고르고 10명을 편성합니다.</span><span lang="en">Pick a boss and difficulty, then field ten.</span></figcaption></figure>
+      <figure><button type="button" class="zoom" data-ko="Break 게이지를 채워 대기술 「일식의 숨결」을 끊어 낸 순간" data-en="The Break gauge fills and Eclipse Breath is cancelled"><img class="shot" src="img/raid-break.webp" alt="Break로 보스의 대기술을 끊은 장면" loading="lazy" width="1600" height="900"></button><figcaption><span lang="ko">예고된 대기술은 Break로 끊을 수 있습니다.</span><span lang="en">Telegraphed big moves can be broken.</span></figcaption></figure>
+      <figure><button type="button" class="zoom" data-ko="최후의 발악. 몇 초 안에 Break나 기절로 끊지 못하면 방어 태세로 버텨야 합니다" data-en="Last stand: break or stun it within seconds, or brace for impact"><img class="shot" src="img/raid-laststand.webp" alt="보스의 최후의 발악 경고가 뜬 장면" loading="lazy" width="1600" height="900"></button><figcaption><span lang="ko">격노 단계와 최후의 발악, 그리고 폭주 시간.</span><span lang="en">Rage phase, last stand, and an enrage timer.</span></figcaption></figure>
+    </div>
+    <p class="note"><span lang="ko">레이드의 10명은 모두 내가 키운 동료입니다. 다른 플레이어와 함께하는 온라인 협동 플레이가 아닙니다. 레이드는 주 3회 도전할 수 있고, 매주 바뀌는 변조가 붙습니다.</span><span lang="en">All ten are companions you raised; this is not online co-op with other players. Raids can be attempted three times a week, with a weekly modifier.</span></p>
+  </div>
+</section>
+
+<section id="territory">
+  <div class="wrap">
+    <div class="sec-head">
+      <small>04 · TERRITORY</small>
+      <h2><span lang="ko">되찾은 땅을 다스리고, 지켜 낸다</span><span lang="en">Rule the lands you win back, and hold them</span></h2>
+      <p lang="ko">이야기를 진행하며 되찾은 영지 9곳이 지도에 모입니다. 전투에 나가지 않는 동료를 영지에 주둔시키면 생산이 늘고, 동료에게 개간·축성·순찰을 명해 영지를 키웁니다. 적국의 위협이 차오르면 침공전이 열려, 외성·내성·최후의 결전 세 차례 성문을 지켜야 합니다.</p>
+      <p lang="en">Nine lands you reclaim in the story gather on one map. Station companions who aren't fighting to boost production, and order them to cultivate, fortify and patrol. When the enemy's threat peaks, an invasion begins: defend the outer gate, the inner gate and the final stand.</p>
+    </div>
+    <div class="split">
+      <figure><button type="button" class="zoom" data-ko="영토 지도. 영지 9곳과 유물 성소 입구" data-en="The territory map: nine lands and the relic sanctuary entrance"><img class="shot" src="img/territory-map.webp" alt="영토 지도 화면: 영지 9곳" loading="lazy" width="1600" height="900"></button><figcaption><span lang="ko">영토 지도. 수확할 물자가 영지마다 최대 12시간까지 쌓입니다.</span><span lang="en">The map. Each land stores up to 12 hours of goods to harvest.</span></figcaption></figure>
+      <ul class="modes">
+        <li><b lang="ko">주둔</b><b lang="en">Garrison</b><span lang="ko">영지마다 동료 3명. 영지가 반기는 직업이면 효과가 더 커집니다.</span><span lang="en">Three companions per land; favored classes give more.</span></li>
+        <li><b lang="ko">내정</b><b lang="en">Affairs</b><span lang="ko">개간·방비·민심. 명령서로 주둔 동료에게 일을 맡깁니다.</span><span lang="en">Cultivation, defenses and morale, raised by orders to your garrison.</span></li>
+        <li><b lang="ko">생산</b><b lang="en">Production</b><span lang="ko">경험치 물약과 영지 특산물. 건물 단계가 오르면 더 많이 나옵니다.</span><span lang="en">Experience potions and local specialties; higher building levels yield more.</span></li>
+        <li><b lang="ko">침공전</b><b lang="en">Invasions</b><span lang="ko">화공·매복·이간·농성 중 계책을 고르고 동료를 배치해 성문을 지킵니다.</span><span lang="en">Pick a stratagem (fire, ambush, discord or siege) and defend the gate.</span></li>
+      </ul>
+    </div>
+    <div class="trio">
+      <figure><button type="button" class="zoom" data-ko="영지 관리: 동료 두 명을 주둔시킨 잿빛 야영지" data-en="Managing a land: two companions stationed at the Ash Camp"><img class="shot" src="img/territory-garrison.webp" alt="영지에 동료 두 명을 주둔시킨 화면" loading="lazy" width="1600" height="900"></button><figcaption><span lang="ko">전투에 나가지 않는 동료를 주둔시킵니다.</span><span lang="en">Station companions who aren't in your party.</span></figcaption></figure>
+      <figure><button type="button" class="zoom" data-ko="내정: 개간·방비·민심을 동료에게 맡깁니다" data-en="Affairs: assign cultivation, defenses and morale"><img class="shot" src="img/territory-affairs.webp" alt="영지 내정 화면: 개간·방비·민심" loading="lazy" width="1600" height="900"></button><figcaption><span lang="ko">개간·방비·민심을 올려 영지를 키웁니다.</span><span lang="en">Grow the land through cultivation, defenses and morale.</span></figcaption></figure>
+      <figure><button type="button" class="zoom" data-ko="침공전 외성 방어. 왼쪽 위에 성문 내구도가 보입니다" data-en="Invasion, outer gate: gate durability top left"><img class="shot" src="img/territory-siege.webp" alt="침공전 성문 방어 전투 화면" loading="lazy" width="1600" height="900"></button><figcaption><span lang="ko">침공전. 성문 내구도가 0이 되기 전에 적을 막아야 합니다.</span><span lang="en">Invasions: stop them before the gate falls.</span></figcaption></figure>
+    </div>
+    <p class="dev"><span lang="ko">영토, 특히 침공전은 최근에 추가된 개발 중 기능이라 규칙과 수치가 바뀔 수 있습니다.</span><span lang="en">Territory, and invasions in particular, are recent additions; rules and numbers may change.</span></p>
   </div>
 </section>
 
@@ -344,7 +489,7 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-betw
 <section id="monsters">
   <div class="wrap">
     <div class="sec-head">
-      <small>02 · MONSTERS</small>
+      <small>05 · MONSTERS</small>
       <h2><span lang="ko">같은 스테이지도 매번 다른 적</span><span lang="en">The same stage, never the same fight</span></h2>
       <p lang="ko">증원이 올 때마다 무엇이 나올지 모릅니다. 뒤에서 들이닥치는 급습, 특수 능력이 붙은 정예, 이름과 고유 필살기를 가진 네임드까지. 지역이 바뀌면 적의 모습과 특성도 바뀝니다.</p>
       <p lang="en">Every reinforcement wave is a surprise: an ambush from behind, elites with special traits, or a named monster with its own title and signature move. New regions bring new enemies and new traits.</p>
@@ -355,11 +500,11 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-betw
         <figcaption><b lang="ko">급습</b><b lang="en">Ambush</b><span lang="ko">경고와 함께 적이 곧바로 덮칩니다.</span><span lang="en">A warning, then they're already on you.</span></figcaption>
       </figure>
       <figure>
-        <button type="button" class="zoom" data-ko="붉은 문장의 정예 부대" data-en="An elite squad with red crests"><img class="shot" src="img/elite.webp" alt="정예 몬스터가 섞인 전투" loading="lazy" width="1600" height="900"></button>
+        <button type="button" class="zoom" data-ko="증원으로 들이닥친 정예 부대" data-en="An elite squad arrives as reinforcements"><img class="shot" src="img/elite.webp" alt="정예 부대가 증원으로 나타난 사막 전투" loading="lazy" width="1600" height="900"></button>
         <figcaption><b lang="ko">정예</b><b lang="en">Elite</b><span lang="ko">붉은 문장. 철갑·폭주·질주·수호 중 하나의 특성을 가집니다.</span><span lang="en">Red crest, plus one trait: ironclad, frenzy, haste or warden.</span></figcaption>
       </figure>
       <figure>
-        <button type="button" class="zoom" data-ko="금빛 문장의 네임드 몬스터" data-en="A named monster with a golden crest"><img class="shot" src="img/named.webp" alt="네임드 몬스터 전투" loading="lazy" width="1600" height="900"></button>
+        <button type="button" class="zoom" data-ko="네임드 등장: 모래폭풍의 왕릉 모래벌레" data-en="A named monster appears: the Sandstorm Tomb Sandworm"><img class="shot" src="img/named.webp" alt="네임드 몬스터 모래벌레가 등장한 전투" loading="lazy" width="1600" height="900"></button>
         <figcaption><b lang="ko">네임드</b><b lang="en">Named</b><span lang="ko">칭호 24종, 고유 필살기, 특성 12종. 놓치면 달아났다가 더 강해져 돌아옵니다.</span><span lang="en">24 titles, signature moves, 12 traits. Let one escape and it comes back stronger, out for revenge.</span></figcaption>
       </figure>
       <figure>
@@ -373,23 +518,21 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-betw
 <section id="farming">
   <div class="wrap">
     <div class="sec-head">
-      <small>03 · FARMING</small>
-      <h2><span lang="ko">스토리를 끝낸 뒤에도, 파밍은 계속된다</span><span lang="en">The story ends. The hunt doesn't.</span></h2>
-      <p lang="ko">콘텐츠마다 보스의 성격과 얻는 재료가 다릅니다. 요일과 주마다 바뀌는 조건에 맞춰 파티를 다시 짜는 것이 공략의 핵심입니다.</p>
-      <p lang="en">Each mode has its own bosses and its own loot. Rebuilding your party for the conditions of each day and week is the heart of the game.</p>
+      <small>06 · MORE</small>
+      <h2><span lang="ko">그 밖의 도전</span><span lang="en">More to take on</span></h2>
+      <p lang="ko">로비에서 오늘 갈 곳을 고릅니다. 콘텐츠마다 보스의 성격과 얻는 재료가 달라, 요일과 주마다 파티를 다시 짜게 됩니다.</p>
+      <p lang="en">Pick today's destination from the lobby. Every mode has its own bosses and materials, so you'll rebuild your party by the day and week.</p>
     </div>
     <div class="split rev">
       <figure>
-        <img class="shot" src="img/lobby.webp" alt="로비 화면: 안내인 미라와 다음 여정, 요일 던전, 주간 보스, 결전 레이드, 유물 던전, 투기장 메뉴" loading="lazy" width="1600" height="900">
-        <figcaption><span lang="ko">로비에서 오늘 갈 곳을 고릅니다.</span><span lang="en">Pick today's hunt from the lobby.</span></figcaption>
+        <img class="shot" src="img/lobby.webp" alt="로비 화면: 안내인 미라, 모험 이어가기, 요일 던전, 주간 보스, 결전 레이드, 영토, 유물 던전 메뉴" loading="lazy" width="1600" height="900">
+        <figcaption><span lang="ko">로비. 모험, 요일 던전, 주간 보스, 레이드, 영토, 유물 던전으로 이어집니다.</span><span lang="en">The lobby leads to the story, weekday dungeons, weekly bosses, raids, territory and relic dungeons.</span></figcaption>
       </figure>
       <ul class="modes">
-        <li><b lang="ko">결전 레이드</b><b lang="en">Raids</b><span lang="ko">10인 결전. 시간이 지나면 보스가 폭주하고, 체력이 바닥나면 최후의 발악을 합니다.</span><span lang="en">Ten-hero showdowns. Bosses enrage over time and make a desperate last stand near death.</span></li>
-        <li><b lang="ko">유물 던전</b><b lang="en">Relic dungeons</b><span lang="ko">함정과 급습을 뚫고 유물 수호자를 쓰러뜨려 신화 재료를 얻습니다.</span><span lang="en">Fight through traps and ambushes to the Relic Guardian for mythic materials.</span></li>
         <li><b lang="ko">주간 보스</b><b lang="en">Weekly bosses</b><span lang="ko">매주 바뀌는 변조 6종, 토벌 등급은 C부터 SSS까지.</span><span lang="en">Six rotating weekly modifiers, clear ranks from C to SSS.</span></li>
         <li><b lang="ko">요일 던전</b><b lang="en">Weekday dungeons</b><span lang="ko">요일마다 다른 속성의 정령왕. 약점을 찌르는 편성이 필요합니다.</span><span lang="en">A different elemental king each day. Bring the right counters.</span></li>
         <li><b lang="ko">현상수배</b><b lang="en">Bounties</b><span lang="ko">네임드를 잡고 받은 증표를 그 장 전용 장비로 교환합니다.</span><span lang="en">Trade named-hunt tokens for chapter-exclusive gear.</span></li>
-        <li><b lang="ko">투기장</b><b lang="en">Arena</b><span lang="ko">키운 파티로 다른 편성과 실력을 겨룹니다.</span><span lang="en">Test your party against other line-ups.</span></li>
+        <li><b lang="ko">투기장</b><b lang="en">Arena</b><span lang="ko">키운 파티로 다른 편성과 겨룹니다. 다른 플레이어의 방어 팀과 겨루는 방식은 준비 중입니다.</span><span lang="en">Test your party against other line-ups. Matches against other players' defense teams are still being prepared.</span></li>
       </ul>
     </div>
   </div>
@@ -398,7 +541,7 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-betw
 <section id="loot">
   <div class="wrap">
     <div class="sec-head">
-      <small>04 · LOOT</small>
+      <small>07 · LOOT</small>
       <h2><span lang="ko">파밍의 끝에서 만나는 에픽과 신화</span><span lang="en">At the end of the hunt: Epic and Mythic</span></h2>
       <p lang="ko">장비는 등급과 무작위 옵션이 붙은 채로 떨어집니다. 같은 이름의 검도 옵션이 매번 다르고, 최대치로 붙은 줄은 빛으로 알려 줍니다. 그리고 그 끝에는 이야기를 품은 특별한 장비가 기다립니다.</p>
       <p lang="en">Gear drops with a rarity and randomized affixes; no two swords roll the same, and max rolls glow. At the very end waits gear with a story of its own.</p>
@@ -447,7 +590,7 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-betw
     <div class="split rev">
       <img class="shot" src="img/summon.webp" alt="소환 화면: 왼쪽에 큰 동료 원화, 오른쪽에 이번 픽업 목록" loading="lazy" width="1600" height="900">
       <div class="sec-head" style="margin:0">
-        <small>05 · COMPANIONS</small>
+        <small>08 · COMPANIONS</small>
         <h2><span lang="ko">94명의 동료</span><span lang="en">94 companions</span></h2>
         <p lang="ko">동료마다 세력과 이야기가 있고, 함께 지내며 쌓는 유대가 능력치를 올려 줍니다. 소환 확률과 천장은 게임 안에 모두 공개하고, 유료 재화 「왕관석」은 임무·출석·업적으로도 꾸준히 모을 수 있습니다.</p>
         <p lang="en">Every companion has a faction and a story, and bonds raise their stats. All summon rates and pity thresholds are published in-game, and Crown Gems can be earned steadily through missions, log-ins and achievements.</p>
@@ -497,6 +640,9 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-betw
       <details><summary><span lang="ko">무료인가요?</span><span lang="en">Is it free?</span></summary>
         <p lang="ko">네. 무료로 플레이하고, 게임 안에서 유료 재화 「왕관석」을 살 수 있습니다. 왕관석은 임무·출석·업적으로도 꾸준히 모을 수 있게 만들고 있습니다.</p>
         <p lang="en">Yes. The game is free to play, with an optional premium currency, Crown Gems, that you can also earn steadily through missions, log-ins and achievements.</p></details>
+      <details><summary><span lang="ko">혼자 하는 게임인가요? 온라인 협동이 있나요?</span><span lang="en">Is it single-player? Is there online co-op?</span></summary>
+        <p lang="ko">혼자 플레이하는 게임입니다. 레이드의 10명도 모두 내가 키운 동료이고, 지금 개발 버전에는 다른 플레이어와 실시간으로 함께하는 협동 플레이가 없습니다. 투기장에서 다른 플레이어의 방어 팀과 겨루는 방식은 준비 중입니다.</p>
+        <p lang="en">Yes, it's single-player. All ten raid members are your own companions, and the current build has no real-time co-op with other players. Arena matches against other players' defense teams are still being prepared.</p></details>
       <details><summary><span lang="ko">언제 출시하나요?</span><span lang="en">When does it launch?</span></summary>
         <p lang="ko">출시일은 아직 정하지 않았습니다. Steam(PC)에 앞서 해보기로 먼저 나오고, 이후 모바일도 준비할 예정입니다.</p>
         <p lang="en">No date yet. It will come to Steam (PC) first as Early Access, with mobile planned later.</p></details>
@@ -533,7 +679,11 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-betw
   var reducedMotion=window.matchMedia("(prefers-reduced-motion: reduce)");
   var saveData=navigator.connection && navigator.connection.saveData;
   if(!reducedMotion.matches && !saveData){gameplay.play().catch(function(){})}
-  reducedMotion.addEventListener("change",function(e){if(e.matches)gameplay.pause()});
+  reducedMotion.addEventListener("change",function(e){if(e.matches){gameplay.pause();document.querySelectorAll("video.lazyplay").forEach(function(v){v.pause()})}});
+  if("IntersectionObserver" in window && !reducedMotion.matches && !saveData){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){var v=e.target;if(e.isIntersecting){v.play().catch(function(){})}else{v.pause()}})},{threshold:.5});
+    document.querySelectorAll("video.lazyplay").forEach(function(v){io.observe(v)});
+  }
 
   var mail="ashencrown.support@gmail.com";
   var body={
