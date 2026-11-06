@@ -65,12 +65,12 @@ ALT_EN = {
     "영지에 동료 두 명을 주둔시킨 화면": "Two companions stationed at a land",
     "영토 지도 화면: 영지 9곳": "Territory map with nine lands",
     "유물 던전 출발 전 보급 가방 화면": "Relic dungeon supply bag before departure",
-    "1인칭 회랑에서 고블린 약탈자와 실시간으로 싸우는 장면": "Fighting a goblin raider in real time in a first-person corridor",
+    "1인칭 회랑에서 층 문지기와 실시간으로 싸우는 장면": "Fighting the floor's gatekeeper in real time in a first-person corridor",
     "정예 부대가 증원으로 나타난 사막 전투": "Desert battle where an elite squad arrives as reinforcements",
     "침공전 성문 방어 전투 화면": "Invasion gate-defense battle",
     "함정 해체와 강행 돌파 중 고르는 화면": "Choosing between disarming the trap and forcing through",
     "4-1 Hard 실제 전투: 정예 부대와 네임드 모래벌레의 공격을 동료가 막고 요격한 뒤 반격하는 장면": "Stage 4-1 Hard gameplay: the party blocks and intercepts attacks from an elite squad and a named sandworm, then strikes back",
-    "유물 던전 실제 플레이: 1인칭 회랑을 걷고, 압력판을 해체하고, 다가온 고블린 약탈자와 실시간으로 싸워 쓰러뜨리는 장면": "Relic dungeon gameplay: walking first-person corridors, disarming a pressure plate, and fighting a goblin raider in real time",
+    "유물 던전 실제 플레이: 1인칭 회랑을 걷고, 압력판을 해체하고, 회랑의 괴물과 층 문지기를 실시간으로 쓰러뜨린 뒤 전리품을 챙겨 귀환 포탈에 이르는 장면": "Relic dungeon gameplay: first-person corridors, a disarmed pressure plate, a corridor monster and the gatekeeper beaten in real time, then loot and the return portal",
     "결전 레이드 실제 플레이: 악룡 베일가르 등장, 필살기, Break로 대기술 차단, 최후의 발악과 승리": "Raid gameplay: Veilgar's entrance, signature skills, Break cancelling the big attack, the last stand and victory",
 }
 
