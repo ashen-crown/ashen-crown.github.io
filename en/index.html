@@ -14,15 +14,21 @@
 <meta content="Ashen Crown" property="og:site_name"/>
 <meta content="Ashen Crown | Collectible RPG" property="og:title"/>
 <meta content="First-person relic dungeons, ten-companion raids, territory to rule, and battles where you block what comes flying. Playtest sign-ups open." property="og:description"/>
-<meta content="https://ashen-crown.github.io/img/hero-bg.webp" property="og:image"/>
-<meta content="1672" property="og:image:width"/>
-<meta content="941" property="og:image:height"/>
+<meta content="https://ashen-crown.github.io/img/og-en.jpg" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="Ashen Crown logo over an ash-covered citadel" property="og:image:alt"/>
 <meta content="https://ashen-crown.github.io/en/" property="og:url"/>
 <meta content="website" property="og:type"/>
 <meta content="en_US" property="og:locale"/>
 <meta content="ko_KR" property="og:locale:alternate"/>
 <meta content="summary_large_image" name="twitter:card"/>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "Ashen Crown", "alternateName": ["애션 크라운", "에션 크라운", "에센 크라운"], "url": "https://ashen-crown.github.io/en/", "image": "https://ashen-crown.github.io/img/hero-bg.webp", "description": "A single-player collectible RPG with real-time party battles, first-person relic dungeons, ten-companion raids and territory management.", "genre": ["RPG", "Collectible RPG"], "gamePlatform": "PC", "operatingSystem": "Windows", "inLanguage": ["ko", "en"], "offers": {"@type": "Offer", "price": "0", "priceCurrency": "KRW"}, "publisher": {"@type": "Organization", "name": "Ashen Crown", "email": "ashencrown.support@gmail.com"}}</script>
+<meta content="https://ashen-crown.github.io/img/og-en.jpg" name="twitter:image"/>
+<link href="/favicon.ico" rel="icon" sizes="32x32"/>
+<link href="/img/icon-192.png" rel="icon" sizes="192x192" type="image/png"/>
+<link href="/img/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="/site.webmanifest" rel="manifest"/>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "VideoGame", "name": "Ashen Crown", "alternateName": ["애션 크라운", "에션 크라운", "에센 크라운"], "url": "https://ashen-crown.github.io/en/", "image": "https://ashen-crown.github.io/img/og-en.jpg", "description": "A single-player collectible RPG with real-time party battles, first-person relic dungeons, ten-companion raids and territory management.", "genre": ["RPG", "Collectible RPG"], "gamePlatform": "PC", "operatingSystem": "Windows", "inLanguage": ["ko", "en"], "offers": {"@type": "Offer", "price": "0", "priceCurrency": "KRW"}, "publisher": {"@type": "Organization", "name": "Ashen Crown", "email": "ashencrown.support@gmail.com"}}, {"@type": "WebSite", "name": "Ashen Crown", "alternateName": "애션 크라운", "url": "https://ashen-crown.github.io/", "inLanguage": "en"}, {"@type": "Organization", "name": "Ashen Crown", "url": "https://ashen-crown.github.io/", "logo": "https://ashen-crown.github.io/img/icon-512.png", "email": "ashencrown.support@gmail.com"}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is it free?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The game is free to play, with an optional premium currency, Crown Gems, that you can also earn steadily through missions, log-ins and achievements."}}, {"@type": "Question", "name": "Is it single-player? Is there online co-op?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, it's single-player. All ten raid members are your own companions, and the current build has no real-time co-op with other players. Arena matches against other players' defense teams are still being prepared."}}, {"@type": "Question", "name": "When does it launch?", "acceptedAnswer": {"@type": "Answer", "text": "No date yet. It will come to Steam (PC) first as Early Access, with mobile planned later."}}, {"@type": "Question", "name": "Which languages?", "acceptedAnswer": {"@type": "Answer", "text": "Korean and English are planned."}}, {"@type": "Question", "name": "Can I share playtest footage?", "acceptedAnswer": {"@type": "Answer", "text": "Each test's invitation email will tell you. If it doesn't, please ask us first."}}, {"@type": "Question", "name": "How do I contact you, and when will you reply?", "acceptedAnswer": {"@type": "Answer", "text": "Email ashencrown.support@gmail.com . We reply within 2 business days (Korean time); weekend messages are answered the next business day."}}]}]}</script>
 <meta content="#14110f" name="theme-color"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -239,12 +245,55 @@ section.band{padding-top:64px}
   .btn{flex:1 1 100%;justify-content:center}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* 2026-11-11: skip link, play records, contact form, sticky mobile CTA, consent */
+a,button,input,textarea,select,summary{touch-action:manipulation}
+.btn:disabled{opacity:.7;cursor:progress}
+.skip{position:absolute;left:12px;top:-60px;z-index:30;background:var(--ember);color:#1a1209;padding:10px 14px;border-radius:6px;font-weight:600;text-decoration:none}
+.skip:focus{top:12px}
+.records{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.records li{display:grid;gap:10px;align-content:start;background:var(--ash-2);border:1px solid var(--rule);border-radius:10px;padding:12px;min-width:0}
+.records .tag{font-family:var(--latin);font-size:11.5px;letter-spacing:.14em;color:var(--ember)}
+.records h3{font-size:18px}
+.records dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:4px 10px;font-size:14px}
+.records dt{color:var(--dust)}
+.records dd{margin:0;color:var(--bone)}
+.records a{font-size:14px;font-weight:600;text-decoration:none}
+.records a:hover{text-decoration:underline}
+.form{display:grid;gap:12px;margin-top:18px}
+.form .row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.form label{display:grid;gap:6px;font-size:14px;font-weight:600}
+.form label small{font-weight:400;color:var(--dust)}
+.form input,.form textarea,.form select{width:100%;background:var(--ash);border:1px solid #5a4c3e;border-radius:6px;color:var(--bone);font:15px/1.5 var(--body);padding:10px 12px}
+.form textarea{min-height:96px;resize:vertical}
+.form input::placeholder,.form textarea::placeholder{color:#8f8473}
+.form input:focus-visible,.form textarea:focus-visible,.form select:focus-visible{outline:2px solid var(--ember-hot);outline-offset:1px}
+.form .agree{display:flex;gap:10px;align-items:flex-start;font-weight:400;font-size:13.5px;color:#d6ccbc}
+.form .agree input{width:18px;height:18px;margin-top:3px;flex:none;accent-color:var(--ember)}
+.form .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.reply{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13.5px;color:var(--dust)}
+.reply b{color:var(--bone);font-weight:600}
+.foot-links{display:flex;flex-wrap:wrap;gap:6px 18px;list-style:none;margin:0;padding:0}
+.foot-links a{color:var(--dust);text-decoration:none}
+.foot-links a:hover{color:var(--bone);text-decoration:underline}
+.dock{position:fixed;left:0;right:0;bottom:0;z-index:20;display:none;gap:10px;align-items:center;padding:10px max(16px,env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));background:rgba(20,17,15,.96);border-top:1px solid #4a3a28;transform:translateY(110%);transition:transform .25s ease}
+.dock p{flex:1;min-width:0;font-size:13px;line-height:1.35;color:#d6ccbc}
+.dock .btn{flex:none;padding:11px 16px}
+.dock.show{transform:none}
+.consent{position:fixed;left:max(16px,env(safe-area-inset-left,0px));right:max(16px,env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:25;max-width:560px;margin:0 auto;background:var(--ash-2);border:1px solid #5a4630;border-radius:10px;padding:16px;display:grid;gap:10px;box-shadow:0 16px 48px rgba(0,0,0,.5);font-size:14px}
+.consent .acts{display:flex;flex-wrap:wrap;gap:8px}
+.consent .btn{padding:9px 14px;font-size:14px}
+@media (max-width:860px){.records{grid-template-columns:minmax(0,1fr)}.records li{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:760px){.dock{display:flex}body.has-dock footer{padding-bottom:110px}}
+@media (max-width:560px){.form .row{grid-template-columns:minmax(0,1fr)}}
+@media (prefers-reduced-motion:reduce){.dock{transition:none}}
 </style>
 </head>
 <body>
+<a class="skip" href="#main"><span lang="en">Skip to content</span></a>
 <nav aria-label="Menu" class="nav">
 <div class="wrap">
-<a class="brand" href="#top">ASHEN <span>CROWN</span></a>
+<a class="brand" href="#top" translate="no">ASHEN <span>CROWN</span></a>
 <ul>
 <li><a href="#defense"><span lang="en">Combat</span></a></li>
 <li><a href="#relic"><span lang="en">Relic Dungeons</span></a></li>
@@ -278,10 +327,10 @@ section.band{padding-top:64px}
 <span lang="en">A dark fantasy RPG: lead five companions in real-time battles, explore relic dungeons in first person, take on raid bosses with ten companions, and rule the lands you win back.</span>
 </p>
 <div class="cta">
-<a class="btn btn-primary" href="#playtest"><span lang="en">Join the playtest</span></a>
-<a class="btn btn-ghost" href="#relic"><span lang="en">See the relic dungeons</span></a>
+<a class="btn btn-primary" data-track="cta_hero" href="#apply"><span lang="en">Sign up for the free playtest</span></a>
+<a class="btn btn-ghost" href="#records"><span lang="en">See real play</span></a>
 </div>
-<p class="availability"><span lang="en">Free playtest · Release date TBD · Steam page coming soon</span></p>
+<p class="availability"><span lang="en">Sign-up takes a minute · Free playtest · Release date TBD · Steam page coming soon</span></p>
 </div>
 <figure class="hero-gameplay">
 <div class="media-label"><span lang="en">ACTUAL GAMEPLAY</span><span>4-1 HARD</span></div>
@@ -307,7 +356,52 @@ section.band{padding-top:64px}
 </ul>
 </div>
 </header>
-<main>
+<main id="main" tabindex="-1">
+<section id="records">
+<div class="wrap">
+<div class="sec-head">
+<small>PLAY RECORDS</small>
+<h2><span lang="en">Real play records</span></h2>
+
+<p lang="en">Single runs from the actual in-development build: the situation, what the party did, and how it ended.</p>
+</div>
+<ol class="records">
+<li>
+<img alt="Opening frame of the Stage 4-1 Hard battle video" class="shot" height="720" loading="lazy" src="../img/combat-poster.webp" width="1280"/>
+<span class="tag">STAGE 4-1 HARD</span>
+<h3><span lang="en">Holding off an elite squad and a named sandworm</span></h3>
+<dl>
+<dt lang="en">Situation</dt><dd lang="en">An elite squad and a named sandworm arrive as reinforcements</dd>
+<dt lang="en">Response</dt><dd lang="en">The guardian blocks while the party intercepts Sand Brand</dd>
+<dt lang="en">Result</dt><dd lang="en">Signature skills turn it into a win</dd>
+</dl>
+<a data-track="record_combat" href="#top"><span lang="en">Watch the battle →</span></a>
+</li>
+<li>
+<img alt="Opening frame of the relic dungeon video" class="shot" height="720" loading="lazy" src="../img/relic-poster.webp" width="1280"/>
+<span class="tag">ASH SANCTUARY · FLOOR 2</span>
+<h3><span lang="en">Clearing floor 2 of the Ash Sanctuary</span></h3>
+<dl>
+<dt lang="en">Situation</dt><dd lang="en">A pressure plate, a corridor monster and the gatekeeper</dd>
+<dt lang="en">Response</dt><dd lang="en">The archer disarms the plate; the fights are won in real time</dd>
+<dt lang="en">Result</dt><dd lang="en">Loot in hand, through the return portal</dd>
+</dl>
+<a data-track="record_relic" href="#relic"><span lang="en">Watch the dungeon run →</span></a>
+</li>
+<li>
+<img alt="Opening frame of the raid video" class="shot" height="720" loading="lazy" src="../img/raid-poster.webp" width="1280"/>
+<span class="tag">RAID · VEILGAR</span>
+<h3><span lang="en">Bringing down Veilgar the dragon</span></h3>
+<dl>
+<dt lang="en">Situation</dt><dd lang="en">Ten companions; the boss telegraphs Eclipse Breath</dd>
+<dt lang="en">Response</dt><dd lang="en">Skills fill the Break gauge and cancel it</dd>
+<dt lang="en">Result</dt><dd lang="en">The party survives the last stand and wins</dd>
+</dl>
+<a data-track="record_raid" href="#raid"><span lang="en">Watch the raid →</span></a>
+</li>
+</ol>
+</div>
+</section>
 <section id="defense">
 <div class="wrap">
 <div class="sec-head">
@@ -587,23 +681,31 @@ section.band{padding-top:64px}
 <h2><span lang="en">Help us test Ashen Crown</span></h2>
 
 <p lang="en">Before launch we want real players to tell us what works and what doesn't: difficulty, fun, and anything that gets in the way. Testing is free, and we'll email you the schedule and how to get the build.</p>
-<div class="apply">
-<a class="btn btn-primary" href="mailto:ashencrown.support@gmail.com" id="applyMail"><span lang="en">Apply by email</span></a>
-<p class="mail"><span lang="en">If no mail app opens, write to:</span><br/><code>ashencrown.support@gmail.com</code><button class="copy" data-copy="ashencrown.support@gmail.com" type="button"><span lang="en">Copy</span></button></p>
-</div>
-</div>
-<div>
-<ol class="steps">
-<li><div><b lang="en">Send an email</b><span lang="en">Use the subject "Playtest application" and include the details below.</span></div></li>
+<ol class="steps" style="margin-top:22px">
+<li><div><b lang="en">Send the form</b><span lang="en">Fill in the form. It takes about a minute.</span></div></li>
 <li><div><b lang="en">Get the details</b><span lang="en">Once a test date is set, we'll email you in order of sign-up.</span></div></li>
 <li><div><b lang="en">Play and tell us</b><span lang="en">Share what you thought in a short survey or email.</span></div></li>
 </ol>
-
-<div class="template" lang="en" style="margin-top:20px">Please include
-· Nickname
-· Your PC (Windows version and graphics card are enough)
-· Genres you usually play
-· How to reach you (email, Discord, etc.)</div>
+<p class="reply" style="margin-top:18px"><span lang="en">We reply <b>within 2 business days (KST)</b></span><span lang="en">Weekend messages are answered the next business day</span></p>
+</div>
+<div id="apply">
+<form accept-charset="UTF-8" action="https://formsubmit.co/ashencrown.support@gmail.com" class="form" id="applyForm" method="POST">
+<input name="_subject" type="hidden" value="[Ashen Crown] Playtest application"/>
+<input name="_next" type="hidden" value="https://ashen-crown.github.io/en/thanks/"/>
+<input name="_template" type="hidden" value="table"/>
+<input name="언어" type="hidden" value="en"/>
+<label aria-hidden="true" class="hp">honey<input autocomplete="off" name="_honey" tabindex="-1" type="text"/></label>
+<div class="row">
+<label for="f-nick"><span lang="en">Nickname</span><input autocomplete="nickname" id="f-nick" maxlength="40" name="닉네임" required="" spellcheck="false"/></label>
+<label for="f-email"><span lang="en">Email for our reply</span><input autocomplete="email" id="f-email" inputmode="email" maxlength="120" name="email" placeholder="name@example.com" required="" spellcheck="false" type="email"/></label>
+</div>
+<label for="f-pc"><span lang="en">Your PC</span> <small lang="en">Windows version and graphics card are enough</small><input autocomplete="off" id="f-pc" maxlength="160" name="PC" placeholder="Windows 11 · RTX 3060…"/></label>
+<label for="f-genre"><span lang="en">Genres you usually play</span><input id="f-genre" maxlength="160" name="장르"/></label>
+<label for="f-msg"><span lang="en">Anything else (optional)</span><textarea id="f-msg" maxlength="2000" name="메시지"></textarea></label>
+<label class="agree" for="f-agree"><input id="f-agree" name="개인정보동의" required="" type="checkbox" value="동의함"/><span><span lang="en">I agree to share this information so you can contact me about the playtest. It is deleted after testing ends. <a href="privacy/">Privacy policy</a></span></span></label>
+<button class="btn btn-primary" data-sending-en="Sending…" data-sending-ko="보내는 중…" id="applySubmit" type="submit"><span lang="en">Sign up for the playtest</span></button>
+</form>
+<p class="mail" style="margin-top:14px"><span lang="en">If the form doesn't send, email us:</span><br/><a href="mailto:ashencrown.support@gmail.com" id="applyMail">ashencrown.support@gmail.com</a><button class="copy" data-copy="ashencrown.support@gmail.com" type="button"><span lang="en">Copy</span></button></p>
 </div>
 </div>
 </div>
@@ -627,19 +729,30 @@ section.band{padding-top:64px}
 <details><summary><span lang="en">Can I share playtest footage?</span></summary>
 
 <p lang="en">Each test's invitation email will tell you. If it doesn't, please ask us first.</p></details>
-<details><summary><span lang="en">How do I contact you?</span></summary>
-<p><a href="mailto:ashencrown.support@gmail.com">ashencrown.support@gmail.com</a></p></details>
+<details><summary><span lang="en">How do I contact you, and when will you reply?</span></summary>
+
+<p lang="en">Email <a href="mailto:ashencrown.support@gmail.com">ashencrown.support@gmail.com</a>. We reply within 2 business days (Korean time); weekend messages are answered the next business day.</p></details>
 </div>
 </div>
 </section>
 </main>
 <footer>
 <div class="wrap">
-<span>© 2026 Ashen Crown</span>
-<span><span lang="en">Contact</span> · <a href="mailto:ashencrown.support@gmail.com">ashencrown.support@gmail.com</a></span>
-<span lang="en">All images are in-development game footage.</span>
+<nav aria-label="Site"><ul class="foot-links">
+<li><a href="#records"><span lang="en">Play records</span></a></li>
+<li><a href="#relic"><span lang="en">Relic dungeons</span></a></li>
+<li><a href="#apply"><span lang="en">Playtest sign-up</span></a></li>
+<li><a href="#faq"><span lang="en">FAQ</span></a></li>
+<li><a href="privacy/"><span lang="en">Privacy policy</span></a></li>
+</ul></nav>
+<span><span lang="en">Contact</span> · <a href="mailto:ashencrown.support@gmail.com">ashencrown.support@gmail.com</a> · <span lang="en">reply within 2 business days</span></span>
+<span>© 2026 Ashen Crown · <span lang="en">All images are in-development game footage.</span></span>
 </div>
 </footer>
+<div aria-hidden="true" class="dock" id="dock">
+<p><span lang="en">Free playtest: sign-ups open</span></p>
+<a class="btn btn-primary" data-track="cta_dock" href="#apply" tabindex="-1"><span lang="en">Sign up</span></a>
+</div>
 <dialog aria-label="Screenshot" class="lightbox" id="lightbox">
 <form method="dialog"><button style="all:unset;display:block;cursor:zoom-out" type="submit"><img alt=""/><p></p></button></form>
 </dialog>
@@ -683,7 +796,44 @@ section.band{padding-top:64px}
     });
   });
   lb.addEventListener("click",function(e){if(e.target===lb)lb.close()});
+
+  // mobile sign-up bar: shows once the hero buttons scroll away, hides at the form
+  var dock=document.getElementById("dock");
+  var heroCta=document.querySelector(".hero .cta");
+  var apply=document.getElementById("playtest");
+  if(dock && heroCta && apply){
+    document.body.classList.add("has-dock");
+    var queued=false;
+    var sync=function(){
+      queued=false;
+      var h=window.innerHeight;
+      var heroOut=heroCta.getBoundingClientRect().bottom<0;
+      var a=apply.getBoundingClientRect();
+      var formIn=a.top<h*0.7 && a.bottom>0;
+      var on=heroOut && !formIn;
+      dock.classList.toggle("show",on);
+      dock.setAttribute("aria-hidden",on?"false":"true");
+      dock.querySelector("a").tabIndex=on?0:-1;
+    };
+    var ask=function(){if(!queued){queued=true;requestAnimationFrame(sync)}};
+    window.addEventListener("scroll",ask,{passive:true});
+    window.addEventListener("resize",ask);
+    sync();
+  }
+
+  // events for analytics (no-op until visitors allow analytics)
+  document.querySelectorAll("[data-track]").forEach(function(a){
+    a.addEventListener("click",function(){window.acTrack && window.acTrack("cta_click",{place:a.dataset.track})});
+  });
+  var form=document.getElementById("applyForm");
+  if(form){form.addEventListener("submit",function(){
+    window.acTrack && window.acTrack("generate_lead",{form:"playtest"});
+    var b=document.getElementById("applySubmit");
+    b.disabled=true;b.setAttribute("aria-busy","true");b.dataset.label=b.innerHTML;b.textContent=b.getAttribute("data-sending-"+l);
+  });
+  window.addEventListener("pageshow",function(){var b=document.getElementById("applySubmit");if(b.dataset.label){b.innerHTML=b.dataset.label;b.disabled=false;b.removeAttribute("aria-busy")}})}
 })();
 </script>
+<script defer="" src="/js/site.js"></script>
 </body>
 </html>

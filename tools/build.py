@@ -72,7 +72,27 @@ ALT_EN = {
     "4-1 Hard 실제 전투: 정예 부대와 네임드 모래벌레의 공격을 동료가 막고 요격한 뒤 반격하는 장면": "Stage 4-1 Hard gameplay: the party blocks and intercepts attacks from an elite squad and a named sandworm, then strikes back",
     "유물 던전 실제 플레이: 1인칭 회랑을 걷고, 압력판을 해체하고, 회랑의 괴물과 층 문지기를 실시간으로 쓰러뜨린 뒤 전리품을 챙겨 귀환 포탈에 이르는 장면": "Relic dungeon gameplay: first-person corridors, a disarmed pressure plate, a corridor monster and the gatekeeper beaten in real time, then loot and the return portal",
     "결전 레이드 실제 플레이: 악룡 베일가르 등장, 필살기, Break로 대기술 차단, 최후의 발악과 승리": "Raid gameplay: Veilgar's entrance, signature skills, Break cancelling the big attack, the last stand and victory",
+    "4-1 Hard 전투 영상의 첫 장면": "Opening frame of the Stage 4-1 Hard battle video",
+    "유물 던전 영상의 첫 장면": "Opening frame of the relic dungeon video",
+    "결전 레이드 영상의 첫 장면": "Opening frame of the raid video",
+    "사이트 안내": "Site",
 }
+
+# Contact form: values that change per language
+FORM = {
+    "ko": {"_subject": "[Ashen Crown] 외부 시험 신청", "_next": BASE + "thanks/", "언어": "ko"},
+    "en": {"_subject": "[Ashen Crown] Playtest application", "_next": BASE + "en/thanks/", "언어": "en"},
+}
+OG_IMAGE = {"ko": ("og.jpg", "애션 크라운 로고와 재가 내리는 성채"), "en": ("og-en.jpg", "Ashen Crown logo over an ash-covered citadel")}
+
+
+def faq_ld(soup):
+    items = []
+    for d in soup.select("#faq details"):
+        q = d.summary.get_text(" ", strip=True)
+        a = " ".join(p.get_text(" ", strip=True) for p in d.find_all("p"))
+        items.append({"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}})
+    return {"@type": "FAQPage", "mainEntity": items}
 
 ASSET = re.compile(r"^(img|video)/")
 
@@ -110,11 +130,30 @@ def build(lang):
     for hl, href in (("x-default", BASE), ("en", BASE + "en/"), ("ko", BASE)):
         canon.insert_after(soup.new_tag("link", rel="alternate", hreflang=hl, href=href))
 
+    img, img_alt = OG_IMAGE[lang]
+    meta("property", "og:image", BASE + "img/" + img)
+    meta("property", "og:image:alt", img_alt)
+    meta("name", "twitter:image", BASE + "img/" + img)
+
     ld = head.find("script", type="application/ld+json")
     data = json.loads(ld.string)
+    data.pop("@context", None)
     data["description"] = m["ld_description"]
     data["url"] = m["url"]
-    ld.string = json.dumps(data, ensure_ascii=False)
+    data["image"] = BASE + "img/" + img
+    data["inLanguage"] = ["ko", "en"]
+    graph = [
+        data,
+        {"@type": "WebSite", "name": "Ashen Crown", "alternateName": "애션 크라운", "url": BASE, "inLanguage": lang},
+        {"@type": "Organization", "name": "Ashen Crown", "url": BASE, "logo": BASE + "img/icon-512.png",
+         "email": "ashencrown.support@gmail.com"},
+        faq_ld(soup),
+    ]
+    ld.string = json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False)
+
+    form = soup.find(id="applyForm")
+    for name, value in FORM[lang].items():
+        form.find("input", attrs={"name": name})["value"] = value
 
     soup.find("nav")["aria-label"] = m["nav"]
     soup.find("dialog")["aria-label"] = m["dialog"]
@@ -146,3 +185,29 @@ def build(lang):
 
 for code in ("ko", "en"):
     build(code)
+
+import datetime
+import pages
+
+pages.build_all(ROOT)
+
+# sitemap: every page that should appear in search (thank-you and 404 pages stay out)
+today = datetime.date.today().isoformat()
+entries = [("", "1.0"), ("privacy/", "0.3")]
+urls = []
+for path, prio in entries:
+    alts = (f'    <xhtml:link rel="alternate" hreflang="ko" href="{BASE}{path}"/>\n'
+            f'    <xhtml:link rel="alternate" hreflang="en" href="{BASE}en/{path}"/>\n'
+            f'    <xhtml:link rel="alternate" hreflang="x-default" href="{BASE}{path}"/>\n')
+    for loc in (BASE + path, BASE + "en/" + path):
+        urls.append(f"  <url>\n    <loc>{loc}</loc>\n{alts}    <lastmod>{today}</lastmod>\n    <priority>{prio}</priority>\n  </url>")
+(ROOT / "sitemap.xml").write_text(
+    '<?xml version="1.0" encoding="UTF-8"?>\n'
+    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n'
+    + "\n".join(urls) + "\n</urlset>\n", encoding="utf-8")
+print("wrote sitemap.xml")
+
+(ROOT / "robots.txt").write_text(
+    "User-agent: *\nAllow: /\nDisallow: /tools/\nDisallow: /thanks/\nDisallow: /en/thanks/\n"
+    f"Sitemap: {BASE}sitemap.xml\n", encoding="utf-8")
+print("wrote robots.txt")

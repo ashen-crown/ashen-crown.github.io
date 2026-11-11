@@ -1,0 +1,20 @@
+{
+  "name": "Ashen Crown 애션 크라운",
+  "short_name": "Ashen Crown",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#14110f",
+  "theme_color": "#14110f",
+  "icons": [
+    {
+      "src": "/img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
