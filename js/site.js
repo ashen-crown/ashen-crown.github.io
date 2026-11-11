@@ -1,7 +1,7 @@
 /* Ashen Crown: Google Analytics, loaded only after the visitor allows it.
    To turn analytics on, put the GA4 measurement ID (starts with "G-") below. Empty = no analytics, no banner. */
 (function () {
-  var GA_ID = "";
+  var GA_ID = "G-RY5YRW8T6X";
   var KEY = "ac-analytics";
   var lang = document.documentElement.lang === "en" ? "en" : "ko";
   var T = {
