@@ -1,0 +1,214 @@
+{
+  "beast_raider": {
+    "x": 0,
+    "status": "review"
+  },
+  "dwarf_guardian": {
+    "x": 18.2,
+    "status": "review"
+  },
+  "elf_archer": {
+    "x": 23.7,
+    "status": "review"
+  },
+  "fairy_support": {
+    "x": 0,
+    "status": "review"
+  },
+  "human_warrior": {
+    "x": 14.2,
+    "status": "review"
+  },
+  "npc_mira_ash": {
+    "x": 24,
+    "status": "review"
+  },
+  "r_dragonkin": {
+    "x": 15.6,
+    "status": "review"
+  },
+  "r_merfolk": {
+    "x": 0,
+    "status": "review"
+  },
+  "r_rune_dwarf": {
+    "x": 0,
+    "status": "review"
+  },
+  "r_scout": {
+    "x": 20.9,
+    "status": "review"
+  },
+  "r_spear_elf": {
+    "x": 12.4,
+    "status": "review"
+  },
+  "race_beast": {
+    "x": 22.6,
+    "status": "review"
+  },
+  "race_dragon": {
+    "x": 24,
+    "status": "review"
+  },
+  "race_dwarf": {
+    "x": 24,
+    "status": "review"
+  },
+  "race_elf": {
+    "x": 24,
+    "status": "review"
+  },
+  "race_fairy": {
+    "x": 21.3,
+    "status": "review"
+  },
+  "race_halfdemon": {
+    "x": 17.3,
+    "status": "review"
+  },
+  "race_human": {
+    "x": 17.3,
+    "status": "review"
+  },
+  "race_mermaid": {
+    "x": 21.3,
+    "status": "review"
+  },
+  "sr_beastlord": {
+    "x": 0,
+    "status": "review"
+  },
+  "sr_fairylady": {
+    "x": 0,
+    "status": "review"
+  },
+  "sr_halfdemon": {
+    "x": 21.8,
+    "status": "review"
+  },
+  "sr_ironclad": {
+    "x": 15.3,
+    "status": "review"
+  },
+  "sr_knight": {
+    "x": 22.6,
+    "status": "review"
+  },
+  "sr_mage": {
+    "x": 0,
+    "status": "review"
+  },
+  "sr_oracle": {
+    "x": 24,
+    "status": "review"
+  },
+  "sr_paladin": {
+    "x": 5.5,
+    "status": "review"
+  },
+  "ssr_abyss": {
+    "x": 18.1,
+    "status": "review"
+  },
+  "ssr_ahri_half": {
+    "x": 0,
+    "status": "review"
+  },
+  "ssr_ara_moon": {
+    "x": 20.7,
+    "status": "review"
+  },
+  "ssr_ashqueen": {
+    "x": 0,
+    "status": "review"
+  },
+  "ssr_bari_wolf": {
+    "x": 23.7,
+    "status": "review"
+  },
+  "ssr_chorong": {
+    "x": 22.3,
+    "status": "review"
+  },
+  "ssr_demonblade": {
+    "x": 14.2,
+    "status": "review"
+  },
+  "ssr_dragonlord": {
+    "x": 18.7,
+    "status": "review"
+  },
+  "ssr_forgemaster": {
+    "x": 0,
+    "status": "review"
+  },
+  "ssr_hae_wave": {
+    "x": 0,
+    "status": "review"
+  },
+  "ssr_haneul_blade": {
+    "x": 16.7,
+    "status": "review"
+  },
+  "ssr_nari_forge": {
+    "x": 0,
+    "status": "review"
+  },
+  "ssr_ryu_scale": {
+    "x": 10.7,
+    "status": "review"
+  },
+  "ssr_seoyeon_ash": {
+    "x": 23.2,
+    "status": "review"
+  },
+  "ssr_yeon_leaf": {
+    "x": 24,
+    "status": "review"
+  },
+  "ssr_yuna_fox": {
+    "x": 22.9,
+    "status": "review"
+  },
+  "ur_crownbearer": {
+    "x": 0,
+    "status": "rebuild"
+  },
+  "ur_embercrown": {
+    "x": 0,
+    "status": "approved"
+  },
+  "ur_eun_abyss": {
+    "x": 22.4,
+    "status": "rebuild"
+  },
+  "ur_eunbyeol": {
+    "x": 4.2,
+    "status": "review"
+  },
+  "ur_lumi_fairy": {
+    "x": 0,
+    "status": "rebuild"
+  },
+  "ur_nari_beast": {
+    "x": 0,
+    "status": "rebuild"
+  },
+  "ur_seolhwa_crown": {
+    "x": 22.9,
+    "status": "rebuild"
+  },
+  "ur_silence": {
+    "x": 23.2,
+    "status": "review"
+  },
+  "ur_sora_deep": {
+    "x": 4.4,
+    "status": "approved"
+  },
+  "ur_yonghwa": {
+    "x": 21.3,
+    "status": "rebuild"
+  }
+}

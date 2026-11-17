@@ -1,0 +1,1 @@
+var e=`ashen-party-role-hint`;function t(t){try{sessionStorage.setItem(e,t)}catch{}}function n(){try{let t=sessionStorage.getItem(e);return t&&sessionStorage.removeItem(e),t}catch{return null}}export{n,t};
