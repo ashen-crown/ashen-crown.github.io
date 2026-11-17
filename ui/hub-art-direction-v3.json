@@ -1,0 +1,28 @@
+{
+  "version": "hub-art-direction-v3",
+  "generatedAt": "2026-09-22T07:32:16.453823+00:00",
+  "main": {
+    "path": "/ui/hub_bg_lobby_v3.jpg",
+    "source": "/ui/title_bg_bright_wide.jpg",
+    "sha256": "ab15101f04b4510b26ca8f83e4718604c7f93afc15b9150e3ee496cff8d97c45"
+  },
+  "journey": {
+    "path": "/ui/hub_journey_card_v3.jpg",
+    "source": "/battles/map_meadow_bridge.jpg",
+    "sha256": "8491557481fedaa40127cf23d63e9fbe621ecab983af42abaa1a7fb29beb4c5a"
+  },
+  "party": {
+    "path": "/ui/hub_party_card_v3.jpg",
+    "sources": [
+      "characters/human_warrior.jpg",
+      "characters/elf_archer.jpg",
+      "characters/dwarf_guardian.jpg"
+    ],
+    "sha256": "aa0e50ba0b94908a54caf15a277ca71b777e8c7e0bfa498b8d243f71082ba2e2"
+  },
+  "intent": {
+    "main": "quiet cinematic environment with enough negative space for Mira and the command deck",
+    "journey": "forward-moving scenic landscape rather than tactical board imagery",
+    "party": "character-led roster collage that immediately communicates party composition"
+  }
+}

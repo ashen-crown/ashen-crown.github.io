@@ -1,0 +1,2661 @@
+{
+ "note": "G42~G44·G84~G86 동료 공격 자세. 준비·발동 두 장을 한 상자로 잘라(alpha>8 합집합 + 1% 여백) 높이 640px webp로 줄임. 원본은 PC outbox/gpt-illust.",
+ "applied": "2026-10-25 Claude · 2026-10-29 Claude(G84~G86)",
+ "characters": {
+  "r_merfolk": {
+   "group": "G42_companion-attack-poses-ur",
+   "prepareSource": "G42_companion-attack-poses-ur/batch2/r_merfolk-prepare-v1-native.png",
+   "prepareSha256": "94428326f67eb39dad8785d03eb59ac5d344289f40b90960d45ffc361828905f",
+   "releaseSource": "G42_companion-attack-poses-ur/batch2/r_merfolk-release-v1-native.png",
+   "releaseSha256": "4ee6c5edb597a39f88320f255ec4045275ef2b61e70d72abba1fb14ac6c90a67",
+   "runtime": {
+    "prepare": {
+     "size": [
+      462,
+      640
+     ],
+     "sha256": "270043abd364df3d1922f7ba78974de46147948c2765405b0837bf21bd936fd2"
+    },
+    "release": {
+     "size": [
+      462,
+      640
+     ],
+     "sha256": "f8026177eb76106eae439741443e036f30c786ac6d3cd4f39006579931f6af9b"
+    }
+   }
+  },
+  "r_spear_elf": {
+   "group": "G42_companion-attack-poses-ur",
+   "prepareSource": "G42_companion-attack-poses-ur/batch2/r_spear_elf-prepare-v1-native.png",
+   "prepareSha256": "8ce46811f4d8178b6937ed1d0ad854a5e2a2e9ad13370a6d04de3c213848073e",
+   "releaseSource": "G42_companion-attack-poses-ur/batch2/r_spear_elf-release-v1-native.png",
+   "releaseSha256": "c8c3983a26d7b7363911e67ef89df0952d2b5ee16cdcc428511e379570c56e9d",
+   "runtime": {
+    "prepare": {
+     "size": [
+      593,
+      640
+     ],
+     "sha256": "8fd7679c9aab83825333744ab6f430908ea9b103730d760df75eaf65c0dcdf6b"
+    },
+    "release": {
+     "size": [
+      593,
+      640
+     ],
+     "sha256": "ef1ffd901da1f88ccaf4726e8198a4432667af0bcf3f41d05f870641ab0cbb7a"
+    }
+   }
+  },
+  "ur_berdin": {
+   "group": "G42_companion-attack-poses-ur",
+   "prepareSource": "G42_companion-attack-poses-ur/batch2/ur_berdin-prepare-v1-native.png",
+   "prepareSha256": "4c2701b3248957b316a120d66194f56f14d49bffc61c43b24009bf54c00b5344",
+   "releaseSource": "G42_companion-attack-poses-ur/batch2/ur_berdin-release-v1-native.png",
+   "releaseSha256": "f7d3d19c66ade19f9687bf6583bcc7d82a133f388d4f5c926d72ed86eb6d0bbd",
+   "runtime": {
+    "prepare": {
+     "size": [
+      436,
+      640
+     ],
+     "sha256": "3c25d806b36343462e7f3703bd10e31a8cc35531568264a5146673061aad5553"
+    },
+    "release": {
+     "size": [
+      436,
+      640
+     ],
+     "sha256": "504e99df8420b21cd48aed1a9acd76e32350eb50ebadc01300bdb40d08eb2f58"
+    }
+   }
+  },
+  "ur_ioren": {
+   "group": "G42_companion-attack-poses-ur",
+   "prepareSource": "G42_companion-attack-poses-ur/batch2/ur_ioren-prepare-v1-native.png",
+   "prepareSha256": "806cd81d8f2c35378011047e7014979854bca845a7fa01371f7bebb26068e4c6",
+   "releaseSource": "G42_companion-attack-poses-ur/batch2/ur_ioren-release-v1-native.png",
+   "releaseSha256": "a5601901b63550e5e176103aff0349148ba5d627454cd399e9ee0a4fbfd27dc1",
+   "runtime": {
+    "prepare": {
+     "size": [
+      433,
+      640
+     ],
+     "sha256": "54642aed85766611be488dea21fc98a1c651e4bcfdc58d9246fccb5ac70bb087"
+    },
+    "release": {
+     "size": [
+      433,
+      640
+     ],
+     "sha256": "3d7e4c320e837e6a5e46f269ec4aa959841e04c018cea7195e24204b2f958f11"
+    }
+   }
+  },
+  "ur_naira": {
+   "group": "G42_companion-attack-poses-ur",
+   "prepareSource": "G42_companion-attack-poses-ur/batch2/ur_naira-prepare-v1-native.png",
+   "prepareSha256": "5d55c38fd0d83a33ae23abcc8498b93612bdb3a59b0cd20df75ff7cd19286d91",
+   "releaseSource": "G42_companion-attack-poses-ur/batch2/ur_naira-release-v1-native.png",
+   "releaseSha256": "35fe72dbc9ae3429a6b0105007d10c6ee5b531b232648e689dd725cb43843610",
+   "runtime": {
+    "prepare": {
+     "size": [
+      446,
+      640
+     ],
+     "sha256": "db1de95908a233041ce0fbd3e350dea3dfcfd03d82676da22319a54d6cb03a0e"
+    },
+    "release": {
+     "size": [
+      446,
+      640
+     ],
+     "sha256": "a75d6f18e21d3e85e09b7e2e367e82e940e5d6d78ca42562960ab0806032cde9"
+    }
+   }
+  },
+  "sr_mage": {
+   "group": "G42_companion-attack-poses-ur",
+   "prepareSource": "G42_companion-attack-poses-ur/batch3/sr_mage-prepare-v1-native.png",
+   "prepareSha256": "2238ae0127542afc3a656ec061d89f336d5e0ffdad23774a98d09a123ab470ed",
+   "releaseSource": "G42_companion-attack-poses-ur/batch3/sr_mage-release-v1-native.png",
+   "releaseSha256": "11780328ddcef96c79cfb11964b112ebb59d7c8909f7a76ab8e4325879f5ab3e",
+   "runtime": {
+    "prepare": {
+     "size": [
+      447,
+      640
+     ],
+     "sha256": "0e863c444243f4da2c95bd39fddd27b193712f5e3542664b7da0b110a8bfe8c1"
+    },
+    "release": {
+     "size": [
+      447,
+      640
+     ],
+     "sha256": "9e4b06f03186e586e7508b6604ed4dd3d7bec78117bb407680bc480270d27207"
+    }
+   }
+  },
+  "ssr_abyss": {
+   "group": "G42_companion-attack-poses-ur",
+   "prepareSource": "G42_companion-attack-poses-ur/batch3/ssr_abyss-prepare-v1-native.png",
+   "prepareSha256": "6f75a787277be84d0368abd20ae2c1e2b3f39f59874e09d7dec107cea46c5e96",
+   "releaseSource": "G42_companion-attack-poses-ur/batch3/ssr_abyss-release-v1-native.png",
+   "releaseSha256": "d34589010884e1984eacd5869f06cb018407829fe3ee528065a83837c451d164",
+   "runtime": {
+    "prepare": {
+     "size": [
+      453,
+      640
+     ],
+     "sha256": "a2d4025b62ad2e830bcfe70f7707ebcd8c528dd72b8fad8cec45e7504ef305cb"
+    },
+    "release": {
+     "size": [
+      453,
+      640
+     ],
+     "sha256": "38f8d53b7a314e06322496f255193b6a45bba210466d22640fcd274f540fb145"
+    }
+   }
+  },
+  "ssr_demonblade": {
+   "group": "G42_companion-attack-poses-ur",
+   "prepareSource": "G42_companion-attack-poses-ur/batch3/ssr_demonblade-prepare-v1-native.png",
+   "prepareSha256": "ca6e3d54d5c92aa091859e816aeee41ceda0baf5bc7427a80d16135555b421bf",
+   "releaseSource": "G42_companion-attack-poses-ur/batch3/ssr_demonblade-release-v1-native.png",
+   "releaseSha256": "1d667ec8775f237b0fa6b90ec7e11785d5ce3e7fd24988dd9034a6ca87213a35",
+   "runtime": {
+    "prepare": {
+     "size": [
+      585,
+      640
+     ],
+     "sha256": "5b3a86d772cbd94d8fdbd3f9edb7252cdc7f5fdc01246aedef0c1e527f2e612b"
+    },
+    "release": {
+     "size": [
+      585,
+      640
+     ],
+     "sha256": "0aed93cd436e81cea090ac49c20341774b825e670c61f8c874087e0462e9ad3c"
+    }
+   }
+  },
+  "ssr_dragonlord": {
+   "group": "G42_companion-attack-poses-ur",
+   "prepareSource": "G42_companion-attack-poses-ur/batch3/ssr_dragonlord-prepare-v1-native.png",
+   "prepareSha256": "5bedcda64469d6d6f3cf8bf7330d6773a60b578c2f4662a1e48b18714cf5dffa",
+   "releaseSource": "G42_companion-attack-poses-ur/batch3/ssr_dragonlord-release-v1-native.png",
+   "releaseSha256": "569300a42032483c4ef5075b0cdc5d03a57a89c46b501eb71cca4cc7d0a68713",
+   "runtime": {
+    "prepare": {
+     "size": [
+      482,
+      640
+     ],
+     "sha256": "a4ef91e29615e0611a4f2600bd1a50c07eba3cecc50be7106b3fbc92630bfc87"
+    },
+    "release": {
+     "size": [
+      482,
+      640
+     ],
+     "sha256": "05fc5a723c638b012720359505fc32bdacc418b27e398c8821251258e0af9312"
+    }
+   }
+  },
+  "ssr_forgemaster": {
+   "group": "G42_companion-attack-poses-ur",
+   "prepareSource": "G42_companion-attack-poses-ur/batch3/ssr_forgemaster-prepare-v1-native.png",
+   "prepareSha256": "d97c99b91e6b77d35b3b73e4aa615cd375132ef8db4e908c901ecd43743ce397",
+   "releaseSource": "G42_companion-attack-poses-ur/batch3/ssr_forgemaster-release-v1-native.png",
+   "releaseSha256": "938b52476c66473d9ff995f6ef62d3c64f3741ab75acaa14d02ead42e8e48a49",
+   "runtime": {
+    "prepare": {
+     "size": [
+      511,
+      640
+     ],
+     "sha256": "02b0097ac0d6a15465a80551fa38b4cf193253a897367168017f23d61fcb80de"
+    },
+    "release": {
+     "size": [
+      511,
+      640
+     ],
+     "sha256": "4de1c69ba570a33694152b7f6d1385185702d454d6e70224df199b948371ab96"
+    }
+   }
+  },
+  "ssr_ara_moon": {
+   "group": "G42_companion-attack-poses-ur",
+   "prepareSource": "G42_companion-attack-poses-ur/batch4/ssr_ara_moon-prepare-v1-native.png",
+   "prepareSha256": "0e6cfa94d5ba04fbb8a829b568c73d8f1aa8a8bca8c10ff832c2fd39a6512c40",
+   "releaseSource": "G42_companion-attack-poses-ur/batch4/ssr_ara_moon-release-v1-native.png",
+   "releaseSha256": "5b55f0a1013e5ec5a0e1df598f05e15bdbc3ac02baf2759a59dde89504d48e5b",
+   "runtime": {
+    "prepare": {
+     "size": [
+      461,
+      640
+     ],
+     "sha256": "4a9e74ef8a4aa018fce4521b85c9f4595c1d86f12ce6ce62b992f5c4c4a77e61"
+    },
+    "release": {
+     "size": [
+      461,
+      640
+     ],
+     "sha256": "b4ea148e480213702e3856eaabe37608c28b0e5998a7ad607a536819804ded69"
+    }
+   }
+  },
+  "ssr_ryu_scale": {
+   "group": "G42_companion-attack-poses-ur",
+   "prepareSource": "G42_companion-attack-poses-ur/batch4/ssr_ryu_scale-prepare-v1-native.png",
+   "prepareSha256": "81da2aafca16a0cb3e66405111e7a67497d1a93d8ea91d499f33fa223e3df2d4",
+   "releaseSource": "G42_companion-attack-poses-ur/batch4/ssr_ryu_scale-release-v1-native.png",
+   "releaseSha256": "917b77d43f46486ce42615e7fde155618be8acb6c4382ac6f5ff33ccdf41d6bb",
+   "runtime": {
+    "prepare": {
+     "size": [
+      586,
+      640
+     ],
+     "sha256": "3b100a2901714aa3b093afa6cf40c8bd5577a4f10fc2b26ff17bed5217f112af"
+    },
+    "release": {
+     "size": [
+      586,
+      640
+     ],
+     "sha256": "d69f704ad4811857334b3e6754908530694e8552f0abc87b9c0463dd732e2626"
+    }
+   }
+  },
+  "ur_crownbearer": {
+   "group": "G42_companion-attack-poses-ur",
+   "prepareSource": "G42_companion-attack-poses-ur/batch4/ur_crownbearer-prepare-v1-native.png",
+   "prepareSha256": "f3ff3038c6d7adbe293980f52fa673f4f6c781d2bcc9e1452fb3aafafc6f345a",
+   "releaseSource": "G42_companion-attack-poses-ur/batch4/ur_crownbearer-release-v1-native.png",
+   "releaseSha256": "47fa66476447a2cd507ec8fd85e9c3625c381fc39ef2f10d574293acbd8ebca9",
+   "runtime": {
+    "prepare": {
+     "size": [
+      463,
+      640
+     ],
+     "sha256": "fec475612bb6d09422fa6784bc6b8ef4a0baf7344b724f72542c34ec2ce91136"
+    },
+    "release": {
+     "size": [
+      463,
+      640
+     ],
+     "sha256": "dcc61f9cd8ef663a7890b0ec5b1bd4f29431711c3612ed6c780fd7da1c6f26c0"
+    }
+   }
+  },
+  "ur_embercrown": {
+   "group": "G42_companion-attack-poses-ur",
+   "prepareSource": "G42_companion-attack-poses-ur/batch4/ur_embercrown-prepare-v1-native.png",
+   "prepareSha256": "a09fd362d019b37831ba123919c76de6b62e364e4adf8cb6831035a4739e626f",
+   "releaseSource": "G42_companion-attack-poses-ur/batch4/ur_embercrown-release-v1-native.png",
+   "releaseSha256": "228577649dfc0e27a6ef030e5909a1a2d15c80fe8d850e3b200395055c57781b",
+   "runtime": {
+    "prepare": {
+     "size": [
+      455,
+      640
+     ],
+     "sha256": "ff48391bb3800c863f1f2b1cd8ecb270c929e7f30229f93a7ad5217443d0555c"
+    },
+    "release": {
+     "size": [
+      455,
+      640
+     ],
+     "sha256": "d11ae0b643f5ae6150f4148c8b8796cd55b0175baab833720f5d89acd459337f"
+    }
+   }
+  },
+  "ur_silence": {
+   "group": "G42_companion-attack-poses-ur",
+   "prepareSource": "G42_companion-attack-poses-ur/batch4/ur_silence-prepare-v1-native.png",
+   "prepareSha256": "ce2bf33ee23be35c264b9a08702007d655c9743034c18f0d398b77464135692d",
+   "releaseSource": "G42_companion-attack-poses-ur/batch4/ur_silence-release-v1-native.png",
+   "releaseSha256": "d6d462936f90b41b92c65541dfeed904724b2335a34173439eab9652ef06ce94",
+   "runtime": {
+    "prepare": {
+     "size": [
+      469,
+      640
+     ],
+     "sha256": "2afbbcd4c6fd05a58858db6d2d6f3839ab00bc37742265dcbbc71500b4d57d1a"
+    },
+    "release": {
+     "size": [
+      469,
+      640
+     ],
+     "sha256": "1aa7d031c0f34fc91e011556fdb89bfaae7ea2f5fa951000dd706d81ce140db7"
+    }
+   }
+  },
+  "ur_eun_abyss": {
+   "group": "G42_companion-attack-poses-ur",
+   "prepareSource": "G42_companion-attack-poses-ur/batch5/ur_eun_abyss-prepare-v1-native.png",
+   "prepareSha256": "8cdba296020b102316e21f8fc7bd0eef077f0492e62cb052a39ff4190ea734ff",
+   "releaseSource": "G42_companion-attack-poses-ur/batch5/ur_eun_abyss-release-v1-native.png",
+   "releaseSha256": "8954b6523fcc9ca7566614a0ed7fbba3f8720037761be39b4c49ca2c794c71f6",
+   "runtime": {
+    "prepare": {
+     "size": [
+      475,
+      640
+     ],
+     "sha256": "6ba6a8443463580e2633f7f3ab03c34a269dc50029845e180eb87230d616cfd3"
+    },
+    "release": {
+     "size": [
+      475,
+      640
+     ],
+     "sha256": "fbbbca29f973c4f6a26c7ded4157258a9e7ee5cd61302ea8ed9a895989c6921b"
+    }
+   }
+  },
+  "ur_lumi_fairy": {
+   "group": "G42_companion-attack-poses-ur",
+   "prepareSource": "G42_companion-attack-poses-ur/batch5/ur_lumi_fairy-prepare-v1-native.png",
+   "prepareSha256": "05eafa3b18f147bfad96e3a9e53e3af0597ec0434657f05dc130406b217b5101",
+   "releaseSource": "G42_companion-attack-poses-ur/batch5/ur_lumi_fairy-release-v1-native.png",
+   "releaseSha256": "c035d29ff1cf58380e496969a5e68b999ed6970f47fa4c9f92ddd9d3d0a37727",
+   "runtime": {
+    "prepare": {
+     "size": [
+      451,
+      640
+     ],
+     "sha256": "53db46a1e2730ce266cf0aa50661dfdb63190afe7ee86f8aabed0a2dae5bbc91"
+    },
+    "release": {
+     "size": [
+      451,
+      640
+     ],
+     "sha256": "7ac982643e9593597901c31aa7dc80227044b340f6a19cf7d30fd3f2697266c4"
+    }
+   }
+  },
+  "ur_nari_beast": {
+   "group": "G42_companion-attack-poses-ur",
+   "prepareSource": "G42_companion-attack-poses-ur/batch5/ur_nari_beast-prepare-v1-native.png",
+   "prepareSha256": "9a2d571341a969b74d60d226d9c37a057d1f825b77fb468f28ed413e71063e6b",
+   "releaseSource": "G42_companion-attack-poses-ur/batch5/ur_nari_beast-release-v1-native.png",
+   "releaseSha256": "a6841df2174afb5e0afce0b17a7bd292e968f8e98ac5da4bb680db5a7f654454",
+   "runtime": {
+    "prepare": {
+     "size": [
+      454,
+      640
+     ],
+     "sha256": "38f45b529d3532e181db60b0063e9bc14fc71ccf3fef55c3996ed146cb6cb544"
+    },
+    "release": {
+     "size": [
+      454,
+      640
+     ],
+     "sha256": "9995bab35f91f71fd477a5276acd2acc1dabc812cd5088dcb946b7b9ee303ea0"
+    }
+   }
+  },
+  "ur_sora_deep": {
+   "group": "G42_companion-attack-poses-ur",
+   "prepareSource": "G42_companion-attack-poses-ur/batch5/ur_sora_deep-prepare-v1-native.png",
+   "prepareSha256": "c89554d45b6415428e380f69624c98a8338e9bf4ff002b10205f0948e5aeeab0",
+   "releaseSource": "G42_companion-attack-poses-ur/batch5/ur_sora_deep-release-v1-native.png",
+   "releaseSha256": "1eaac9ec5de168db47f190caebedf309b0b44b037337d592b19ed569c214b738",
+   "runtime": {
+    "prepare": {
+     "size": [
+      427,
+      640
+     ],
+     "sha256": "ff343eca2b0847c38f09e9a029b2cc0b2d4fdc31a3845e158576830706e5c10e"
+    },
+    "release": {
+     "size": [
+      427,
+      640
+     ],
+     "sha256": "6047b982005bf5883d43d1b929b8d6b74795e81d230d523f11d8c48c1f64eb27"
+    }
+   }
+  },
+  "ur_yonghwa": {
+   "group": "G42_companion-attack-poses-ur",
+   "prepareSource": "G42_companion-attack-poses-ur/batch5/ur_yonghwa-prepare-v1-native.png",
+   "prepareSha256": "e081bf82010768ba74cfff05ea3455e437fa2a51552ee05abddaf7b1a25e39c6",
+   "releaseSource": "G42_companion-attack-poses-ur/batch5/ur_yonghwa-release-v1-native.png",
+   "releaseSha256": "31c72de3da5009b0ae1e9f861ce379101bb678bc6f5ef3a01dd314e4e384f0f8",
+   "runtime": {
+    "prepare": {
+     "size": [
+      442,
+      640
+     ],
+     "sha256": "7be25558776471108172745bd3ff80e882a0f8586d40f72db469b0f0a06ae688"
+    },
+    "release": {
+     "size": [
+      442,
+      640
+     ],
+     "sha256": "3143b1f336f471c9a1e14097e33db3b44fed8d4326111ca9b5c2e48895780f55"
+    }
+   }
+  },
+  "ssr_seoyeon_ash": {
+   "group": "G42_companion-attack-poses-ur",
+   "prepareSource": "G42_companion-attack-poses-ur/ssr_seoyeon_ash-prepare-v1-native.png",
+   "prepareSha256": "d6b2ff150c22ed60ab95cc2cf71497f641dfb85e6770c65f708a12544df32409",
+   "releaseSource": "G42_companion-attack-poses-ur/ssr_seoyeon_ash-release-v1-native.png",
+   "releaseSha256": "1827ed84b161ed09517e381e7ae4b2e4cf90331450bf242a17906e63585ebc30",
+   "runtime": {
+    "prepare": {
+     "size": [
+      491,
+      640
+     ],
+     "sha256": "968111652370f331dc520528b7185e03cc2a4e23425ebae2d455be498324a4f8"
+    },
+    "release": {
+     "size": [
+      491,
+      640
+     ],
+     "sha256": "298372e9e7f0e05213b5530fbaa4a6db9696c2f59d29be4229de6753c01646e9"
+    }
+   }
+  },
+  "ssr_yeon_leaf": {
+   "group": "G42_companion-attack-poses-ur",
+   "prepareSource": "G42_companion-attack-poses-ur/ssr_yeon_leaf-prepare-v1-native.png",
+   "prepareSha256": "71f6e5cd0f900ec7b6ee2b0d8f60a89e5d3f057529538fdfaa0e9fb72845879e",
+   "releaseSource": "G42_companion-attack-poses-ur/ssr_yeon_leaf-release-v1-native.png",
+   "releaseSha256": "36e267c293af0a9b2c6fa8d3ad14afe0d1a09ecca3dab7295ad34891e85a212c",
+   "runtime": {
+    "prepare": {
+     "size": [
+      436,
+      640
+     ],
+     "sha256": "ebe8314be4f3bc0742dbfe0e548c38414533ff33741af0a0f380f2a21163fa8f"
+    },
+    "release": {
+     "size": [
+      436,
+      640
+     ],
+     "sha256": "eadbd947cbc679e07d5cc84f78850874b3979fe9364c844219af5fb6dc861821"
+    }
+   }
+  },
+  "ur_eunbyeol": {
+   "group": "G42_companion-attack-poses-ur",
+   "prepareSource": "G42_companion-attack-poses-ur/ur_eunbyeol-prepare-v1-native.png",
+   "prepareSha256": "111abfdf9444d7b2c02618db2ae28b38ea1dd09c694ce813c639f8eb30bd44ab",
+   "releaseSource": "G42_companion-attack-poses-ur/ur_eunbyeol-release-v1-native.png",
+   "releaseSha256": "5e0cd5a1964c300a275232994417ad2ed3b755aeffb1f8d6d161bdf94b289007",
+   "runtime": {
+    "prepare": {
+     "size": [
+      451,
+      640
+     ],
+     "sha256": "86808053f92b589c053242cfa90553a01e6e7feb8816ce113299aed5e1b88858"
+    },
+    "release": {
+     "size": [
+      451,
+      640
+     ],
+     "sha256": "16a531d679066b775a2d226f48e32189b90e87b387f07944538296be695dbfc4"
+    }
+   }
+  },
+  "ur_haon": {
+   "group": "G42_companion-attack-poses-ur",
+   "prepareSource": "G42_companion-attack-poses-ur/ur_haon-prepare-v1-native.png",
+   "prepareSha256": "890712ed6544ddcc82a6414ccd7775ee178fb94a25118a3fc13c763874cd2941",
+   "releaseSource": "G42_companion-attack-poses-ur/ur_haon-release-v1-native.png",
+   "releaseSha256": "e11d7d5400311f32756212b3162b64e043a5a45a4b2641958c2f452ac9e22100",
+   "runtime": {
+    "prepare": {
+     "size": [
+      430,
+      640
+     ],
+     "sha256": "76ea62f00864ca046327cbd64eb14edc9a712dbac5ddcbcfc284c2fccaa05ac1"
+    },
+    "release": {
+     "size": [
+      430,
+      640
+     ],
+     "sha256": "5a5128f59d95a0480cd798bc50e6265748fac2b50339d8acd8be219b1b5fdd9b"
+    }
+   }
+  },
+  "ur_seolhwa_crown": {
+   "group": "G42_companion-attack-poses-ur",
+   "prepareSource": "G42_companion-attack-poses-ur/ur_seolhwa_crown-prepare-v1-native.png",
+   "prepareSha256": "e4135b7051804ada9f6d9728dd9a595854168776d28941c2c3baa8fc3d1ec447",
+   "releaseSource": "G42_companion-attack-poses-ur/ur_seolhwa_crown-release-v1-native.png",
+   "releaseSha256": "c3afdd2a65ed07d7b0dc291abbc8748419812e859c87cf66b97d2fd547edd659",
+   "runtime": {
+    "prepare": {
+     "size": [
+      436,
+      640
+     ],
+     "sha256": "367c778ea1a71e1a29b04464e146d7bb09f555a6ec9b69bc002b167810b4c9b6"
+    },
+    "release": {
+     "size": [
+      436,
+      640
+     ],
+     "sha256": "40aa21d83aad465cbe523c8c6a4f5f4fc04deaf9b02e19a2f6389d41ebc4adf5"
+    }
+   }
+  },
+  "elf_archer": {
+   "group": "G43_companion-attack-poses-ssr",
+   "prepareSource": "G43_companion-attack-poses-ssr/batch1/elf_archer-prepare-v1-native.png",
+   "prepareSha256": "f4fe65a1c2d2fec3d354f0c2e6b49ce62d186c42b18d9806eff6ec3bda5abed8",
+   "releaseSource": "G43_companion-attack-poses-ssr/batch1/elf_archer-release-v1-native.png",
+   "releaseSha256": "112e0e0fafa2164c27584511e8cfa261a056673511b9efd27b158f89659be179",
+   "runtime": {
+    "prepare": {
+     "size": [
+      439,
+      640
+     ],
+     "sha256": "82988e41f55101284361d1276605589a600bdf408bcf8d8d1be545119cc2a486"
+    },
+    "release": {
+     "size": [
+      439,
+      640
+     ],
+     "sha256": "221f742d6be4847c1b30dd1003fef9e1249235335102012732ba586e61a1e620"
+    }
+   }
+  },
+  "ssr_edda": {
+   "group": "G43_companion-attack-poses-ssr",
+   "prepareSource": "G43_companion-attack-poses-ssr/batch1/ssr_edda-prepare-v1-native.png",
+   "prepareSha256": "247fdd89328329a1e50d1fd4dfc910032d8093a5640f48c5dcef77a88ddd4204",
+   "releaseSource": "G43_companion-attack-poses-ssr/batch1/ssr_edda-release-v1-native.png",
+   "releaseSha256": "9536da8902b6cde2cf497edb64c703a9ce8439281fb5fd146fe0c3e6a857c27a",
+   "runtime": {
+    "prepare": {
+     "size": [
+      423,
+      640
+     ],
+     "sha256": "6f4e48128fdd729a2bc924cb95398864613d8122de50a3850418bb225ddaf1a5"
+    },
+    "release": {
+     "size": [
+      423,
+      640
+     ],
+     "sha256": "3f564cd6c100b02632d4d25f76fa7104903834953ecce71f54e84d996d30501b"
+    }
+   }
+  },
+  "ssr_mahen": {
+   "group": "G43_companion-attack-poses-ssr",
+   "prepareSource": "G43_companion-attack-poses-ssr/batch1/ssr_mahen-prepare-v1-native.png",
+   "prepareSha256": "9def5b37d4314b75f0e881005230f2d58b8cf0036cca5b5df3ebc290d39a53d5",
+   "releaseSource": "G43_companion-attack-poses-ssr/batch1/ssr_mahen-release-v1-native.png",
+   "releaseSha256": "1deddc48944faa2eed87322a2693d4253f840df8f691e146e757a14d6b054489",
+   "runtime": {
+    "prepare": {
+     "size": [
+      434,
+      640
+     ],
+     "sha256": "756583464c055a92a990819b449a4bd6b3a982553cc171815414636b516fb791"
+    },
+    "release": {
+     "size": [
+      434,
+      640
+     ],
+     "sha256": "3947eca570c5a138d112819a36fcf65e9ae93bfff3596106083e254ae5eb6512"
+    }
+   }
+  },
+  "ssr_ordan": {
+   "group": "G43_companion-attack-poses-ssr",
+   "prepareSource": "G43_companion-attack-poses-ssr/batch1/ssr_ordan-prepare-v1-native.png",
+   "prepareSha256": "4bb62ea7a6c2fbe3a4069884b4635e9bf3c4d14bf9dd829721c859fe9856f152",
+   "releaseSource": "G43_companion-attack-poses-ssr/batch1/ssr_ordan-release-v1-native.png",
+   "releaseSha256": "bb39e800aac6c6911b0ff380006ee9ddff6fe0ae6dc82d05ea80777c81061c19",
+   "runtime": {
+    "prepare": {
+     "size": [
+      435,
+      640
+     ],
+     "sha256": "85c9a3d9a384f38dc29607f258081d7e7af19c06a1b3bb9f42d5928dad0c5a08"
+    },
+    "release": {
+     "size": [
+      435,
+      640
+     ],
+     "sha256": "b34af303b57c1e56919a612eebc7869952135c273191c1bbe673d66de3e3fa6a"
+    }
+   }
+  },
+  "ssr_tarin": {
+   "group": "G43_companion-attack-poses-ssr",
+   "prepareSource": "G43_companion-attack-poses-ssr/batch1/ssr_tarin-prepare-v1-native.png",
+   "prepareSha256": "f11e0620baac816caa9330f5eaecfec04eab2025b64ea369fe76c5671318cbb3",
+   "releaseSource": "G43_companion-attack-poses-ssr/batch1/ssr_tarin-release-v1-native.png",
+   "releaseSha256": "9d0ecef2d0696ccedf9274f1d27dda3e3150cf232059917c27ee5e3a25c32ac7",
+   "runtime": {
+    "prepare": {
+     "size": [
+      443,
+      640
+     ],
+     "sha256": "9869a47256251d6b7e7c80c006728c67dd5c1769de8a96246b0ba7b8844bd156"
+    },
+    "release": {
+     "size": [
+      443,
+      640
+     ],
+     "sha256": "1e9739cbbbb150b40e31622f05eca7940b4d2445f904ac9d48cdadb3bedfbbfe"
+    }
+   }
+  },
+  "ssr_ashqueen": {
+   "group": "G43_companion-attack-poses-ssr",
+   "prepareSource": "G43_companion-attack-poses-ssr/batch2/ssr_ashqueen-prepare-v1-native.png",
+   "prepareSha256": "965e76daeca66fe83234d6153101ad77cbe656a72453ca16f620a9b515ca5eff",
+   "releaseSource": "G43_companion-attack-poses-ssr/batch2/ssr_ashqueen-release-v1-native.png",
+   "releaseSha256": "5695763bb6c1537880cab76ebc4affa57ecb5d725d1387a4cfd3a617cee9e109",
+   "runtime": {
+    "prepare": {
+     "size": [
+      476,
+      640
+     ],
+     "sha256": "6ea2edf0ffe5fca2eb7568b432c8c8accbf26c42a11acdf9a7ff54ff4937b822"
+    },
+    "release": {
+     "size": [
+      476,
+      640
+     ],
+     "sha256": "2a9b40aec2a10efcaf6044a3ccd2b38723bf75912f2afb8bc06c181ff67d34e3"
+    }
+   }
+  },
+  "ssr_bari_wolf": {
+   "group": "G43_companion-attack-poses-ssr",
+   "prepareSource": "G43_companion-attack-poses-ssr/batch2/ssr_bari_wolf-prepare-v1-native.png",
+   "prepareSha256": "106d0189b905811584e57661828f9131b4b1dd3be408113bea28831bb229c869",
+   "releaseSource": "G43_companion-attack-poses-ssr/batch2/ssr_bari_wolf-release-v1-native.png",
+   "releaseSha256": "33a9f060c81307c397ca911a6dcad0062df66614963568d3c1dd504693ec155b",
+   "runtime": {
+    "prepare": {
+     "size": [
+      484,
+      640
+     ],
+     "sha256": "293769e4067fde0a44c0fe47e1120d5948ea4a6543dbcf8939f38974aaf5c1ae"
+    },
+    "release": {
+     "size": [
+      484,
+      640
+     ],
+     "sha256": "d258d9c0074aae17ee04e898c64db1ca715fa16f56e6cf475ceb0008e783f690"
+    }
+   }
+  },
+  "ssr_chorong": {
+   "group": "G43_companion-attack-poses-ssr",
+   "prepareSource": "G43_companion-attack-poses-ssr/batch2/ssr_chorong-prepare-v1-native.png",
+   "prepareSha256": "7a7a121997c1a9bdd29f0cd3c6af11d1696b4b272e9c789e223c64413046ab3c",
+   "releaseSource": "G43_companion-attack-poses-ssr/batch2/ssr_chorong-release-v1-native.png",
+   "releaseSha256": "47cb1a7e7e226f6f003bfe30eef8a3450f595151d0f61fb4799f267e396e592b",
+   "runtime": {
+    "prepare": {
+     "size": [
+      446,
+      640
+     ],
+     "sha256": "efc5b9401495230db2d745b72231947343736f8a6347e6c6901d2439af38829b"
+    },
+    "release": {
+     "size": [
+      446,
+      640
+     ],
+     "sha256": "09fea6b3ec74ba30cd4a110dd652edfd46056fe339e926533d1fc1b1e9582514"
+    }
+   }
+  },
+  "ssr_haneul_blade": {
+   "group": "G43_companion-attack-poses-ssr",
+   "prepareSource": "G43_companion-attack-poses-ssr/batch2/ssr_haneul_blade-prepare-v1-native.png",
+   "prepareSha256": "767c6ae3360eccba32bc9e1b2cd99f98fbe754b68fdf12d959e2ab8004807144",
+   "releaseSource": "G43_companion-attack-poses-ssr/batch2/ssr_haneul_blade-release-v1-native.png",
+   "releaseSha256": "b7509b5ceb87ed73a3052f9ccf37a69dca1e73ad1d11e28214a746939a40fcda",
+   "runtime": {
+    "prepare": {
+     "size": [
+      467,
+      640
+     ],
+     "sha256": "260f183157921d45e486dd6a3bd211602970c0aa4ac41ce117b87d9682910de6"
+    },
+    "release": {
+     "size": [
+      467,
+      640
+     ],
+     "sha256": "2a8d6bf0fd605ea9a02b70ebacb4ddb1cef64d84a7c90fb82c134077f740c06d"
+    }
+   }
+  },
+  "ssr_yuna_fox": {
+   "group": "G43_companion-attack-poses-ssr",
+   "prepareSource": "G43_companion-attack-poses-ssr/batch2/ssr_yuna_fox-prepare-v1-native.png",
+   "prepareSha256": "a431885044899624a2a8139708514190d9e2b5faedeb4045f3414c2d15022401",
+   "releaseSource": "G43_companion-attack-poses-ssr/batch2/ssr_yuna_fox-release-v1-native.png",
+   "releaseSha256": "5843c5660bdb16e26e8cbd9913a6aed113ca7bfa9b3ee339ece826b0697838d5",
+   "runtime": {
+    "prepare": {
+     "size": [
+      489,
+      640
+     ],
+     "sha256": "84f972e03bf3f81a353b8dab7a2c74d1ea91e73fe800dc9d191dfac38c5ef4c5"
+    },
+    "release": {
+     "size": [
+      489,
+      640
+     ],
+     "sha256": "77e050b57276b607197e5ae1f11de469195ba206da9609670e8fa48bcce30419"
+    }
+   }
+  },
+  "ssr_ahri_half": {
+   "group": "G43_companion-attack-poses-ssr",
+   "prepareSource": "G43_companion-attack-poses-ssr/batch3/ssr_ahri_half-prepare-v1-native.png",
+   "prepareSha256": "1c8859361c9a8ef740070954afd9a8b4a9682fe34d8a34fe3f6b3aaf84af45e4",
+   "releaseSource": "G43_companion-attack-poses-ssr/batch3/ssr_ahri_half-release-v1-native.png",
+   "releaseSha256": "629dd27a86704246c174930d0eaf5e05c22ebe8442b5d310f09e68a7cc9be44c",
+   "runtime": {
+    "prepare": {
+     "size": [
+      468,
+      640
+     ],
+     "sha256": "ce6e0abec5106e5e7c3fa8ec6eb5f35a5c3e157493c87ab54ba5e22f07bc05f0"
+    },
+    "release": {
+     "size": [
+      468,
+      640
+     ],
+     "sha256": "b90494681432bf9172b3dc7ad809004c12d26b895fee18efc84524b427d9f6b6"
+    }
+   }
+  },
+  "ssr_hae_wave": {
+   "group": "G43_companion-attack-poses-ssr",
+   "prepareSource": "G43_companion-attack-poses-ssr/batch3/ssr_hae_wave-prepare-v1-native.png",
+   "prepareSha256": "68568a24474d942ce36b592d445280acfda2afd1d1926a2e4224c1b49cd22553",
+   "releaseSource": "G43_companion-attack-poses-ssr/batch3/ssr_hae_wave-release-v1-native.png",
+   "releaseSha256": "847817f46ef68e6442b44275e78aa83ec38fbaf37cc78b3dfa5ef812228151f4",
+   "runtime": {
+    "prepare": {
+     "size": [
+      397,
+      640
+     ],
+     "sha256": "07c8d9f554a4e7f29e56392d5196213c57eb6d055c30caa93cc18ad05e985de7"
+    },
+    "release": {
+     "size": [
+      397,
+      640
+     ],
+     "sha256": "fcbe0fe72e9c6f89e7a67099dad1a7b081f42bfe5e67e01ea6ba5688fbeacc9f"
+    }
+   }
+  },
+  "ssr_nari_forge": {
+   "group": "G43_companion-attack-poses-ssr",
+   "prepareSource": "G43_companion-attack-poses-ssr/batch3/ssr_nari_forge-prepare-v1-native.png",
+   "prepareSha256": "e8f11e36152a5820a16a842de5b604fbbe0ed2a4564f4457210e3e02587e1e77",
+   "releaseSource": "G43_companion-attack-poses-ssr/batch3/ssr_nari_forge-release-v1-native.png",
+   "releaseSha256": "2d48ed8c66d07c9bfd454e4b00e4435ca2bfb04ff62da4d158fa3b11874ff19d",
+   "runtime": {
+    "prepare": {
+     "size": [
+      476,
+      640
+     ],
+     "sha256": "00766e98ada5a8498ac496dc9d510c6c1d23127067c4944eba765650d973f5d1"
+    },
+    "release": {
+     "size": [
+      476,
+      640
+     ],
+     "sha256": "b4bc68e141bb91cf39c7a4fd0c09f4f517afa11fa0433069ba2afafe186a799a"
+    }
+   }
+  },
+  "beast_raider": {
+   "group": "G44_companion-attack-poses-sr",
+   "prepareSource": "G44_companion-attack-poses-sr/batch1/beast_raider-prepare-v1-native.png",
+   "prepareSha256": "268a688051b2456bad2697afc91798afc0d4145aaeb1bc956f39c65a97e9ae48",
+   "releaseSource": "G44_companion-attack-poses-sr/batch1/beast_raider-release-v1-native.png",
+   "releaseSha256": "0f32fa3e6b8d962a83d2fa45b1f9d284a3b68dc5efd1d5e1f3a24b6bfcc12383",
+   "runtime": {
+    "prepare": {
+     "size": [
+      497,
+      640
+     ],
+     "sha256": "ced864b4e01193cb036dc1d6c8f05cf7be887c9618ca6c3d17c1e1ffadf4e13c"
+    },
+    "release": {
+     "size": [
+      497,
+      640
+     ],
+     "sha256": "2395bfe21a1d8f10abc213ac973aa0531e72a3a358044c7647740b4893c8c1fd"
+    }
+   }
+  },
+  "dwarf_guardian": {
+   "group": "G44_companion-attack-poses-sr",
+   "prepareSource": "G44_companion-attack-poses-sr/batch1/dwarf_guardian-prepare-v1-native.png",
+   "prepareSha256": "56a5fe622b45075313da2cc47f21bdb7d8e5e9d93be260d9ebcbd73f3100c170",
+   "releaseSource": "G44_companion-attack-poses-sr/batch1/dwarf_guardian-release-v1-native.png",
+   "releaseSha256": "2131b657d9dcc76fec864a2812f14d055cf6802f40004894db895eadbb4a7936",
+   "runtime": {
+    "prepare": {
+     "size": [
+      616,
+      640
+     ],
+     "sha256": "8fb6f996a7552f42b271d223048a9ceea828ebc1d20e61742b27467da564b919"
+    },
+    "release": {
+     "size": [
+      616,
+      640
+     ],
+     "sha256": "b7bfe45fabd4501e284c4f99514846ee4b4ff115fbcad43ec7810b9848c0036f"
+    }
+   }
+  },
+  "fairy_support": {
+   "group": "G44_companion-attack-poses-sr",
+   "prepareSource": "G44_companion-attack-poses-sr/batch1/fairy_support-prepare-v1-native.png",
+   "prepareSha256": "caa43ff848b94d8376a6c1085032318ffc58acbe50c2f699fe1a37664baa2764",
+   "releaseSource": "G44_companion-attack-poses-sr/batch1/fairy_support-release-v1-native.png",
+   "releaseSha256": "1bed4c4da140fe8dd18aac3325f584ae8a8d82d14bdfd960421cc156ba07ecf8",
+   "runtime": {
+    "prepare": {
+     "size": [
+      430,
+      640
+     ],
+     "sha256": "0a7ee2055676b10ff6b7526b8926d5ac25f3796b3c09c6eeeed76a4c258e3386"
+    },
+    "release": {
+     "size": [
+      430,
+      640
+     ],
+     "sha256": "94b1a74b4e62945fdde1faba4ee67afce51404bac10ec6da513eafb11c224fee"
+    }
+   }
+  },
+  "human_warrior": {
+   "group": "G44_companion-attack-poses-sr",
+   "prepareSource": "G44_companion-attack-poses-sr/batch1/human_warrior-prepare-v1-native.png",
+   "prepareSha256": "2bc1b7f75d1b250d84c61f17ab7b1c4bab45c3318577ba0db05368d4c91e8bea",
+   "releaseSource": "G44_companion-attack-poses-sr/batch1/human_warrior-release-v1-native.png",
+   "releaseSha256": "71d35134da8fff9e4c030f9d37119857f8f8bb01a686bd50e23c5f159df4dc32",
+   "runtime": {
+    "prepare": {
+     "size": [
+      463,
+      640
+     ],
+     "sha256": "dbd15851c8e40c0b24e99d70a6679d3e0cb6ae459d315d9c555051996a9eb378"
+    },
+    "release": {
+     "size": [
+      463,
+      640
+     ],
+     "sha256": "3b4ccc292a6564f0b30f67ee23105aefd46a0e7f43445994cebab6883818fece"
+    }
+   }
+  },
+  "r_scout": {
+   "group": "G44_companion-attack-poses-sr",
+   "prepareSource": "G44_companion-attack-poses-sr/batch1/r_scout-prepare-v1-native.png",
+   "prepareSha256": "a90f73d2d2b93d22ea2cd35002d8d9787dc05acf968867fe91ecb7bf5d1311b6",
+   "releaseSource": "G44_companion-attack-poses-sr/batch1/r_scout-release-v1-native.png",
+   "releaseSha256": "665d5629007c56ae5bd431932dc8cdb9871ec53d6d419df20c1f8c692d139177",
+   "runtime": {
+    "prepare": {
+     "size": [
+      533,
+      640
+     ],
+     "sha256": "4ed31621cae65d3495fc82c4fc9ec210b5169a93acb1a8a405a13fcb9c241eca"
+    },
+    "release": {
+     "size": [
+      533,
+      640
+     ],
+     "sha256": "cc33473172a9ccba8b4d28e5eb0af159aea937f9695a23f108534258ccc6a9fc"
+    }
+   }
+  },
+  "r_dragonkin": {
+   "group": "G44_companion-attack-poses-sr",
+   "prepareSource": "G44_companion-attack-poses-sr/batch2/r_dragonkin-prepare-v1-native.png",
+   "prepareSha256": "6e43c945519598f168ecd65d049548ed185e649c8049731998cf3bc861d97718",
+   "releaseSource": "G44_companion-attack-poses-sr/batch2/r_dragonkin-release-v1-native.png",
+   "releaseSha256": "2f8a11e76016acee297effe29941df0bbcc570aec80680d34b0bbb90ceb98343",
+   "runtime": {
+    "prepare": {
+     "size": [
+      465,
+      640
+     ],
+     "sha256": "0920e3cc9dc7f81e498152611b08adfcef01d55fe0039554c0f7e501b58e5e20"
+    },
+    "release": {
+     "size": [
+      465,
+      640
+     ],
+     "sha256": "f7b7d839a2081410367c57df8d81bc267f6f638ccdfc3220352187812b92363a"
+    }
+   }
+  },
+  "r_rune_dwarf": {
+   "group": "G44_companion-attack-poses-sr",
+   "prepareSource": "G44_companion-attack-poses-sr/batch2/r_rune_dwarf-prepare-v1-native.png",
+   "prepareSha256": "1f191b17c94cebab702694d55dd7b5c97e1b9a4305dace653081dfb2747c9e63",
+   "releaseSource": "G44_companion-attack-poses-sr/batch2/r_rune_dwarf-release-v1-native.png",
+   "releaseSha256": "90b562e52c18d5a807df9e487991057507b45510948b4c5d37e69fe5c7227cc6",
+   "runtime": {
+    "prepare": {
+     "size": [
+      491,
+      640
+     ],
+     "sha256": "ae6609fabbdd39a88d91b8ed784c4a43c9e79bbe313fde34f8630cd5e16f026b"
+    },
+    "release": {
+     "size": [
+      491,
+      640
+     ],
+     "sha256": "430d543423ca8c21255558e4aa7235c9511b9ecfdb07c2ddd9e4f6b59d5d3c69"
+    }
+   }
+  },
+  "sr_beastlord": {
+   "group": "G44_companion-attack-poses-sr",
+   "prepareSource": "G44_companion-attack-poses-sr/batch2/sr_beastlord-prepare-v1-native.png",
+   "prepareSha256": "f6423c1da918823adddfea0d613c8b49adbd22c75b20557c811f67efec14a1b4",
+   "releaseSource": "G44_companion-attack-poses-sr/batch2/sr_beastlord-release-v1-native.png",
+   "releaseSha256": "799102446014fb01832b1cfbb21bffc02ae478230b76535579613417d737ea59",
+   "runtime": {
+    "prepare": {
+     "size": [
+      498,
+      640
+     ],
+     "sha256": "1c5637759344d4c1c659167ea23a6b161f96d0334bbf64027ecca01581f205cf"
+    },
+    "release": {
+     "size": [
+      498,
+      640
+     ],
+     "sha256": "b59b9722930bf133796b672953ac019576a6067e378886c256e42002c1d4c96b"
+    }
+   }
+  },
+  "sr_knight": {
+   "group": "G44_companion-attack-poses-sr",
+   "prepareSource": "G44_companion-attack-poses-sr/batch2/sr_knight-prepare-v1-native.png",
+   "prepareSha256": "3bb7a0c127f826c1c346776328b22474c230e2e4c75d4b6a734075dda41fae2f",
+   "releaseSource": "G44_companion-attack-poses-sr/batch2/sr_knight-release-v1-native.png",
+   "releaseSha256": "69fe7f8072115b6ef35a8a1cd30599a8cde68c647e5ec0bdaa2ec65c89e7704d",
+   "runtime": {
+    "prepare": {
+     "size": [
+      478,
+      640
+     ],
+     "sha256": "65d7180825c963ee57d0062f5639cc073a694929c19a28624fccc2883cc7f9d5"
+    },
+    "release": {
+     "size": [
+      478,
+      640
+     ],
+     "sha256": "f2b8acb867f3fc70e63a6d0c6eb069bb1f9692cd166a1453d1e274ec443a4f26"
+    }
+   }
+  },
+  "sr_paladin": {
+   "group": "G44_companion-attack-poses-sr",
+   "prepareSource": "G44_companion-attack-poses-sr/batch2/sr_paladin-prepare-v1-native.png",
+   "prepareSha256": "c42e89201db3f8e2ed8bcf5248b93f30d34e4eafb3836a9321b5873d229d4487",
+   "releaseSource": "G44_companion-attack-poses-sr/batch2/sr_paladin-release-v1-native.png",
+   "releaseSha256": "59fdf13f0d2914ce3b0fba935ebc4cf5098f5efdf2b02690e05e20764a1d9110",
+   "runtime": {
+    "prepare": {
+     "size": [
+      525,
+      640
+     ],
+     "sha256": "3b3085da883666f425f01a46e51328063c80d36d1890a0675f970ef2a1ac8ff9"
+    },
+    "release": {
+     "size": [
+      525,
+      640
+     ],
+     "sha256": "e8b07c168580f40746746b2beb3cceb3122d152f12c774fa01607a605eb40511"
+    }
+   }
+  },
+  "sr_brant": {
+   "group": "G44_companion-attack-poses-sr",
+   "prepareSource": "G44_companion-attack-poses-sr/batch3/sr_brant-prepare-v1-native.png",
+   "prepareSha256": "0603cd1bc102bab6fa676d7d3d2234e3e90ef0cf2fa24a92370ed4e7069464cb",
+   "releaseSource": "G44_companion-attack-poses-sr/batch3/sr_brant-release-v1-native.png",
+   "releaseSha256": "379ef9fe2904a72fa4a107783c6ab531e3cfc97c619e12fe7916fcd9bbcba30f",
+   "runtime": {
+    "prepare": {
+     "size": [
+      437,
+      640
+     ],
+     "sha256": "471423a92bd291c633ea0ed8a94897091108bd07b7e1c78abcfe36b663da0d73"
+    },
+    "release": {
+     "size": [
+      437,
+      640
+     ],
+     "sha256": "07f7cc388e1055ef9a46beebac9470afab1cbe5d97ebde1c634170f48168f82b"
+    }
+   }
+  },
+  "sr_fairylady": {
+   "group": "G44_companion-attack-poses-sr",
+   "prepareSource": "G44_companion-attack-poses-sr/batch3/sr_fairylady-prepare-v1-native.png",
+   "prepareSha256": "707b90ae16e97b97066d902707dabf8652abf4eff80f825c166e9b2cf8ea503b",
+   "releaseSource": "G44_companion-attack-poses-sr/batch3/sr_fairylady-release-v1-native.png",
+   "releaseSha256": "9de841722288f33155f625fd9001c309a891e5b73f1386b0e1a149c86e608d20",
+   "runtime": {
+    "prepare": {
+     "size": [
+      441,
+      640
+     ],
+     "sha256": "c5c52deed1ff12fac9b75d50e42a1b67c4fe0475c71248a17ea945d5f1d507bd"
+    },
+    "release": {
+     "size": [
+      441,
+      640
+     ],
+     "sha256": "9a720f62ee18373f7b265f9739b82585d2a058dd63e54d478618f771c8defff1"
+    }
+   }
+  },
+  "sr_halfdemon": {
+   "group": "G44_companion-attack-poses-sr",
+   "prepareSource": "G44_companion-attack-poses-sr/batch3/sr_halfdemon-prepare-v1-native.png",
+   "prepareSha256": "6912a409e5f279b3b00008dd07f5b5080f93548e10f87f66fb7e17dd9ede6e97",
+   "releaseSource": "G44_companion-attack-poses-sr/batch3/sr_halfdemon-release-v1-native.png",
+   "releaseSha256": "c0b1d15c4afc0914ee129cc33bb2f2148f38dc8a9f1406c6af42e5870fc0e602",
+   "runtime": {
+    "prepare": {
+     "size": [
+      490,
+      640
+     ],
+     "sha256": "732d2232e34189b207012af95f791ffac247727b793d3469db246b63ef79deea"
+    },
+    "release": {
+     "size": [
+      490,
+      640
+     ],
+     "sha256": "c140e37669054ef85a951d9f97372df887f60cd092f8a1a12bac3ab900ea3a05"
+    }
+   }
+  },
+  "sr_ironclad": {
+   "group": "G44_companion-attack-poses-sr",
+   "prepareSource": "G44_companion-attack-poses-sr/batch3/sr_ironclad-prepare-v1-native.png",
+   "prepareSha256": "475545e49836be405dd015863042d7703355128be23f7f58dbb8a40580002805",
+   "releaseSource": "G44_companion-attack-poses-sr/batch3/sr_ironclad-release-v1-native.png",
+   "releaseSha256": "28e88705ced06d2101c853b91c004801a29f18180fd29ef646f03c1d0e4b39a3",
+   "runtime": {
+    "prepare": {
+     "size": [
+      518,
+      640
+     ],
+     "sha256": "2896e4d025241effa4450b89d22bcd87093c61a64e3e695369c7a55a4d108db4"
+    },
+    "release": {
+     "size": [
+      518,
+      640
+     ],
+     "sha256": "b0052276559dc6b3369a1e72ace1ccf9fda70abffc23b928e60501d55e472502"
+    }
+   }
+  },
+  "sr_oracle": {
+   "group": "G44_companion-attack-poses-sr",
+   "prepareSource": "G44_companion-attack-poses-sr/batch3/sr_oracle-prepare-v1-native.png",
+   "prepareSha256": "4f57cb0759895c4dcaf43890b5cd7cba5de7334878910374ee22fe9bc609e3ca",
+   "releaseSource": "G44_companion-attack-poses-sr/batch3/sr_oracle-release-v1-native.png",
+   "releaseSha256": "40000fd09039874be166e96332d291cbab8f119f2d8a8e59eb585206a69f332b",
+   "runtime": {
+    "prepare": {
+     "size": [
+      436,
+      640
+     ],
+     "sha256": "32fa6dcbca277fa1107cdda0024a5840345477c93bbe77ee865f5f443d77f8d7"
+    },
+    "release": {
+     "size": [
+      436,
+      640
+     ],
+     "sha256": "5404f8e6dfb9ef4fc8cd83c3a92b4543580138289c3e1226286e3d583be6a0bf"
+    }
+   }
+  },
+  "sr_lutern": {
+   "group": "G44_companion-attack-poses-sr",
+   "prepareSource": "G44_companion-attack-poses-sr/batch4/sr_lutern-prepare-v1-native.png",
+   "prepareSha256": "81d426873c8ebcd51e5baec0a7e40b246c744c984cb613afaab6aa38a1fb9604",
+   "releaseSource": "G44_companion-attack-poses-sr/batch4/sr_lutern-release-v1-native.png",
+   "releaseSha256": "18beb6923d59f111452a2e6182a594d796b6a61dad15bd8d3214a41fbb15495f",
+   "runtime": {
+    "prepare": {
+     "size": [
+      436,
+      640
+     ],
+     "sha256": "32c714a28e678e7e7c00e3ed5a0fcbe9ad9f2e06a6bd924646ec0dead47f7397"
+    },
+    "release": {
+     "size": [
+      436,
+      640
+     ],
+     "sha256": "6f549b6c8c67133dd1eb4f84d47393bc9f187ce80279a19b708eb7d5d4171c4d"
+    }
+   }
+  },
+  "sr_merna": {
+   "group": "G44_companion-attack-poses-sr",
+   "prepareSource": "G44_companion-attack-poses-sr/batch4/sr_merna-prepare-v1-native.png",
+   "prepareSha256": "c15a93c685391052d3bde37f96a0b283a2a16b3dc2db0e3815a0c68d5b927b98",
+   "releaseSource": "G44_companion-attack-poses-sr/batch4/sr_merna-release-v1-native.png",
+   "releaseSha256": "e1dcc3d573a8bb9e7187a5e8c9d51bd31fb027b98dcdd499f11073b1151722dc",
+   "runtime": {
+    "prepare": {
+     "size": [
+      434,
+      640
+     ],
+     "sha256": "eea061bab7c881b9a8134f8447d6b2572662dc6a94ecfaa0aae7975ca40438ea"
+    },
+    "release": {
+     "size": [
+      434,
+      640
+     ],
+     "sha256": "ac6e25139aa2a6ec2472c3acdb0ee1d4e8bf88111e7ec320af9e9e105096fc73"
+    }
+   }
+  },
+  "sr_risea": {
+   "group": "G44_companion-attack-poses-sr",
+   "prepareSource": "G44_companion-attack-poses-sr/batch4/sr_risea-prepare-v1-native.png",
+   "prepareSha256": "02b7b90d21bf8ad9e17bd957502428aac466beaeb6cd79b8d742882ace3376f0",
+   "releaseSource": "G44_companion-attack-poses-sr/batch4/sr_risea-release-v1-native.png",
+   "releaseSha256": "625b347d2d53fdabb728e84667cf8381d96b0807584f7fcc75afa6b73dbf7302",
+   "runtime": {
+    "prepare": {
+     "size": [
+      421,
+      640
+     ],
+     "sha256": "5e42f34b0f7fd6ee0b03e1183722c232c5f14694016104a6ba3a10c48f4b21eb"
+    },
+    "release": {
+     "size": [
+      421,
+      640
+     ],
+     "sha256": "34074a08d548661f5fbf59c577657cf9a011b62e22e8ab0125ca629a6c9d3f67"
+    }
+   }
+  },
+  "sr_roan": {
+   "group": "G44_companion-attack-poses-sr",
+   "prepareSource": "G44_companion-attack-poses-sr/batch4/sr_roan-prepare-v1-native.png",
+   "prepareSha256": "b9e5ecb55e31e4fc8b5d746894cb32af891d877de889a6c6eb19d236b897ebe6",
+   "releaseSource": "G44_companion-attack-poses-sr/batch4/sr_roan-release-v1-native.png",
+   "releaseSha256": "11bbd1b6aea808719a932d6485ae2d2ad9f6071baaa28cb620d38a6efbcf2893",
+   "runtime": {
+    "prepare": {
+     "size": [
+      428,
+      640
+     ],
+     "sha256": "1a16e447ee5d9b5c1cb79a5510324ccfea6bcb17d869f4476b18e73a6e2fe59d"
+    },
+    "release": {
+     "size": [
+      428,
+      640
+     ],
+     "sha256": "2b03b7f96747e40e8067ea6e88ecc4f18303324136332ea65d1fc97cbcefc8af"
+    }
+   }
+  },
+  "sr_servan": {
+   "group": "G44_companion-attack-poses-sr",
+   "prepareSource": "G44_companion-attack-poses-sr/batch4/sr_servan-prepare-v1-native.png",
+   "prepareSha256": "31744ff9006ac523d6f3316eaf18a913c0a07b86b16b87e9468632567b76e6f8",
+   "releaseSource": "G44_companion-attack-poses-sr/batch4/sr_servan-release-v1-native.png",
+   "releaseSha256": "92adb74b0b888f87270f193136d00034b1345c954ec743a5ef5b653ce7e3b104",
+   "runtime": {
+    "prepare": {
+     "size": [
+      469,
+      640
+     ],
+     "sha256": "37d7abe92aa9e5629ff79fcf9818b00ea89c4658b0d9220830f9039d41eb064c"
+    },
+    "release": {
+     "size": [
+      469,
+      640
+     ],
+     "sha256": "0d7930d0689c325b0ade57722a369efebfde29d5bef4af121c14a7ae409cb740"
+    }
+   }
+  },
+  "sr_elvan": {
+   "group": "G44_companion-attack-poses-sr",
+   "prepareSource": "G44_companion-attack-poses-sr/batch5/sr_elvan-prepare-v1-native.png",
+   "prepareSha256": "b391ce1973ad3e44a03220e233e9a4d2dc13acfbf784042726ddb96b7c9e8098",
+   "releaseSource": "G44_companion-attack-poses-sr/batch5/sr_elvan-release-v1-native.png",
+   "releaseSha256": "cf3c7118191c324b99ffe2742f602749065903450f795c29c60a6a3df4230102",
+   "runtime": {
+    "prepare": {
+     "size": [
+      407,
+      640
+     ],
+     "sha256": "409f7be6ca18f622f131c7e934a783363b2bf9d45ecaa23affd500d3c2839bb1"
+    },
+    "release": {
+     "size": [
+      407,
+      640
+     ],
+     "sha256": "e14b017fe3159fd0dd107f4304403deb8a6d392a3373b58e00912a4e24da4a7a"
+    }
+   }
+  },
+  "sr_ireth": {
+   "group": "G44_companion-attack-poses-sr",
+   "prepareSource": "G44_companion-attack-poses-sr/batch5/sr_ireth-prepare-v1-native.png",
+   "prepareSha256": "9c71ce58f175b3b91bdb764875379db2ad51c9fa7bc1b8fdd807e25c086935ba",
+   "releaseSource": "G44_companion-attack-poses-sr/batch5/sr_ireth-release-v1-native.png",
+   "releaseSha256": "fd5288f1615f319b6d9bf8ffecde3e509ca473f1287cea115c743c689967f705",
+   "runtime": {
+    "prepare": {
+     "size": [
+      461,
+      640
+     ],
+     "sha256": "a7900fa162da7de8d9848b80a87537c2d415c78a74b9ccaba348a84fd26b1930"
+    },
+    "release": {
+     "size": [
+      461,
+      640
+     ],
+     "sha256": "1d4e0d6b2880716051055d567c630c83cd7b7a3bb80ff4c77c002727c0bb33d0"
+    }
+   }
+  },
+  "sr_nursa": {
+   "group": "G44_companion-attack-poses-sr",
+   "prepareSource": "G44_companion-attack-poses-sr/batch5/sr_nursa-prepare-v1-native.png",
+   "prepareSha256": "3b3354c7e7e1497cf3013a2229a64426398c52c19c71cdef7f435ad3937ddde8",
+   "releaseSource": "G44_companion-attack-poses-sr/batch5/sr_nursa-release-v1-native.png",
+   "releaseSha256": "89d88dba175ec7334ca897dd981ca70b530038311aa95bd72bfc974ff8eaf222",
+   "runtime": {
+    "prepare": {
+     "size": [
+      438,
+      640
+     ],
+     "sha256": "711f206eb54b6dba916c8d5430fe364534a87865da133e6decc493e44d7751bc"
+    },
+    "release": {
+     "size": [
+      438,
+      640
+     ],
+     "sha256": "affb87fcdf1cadef78aa9595bc6bbdf0a17225ad93d202f0553c766a287c994c"
+    }
+   }
+  },
+  "sr_orne": {
+   "group": "G44_companion-attack-poses-sr",
+   "prepareSource": "G44_companion-attack-poses-sr/batch5/sr_orne-prepare-v1-native.png",
+   "prepareSha256": "317caac84f4783ab881b3da84a3a3d10fc183ced2578548f8e4c384ee8cfa426",
+   "releaseSource": "G44_companion-attack-poses-sr/batch5/sr_orne-release-v1-native.png",
+   "releaseSha256": "d36e7ab2919495ac1eba554b16b7d4cafef88c27942f5218bc115be378b52b76",
+   "runtime": {
+    "prepare": {
+     "size": [
+      377,
+      640
+     ],
+     "sha256": "169a384d539ab1239364c10fe863c0f0da655ef414bd87d062db113b05dcc9e8"
+    },
+    "release": {
+     "size": [
+      377,
+      640
+     ],
+     "sha256": "9e29d0f7a8fae22115d9e5eac77b88c21fd9f86cd637d922f2453682c076a208"
+    }
+   }
+  },
+  "sr_vesra": {
+   "group": "G44_companion-attack-poses-sr",
+   "prepareSource": "G44_companion-attack-poses-sr/batch5/sr_vesra-prepare-v1-native.png",
+   "prepareSha256": "c3a32e9d8c3bb2ffa30efc0aa218316204fb067644807138391a9010ee05c27c",
+   "releaseSource": "G44_companion-attack-poses-sr/batch5/sr_vesra-release-v1-native.png",
+   "releaseSha256": "b36ee416762d4a623acaeb49ae4f6dfb02eeb8068b26c6ba8078882285be132d",
+   "runtime": {
+    "prepare": {
+     "size": [
+      434,
+      640
+     ],
+     "sha256": "1591e919e75c0b72f3c9063d4c118c5cbc4ce6d699e3abb6d4dbb2d9582dbf92"
+    },
+    "release": {
+     "size": [
+      434,
+      640
+     ],
+     "sha256": "ee8b61a4d1b6411054ac7865ff057fe00b023c0676bd5aae0d830c78f4135767"
+    }
+   }
+  },
+  "sr_berka": {
+   "group": "G44_companion-attack-poses-sr",
+   "prepareSource": "G44_companion-attack-poses-sr/batch6/sr_berka-prepare-v1-native.png",
+   "prepareSha256": "0cb553002baa47a86c74a83012ddcc8445a3337a0903afc4abf560e1abcff3c6",
+   "releaseSource": "G44_companion-attack-poses-sr/batch6/sr_berka-release-v1-native.png",
+   "releaseSha256": "ec4ba610c1432380c1efb35d87ce212fa28d9b699408ecfa646f2e3503ec77b6",
+   "runtime": {
+    "prepare": {
+     "size": [
+      453,
+      640
+     ],
+     "sha256": "d7de639c6c60c70b7f362fe24b3f543d453d17b108d63cea9fc8f5b8cd6704b2"
+    },
+    "release": {
+     "size": [
+      453,
+      640
+     ],
+     "sha256": "a0d902b2ef6a27fee5c7c6f3c0b3655fb51762721c4d4c86a26a820f5beac85d"
+    }
+   }
+  },
+  "sr_klea": {
+   "group": "G44_companion-attack-poses-sr",
+   "prepareSource": "G44_companion-attack-poses-sr/batch6/sr_klea-prepare-v1-native.png",
+   "prepareSha256": "d0645fc38fb6291b9ce322de3dc0224ebcaf8870ea6534d61652014e8dd5f4eb",
+   "releaseSource": "G44_companion-attack-poses-sr/batch6/sr_klea-release-v1-native.png",
+   "releaseSha256": "a157ef57c1f2ecc02c062871cd0e3e56b2e267d8d57005c68bbbeba33fbae1c6",
+   "runtime": {
+    "prepare": {
+     "size": [
+      433,
+      640
+     ],
+     "sha256": "4e530b06bf6b4a821398c68f89dc348cb95fbc630d1374c3404aec47aa9fb74c"
+    },
+    "release": {
+     "size": [
+      433,
+      640
+     ],
+     "sha256": "d41cecc779c01e68b113fd9755d22bf4fa352eed164455ea9383e3878335a489"
+    }
+   }
+  },
+  "sr_riodan": {
+   "group": "G44_companion-attack-poses-sr",
+   "prepareSource": "G44_companion-attack-poses-sr/batch6/sr_riodan-prepare-v1-native.png",
+   "prepareSha256": "b991fe1eb03b00aa965ef948a3bd95c8d2f441e351110fb4afde0745ab0b7063",
+   "releaseSource": "G44_companion-attack-poses-sr/batch6/sr_riodan-release-v1-native.png",
+   "releaseSha256": "5c3c0cdbdec32ab9d0a4cc2becf6e14d47dc0000cac34ec001dedc7c13ff6555",
+   "runtime": {
+    "prepare": {
+     "size": [
+      440,
+      640
+     ],
+     "sha256": "2fb2bbc2df511f56a55c6335379438bf8e9c1df07599be10bca6f087ac2a3aaa"
+    },
+    "release": {
+     "size": [
+      440,
+      640
+     ],
+     "sha256": "2a98238a16a457b880e261f6b50b7ec1c052e84cfc8c1ff4cb7dae718b27c1bf"
+    }
+   }
+  },
+  "sr_sahir": {
+   "group": "G44_companion-attack-poses-sr",
+   "prepareSource": "G44_companion-attack-poses-sr/batch6/sr_sahir-prepare-v1-native.png",
+   "prepareSha256": "c2894ed489a6c2aaeba12cd9794b382254528daedcb1fffa22a726d6bec152ce",
+   "releaseSource": "G44_companion-attack-poses-sr/batch6/sr_sahir-release-v1-native.png",
+   "releaseSha256": "9c3e76f202c023c5d30dfc4ac469d686946795264b411386ab44dd5390982507",
+   "runtime": {
+    "prepare": {
+     "size": [
+      429,
+      640
+     ],
+     "sha256": "37790483b581eef496cdb66b1c62c90b281d777bcbab636b5475c049266e6843"
+    },
+    "release": {
+     "size": [
+      429,
+      640
+     ],
+     "sha256": "073ee28777ba560956cf200c5c73647161eecfcb1817c55f45692d655d786a9e"
+    }
+   }
+  },
+  "sr_serkan": {
+   "group": "G44_companion-attack-poses-sr",
+   "prepareSource": "G44_companion-attack-poses-sr/batch6/sr_serkan-prepare-v1-native.png",
+   "prepareSha256": "df739d0255efc4b4fa27fbbb91f2adc9013b56b8f224971b57f247f8ed1a3ba7",
+   "releaseSource": "G44_companion-attack-poses-sr/batch6/sr_serkan-release-v1-native.png",
+   "releaseSha256": "b2d810c1812a48476b5c3232bdd5ee3f84ea9d355bdc24c7ce9545c9bc9caf70",
+   "runtime": {
+    "prepare": {
+     "size": [
+      440,
+      640
+     ],
+     "sha256": "5577073e41672b85d7ce3a9f5fde1464d64526a85a6fb5a8d5bae3847e7697b7"
+    },
+    "release": {
+     "size": [
+      440,
+      640
+     ],
+     "sha256": "ec6bac1878a2c67ba55c2ee4a01234fe73c9bfb51d4fa83c78c9d0d2b40e9e7b"
+    }
+   }
+  },
+  "sr_talia": {
+   "group": "G44_companion-attack-poses-sr",
+   "prepareSource": "G44_companion-attack-poses-sr/batch6/sr_talia-prepare-v1-native.png",
+   "prepareSha256": "b3cf967a38244070f1607dac8ac93c26daafcae6ca4a0b543733e54a3f88d6a4",
+   "releaseSource": "G44_companion-attack-poses-sr/batch6/sr_talia-release-v1-native.png",
+   "releaseSha256": "a3542426847296476d12794cf760a57ed07fb015be68a01a21bb54134d22d997",
+   "runtime": {
+    "prepare": {
+     "size": [
+      391,
+      640
+     ],
+     "sha256": "79673d59468480ce999502c9f0ea3adf48ef538f2f9c161f91f5a1663907eabc"
+    },
+    "release": {
+     "size": [
+      391,
+      640
+     ],
+     "sha256": "27a6d55a35583d97013fa39157c80cff7941e2f9d38afb15472450fc9abe7909"
+    }
+   }
+  },
+  "ur_elowen": {
+   "group": "G84_companion-attack-poses-g4",
+   "prepareSource": "G84_companion-attack-poses-g4/batch1-elowen/ur_elowen-prepare-v1-native.png",
+   "prepareSha256": "2ad5733797eccaf508d33212d457394de7d52c756e06f6cb47943fcdf091e429",
+   "releaseSource": "G84_companion-attack-poses-g4/batch1-elowen/ur_elowen-release-v1-native.png",
+   "releaseSha256": "3f2085713f4f5521a9aaca5247299493e86ff72de3b66157f9ac13f3cf44def6",
+   "runtime": {
+    "prepare": {
+     "size": [
+      431,
+      640
+     ],
+     "sha256": "620afc83a052fb7b143115472067b35a92fc7a405392f67da4378d9034ed8483"
+    },
+    "release": {
+     "size": [
+      431,
+      640
+     ],
+     "sha256": "310814f187128e02c7757489a8b0ac685054469f6e06823cd8549f401cda3c9f"
+    }
+   }
+  },
+  "ur_orten": {
+   "group": "G84_companion-attack-poses-g4",
+   "prepareSource": "G84_companion-attack-poses-g4/batch2-orten/ur_orten-prepare-v1-native.png",
+   "prepareSha256": "11de66f97b1be668632a4df6debb2691a5a5130333b7450bf90d66003bea765c",
+   "releaseSource": "G84_companion-attack-poses-g4/batch2-orten/ur_orten-release-v1-native.png",
+   "releaseSha256": "bd7959e1724b799f8ecccb6be9f580497474a958dbdc0af072f6ed6d8da56710",
+   "runtime": {
+    "prepare": {
+     "size": [
+      449,
+      640
+     ],
+     "sha256": "af52b9fb1efa71ae8872051b0adcf8c72a2bd2e01b410d896551bb35d900ba90"
+    },
+    "release": {
+     "size": [
+      449,
+      640
+     ],
+     "sha256": "6e31bbb26f2f0df8e08e87a2571109efe9f1c4cdbc9ad6c69bfcb806a1c1a2db"
+    }
+   }
+  },
+  "ssr_serion": {
+   "group": "G84_companion-attack-poses-g4",
+   "prepareSource": "G84_companion-attack-poses-g4/batch3-serion/ssr_serion-prepare-v1-native.png",
+   "prepareSha256": "3ab600ffeceaf88943fac93feaa20f5bf71a204adb1f758774718005cb7ccf58",
+   "releaseSource": "G84_companion-attack-poses-g4/batch3-serion/ssr_serion-release-v1-native.png",
+   "releaseSha256": "1a58a48eb8e903741a16697cedcaff9e6074eb3d77a22f3fd05860fcbec47c70",
+   "runtime": {
+    "prepare": {
+     "size": [
+      425,
+      640
+     ],
+     "sha256": "1f7f04b12490d4d921a193f715adaf306203ae2884f8db6dafe6b69dcc156b1d"
+    },
+    "release": {
+     "size": [
+      425,
+      640
+     ],
+     "sha256": "1f7638e58ec6b4cc012122b45798ffa3ddab55f3f9b07b5064787111be5619b2"
+    }
+   }
+  },
+  "ssr_mugyeom": {
+   "group": "G84_companion-attack-poses-g4",
+   "prepareSource": "G84_companion-attack-poses-g4/batch4-mugyeom/ssr_mugyeom-prepare-v1-native.png",
+   "prepareSha256": "c1d868e64f1ff260493df06e95a08f9215dcdb1b1d9a63601188fa833671eb20",
+   "releaseSource": "G84_companion-attack-poses-g4/batch4-mugyeom/ssr_mugyeom-release-v1-native.png",
+   "releaseSha256": "b3dfef086cb90577da4ca616ed7037733b36d4ee0ae47cbc8b467f5f08082462",
+   "runtime": {
+    "prepare": {
+     "size": [
+      455,
+      640
+     ],
+     "sha256": "3029110107bcc975769942c72f5923a981e6903dc0784a5f5b30afc72d5b64ac"
+    },
+    "release": {
+     "size": [
+      455,
+      640
+     ],
+     "sha256": "5be682634f59391fccbe34b42b41c8b8c978a93d2a18c6602333a74cf10d0f0b"
+    }
+   }
+  },
+  "ssr_harin": {
+   "group": "G84_companion-attack-poses-g4",
+   "prepareSource": "G84_companion-attack-poses-g4/batch5-harin-v2/ssr_harin-prepare-v1-native.png",
+   "prepareSha256": "d713ec0353fc8fa8a838d5c909759a47a22781d9af886ff100fa4bf08b7774cd",
+   "releaseSource": "G84_companion-attack-poses-g4/batch5-harin-v2/ssr_harin-release-v1-native.png",
+   "releaseSha256": "47e10fe25f140033c4afbd0c8f813e918606f97137917c81ac74193dc965acc2",
+   "runtime": {
+    "prepare": {
+     "size": [
+      424,
+      640
+     ],
+     "sha256": "977d6a747c6ae9aa7ab00b650ffc550adbe577aebf48ee7d62ee56141540f6fa"
+    },
+    "release": {
+     "size": [
+      424,
+      640
+     ],
+     "sha256": "2ab9a9b0d762b4fc16559ab82d2bbd3d2604a9c9088ed883c297a9205f5d1a9f"
+    }
+   }
+  },
+  "ssr_isolde": {
+   "group": "G84_companion-attack-poses-g4",
+   "prepareSource": "G84_companion-attack-poses-g4/batch6-isolde/ssr_isolde-prepare-v1-native.png",
+   "prepareSha256": "578895b238754941cb7841bd2c2144a5a53f5654658413c7fdc1fc6aa7eedf03",
+   "releaseSource": "G84_companion-attack-poses-g4/batch6-isolde/ssr_isolde-release-v1-native.png",
+   "releaseSha256": "1908feb8cd6ab4a0b51e54d7edbd2d4f2bfd8cafcf1fb04094c563fb90f4fa2e",
+   "runtime": {
+    "prepare": {
+     "size": [
+      428,
+      640
+     ],
+     "sha256": "27c0c4c5a9f96aec18393ac8a9e63dc4db2400b82373f9310f17a2aa65176f45"
+    },
+    "release": {
+     "size": [
+      428,
+      640
+     ],
+     "sha256": "cf69d26a292e5bb5f843583a117e1e7d68a57de344a1c9ed891c2efda079af8e"
+    }
+   }
+  },
+  "ur_karden": {
+   "group": "G85_companion-attack-poses-r",
+   "prepareSource": "G85_companion-attack-poses-r/batch1-karden/ur_karden-prepare-v1-native.png",
+   "prepareSha256": "2a12e6b6d98f0deeea892de3e958b410372f3cf97e536cfacfc66d8cbf6b238f",
+   "releaseSource": "G85_companion-attack-poses-r/batch1-karden/ur_karden-release-v1-native.png",
+   "releaseSha256": "08ac80dace0518e0ef2c1edfda0b3d1cac8566719e48f055b6c7576ac4c25e37",
+   "runtime": {
+    "prepare": {
+     "size": [
+      429,
+      640
+     ],
+     "sha256": "6c84af4c9a550cf217e42ff491330724a45fc182b55542e512dbdb9ba4322998"
+    },
+    "release": {
+     "size": [
+      429,
+      640
+     ],
+     "sha256": "38a70eac41f0ad9e94fcedd91f5851f091dff8bbf939444bcc85dae8bbfaecd5"
+    }
+   }
+  },
+  "ur_bastin": {
+   "group": "G85_companion-attack-poses-r",
+   "prepareSource": "G85_companion-attack-poses-r/batch2-bastin/ur_bastin-prepare-v1-native.png",
+   "prepareSha256": "7d748a4da68efc25a73e100b2cde475eeef21dbd9345b6f4b659fdd1ffaa760e",
+   "releaseSource": "G85_companion-attack-poses-r/batch2-bastin/ur_bastin-release-v1-native.png",
+   "releaseSha256": "f30b7bd1fa65c0f8f0e11b127d3963d9e488bddaf9c9b2c285ba752ae78e8108",
+   "runtime": {
+    "prepare": {
+     "size": [
+      469,
+      640
+     ],
+     "sha256": "965bffb9b1278b6c8d4f7f4b2d874cb11b727699f419e1380adf7265ea46669e"
+    },
+    "release": {
+     "size": [
+      469,
+      640
+     ],
+     "sha256": "afd86c4bd30494ace6b0217461aabfb6ce62319d6c49e41fa301590421a4df01"
+    }
+   }
+  },
+  "ur_neria": {
+   "group": "G85_companion-attack-poses-r",
+   "prepareSource": "G85_companion-attack-poses-r/batch3-neria/ur_neria-prepare-v1-native.png",
+   "prepareSha256": "100e48dd5cb6e546ea9e151243800b3cf498d45cdeb0c64aa67a4821d32db09b",
+   "releaseSource": "G85_companion-attack-poses-r/batch3-neria/ur_neria-release-v1-native.png",
+   "releaseSha256": "2fb1a9ffd25605ab1506288208a63697a0389ea5295bcb9275542786d6c91ed2",
+   "runtime": {
+    "prepare": {
+     "size": [
+      451,
+      640
+     ],
+     "sha256": "2b75f60b42f3ae1cc8274ea25dc400523a55c7de86e22782498f2f26ccf87329"
+    },
+    "release": {
+     "size": [
+      451,
+      640
+     ],
+     "sha256": "db9e2f969534805ef1b58b6ae229e841164856328e1941a98d1322c1413b4920"
+    }
+   }
+  },
+  "sr_lucel": {
+   "group": "G85_companion-attack-poses-r",
+   "prepareSource": "G85_companion-attack-poses-r/batch4-lucel/sr_lucel-prepare-v1-native.png",
+   "prepareSha256": "c3452baa3b994e143b185ac50520aada1ae851397661171648a22f288d472119",
+   "releaseSource": "G85_companion-attack-poses-r/batch4-lucel/sr_lucel-release-v1-native.png",
+   "releaseSha256": "601c666e8ff410e59cb4e0467a678dc2d758f7717a6e1dcf85b91dbf355c42c1",
+   "runtime": {
+    "prepare": {
+     "size": [
+      424,
+      640
+     ],
+     "sha256": "61bd1f8f6eae5ddceda99cebebc608e5cab953f17253ee2eab1d614d174d555e"
+    },
+    "release": {
+     "size": [
+      424,
+      640
+     ],
+     "sha256": "8a2d0d3a7b85cd607be17962173d69aae03fa49aeaa94de4efe6b83bd456ae97"
+    }
+   }
+  },
+  "sr_miel_ranger": {
+   "group": "G85_companion-attack-poses-r",
+   "prepareSource": "G85_companion-attack-poses-r/batch5-miel/sr_miel_ranger-prepare-v1-native.png",
+   "prepareSha256": "5babf28d8f849fb6e4806cb65a8f9868b0a5919ef1923c4bb6699874f49e5229",
+   "releaseSource": "G85_companion-attack-poses-r/batch5-miel/sr_miel_ranger-release-v1-native.png",
+   "releaseSha256": "22764d0b8f049d827826d3911c54c4f558d1f6d4f035c67055acc60e76c67eb1",
+   "runtime": {
+    "prepare": {
+     "size": [
+      443,
+      640
+     ],
+     "sha256": "cb7b5d3078c71d8e1e30f40a5eb7f0b2f849787d0ca19d6e25ec6288f8da601e"
+    },
+    "release": {
+     "size": [
+      443,
+      640
+     ],
+     "sha256": "aa5605b256ee1313109e0c04cce5dec295325d706fb1ae1882d6a4a009d46f5f"
+    }
+   }
+  },
+  "sr_theodore": {
+   "group": "G85_companion-attack-poses-r",
+   "prepareSource": "G85_companion-attack-poses-r/batch6-theodore-v3/sr_theodore-prepare-v1-native.png",
+   "prepareSha256": "7bea3f295e68db8a5af04e68a7f79c057fbbac86cbb2edfbc877b6de27c47933",
+   "releaseSource": "G85_companion-attack-poses-r/batch6-theodore-v3/sr_theodore-release-v1-native.png",
+   "releaseSha256": "b366143234838b09d042dfeb2b3b6299fd436f2ee9b9e1cea1cba7e4501bb9b6",
+   "runtime": {
+    "prepare": {
+     "size": [
+      448,
+      640
+     ],
+     "sha256": "29291e7e8a7efc1cdeb2f852832518b5ed13b20bd7542861906ec2b1f0729309"
+    },
+    "release": {
+     "size": [
+      448,
+      640
+     ],
+     "sha256": "d363f26dca4100aa92ef645586097d57c6df5e7a57b44930df0395729f62fdae"
+    }
+   }
+  },
+  "sr_bella_mage": {
+   "group": "G85_companion-attack-poses-r",
+   "prepareSource": "G85_companion-attack-poses-r/batch7-bella/sr_bella_mage-prepare-v1-native.png",
+   "prepareSha256": "92fd91e8b0753899dd78ff724e30b6ccc7bcd7a9dcb9c314f0c1b0ad85f7816d",
+   "releaseSource": "G85_companion-attack-poses-r/batch7-bella/sr_bella_mage-release-v1-native.png",
+   "releaseSha256": "79b5d50cb277019cea07a41e72c122026ce9c103b89242442264f63e19e7f4cd",
+   "runtime": {
+    "prepare": {
+     "size": [
+      433,
+      640
+     ],
+     "sha256": "6cc4d3b07c9c5ec46601cc32777d38f37f63a9b72e8e40bf6c95bb02cb1f88f3"
+    },
+    "release": {
+     "size": [
+      433,
+      640
+     ],
+     "sha256": "961a0f4108d22dbdb7b91982081c4c99d6fbbe26ef2f499edc5bd15dee7d504d"
+    }
+   }
+  },
+  "sr_doyun": {
+   "group": "G85_companion-attack-poses-r",
+   "prepareSource": "G85_companion-attack-poses-r/batch8-doyun/sr_doyun-prepare-v1-native.png",
+   "prepareSha256": "fed7cba045b200573754f350fa037d4266571a7eb02596a4b33dad2db95947a8",
+   "releaseSource": "G85_companion-attack-poses-r/batch8-doyun/sr_doyun-release-v1-native.png",
+   "releaseSha256": "24a4df3386fcab254681906e6fbc5bb4297dc9796d95e58ebca28b2949bb38f4",
+   "runtime": {
+    "prepare": {
+     "size": [
+      498,
+      640
+     ],
+     "sha256": "3717fda5f6e53370fb39b8e8fb602618bb366d948b6dcb95edbf151c461d9ff2"
+    },
+    "release": {
+     "size": [
+      498,
+      640
+     ],
+     "sha256": "82b3e7a0bbbd47ef5c5e5dcfd796c914e690617db0f130f06b8b2e96167c4abf"
+    }
+   }
+  },
+  "sr_agnes": {
+   "group": "G85_companion-attack-poses-r",
+   "prepareSource": "G85_companion-attack-poses-r/batch9-agnes/sr_agnes-prepare-v1-native.png",
+   "prepareSha256": "1c1e50c685a55ea3fcff1a5ec79dbbd2faef48016f6104a55e54de1011064a4e",
+   "releaseSource": "G85_companion-attack-poses-r/batch9-agnes/sr_agnes-release-v1-native.png",
+   "releaseSha256": "3bd187c1be6f295e6b2c32b29d9a7fec49711bfb492dea271f6d88b3605e3478",
+   "runtime": {
+    "prepare": {
+     "size": [
+      439,
+      640
+     ],
+     "sha256": "01818c281b5ad9da045f7b9ceaa70ba70320c0065f239f55d1132ceea6f1a64e"
+    },
+    "release": {
+     "size": [
+      439,
+      640
+     ],
+     "sha256": "c00534448043ea13e326a01bac2e3a489411231c1012ed5f99238d2d13ff9127"
+    }
+   }
+  },
+  "sr_raik": {
+   "group": "G85_companion-attack-poses-r",
+   "prepareSource": "G85_companion-attack-poses-r/batch10-raik/sr_raik-prepare-v1-native.png",
+   "prepareSha256": "e4c8af398f254b0ae5415087b6f852775dc582ad9e658e16d4b149e94298ec7d",
+   "releaseSource": "G85_companion-attack-poses-r/batch10-raik/sr_raik-release-v1-native.png",
+   "releaseSha256": "1bf52e0a46898f44a626aacc28b930ea458dd496745decf5bf638ab8d0cdf4ac",
+   "runtime": {
+    "prepare": {
+     "size": [
+      432,
+      640
+     ],
+     "sha256": "c68d52cb181164320b0f729830c0c72b20cdbe7e77732527f905a43dea08476c"
+    },
+    "release": {
+     "size": [
+      432,
+      640
+     ],
+     "sha256": "101a219826469a43a499f2ac1e96771712bb13eacf1ac3a6a4aa82227d3b137f"
+    }
+   }
+  },
+  "sr_kaya": {
+   "group": "G85_companion-attack-poses-r",
+   "prepareSource": "G85_companion-attack-poses-r/batch11-kaya/sr_kaya-prepare-v1-native.png",
+   "prepareSha256": "f7c1b4aea32ece28b3ebde1952936b1a0c26b4e0952d8745675eaafe32cf6bf5",
+   "releaseSource": "G85_companion-attack-poses-r/batch11-kaya/sr_kaya-release-v1-native.png",
+   "releaseSha256": "e56bc80f3cffbad69455999868534e0edee092d74dee1e1a60b1ad7fcceb3bfa",
+   "runtime": {
+    "prepare": {
+     "size": [
+      442,
+      640
+     ],
+     "sha256": "a08e741096324ea4be23e7f2e762629448e8309f080cb02abf112bffa9f57ebf"
+    },
+    "release": {
+     "size": [
+      442,
+      640
+     ],
+     "sha256": "69e2e41b49cfc884335cfa34acceda5be85feb96c823cf1b7b1552257b88f290"
+    }
+   }
+  },
+  "ssr_garon": {
+   "group": "G85_companion-attack-poses-r",
+   "prepareSource": "G85_companion-attack-poses-r/batch12-garon/ssr_garon-prepare-v1-native.png",
+   "prepareSha256": "acd984ff90d767b25dbc4a256c0892e25a23b3c901b941e19c2d9983947bbce3",
+   "releaseSource": "G85_companion-attack-poses-r/batch12-garon/ssr_garon-release-v1-native.png",
+   "releaseSha256": "ede89d93fa94cec747c784914a93ea90475824e00cab1aae5c1c9ef1c4b22cf6",
+   "runtime": {
+    "prepare": {
+     "size": [
+      455,
+      640
+     ],
+     "sha256": "588ba476fec40a94334cded69c9234ac4e031c59d393958d2ce785af6431b703"
+    },
+    "release": {
+     "size": [
+      455,
+      640
+     ],
+     "sha256": "e9b58d7035e88eaa119e6d19dcf28b47f7ab9234ad7ba4aca2c0c4edc703d5c7"
+    }
+   }
+  },
+  "n_ash_spear": {
+   "group": "G86_companion-attack-poses-n",
+   "prepareSource": "G86_companion-attack-poses-n/batch1-spear/n_ash_spear-prepare-v1-native.png",
+   "prepareSha256": "105c0cf97ef97fb2d397a9d34c1250ad4ab5c282ff0949753b7894ae0eb39fe9",
+   "releaseSource": "G86_companion-attack-poses-n/batch1-spear/n_ash_spear-release-v1-native.png",
+   "releaseSha256": "581383f41135f94414fa06c49d05cce61c62e9c3ad79b6edb311b2e8edf5a0c2",
+   "runtime": {
+    "prepare": {
+     "size": [
+      496,
+      640
+     ],
+     "sha256": "8033aa209ea5b7fc670b0d432e174c55f889d68970d3c74a898dbfa8935d426a"
+    },
+    "release": {
+     "size": [
+      496,
+      640
+     ],
+     "sha256": "2120bbc8efe7dc27f98eef89d0d393083dfe6a3fedd012c6268dc5ac65775cf6"
+    }
+   }
+  },
+  "n_ash_sword": {
+   "group": "G86_companion-attack-poses-n",
+   "prepareSource": "G86_companion-attack-poses-n/batch2-sword/n_ash_sword-prepare-v1-native.png",
+   "prepareSha256": "f8a7dd72505a1818cb7181e4ca991d8488272a1d44c7e564eda5fbc883afd05a",
+   "releaseSource": "G86_companion-attack-poses-n/batch2-sword/n_ash_sword-release-v1-native.png",
+   "releaseSha256": "a99ec5f6b6df62d3c5c57ad94eaf255d45780f44916a785c58598d83dce7a787",
+   "runtime": {
+    "prepare": {
+     "size": [
+      439,
+      640
+     ],
+     "sha256": "fe100fe3cf652ebb2d71c4f7f521399e2d36f3c6589bf800a935d0445c3552b2"
+    },
+    "release": {
+     "size": [
+      439,
+      640
+     ],
+     "sha256": "519309625d16ba2dd0b5d4f22030aeffea0ab2f88c9ce0c58a1cdfdf36cfe732"
+    }
+   }
+  },
+  "n_ash_guardian": {
+   "group": "G86_companion-attack-poses-n",
+   "prepareSource": "G86_companion-attack-poses-n/batch3-guardian/n_ash_guardian-prepare-v1-native.png",
+   "prepareSha256": "74f96eafac340996d44236429d5f135832ca76a5569420b077011c1950e3a79d",
+   "releaseSource": "G86_companion-attack-poses-n/batch3-guardian/n_ash_guardian-release-v1-native.png",
+   "releaseSha256": "e780fe281b67e6f55d191749592d27eaa072ae9473555a47624a04b8b9aa9b18",
+   "runtime": {
+    "prepare": {
+     "size": [
+      479,
+      640
+     ],
+     "sha256": "23e97cf88afd976ebb2039d11479fb4c2bf12d424b89b966391a93391c4e73a0"
+    },
+    "release": {
+     "size": [
+      479,
+      640
+     ],
+     "sha256": "24dc592851553847726ce0c38bccb4ac4b2844992b1906eee1f035daa3ee14b6"
+    }
+   }
+  },
+  "n_ash_ranger": {
+   "group": "G86_companion-attack-poses-n",
+   "prepareSource": "G86_companion-attack-poses-n/batch4-ranger/n_ash_ranger-prepare-v1-native.png",
+   "prepareSha256": "4aa946ef10a80202bac2894ae97f621970971c6cda59deb3a04386d547cd6cac",
+   "releaseSource": "G86_companion-attack-poses-n/batch4-ranger/n_ash_ranger-release-v1-native.png",
+   "releaseSha256": "cb8132e36325d802a128a573ad0b5d939fa396649106b619d4bf065364658055",
+   "runtime": {
+    "prepare": {
+     "size": [
+      425,
+      640
+     ],
+     "sha256": "933b4e0a532d1065897fef3e8cf130ebfce4184f4bce47bef52bd8dde989c4ba"
+    },
+    "release": {
+     "size": [
+      425,
+      640
+     ],
+     "sha256": "56f6f404ffbb45c4cb0507d831d4ae14631c13bb60883e6447d281ea9b2c8534"
+    }
+   }
+  },
+  "n_ash_striker": {
+   "group": "G86_companion-attack-poses-n",
+   "prepareSource": "G86_companion-attack-poses-n/batch5-striker/n_ash_striker-prepare-v1-native.png",
+   "prepareSha256": "88538d750b0e4cd481b3c65e3e953bca7d99711f54d12c07827b110d2d1cf356",
+   "releaseSource": "G86_companion-attack-poses-n/batch5-striker/n_ash_striker-release-v1-native.png",
+   "releaseSha256": "fb680b6980926f1850792f89deac1bd3f8a7dcf3d4af7df43863728ca18a2816",
+   "runtime": {
+    "prepare": {
+     "size": [
+      463,
+      640
+     ],
+     "sha256": "dfcd3b1b213040560365cfc7c84d79d57f4d4e768034916e03438cbab1daaf00"
+    },
+    "release": {
+     "size": [
+      463,
+      640
+     ],
+     "sha256": "6cf08f6ecc7174206159b58af3cdcfa0fbb04f004f58e2fd85920bf17f0a4e93"
+    }
+   }
+  },
+  "n_ash_mage": {
+   "group": "G86_companion-attack-poses-n",
+   "prepareSource": "G86_companion-attack-poses-n/batch6-mage/n_ash_mage-prepare-v1-native.png",
+   "prepareSha256": "1c54a2d0c7c69ebfacb20721d8a575e6232e6957342e8fcaf0a596addc88eb15",
+   "releaseSource": "G86_companion-attack-poses-n/batch6-mage/n_ash_mage-release-v1-native.png",
+   "releaseSha256": "0d66665d982a99c26d1a470346d6d3bbfb8c0bb856decf17390d016eb2f85e25",
+   "runtime": {
+    "prepare": {
+     "size": [
+      441,
+      640
+     ],
+     "sha256": "1464cc5016b47fa4f68ea605f8cde2c97ef5c5bcc4a0719fd603891f8f8fccc1"
+    },
+    "release": {
+     "size": [
+      441,
+      640
+     ],
+     "sha256": "4ce43a8cb937314c3aebdf1b71fba32d07fbc5bcc0ae33054042d1b9ab914a8b"
+    }
+   }
+  },
+  "n_ash_healer": {
+   "group": "G86_companion-attack-poses-n",
+   "prepareSource": "G86_companion-attack-poses-n/batch7-healer/n_ash_healer-prepare-v1-native.png",
+   "prepareSha256": "4021a2444ffffb0ed83a2cf8c4517f5bd2d08947a4889c948676f7ab7a98cf04",
+   "releaseSource": "G86_companion-attack-poses-n/batch7-healer/n_ash_healer-release-v1-native.png",
+   "releaseSha256": "bcaa1b56c5e216bf28bec3dfe73e60b034ed8bb2d64c5197b3a3d61f1cf6420c",
+   "runtime": {
+    "prepare": {
+     "size": [
+      442,
+      640
+     ],
+     "sha256": "73a935a477859233660dd9f9faba3011247272dc4ae3ea5a29f4fa3c55f67c48"
+    },
+    "release": {
+     "size": [
+      442,
+      640
+     ],
+     "sha256": "32769c26b9990b2495433dc464cdbd3dcdd299289850cb38065f6b321d2c4016"
+    }
+   }
+  },
+  "ur_gareth": {
+   "group": "G104_ur-gareth-brienne-regalia",
+   "prepareSource": "G104_ur-gareth-brienne-regalia/ur_gareth/05.png",
+   "prepareSha256": "be83eeb4c3fd4a13e2ddb36c92d7bf7027aae13adf3dc50ee23b70838ec885c0",
+   "releaseSource": "G104_ur-gareth-brienne-regalia/ur_gareth/06.png",
+   "releaseSha256": "ff25f7d147eae571db5e2cb44eda309e8dfd13d4a3fd85c5df62b38eab9ba79a",
+   "runtime": {
+    "prepare": {
+     "size": [
+      563,
+      497
+     ],
+     "sha256": "c081245d13843205b44e0876e0f8e43d0aff53f05db3cb23cbf56e4daad646d1"
+    },
+    "release": {
+     "size": [
+      563,
+      497
+     ],
+     "sha256": "e2c59df045bcb9f35ad2ecb13b6857c8574316f0b4f40331574ea6868aedb037"
+    }
+   },
+   "cropBox": [
+    38,
+    71,
+    601,
+    568
+   ]
+  },
+  "ur_kaira": {
+   "group": "G94_ur-five-new",
+   "prepareSource": "G94_ur-five-new/ur_kaira/05.png",
+   "prepareSha256": "def627814abb4733a2cbbaeee5fe307345714ca207a719ccd70683c90a45fc64",
+   "releaseSource": "G94_ur-five-new/ur_kaira/06.png",
+   "releaseSha256": "febe25e225225e8bdd51227fafbefab954e025139bd0bda57f017b63fd17187f",
+   "runtime": {
+    "prepare": {
+     "size": [
+      557,
+      520
+     ],
+     "sha256": "b18b0c0cbc0f35bcc08691534492b5fedb259d8ebce995ad454afb339c81d1cd"
+    },
+    "release": {
+     "size": [
+      557,
+      520
+     ],
+     "sha256": "d33adf21dcc508e14d628c3197644b22c57d4769f28fe4ef2e05092f892071c6"
+    }
+   },
+   "cropBox": [
+    41,
+    75,
+    598,
+    595
+   ]
+  },
+  "ur_marius": {
+   "group": "G94_ur-five-new",
+   "prepareSource": "G94_ur-five-new/ur_marius/05.png",
+   "prepareSha256": "0e89684574e93218a92e9b6287c692db2b63379c5879bd5e59ec5870546b9f0d",
+   "releaseSource": "G94_ur-five-new/ur_marius/06.png",
+   "releaseSha256": "db18419cb52bfcc2bd55d243e1f0372951fb05c6094d77f28722efe7aa95a61f",
+   "runtime": {
+    "prepare": {
+     "size": [
+      596,
+      576
+     ],
+     "sha256": "fc1842792c7ed63e1f23d146fafaafc175867f1830114034dbb24c60f9fb9825"
+    },
+    "release": {
+     "size": [
+      596,
+      576
+     ],
+     "sha256": "4080deca08c1419614350546955f1b1c6c2753ca67178c4c85b567acb05fc559"
+    }
+   },
+   "cropBox": [
+    22,
+    24,
+    618,
+    600
+   ]
+  },
+  "ur_sheira": {
+   "group": "G94_ur-five-new",
+   "prepareSource": "G94_ur-five-new/ur_sheira/05.png",
+   "prepareSha256": "fcd920ffcbae1ef640e4adbc04da20d55a5c24b13eff03c1db0a6127ff89ef30",
+   "releaseSource": "G94_ur-five-new/ur_sheira/06.png",
+   "releaseSha256": "e0039b43fa951879d36bdd791a84760e012003f954cca0be9dedf9e29f2b3c97",
+   "runtime": {
+    "prepare": {
+     "size": [
+      596,
+      576
+     ],
+     "sha256": "f6174611b270e1ba9149db84c62d86d22bdc3b753c82bc4044fd726e1a262d6a"
+    },
+    "release": {
+     "size": [
+      596,
+      576
+     ],
+     "sha256": "742303e041d20c74ff545ef40232989573764f499266763713eb456c89afdc4e"
+    }
+   },
+   "cropBox": [
+    22,
+    24,
+    618,
+    600
+   ]
+  },
+  "ur_brienne": {
+   "group": "G105_ur-brienne-rune-skald",
+   "prepareSource": "G105_ur-brienne-rune-skald/ur_brienne/05.png",
+   "prepareSha256": "ff347cf937a5144045601bdade1b09a504dda7903a95017f9cac322e2dd22add",
+   "releaseSource": "G105_ur-brienne-rune-skald/ur_brienne/06.png",
+   "releaseSha256": "f8745eb91c92a964767c57d1023ef55b55a6c6c5f29354a5a5306763b364cbf8",
+   "runtime": {
+    "prepare": {
+     "size": [
+      563,
+      556
+     ],
+     "sha256": "9e9ba87535f33e9c0ae34a657d292d463fa01c0d54612f7d5c3fee08e6ffd355"
+    },
+    "release": {
+     "size": [
+      563,
+      556
+     ],
+     "sha256": "21f53e26aefcc453149f6749ee49d056fccad343ed7f65438259379f5189be0d"
+    }
+   },
+   "cropBox": [
+    38,
+    42,
+    601,
+    598
+   ]
+  },
+  "ur_baikan": {
+   "group": "G119_ur-baikan-white-tiger-king",
+   "prepareSource": "G119_ur-baikan-white-tiger-king/ur_baikan/05.png",
+   "prepareSha256": "877b59701bbaf67340f4344e604d82fc59e2ad7ecca81de5a6dbd8099c411a97",
+   "releaseSource": "G119_ur-baikan-white-tiger-king/ur_baikan/06.png",
+   "releaseSha256": "190bb3486b1a37d49fd465dfed71dc711e068867fbf4ed0dfb2ba3fa81f2124c",
+   "runtime": {
+    "prepare": {
+     "size": [
+      585,
+      604
+     ],
+     "sha256": "f0476fed48d1dd6c7007a2e570726ef62f85f84fd5a1ca003d0706b5c3796ab5"
+    },
+    "release": {
+     "size": [
+      585,
+      604
+     ],
+     "sha256": "95b120f15b079c0a59f197aeb60f4e44fd4139ae1bee3350733f9fa9443810e9"
+    }
+   },
+   "cropBox": [
+    27,
+    18,
+    612,
+    622
+   ]
+  },
+  "sr_bronwen": {
+   "group": "G129_sr-bronwen-stormstone-tuner",
+   "prepareSource": "G129_sr-bronwen-stormstone-tuner/batch1-verified-five-partial/G129-05.png",
+   "prepareSha256": "3eb45c7284991e652a0488d02b1ef8b891d07109954a881b3dcf4a93214fcb73",
+   "releaseSource": "G129_sr-bronwen-stormstone-tuner/batch1-verified-five-partial/G129-06.png",
+   "releaseSha256": "086de64ee90825522b2e49d151d4adf737fbd797dc62112a611bf1073e9314e1",
+   "runtime": {
+    "prepare": {
+     "size": [
+      494,
+      576
+     ],
+     "sha256": "f4466359bcbe2ed911fdd216d2fee07f5660122bdc5424f96a0f69248e12af17"
+    },
+    "release": {
+     "size": [
+      494,
+      576
+     ],
+     "sha256": "4ff07e619df65b677527aa81dde4b01b9d205a6450692d2d73e8223bf15a7bb9"
+    }
+   },
+   "cropBox": [
+    118,
+    27,
+    612,
+    603
+   ]
+  },
+  "sr_narin": {
+   "group": "G130_sr-narin-dew-herbalist",
+   "prepareSource": "G130_sr-narin-dew-herbalist/batch1-verified-partial/G130-05.png",
+   "prepareSha256": "b9da8207538cc5f7b759dc01c0a22863da901ae024fb20fb1eddfc90a5d97161",
+   "releaseSource": "G130_sr-narin-dew-herbalist/batch1-verified-partial/G130-06.png",
+   "releaseSha256": "5bc1d71db0fa9cd6bf6b245d96f53b9f722f0ebc74947af46b8e450325d5b5a9",
+   "runtime": {
+    "prepare": {
+     "size": [
+      490,
+      605
+     ],
+     "sha256": "ee6ba25e77e107807e5580b00b4b4c5192a51faaca2293e9e91f99b8b41e8ff3"
+    },
+    "release": {
+     "size": [
+      490,
+      605
+     ],
+     "sha256": "22bd1116084415203f20af73df1a62f08fc8c50aab6b9d3de32b383ff5ace97f"
+    }
+   },
+   "cropBox": [
+    107,
+    18,
+    597,
+    623
+   ]
+  },
+  "r_isla": {
+   "group": "G131_r-isla-novice-priest",
+   "prepareSource": "G131_r-isla-novice-priest/batch1-verified-partial/G131-05.png",
+   "prepareSha256": "207b467dd5aadcd92070dd09b374f4b50b9c06bf0e70eca288302ad474258805",
+   "releaseSource": "G131_r-isla-novice-priest/batch1-verified-partial/G131-06.png",
+   "releaseSha256": "3aa8e028abf8eef1cb9a65bd18f877387ac75bc19a3a8b2bb6bd7e88d8ecf8b6",
+   "runtime": {
+    "prepare": {
+     "size": [
+      355,
+      583
+     ],
+     "sha256": "ed1a4ceacc75dab3b507e93451cc75e1aa20f377c0889618032b34ad6447ea27"
+    },
+    "release": {
+     "size": [
+      355,
+      583
+     ],
+     "sha256": "01191750085915e743287c5bbb1a7e07e7d01a8108b9af5f6bcbc67b7114abf5"
+    }
+   },
+   "cropBox": [
+    140,
+    31,
+    495,
+    614
+   ]
+  },
+  "ssr_yurna": {
+   "group": "G268-G275_ssr-faction-eight",
+   "prepareSource": "G268-G275_ssr-faction-eight/ssr_yurna/G268-ssr_yurna-05.png",
+   "prepareSha256": "6f91d9a76a9a46a3e269ab4bab694dfd47bbd2382723221f961c16d4c32f29b0",
+   "releaseSource": "G268-G275_ssr-faction-eight/ssr_yurna/G268-ssr_yurna-06.png",
+   "releaseSha256": "b1ab1a74ac1a66b9f94fb0c2b116beb39548921acfc716ff09f9d9ca625b9740",
+   "runtime": {
+    "prepare": {
+     "size": [
+      344,
+      567
+     ],
+     "sha256": "7d7ee69d4772ee0ca8a38eee13497b794c199e84d44eb2ed8bd6339b8607bf1e"
+    },
+    "release": {
+     "size": [
+      344,
+      567
+     ],
+     "sha256": "b238f84c262296f7acc4d45e9592ef6b38d2b634a457c8f8f215ce784f33426d"
+    }
+   },
+   "cropBox": [
+    188,
+    31,
+    532,
+    598
+   ]
+  },
+  "ssr_kashur": {
+   "group": "G268-G275_ssr-faction-eight",
+   "prepareSource": "G268-G275_ssr-faction-eight/ssr_kashur/G269-ssr_kashur-05.png",
+   "prepareSha256": "46631cc6b40acf9a076b804819f9bd9ae62ec1ce438d16c066a46b02ade4a71e",
+   "releaseSource": "G268-G275_ssr-faction-eight/ssr_kashur/G269-ssr_kashur-06.png",
+   "releaseSha256": "8169c8420fee58a9cfeaf8ac3b46721300be088adcde1d33f7faff39d0d12b1b",
+   "runtime": {
+    "prepare": {
+     "size": [
+      565,
+      558
+     ],
+     "sha256": "9373e3b9812a1451360599dc703efd9eb42ca34c2c8d1d16c319c847953ff2f0"
+    },
+    "release": {
+     "size": [
+      565,
+      558
+     ],
+     "sha256": "65205b0d269bb8442ddbc95e7c7b1f6776e09faca64a6f59f07a1ad935ed4f7c"
+    }
+   },
+   "cropBox": [
+    38,
+    32,
+    603,
+    590
+   ]
+  },
+  "ssr_seraphine": {
+   "group": "G268-G275_ssr-faction-eight",
+   "prepareSource": "G268-G275_ssr-faction-eight/ssr_seraphine/G270-ssr_seraphine-05.png",
+   "prepareSha256": "06315a752e43d02549f5f7f2c23ade7b83fc01d3c7bfc6b61cf868ab87075c03",
+   "releaseSource": "G268-G275_ssr-faction-eight/ssr_seraphine/G270-ssr_seraphine-06.png",
+   "releaseSha256": "eb41532b2a95285a32dcc48ca28fdd1aeca27e39406f398db8bebad2bb0e8b87",
+   "runtime": {
+    "prepare": {
+     "size": [
+      370,
+      565
+     ],
+     "sha256": "85a898a4fc5990561664d103cba6fc6f4af7a5cf5e31c525dbebb396360225de"
+    },
+    "release": {
+     "size": [
+      370,
+      565
+     ],
+     "sha256": "25a491d984fef7e85f89d6be7bbcd6d3d0eef0bb0d948591e5e90813472923f5"
+    }
+   },
+   "cropBox": [
+    174,
+    32,
+    544,
+    597
+   ]
+  },
+  "ssr_adel": {
+   "group": "G268-G275_ssr-faction-eight",
+   "prepareSource": "G268-G275_ssr-faction-eight/ssr_adel/G271-ssr_adel-05.png",
+   "prepareSha256": "78d8e892637d248efa449c5d475d84ec11cc85bf37771ae3e5b7ac8dc32fd20f",
+   "releaseSource": "G268-G275_ssr-faction-eight/ssr_adel/G271-ssr_adel-06.png",
+   "releaseSha256": "8808795f0c6312dcc0e548289089af06189263b40d815a0121f5f121deb06d65",
+   "runtime": {
+    "prepare": {
+     "size": [
+      476,
+      562
+     ],
+     "sha256": "d1f394289eba58f0429f96e376dba2eef40c0bd375b79767e85822c01065278e"
+    },
+    "release": {
+     "size": [
+      476,
+      562
+     ],
+     "sha256": "572a9ef14c127a9eab8ad221983e0ab7a4e27b15aa28aef676b444502bf71cf5"
+    }
+   },
+   "cropBox": [
+    116,
+    30,
+    592,
+    592
+   ]
+  },
+  "ssr_tethi": {
+   "group": "G268-G275_ssr-faction-eight",
+   "prepareSource": "G268-G275_ssr-faction-eight/ssr_tethi/G272-ssr_tethi-05.png",
+   "prepareSha256": "59771de2adb3ccd4fecbb69446e13df6a74bf2da5a2d79bfc7f513ced8d2fa6a",
+   "releaseSource": "G268-G275_ssr-faction-eight/ssr_tethi/G272-ssr_tethi-06.png",
+   "releaseSha256": "607fec4ef4a6fbc9b2a223956b5acfd5438919a364ab5cc7e4c2fdb7851add67",
+   "runtime": {
+    "prepare": {
+     "size": [
+      332,
+      566
+     ],
+     "sha256": "3477f2bbf4fb076390e35ffd21cdca51c5f9d867f1346b6b3c55175b41020fb2"
+    },
+    "release": {
+     "size": [
+      332,
+      566
+     ],
+     "sha256": "540c3cf6887ca941c9fafc5bf6d216b1e57b1a55d751972f60e0fdb5431ec7e1"
+    }
+   },
+   "cropBox": [
+    169,
+    30,
+    501,
+    596
+   ]
+  },
+  "ssr_kairo": {
+   "group": "G268-G275_ssr-faction-eight",
+   "prepareSource": "G268-G275_ssr-faction-eight/ssr_kairo/G273-ssr_kairo-05.png",
+   "prepareSha256": "2c632545639825c642e3ec80822aa0a4d4cd4d084e859aa23996168c085db66d",
+   "releaseSource": "G268-G275_ssr-faction-eight/ssr_kairo/G273-ssr_kairo-06.png",
+   "releaseSha256": "8f4e7fd3a34e0b9f1eb9fc75f1dab775934143bbbbb123c7b55d718aa2e19d74",
+   "runtime": {
+    "prepare": {
+     "size": [
+      519,
+      566
+     ],
+     "sha256": "e02bbf46c4902c31ccff031f8b8408c20a7fc6ac1c02cf250f631b1da9e34753"
+    },
+    "release": {
+     "size": [
+      519,
+      566
+     ],
+     "sha256": "237619449b03e90ebc38a3aaea8867b438cff98abb53f73cebe1f8b484685414"
+    }
+   },
+   "cropBox": [
+    39,
+    33,
+    558,
+    599
+   ]
+  },
+  "ssr_barto": {
+   "group": "G268-G275_ssr-faction-eight",
+   "prepareSource": "G268-G275_ssr-faction-eight/ssr_barto/G274-ssr_barto-05.png",
+   "prepareSha256": "a37c741bbbb11a41d0a75a02a237ace3f79a168a787cc787a86b881e8cd72283",
+   "releaseSource": "G268-G275_ssr-faction-eight/ssr_barto/G274-ssr_barto-06.png",
+   "releaseSha256": "93e7af32b331ed5603653c1e4b8bb2fcaf71db58ef670d040268d2dcc7e5117a",
+   "runtime": {
+    "prepare": {
+     "size": [
+      486,
+      568
+     ],
+     "sha256": "e07e5f59bfd0373d76fa672ccececabacac50ebafebd838ab08914288b42f3b7"
+    },
+    "release": {
+     "size": [
+      486,
+      568
+     ],
+     "sha256": "e0d6acaf61ac1818ce6ec815abcf8759068f302daca4765bb94aefd6e093680e"
+    }
+   },
+   "cropBox": [
+    69,
+    27,
+    555,
+    595
+   ]
+  },
+  "ssr_eris": {
+   "group": "G268-G275_ssr-faction-eight",
+   "prepareSource": "G268-G275_ssr-faction-eight/ssr_eris/G275-ssr_eris-05.png",
+   "prepareSha256": "b238f84a9d46b29e73a77780f026ca9407dcf6b32213ce6daaf6b13ceb26c3de",
+   "releaseSource": "G268-G275_ssr-faction-eight/ssr_eris/G275-ssr_eris-06.png",
+   "releaseSha256": "2ec5d0053d7fb6cdfd32bee7b71d28828497ac03edb05301537b5e752d10e0e9",
+   "runtime": {
+    "prepare": {
+     "size": [
+      429,
+      554
+     ],
+     "sha256": "1095e0ed6a0147df66549923e5808e14237d97281d958c7fade8c17f76379b28"
+    },
+    "release": {
+     "size": [
+      429,
+      554
+     ],
+     "sha256": "eaa32b5f3bb6d0be489d8b971b62aa142a940375d1c355e31d3ab6dec99b207b"
+    }
+   },
+   "cropBox": [
+    139,
+    36,
+    568,
+    590
+   ]
+  }
+ }
+}

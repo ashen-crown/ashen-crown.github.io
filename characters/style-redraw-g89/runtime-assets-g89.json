@@ -1,0 +1,46 @@
+{
+ "note": "G89 화풍 불일치 전신 재작화(배경 있는 1024x1536). 상세·도감·보유 목록의 fullbody만 바꿈; 로비·전투 컷아웃(sd)은 그대로.",
+ "applied": "2026-10-29 Claude",
+ "characters": {
+  "n_ash_spear": {
+   "source": "G89_style-mismatch-redraw/batch1-elin-spear/n_ash_spear-v1.png",
+   "sourceSha256": "84f2dd53c47d5662ce81ae5414392a0f6055a182ac079efeeae25219eee6221d",
+   "runtimeSha256": "a4ae2ef95ce92a87a69c4bb398e033d3191b75e061a7e0de097abb6f48b73267"
+  },
+  "ssr_yeon_leaf": {
+   "source": "G89_style-mismatch-redraw/batch1-elin-spear/ssr_yeon_leaf-v1.png",
+   "sourceSha256": "b184914fe72fd8eb63d799a44fdb58eb4ab3980f0ad3d41aef2b5957b3cfea22",
+   "runtimeSha256": "4a066824f5cd5d5b4ed9350d339792e887ae71789298bdbff08f20baf3347f1e"
+  },
+  "n_ash_guardian": {
+   "source": "G89_style-mismatch-redraw/batch2-sword-guardian/n_ash_guardian-v1.png",
+   "sourceSha256": "2abc00cac9a6ba08b9fa870d2485b7d068a6fd3e8d6c6e3df489655406375c6d",
+   "runtimeSha256": "2587d9ba2ffe675ff35b658f4e9cab537c405d1888f4cf2706a135b2844b0c15"
+  },
+  "n_ash_sword": {
+   "source": "G89_style-mismatch-redraw/batch2-sword-guardian/n_ash_sword-v1.png",
+   "sourceSha256": "0fd3836f6f47b58ada2864c653227180b7995f875d30f22b28a96443a40c7a22",
+   "runtimeSha256": "154bfd32d6b6b1fd4d4d1f5078660328425d01d61c88798f93c00ffc0335eaeb"
+  },
+  "n_ash_ranger": {
+   "source": "G89_style-mismatch-redraw/batch3-ranger-striker/n_ash_ranger-v1.png",
+   "sourceSha256": "bbed453165d0b269608cfde390f623db06c157a56d18673fb1b3fd58eb8ce64e",
+   "runtimeSha256": "9b86792fcd5af9f76ea559bafb2c3d41cebad5b7a050221d2ccbca49d0504032"
+  },
+  "n_ash_striker": {
+   "source": "G89_style-mismatch-redraw/batch3-ranger-striker/n_ash_striker-v1.png",
+   "sourceSha256": "ce2f9a35898a52f65fbde3f96e9489112d76ee50446696ac16f63469ddd6496e",
+   "runtimeSha256": "d7e3b5e2e0b490923e48137b337ecb55557c6d5b8a732619b8ba8ef379ad81b9"
+  },
+  "n_ash_healer": {
+   "source": "G89_style-mismatch-redraw/batch4-mage-healer/n_ash_healer-v1.png",
+   "sourceSha256": "60c9c3f388cba5da030aa867044feca9dfb8ce9d1e7e3d9099a4621d848c96ff",
+   "runtimeSha256": "34d94cc9dfbeb765049f03d5ea67d58283b6052173d08fab47c70a8aae04c218"
+  },
+  "n_ash_mage": {
+   "source": "G89_style-mismatch-redraw/batch4-mage-healer/n_ash_mage-v1.png",
+   "sourceSha256": "ee3bedf15588fe9d3acbc331ece342c816436d8858f5ee1fd65803a9748086c5",
+   "runtimeSha256": "ad8dc81907e795f899a5f6b8206d421e8dd2b07d79cb20eaf765e0d7f438a2f3"
+  }
+ }
+}

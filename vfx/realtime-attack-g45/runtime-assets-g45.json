@@ -1,0 +1,85 @@
+{
+ "note": "G45 전투 이펙트 추가(2026-10-25 GPT 납품). 1254² 원본을 640²로 줄인 webp. 출혈(bleed)은 게임에 출혈 상태가 없어 아직 안 씀. 2026-10-25 Claude",
+ "files": {
+  "heal": {
+   "source": "G45_combat-effects-2/heal-v1-native.png",
+   "sourceSha256": "adeb5367c31894ddb415fd0172a259590fa30c53986023d1c51254fa598a1913",
+   "runtime": "heal.webp",
+   "runtimeSha256": "7afa291ebf977461067a30aa02eb7c45f8376e736057df21739066006b0c73f6",
+   "size": [
+    640,
+    640
+   ]
+  },
+  "shield": {
+   "source": "G45_combat-effects-2/shield-v1-native.png",
+   "sourceSha256": "c93af8c75165a700cffc935a820cd9c09e55875f60004e80afbeb92de3de844c",
+   "runtime": "shield.webp",
+   "runtimeSha256": "43c1c978bb2bb09a5f521471e53969764ea912983561e259eaa62013d53ded24",
+   "size": [
+    640,
+    640
+   ]
+  },
+  "earth": {
+   "source": "G45_combat-effects-2/earth-v1-native.png",
+   "sourceSha256": "96ba35d0f5336f9ca740d0efd2dd238dbb59867499784d07244a1bc312cfa404",
+   "runtime": "earth.webp",
+   "runtimeSha256": "87a4176f218d2d00b0c1f717cf1eabb00b8981d644b7d47935d1ac4ac3905da8",
+   "size": [
+    640,
+    640
+   ]
+  },
+  "poison": {
+   "source": "G45_combat-effects-2/poison-v1-native.png",
+   "sourceSha256": "a5b1dd56817cf4632d13d60bcef29024a9f27c56f1116bb5f49d0d9b69129dd4",
+   "runtime": "poison.webp",
+   "runtimeSha256": "9ca3421b30a3bab2d83fb1452fd19d3ca61cadc803f5b7c0d2263308876bacfc",
+   "size": [
+    640,
+    640
+   ]
+  },
+  "stun": {
+   "source": "G45_combat-effects-2/stun-v1-native.png",
+   "sourceSha256": "ac92f5d7b6ce372006a59a5ce6566ff7160c326b0d601574aa11a6a7e2738358",
+   "runtime": "stun.webp",
+   "runtimeSha256": "0bae5e1f31762a7a143735288fb476c697a38f5564f572dcae4b43c65a5b1a4b",
+   "size": [
+    640,
+    640
+   ]
+  },
+  "revive": {
+   "source": "G45_combat-effects-2/revive-v1-native.png",
+   "sourceSha256": "b264be983aea7ff53ab7531b4aaba53864789917855cd12141c63298ce85a83f",
+   "runtime": "revive.webp",
+   "runtimeSha256": "6a25ebb8c0e6f712276892cf3c0562ae23092eccef23083ba09a402f639ab570",
+   "size": [
+    640,
+    640
+   ]
+  },
+  "summon-burst": {
+   "source": "G45_combat-effects-2/summon-burst-v1-native.png",
+   "sourceSha256": "57c0e514c6435bd0a6224987155c199074f003ce35e966adbc354644e021a651",
+   "runtime": "summon-burst.webp",
+   "runtimeSha256": "a827d6e104f7dd9f74c11fb32def296cf94eb1c735d4fe27d59576ac28ee0bda",
+   "size": [
+    640,
+    640
+   ]
+  },
+  "ultimate-flash": {
+   "source": "G45_combat-effects-2/ultimate-flash-v1-native.png",
+   "sourceSha256": "115c59002b6f8e3e3575c704311308d778fea8ee0175ae3a4b032324e1cf736b",
+   "runtime": "ultimate-flash.webp",
+   "runtimeSha256": "a01483c76c015936c1b3444dbea60b2c491bdaf59599810588bba63d7be4d7da",
+   "size": [
+    640,
+    640
+   ]
+  }
+ }
+}

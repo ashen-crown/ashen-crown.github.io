@@ -1,0 +1,1255 @@
+{
+ "group": "G98-G103",
+ "standard": "ACO-MONSTER-01",
+ "reviewedAt": "2026-11-05",
+ "assets": {
+  "saurian_scale_warrior": {
+   "standing": {
+    "source": "G98_monsters-saurian-temple/batch1r-scale-warrior-original/saurian_scale_warrior.png",
+    "sha256": "4d726c3fa60d4b9d4dae4e4c3009f0bad7fadaed23bd5b28f571b87231c4e1dd",
+    "size": [
+     768,
+     1024
+    ],
+    "foot": 0.832,
+    "bboxWidthFrac": 0.88
+   },
+   "zipSha256": "9661ddb8deec27f3bcf2a4c50eeec6ab6be5162ec91c6242b6fddce44900a617",
+   "actions": {
+    "prepare": {
+     "source": "G98_monsters-saurian-temple/batch1r-scale-warrior-original/saurian_scale_warrior-basic-prepare.png",
+     "sha256": "dd9f0f33971d214f3291f5601f2816236c28c48f3e7b341c4178040ef8fcb025",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "release": {
+     "source": "G98_monsters-saurian-temple/batch1r-scale-warrior-original/saurian_scale_warrior-basic-release.png",
+     "sha256": "03ca03555108ca4c83e7780b7916fa9b387cd7396590eaa5fa42f434538682ed",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "skill": {
+     "source": "G98_monsters-saurian-temple/batch1r-scale-warrior-original/saurian_scale_warrior-skill-release.png",
+     "sha256": "d20731a354b487560c1daf202c51d2c97cd3e65ece9f05714d65443166e6625c",
+     "size": [
+      1024,
+      1024
+     ]
+    }
+   }
+  },
+  "saurian_marsh_skink": {
+   "standing": {
+    "source": "G98_monsters-saurian-temple/batch2r-marsh-skink-original/saurian_marsh_skink.png",
+    "sha256": "cf49ea4264e91019de138ac1329d46a5b425d8ca59831349ae63344cca9b8147",
+    "size": [
+     768,
+     1024
+    ],
+    "foot": 0.827,
+    "bboxWidthFrac": 0.88
+   },
+   "zipSha256": "32a086f01637122daff8280c3d8f8c09c7a602980d78f382b949c0b417519bb7",
+   "actions": {
+    "prepare": {
+     "source": "G98_monsters-saurian-temple/batch2r-marsh-skink-original/saurian_marsh_skink-basic-prepare.png",
+     "sha256": "876d25ee6dafa92cdfca6800a2dae394546446fee22b75006f7017634f5f9e40",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "release": {
+     "source": "G98_monsters-saurian-temple/batch2r-marsh-skink-original/saurian_marsh_skink-basic-release.png",
+     "sha256": "93fd8be7bf4f48a1bafc5e3d4718a76c721840eac26cd108751d2d8e186ae216",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "skill": {
+     "source": "G98_monsters-saurian-temple/batch2r-marsh-skink-original/saurian_marsh_skink-skill-release.png",
+     "sha256": "4c1953d63734cdee25dd1d53fef0ac0ea573b2ff60055645f2291c738ec36b1f",
+     "size": [
+      1024,
+      1024
+     ]
+    }
+   }
+  },
+  "saurian_horned_battery": {
+   "standing": {
+    "source": "G98_monsters-saurian-temple/batch3r-horned-battery-original/saurian_horned_battery.png",
+    "sha256": "e7405fd5e1958d2d68cc8b7450a5589cbbab09d41178be6b61b524453aca407c",
+    "size": [
+     768,
+     1024
+    ],
+    "foot": 0.712,
+    "bboxWidthFrac": 0.88
+   },
+   "zipSha256": "68283f91bf830219fbef7fc64f8dc601b48a013213d6f1c87b70442e1ea180d1",
+   "actions": {
+    "prepare": {
+     "source": "G98_monsters-saurian-temple/batch3r-horned-battery-original/saurian_horned_battery-basic-prepare.png",
+     "sha256": "04fb866ea34378c740dc4d4cf0d3f42c58c24774e75ba40b64bf5bf637d6648d",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "release": {
+     "source": "G98_monsters-saurian-temple/batch3r-horned-battery-original/saurian_horned_battery-basic-release.png",
+     "sha256": "81f70782555368da57bceb6b52ceb327bade8aa03a23405672c64db208b6aa1f",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "skill": {
+     "source": "G98_monsters-saurian-temple/batch3r-horned-battery-original/saurian_horned_battery-skill-release.png",
+     "sha256": "cd3a4c479f343de6ac3f6ca032529a5a446af99c395aa27cff8fb93b17a0681b",
+     "size": [
+      1024,
+      1024
+     ]
+    }
+   }
+  },
+  "saurian_temple_oracle": {
+   "standing": {
+    "source": "G98_monsters-saurian-temple/batch4-temple-oracle/saurian_temple_oracle.png",
+    "sha256": "a415ae3bee71b2f4680f8be88c2620186124b780ef5341d4653a5c3d040bf20e",
+    "size": [
+     768,
+     1024
+    ],
+    "foot": 0.824,
+    "bboxWidthFrac": 0.88
+   },
+   "zipSha256": "01e7583cc155745008937545caabeeb5bdbacc5ce63bdb5f2956d1303202caed",
+   "actions": {
+    "prepare": {
+     "source": "G98_monsters-saurian-temple/batch4-temple-oracle/saurian_temple_oracle-basic-prepare.png",
+     "sha256": "97da1d8ae959f5e6406aa99a0b3cc2b181041f0d1959686ac6a21266db1d3ce8",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "release": {
+     "source": "G98_monsters-saurian-temple/batch4-temple-oracle/saurian_temple_oracle-basic-release.png",
+     "sha256": "4a10b88042c2610946bb04ce19a77500e75d6f61575fc74bb805ac8eb6751037",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "skill": {
+     "source": "G98_monsters-saurian-temple/batch4-temple-oracle/saurian_temple_oracle-skill-release.png",
+     "sha256": "e9dfca7ee5c2becb01c2995ddc2d786b924eae1f9e71a829cfa2825599114530",
+     "size": [
+      1024,
+      1024
+     ]
+    }
+   }
+  },
+  "night_blood_bats": {
+   "standing": {
+    "source": "G99_monsters-night-nobles/batch1-blood-bats/night_blood_bats.png",
+    "sha256": "b49a5e9120143efe0313276135f5878816a9260ab146130e2c02ea6182231b61",
+    "size": [
+     768,
+     1024
+    ],
+    "foot": 0.939,
+    "bboxWidthFrac": 0.875
+   },
+   "zipSha256": "035bf72964468ab20e20686a234a1261b7cd8585b2d026911b6b6ba1653418e1",
+   "actions": {
+    "prepare": {
+     "source": "G99_monsters-night-nobles/batch1-blood-bats/night_blood_bats-basic-prepare.png",
+     "sha256": "b35142589cda06efb004e5022b4e17cc55fb0f09bb915307f2b40e372ca25698",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "release": {
+     "source": "G99_monsters-night-nobles/batch1-blood-bats/night_blood_bats-basic-release.png",
+     "sha256": "9f7373dd4bbc91673f813665da9015e04c72b80ca4f1a9f1ce9d0cb87872a337",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "skill": {
+     "source": "G99_monsters-night-nobles/batch1-blood-bats/night_blood_bats-skill-release.png",
+     "sha256": "bab57004f18630486b6c14608f71f2d27a5fbd205e343b9afd7efc42e11c1680",
+     "size": [
+      1024,
+      1024
+     ]
+    }
+   }
+  },
+  "night_blood_knight": {
+   "standing": {
+    "source": "G99_monsters-night-nobles/batch2-blood-knight/night_blood_knight.png",
+    "sha256": "9b42c581af591618f789f1b0d5ef92cf5b0aaee77540c7ccb581a95494f74f79",
+    "size": [
+     768,
+     1024
+    ],
+    "foot": 0.939,
+    "bboxWidthFrac": 0.725
+   },
+   "zipSha256": "d798bc9cfcf5bd600783d0de4090bc1e335b418b4386e36f2cc0798e701298d0",
+   "actions": {
+    "prepare": {
+     "source": "G99_monsters-night-nobles/batch2-blood-knight/night_blood_knight-basic-prepare.png",
+     "sha256": "942858894a1406f344a46a34f653f179cb25242b7ddbf794a7d9ddc708887610",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "release": {
+     "source": "G99_monsters-night-nobles/batch2-blood-knight/night_blood_knight-basic-release.png",
+     "sha256": "c5392750a9d0241535f303403cdf662d3f3ae91f3ffe7f453bd5c3bbea442490",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "skill": {
+     "source": "G99_monsters-night-nobles/batch2-blood-knight/night_blood_knight-skill-release.png",
+     "sha256": "d7eb4097c9594ee219172e903adb131fcb142b8bfbf5318a7855d6681ec2204a",
+     "size": [
+      1024,
+      1024
+     ]
+    }
+   }
+  },
+  "night_shrieking_wraith": {
+   "standing": {
+    "source": "G99_monsters-night-nobles/batch3-shrieking-wraith/night_shrieking_wraith.png",
+    "sha256": "8bf6212c831096782afc4d065705bc8245570946e6aeb7e801f55e5a82c35ede",
+    "size": [
+     768,
+     1024
+    ],
+    "foot": 0.939,
+    "bboxWidthFrac": 0.704
+   },
+   "zipSha256": "3d5f9a24afe331e8ffe60a91a617bc6fd7e36819c3ae7a011522fe7e422a2607",
+   "actions": {
+    "prepare": {
+     "source": "G99_monsters-night-nobles/batch3-shrieking-wraith/night_shrieking_wraith-basic-prepare.png",
+     "sha256": "19b5223d0cd890fd950a4a3ee4f846bbd92fd1f5cc27f04e9f5ca99b4f4c013a",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "release": {
+     "source": "G99_monsters-night-nobles/batch3-shrieking-wraith/night_shrieking_wraith-basic-release.png",
+     "sha256": "7924fa1f5d3874f3a5acc6904248f119e17365eb4bd463bc52b966e3e971ff00",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "skill": {
+     "source": "G99_monsters-night-nobles/batch3-shrieking-wraith/night_shrieking_wraith-skill-release.png",
+     "sha256": "162a2b36643ba37843a46233efa511dc2a1353e7b004a9783900c4fc34386b41",
+     "size": [
+      1024,
+      1024
+     ]
+    }
+   }
+  },
+  "night_vampire_countess": {
+   "standing": {
+    "source": "G99_monsters-night-nobles/batch4-vampire-countess/night_vampire_countess.png",
+    "sha256": "6eef0a345ff4ba6a8f62475a22c1ee148abfcff5fd2f05df336f7cef7f47a7ca",
+    "size": [
+     768,
+     1024
+    ],
+    "foot": 0.939,
+    "bboxWidthFrac": 0.711
+   },
+   "zipSha256": "da82f6eb4fadc7eba1b4b719a03e2ae1d0316f19ad2a9ef142b777ac47cfed0b",
+   "actions": {
+    "prepare": {
+     "source": "G99_monsters-night-nobles/batch4-vampire-countess/night_vampire_countess-basic-prepare.png",
+     "sha256": "1dc058d971795ff53c88efcbea6790fa0d2e523c4aa6b912b51f595054de34c6",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "release": {
+     "source": "G99_monsters-night-nobles/batch4-vampire-countess/night_vampire_countess-basic-release.png",
+     "sha256": "b9b9f1df7db67f33af58a273fbe85b17f14e42848e7b584db8ec3a5b87fe1331",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "skill": {
+     "source": "G99_monsters-night-nobles/batch4-vampire-countess/night_vampire_countess-skill-release.png",
+     "sha256": "4bfbb6f0ef72734f40425ef06acd2fad634da5ed17a266aae3cce68ad5b8c6ec",
+     "size": [
+      1024,
+      1024
+     ]
+    }
+   }
+  },
+  "hornkin_warrior": {
+   "standing": {
+    "source": "G100_monsters-hornkin/batch1-hornkin-warrior/hornkin_warrior.png",
+    "sha256": "b7282954b8c7c9bc7e8ce613f1824a2abeb6ec798faa3bb39d97edeaa75fdab4",
+    "size": [
+     768,
+     1024
+    ],
+    "foot": 0.939,
+    "bboxWidthFrac": 0.779
+   },
+   "zipSha256": "aea62ae5c2e40c55079b549f45af9fdb1f0619c76218e0fdba3e7085b4cfa1d0",
+   "actions": {
+    "prepare": {
+     "source": "G100_monsters-hornkin/batch1-hornkin-warrior/hornkin_warrior-basic-prepare.png",
+     "sha256": "9541a5e1cd86706c7ea12436b82c6455e451111a48be90fd787aa40ee49613a5",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "release": {
+     "source": "G100_monsters-hornkin/batch1-hornkin-warrior/hornkin_warrior-basic-release.png",
+     "sha256": "69fafa31d054ff977fc4012aaf6cd39cc6c4386eff9f9abc2c908bef6613ecdb",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "skill": {
+     "source": "G100_monsters-hornkin/batch1-hornkin-warrior/hornkin_warrior-skill-release.png",
+     "sha256": "1c837ebca8414833d273369220bed999e2326cc23dbd4203fae524c4d87f838e",
+     "size": [
+      1024,
+      1024
+     ]
+    }
+   }
+  },
+  "hornkin_chieftain": {
+   "standing": {
+    "source": "G100_monsters-hornkin/batch2-hornkin-chieftain/hornkin_chieftain.png",
+    "sha256": "e80f3a34206dabcc4280909a3f92b1a328a05e2d005d4dc774a0d854535b4c94",
+    "size": [
+     768,
+     1024
+    ],
+    "foot": 0.939,
+    "bboxWidthFrac": 0.672
+   },
+   "zipSha256": "a26b74a1659c56e8fd12f9ef781ef5115b7b01522c6324e1390a373b90e2cab1",
+   "actions": {
+    "prepare": {
+     "source": "G100_monsters-hornkin/batch2-hornkin-chieftain/hornkin_chieftain-basic-prepare.png",
+     "sha256": "efc638bfe3d85f03750ab81c80932faa2a16835d6171dd60ac117bc6cf353bda",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "release": {
+     "source": "G100_monsters-hornkin/batch2-hornkin-chieftain/hornkin_chieftain-basic-release.png",
+     "sha256": "4269efa45be95df95b8c6670fca1908c0cfbb6ace1f3cb82009893b06817ed6d",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "skill": {
+     "source": "G100_monsters-hornkin/batch2-hornkin-chieftain/hornkin_chieftain-skill-release.png",
+     "sha256": "0643a08259b8ae78c356e98a2ea7cd021249252ac8228b2e8cf94090b1f66679",
+     "size": [
+      1024,
+      1024
+     ]
+    }
+   }
+  },
+  "hornkin_bull_giant": {
+   "standing": {
+    "source": "G100_monsters-hornkin/batch3-bull-giant/hornkin_bull_giant.png",
+    "sha256": "586f85feed4f18e91668501ceb55d5e8ea7ec149869cc11b5617b91ce03cf7be",
+    "size": [
+     768,
+     1024
+    ],
+    "foot": 0.939,
+    "bboxWidthFrac": 0.781
+   },
+   "zipSha256": "e05545e5b031b14593b45914bc38fe6538995baed3ce3c1b79c7d7ccf8842fc0",
+   "actions": {
+    "prepare": {
+     "source": "G100_monsters-hornkin/batch3-bull-giant/hornkin_bull_giant-basic-prepare.png",
+     "sha256": "c1e78f42139f3066c495d3cda228ab03cd29c65d3232e061fbb894a628a1ba51",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "release": {
+     "source": "G100_monsters-hornkin/batch3-bull-giant/hornkin_bull_giant-basic-release.png",
+     "sha256": "5f291d05b2afcdc8cfe95449936967893e37db543c5b33aa5de4142a9cb615bd",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "skill": {
+     "source": "G100_monsters-hornkin/batch3-bull-giant/hornkin_bull_giant-skill-release.png",
+     "sha256": "0b485cb22d1d7a531dbcde9c44d1298dc064593e76d9967248ad2d990f62699e",
+     "size": [
+      1024,
+      1024
+     ]
+    }
+   }
+  },
+  "hornkin_chaos_chimera": {
+   "standing": {
+    "source": "G100_monsters-hornkin/batch4-chaos-chimera/hornkin_chaos_chimera.png",
+    "sha256": "e40c6670aec0c74cfe28bc3efe01d7b870c00bb24a2dff3a5e059018040109f9",
+    "size": [
+     768,
+     1024
+    ],
+    "foot": 0.726,
+    "bboxWidthFrac": 0.879
+   },
+   "zipSha256": "badf2ef40ae692d73d24d000757c24c778a468bbfd26e8d99e4645d88666d5c8",
+   "actions": {
+    "prepare": {
+     "source": "G100_monsters-hornkin/batch4-chaos-chimera/hornkin_chaos_chimera-basic-prepare.png",
+     "sha256": "4219c7800891a21c1b66a2a21263024e88b9ca450237f8620ae8bcc2adf817d3",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "release": {
+     "source": "G100_monsters-hornkin/batch4-chaos-chimera/hornkin_chaos_chimera-basic-release.png",
+     "sha256": "01deb4d14e8dca767666fec1a65d2919b1c92e7495ea9d10d0c3234f2ecfcf9e",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "skill": {
+     "source": "G100_monsters-hornkin/batch4-chaos-chimera/hornkin_chaos_chimera-skill-release.png",
+     "sha256": "712cf8ba194b5f2b8b74c6fe63fb4ec280ee5c96b9d3b51033f20ec47977a48c",
+     "size": [
+      1024,
+      1024
+     ]
+    }
+   }
+  },
+  "hellforge_hob_slave": {
+   "standing": {
+    "source": "G101_monsters-hellforge/batch1-hob-slave/hellforge_hob_slave.png",
+    "sha256": "16a0b4c7f77f6751fc5bd1867598f641b8d966a947403e9d436fcad1071ef9aa",
+    "size": [
+     768,
+     1024
+    ],
+    "foot": 0.809,
+    "bboxWidthFrac": 0.88
+   },
+   "zipSha256": "84ff1de3a7927f5a9213f2b20131a0078b36d84438a700eb8b9d9fe08da65af7",
+   "actions": {
+    "prepare": {
+     "source": "G101_monsters-hellforge/batch1-hob-slave/hellforge_hob_slave-basic-prepare.png",
+     "sha256": "af9d490fe0fe932e14e1a1a9c84287f4254f2d7f15a28c5c3a6e280638c583bb",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "release": {
+     "source": "G101_monsters-hellforge/batch1-hob-slave/hellforge_hob_slave-basic-release.png",
+     "sha256": "73d96348fe6592d6085a406caa2b42b69110a498c6960859fc6760ff246ebb5c",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "skill": {
+     "source": "G101_monsters-hellforge/batch1-hob-slave/hellforge_hob_slave-skill-release.png",
+     "sha256": "66265bd9641c5eafd0b0324f34c47aad5cd72429efd543b921884827811aa6bd",
+     "size": [
+      1024,
+      1024
+     ]
+    }
+   }
+  },
+  "hellforge_engineer": {
+   "standing": {
+    "source": "G101_monsters-hellforge/batch2-hearth-engineer/hellforge_engineer.png",
+    "sha256": "3f0c7be568efb696acd072fb509a204fbee51b652e466e911b8f4bb95ad17c8f",
+    "size": [
+     768,
+     1024
+    ],
+    "foot": 0.877,
+    "bboxWidthFrac": 0.88
+   },
+   "zipSha256": "9ec7b8f26f19867eff255beb891edf24347c98eafd1ca49cecbf429463eec455",
+   "actions": {
+    "prepare": {
+     "source": "G101_monsters-hellforge/batch2-hearth-engineer/hellforge_engineer-basic-prepare.png",
+     "sha256": "0dbc3c5503537848bb397952770ffbcacc0359a208be35ee2c4479b7d4d01f17",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "release": {
+     "source": "G101_monsters-hellforge/batch2-hearth-engineer/hellforge_engineer-basic-release.png",
+     "sha256": "f6fcb01c8af4c47b204c39e5a863170512d7faf21e085cb90c3904ed8b4e3e4b",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "skill": {
+     "source": "G101_monsters-hellforge/batch2-hearth-engineer/hellforge_engineer-skill-release.png",
+     "sha256": "413d404b693440b4a8f7af6e247686fa304ba7dab039a431723b824334627b79",
+     "size": [
+      1024,
+      1024
+     ]
+    }
+   }
+  },
+  "hellforge_bull_centaur": {
+   "standing": {
+    "source": "G101_monsters-hellforge/batch3-bull-centaur-original/hellforge_bull_centaur.png",
+    "sha256": "2b74ddeae6585fbb8a7c88a25816aa3bcdaf68ab8a38e6941880e63f4bfb0d08",
+    "size": [
+     768,
+     1024
+    ],
+    "foot": 0.842,
+    "bboxWidthFrac": 0.88
+   },
+   "zipSha256": "df948f4b8c75d11e290a1bc42c3effcc428070e9d055d2011c1108e40a2f92cb",
+   "actions": {
+    "prepare": {
+     "source": "G101_monsters-hellforge/batch3-bull-centaur-original/hellforge_bull_centaur-basic-prepare.png",
+     "sha256": "d2b94798fce89e533daec073add5dc825a1794d53a2cb696d25e97ed971d1049",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "release": {
+     "source": "G101_monsters-hellforge/batch3-bull-centaur-original/hellforge_bull_centaur-basic-release.png",
+     "sha256": "e02ec3763e4891299fb4a043bdf216565e97933cb650e5ffa20cef84050f4b8c",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "skill": {
+     "source": "G101_monsters-hellforge/batch3-bull-centaur-original/hellforge_bull_centaur-skill-release.png",
+     "sha256": "2aa52be5ed2fc79c512d46ccdca9a932bd500c868eb1e24797ba431ed1c66951",
+     "size": [
+      1024,
+      1024
+     ]
+    }
+   }
+  },
+  "hellforge_great_cannon": {
+   "standing": {
+    "source": "G101_monsters-hellforge/batch4-great-cannon-original/hellforge_great_cannon.png",
+    "sha256": "e3f3a9b9f75aabeeb210d6440c265d14d71820c28acd4407260cf8d7e10ec547",
+    "size": [
+     768,
+     1024
+    ],
+    "foot": 0.709,
+    "bboxWidthFrac": 0.88
+   },
+   "zipSha256": "0d0410c0e7e9d3cc170b49cb07deb2cc4098a3ccab7172f9b5992b5b74fa1baa",
+   "actions": {
+    "prepare": {
+     "source": "G101_monsters-hellforge/batch4-great-cannon-original/hellforge_great_cannon-basic-prepare.png",
+     "sha256": "9b34c5a4e93fc1a1b650d4a3ade8675ccfd42df1f6fca56394cfd5742c72fb13",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "release": {
+     "source": "G101_monsters-hellforge/batch4-great-cannon-original/hellforge_great_cannon-basic-release.png",
+     "sha256": "704076672174e23249ebc04a09b4b199c705585bce81d2c8ca407d8451e79ad0",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "skill": {
+     "source": "G101_monsters-hellforge/batch4-great-cannon-original/hellforge_great_cannon-skill-release.png",
+     "sha256": "42eb110b93f0b0ddd836b5d65a682a787042c7efa88867ce7d750561be4dbe18",
+     "size": [
+      1024,
+      1024
+     ]
+    }
+   }
+  },
+  "ratkin_slave_swarm": {
+   "standing": {
+    "source": "G102_monsters-ratkin/batch1-jerboa-swarm-original/ratkin_slave_swarm.png",
+    "sha256": "413470b1ca25a9a07f3ca3a7179572666f2cbc4d2f39144311c00eae86064ee4",
+    "size": [
+     768,
+     1024
+    ],
+    "foot": 0.724,
+    "bboxWidthFrac": 0.88
+   },
+   "zipSha256": "6d980587de2258a8fbf56d6295e5c22d04b4bdb1006909a4ba7094ad05aeb615",
+   "actions": {
+    "prepare": {
+     "source": "G102_monsters-ratkin/batch1-jerboa-swarm-original/ratkin_slave_swarm-basic-prepare.png",
+     "sha256": "62d5cd8ec12c396745c1396337304dee4150a2fcbdbb483ef7d39fe705be93a5",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "release": {
+     "source": "G102_monsters-ratkin/batch1-jerboa-swarm-original/ratkin_slave_swarm-basic-release.png",
+     "sha256": "064a83a208b236bf655f0a491566504113f38ec0f76a1dde37ce0201d5fd85ae",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "skill": {
+     "source": "G102_monsters-ratkin/batch1-jerboa-swarm-original/ratkin_slave_swarm-skill-release.png",
+     "sha256": "4d358ee2d1f81c9a2fbe50fc9f535db077c8d15d9eeec15235b86a27457bf6f4",
+     "size": [
+      1024,
+      1024
+     ]
+    }
+   }
+  },
+  "ratkin_plague_slinger": {
+   "standing": {
+    "source": "G102_monsters-ratkin/batch2-hex-poison-slinger-original/ratkin_plague_slinger.png",
+    "sha256": "47f94427e3f55322f490b0a378386a0255fa4cbca0015a277e2eaee146fb0399",
+    "size": [
+     768,
+     1024
+    ],
+    "foot": 0.842,
+    "bboxWidthFrac": 0.88
+   },
+   "zipSha256": "36426890241ed6d726079adcc7faf73bfbb6739d80f4b50841b79da4a9373b5b",
+   "actions": {
+    "prepare": {
+     "source": "G102_monsters-ratkin/batch2-hex-poison-slinger-original/ratkin_plague_slinger-basic-prepare.png",
+     "sha256": "7100f267ad6bd273811f7924055ad08038e4caef54af32b6b685243beef5a306",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "release": {
+     "source": "G102_monsters-ratkin/batch2-hex-poison-slinger-original/ratkin_plague_slinger-basic-release.png",
+     "sha256": "af3513d23cf797878b0c7e7f42c6379083817d9e54a917b0bf83a5c21e276a78",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "skill": {
+     "source": "G102_monsters-ratkin/batch2-hex-poison-slinger-original/ratkin_plague_slinger-skill-release.png",
+     "sha256": "91f17ced0da14d2e2445158367a47893ed6f826b213621bfe311403d14972042",
+     "size": [
+      1024,
+      1024
+     ]
+    }
+   }
+  },
+  "ratkin_boltsaw_engineer": {
+   "standing": {
+    "source": "G102_monsters-ratkin/batch3-amber-boltsaw-engineer-original/ratkin_boltsaw_engineer.png",
+    "sha256": "c4f8616a0af9d829895047f1c51a0735540942ffd489998a735d718c9290df8f",
+    "size": [
+     768,
+     1024
+    ],
+    "foot": 0.872,
+    "bboxWidthFrac": 0.88
+   },
+   "zipSha256": "c7b1e7337cdc7b49f32e20e85910db72af49b2747af0b616f6ef6bfd1112bced",
+   "actions": {
+    "prepare": {
+     "source": "G102_monsters-ratkin/batch3-amber-boltsaw-engineer-original/ratkin_boltsaw_engineer-basic-prepare.png",
+     "sha256": "54e6a492f9d2b0c76a2595e6c921f96ef806cab9ec2bb356adace54266179ed2",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "release": {
+     "source": "G102_monsters-ratkin/batch3-amber-boltsaw-engineer-original/ratkin_boltsaw_engineer-basic-release.png",
+     "sha256": "f2eed19ecfd4fc0f7b7c35b9c13bbe261107fe2c8e37bb4ca0ba6ee099d3ab05",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "skill": {
+     "source": "G102_monsters-ratkin/batch3-amber-boltsaw-engineer-original/ratkin_boltsaw_engineer-skill-release.png",
+     "sha256": "8dbc779a003caf84e637935db841f167dd6bfdf9f8b708bf499c5bdded16313f",
+     "size": [
+      1024,
+      1024
+     ]
+    }
+   }
+  },
+  "ratkin_lab_abomination": {
+   "standing": {
+    "source": "G102_monsters-ratkin/batch4-patchwork-jerboa-abomination-original/ratkin_lab_abomination.png",
+    "sha256": "13f42a4124c2f6a094f7b71b05d2445ddf89761efa92d8462f38d4a1d59fd1cc",
+    "size": [
+     768,
+     1024
+    ],
+    "foot": 0.819,
+    "bboxWidthFrac": 0.88
+   },
+   "zipSha256": "ab314a802dbd75af6346e74247eaa3144687caaff499a48b2c35f53055248b59",
+   "actions": {
+    "prepare": {
+     "source": "G102_monsters-ratkin/batch4-patchwork-jerboa-abomination-original/ratkin_lab_abomination-basic-prepare.png",
+     "sha256": "b4a613e2e7b0ee85920cf0e5136fd3bd8180ba75f09705525b9e66c1d73d4e8c",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "release": {
+     "source": "G102_monsters-ratkin/batch4-patchwork-jerboa-abomination-original/ratkin_lab_abomination-basic-release.png",
+     "sha256": "a8eeecca3c19696c8e6ae1ed9babb6f26c55e09ae225a6d1fc1ee7d18a8b6c87",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "skill": {
+     "source": "G102_monsters-ratkin/batch4-patchwork-jerboa-abomination-original/ratkin_lab_abomination-skill-release.png",
+     "sha256": "7c0f87212314be1e10a0484e6ae0d76e24d10bcbd81c76ccd816767329ded6ae",
+     "size": [
+      1024,
+      1024
+     ]
+    }
+   }
+  },
+  "abyss_blood_bladefiend": {
+   "standing": {
+    "source": "G103_monsters-abyss-four-hosts/batch1-hornless-blood-bladefiend-original/abyss_blood_bladefiend.png",
+    "sha256": "de28a2b2fa606801715e1455dffa9d5a4caaa0c1fbc7051e6c8875bd39f08b66",
+    "size": [
+     768,
+     1024
+    ],
+    "foot": 0.887,
+    "bboxWidthFrac": 0.88
+   },
+   "zipSha256": "1adff7d0a2ec25cb802d267ad178890f58bd7b0f4a1ecc423e1591c274eadbba",
+   "actions": {
+    "prepare": {
+     "source": "G103_monsters-abyss-four-hosts/batch1-hornless-blood-bladefiend-original/abyss_blood_bladefiend-basic-prepare.png",
+     "sha256": "4c94950b98e6852c347a9254987464b736e2c6ccb79a9ee6a8115dc404a50c0e",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "release": {
+     "source": "G103_monsters-abyss-four-hosts/batch1-hornless-blood-bladefiend-original/abyss_blood_bladefiend-basic-release.png",
+     "sha256": "360cbd3899872cd9937f860a0f95ab0c0f31d80bce70cb4eb8949d2adbbcfce8",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "skill": {
+     "source": "G103_monsters-abyss-four-hosts/batch1-hornless-blood-bladefiend-original/abyss_blood_bladefiend-skill-release.png",
+     "sha256": "b50d14ccc792ab3278d86dde874c0002ee6e3d38d7a670a9380a82284a01de15",
+     "size": [
+      1024,
+      1024
+     ]
+    }
+   }
+  },
+  "abyss_indulgence_claw_dancer": {
+   "standing": {
+    "source": "G103_monsters-abyss-four-hosts/batch10-ceramic-shear-dancer-original/abyss_indulgence_claw_dancer.png",
+    "sha256": "7f8329da251697793ed414e6502532d1f06f3b15591dc097315635141afdb6aa",
+    "size": [
+     768,
+     1024
+    ],
+    "foot": 0.92,
+    "bboxWidthFrac": 0.708
+   },
+   "zipSha256": "636d498635913d10a0ed924ce6fb23a1dd9c780abfe9350fc4cfabfdedc7057a",
+   "actions": {
+    "prepare": {
+     "source": "G103_monsters-abyss-four-hosts/batch10-ceramic-shear-dancer-original/abyss_indulgence_claw_dancer-basic-prepare.png",
+     "sha256": "ee0ea73e293cda4055b2081376e860e3cfa1b785254bd128a6b95ccf1d424990",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "release": {
+     "source": "G103_monsters-abyss-four-hosts/batch10-ceramic-shear-dancer-original/abyss_indulgence_claw_dancer-basic-release.png",
+     "sha256": "b2537ccf9b4f94019f3e02acd595c98f5acf25725c30fbf88a38ec40f67cda93",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "skill": {
+     "source": "G103_monsters-abyss-four-hosts/batch10-ceramic-shear-dancer-original/abyss_indulgence_claw_dancer-skill-release.png",
+     "sha256": "c5cbbe65381cb947df12658cfb9038b7eef17870c0f6c4cd6bbd8979bb878ce6",
+     "size": [
+      1024,
+      1024
+     ]
+    }
+   }
+  },
+  "abyss_indulgence_lure_huntress": {
+   "standing": {
+    "source": "G103_monsters-abyss-four-hosts/batch11-amber-silence-tracker-original/abyss_indulgence_lure_huntress.png",
+    "sha256": "85395c08f989719a963158fa8a9d257351a4180b49b6fcf495e49d1304e57710",
+    "size": [
+     768,
+     1024
+    ],
+    "foot": 0.92,
+    "bboxWidthFrac": 0.612
+   },
+   "zipSha256": "08fd3950ef84b20aaf7e1cde24b1c90a02aae83e0be1a46d83fc898ad0b8bdc9",
+   "actions": {
+    "prepare": {
+     "source": "G103_monsters-abyss-four-hosts/batch11-amber-silence-tracker-original/abyss_indulgence_lure_huntress-basic-prepare.png",
+     "sha256": "fe7d9ea9648de3b6d8e414b4fd2a0a76cfd55f48c888067e821a32d31e290c7e",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "release": {
+     "source": "G103_monsters-abyss-four-hosts/batch11-amber-silence-tracker-original/abyss_indulgence_lure_huntress-basic-release.png",
+     "sha256": "0a07d7a659610ea018600208d48585808fdc445e09d62818d2af97c719b27fe2",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "skill": {
+     "source": "G103_monsters-abyss-four-hosts/batch11-amber-silence-tracker-original/abyss_indulgence_lure_huntress-skill-release.png",
+     "sha256": "e424f1661da7d8bc7d27c8c93ff820b18ef98b331d96d0f8575cdc724c8da357",
+     "size": [
+      1024,
+      1024
+     ]
+    }
+   }
+  },
+  "abyss_indulgence_silk_chariot": {
+   "standing": {
+    "source": "G103_monsters-abyss-four-hosts/batch12-blackglass-veil-carriage-original/abyss_indulgence_silk_chariot.png",
+    "sha256": "60e4dad7dd0ef1ec9f5c36ce41fc9aff54a44609edc48bd4fb6c0252ee9f3662",
+    "size": [
+     768,
+     1024
+    ],
+    "foot": 0.69,
+    "bboxWidthFrac": 0.84
+   },
+   "zipSha256": "b13e5783460cedfc47f1eb5176ad2c2acb87afb40fb97aee6f035dabe4811b0d",
+   "actions": {
+    "prepare": {
+     "source": "G103_monsters-abyss-four-hosts/batch12-blackglass-veil-carriage-original/abyss_indulgence_silk_chariot-basic-prepare.png",
+     "sha256": "72dba7cd3b04a93d323a8a9c9bf608fd9d52ea1f653dc20e2cb833e5d98972b8",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "release": {
+     "source": "G103_monsters-abyss-four-hosts/batch12-blackglass-veil-carriage-original/abyss_indulgence_silk_chariot-basic-release.png",
+     "sha256": "b8cc7c841f506f8a6004bc910c37914afc6761bb436e55e9380aeaae4a39cb86",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "skill": {
+     "source": "G103_monsters-abyss-four-hosts/batch12-blackglass-veil-carriage-original/abyss_indulgence_silk_chariot-skill-release.png",
+     "sha256": "7b9c741024aeef005100333b649956b60484c0eaf45a4b17715e0cc5276ecde8",
+     "size": [
+      1024,
+      1024
+     ]
+    }
+   }
+  },
+  "abyss_blood_hound": {
+   "standing": {
+    "source": "G103_monsters-abyss-four-hosts/batch2-scent-hound-original/abyss_blood_hound.png",
+    "sha256": "e2571a39876764b1d196e78bb6bc7bffadc4b37dbb6f41d82f03a4c19ba0a8d7",
+    "size": [
+     768,
+     1024
+    ],
+    "foot": 0.785,
+    "bboxWidthFrac": 0.88
+   },
+   "zipSha256": "f910220136df9b531fcc1431dccdb52ef75d6884d115f5d854f5fc3b6f42d14a",
+   "actions": {
+    "prepare": {
+     "source": "G103_monsters-abyss-four-hosts/batch2-scent-hound-original/abyss_blood_hound-basic-prepare.png",
+     "sha256": "43dd6f47ed7e7e19b976dde69f893ad5654e94d6da43634c18ac9cb4aaf75565",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "release": {
+     "source": "G103_monsters-abyss-four-hosts/batch2-scent-hound-original/abyss_blood_hound-basic-release.png",
+     "sha256": "8905a3a2c0520c900f468442786503a3133b63e68f2f4d8be4fe331414e44d10",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "skill": {
+     "source": "G103_monsters-abyss-four-hosts/batch2-scent-hound-original/abyss_blood_hound-skill-release.png",
+     "sha256": "a92e2b79070d34cec0b2e42f7a3e581dedc0032e438a9a01a49dab554d153369",
+     "size": [
+      1024,
+      1024
+     ]
+    }
+   }
+  },
+  "abyss_blood_throne_berserker": {
+   "standing": {
+    "source": "G103_monsters-abyss-four-hosts/batch3-votive-berserker-original/abyss_blood_throne_berserker.png",
+    "sha256": "e3af452ee2fe50e2b18118d4441553b1a3b99279981f3b86bd919be04195b1a0",
+    "size": [
+     768,
+     1024
+    ],
+    "foot": 0.925,
+    "bboxWidthFrac": 0.88
+   },
+   "zipSha256": "c53fb0bcf28716d925f9926c9b65e54299e488805131a20750e5fd1ceb655f1e",
+   "actions": {
+    "prepare": {
+     "source": "G103_monsters-abyss-four-hosts/batch3-votive-berserker-original/abyss_blood_throne_berserker-basic-prepare.png",
+     "sha256": "d47e2cd5538174d8831e15c3850b00190536ef70a589d8ac66c0e88e6850c4d5",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "release": {
+     "source": "G103_monsters-abyss-four-hosts/batch3-votive-berserker-original/abyss_blood_throne_berserker-basic-release.png",
+     "sha256": "1f418fe2d87c16c412d8782e30a460802eae93fe46a0d462e97f9d72d26bc11f",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "skill": {
+     "source": "G103_monsters-abyss-four-hosts/batch3-votive-berserker-original/abyss_blood_throne_berserker-skill-release.png",
+     "sha256": "0cbaadf637685857e697831c885e14842ce5cb1eb5c7e931e07af5248625c950",
+     "size": [
+      1024,
+      1024
+     ]
+    }
+   }
+  },
+  "abyss_rot_fly_rider": {
+   "standing": {
+    "source": "G103_monsters-abyss-four-hosts/batch4-marsh-glasswing-rider-original/abyss_rot_fly_rider.png",
+    "sha256": "588b9e85e591ad29421e40cbb45d93e9674bdfaa2510ae08d89a6e2efa2832e9",
+    "size": [
+     768,
+     1024
+    ],
+    "foot": 0.733,
+    "bboxWidthFrac": 0.88
+   },
+   "zipSha256": "87fb852fdfcfe2fed5909c60ae4edfae903a1258fac170587328f1901ef05011",
+   "actions": {
+    "prepare": {
+     "source": "G103_monsters-abyss-four-hosts/batch4-marsh-glasswing-rider-original/abyss_rot_fly_rider-basic-prepare.png",
+     "sha256": "a0d1c92661f284b6bcabc2e2f1d47ab1dc7b0442418e7ad199855288b6329197",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "release": {
+     "source": "G103_monsters-abyss-four-hosts/batch4-marsh-glasswing-rider-original/abyss_rot_fly_rider-basic-release.png",
+     "sha256": "a57f0236ad58ffc15f5f346b12865489e7700e331691e7a66dd701e3bf07582b",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "skill": {
+     "source": "G103_monsters-abyss-four-hosts/batch4-marsh-glasswing-rider-original/abyss_rot_fly_rider-skill-release.png",
+     "sha256": "a7d65f3a18e41fb53340a23efb7e6faa24b3475b8b0ff114bc7bf1202df4b44d",
+     "size": [
+      1024,
+      1024
+     ]
+    }
+   }
+  },
+  "abyss_rot_herald": {
+   "standing": {
+    "source": "G103_monsters-abyss-four-hosts/batch5-salt-silt-herald-original/abyss_rot_herald.png",
+    "sha256": "d5c1a5b6ec740d60c146a4940f3ebdb7783da7af227f25377ced05251691205f",
+    "size": [
+     768,
+     1024
+    ],
+    "foot": 0.83,
+    "bboxWidthFrac": 0.88
+   },
+   "zipSha256": "cc3d9a79ce55bd769391470dcf8ac184ba49d48bbe6334e9eb6463a792e01c53",
+   "actions": {
+    "prepare": {
+     "source": "G103_monsters-abyss-four-hosts/batch5-salt-silt-herald-original/abyss_rot_herald-basic-prepare.png",
+     "sha256": "c0f60bc7b6b39bc7f6f2967c84c89adb861df5f576104c41216507d3e54aa5ab",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "release": {
+     "source": "G103_monsters-abyss-four-hosts/batch5-salt-silt-herald-original/abyss_rot_herald-basic-release.png",
+     "sha256": "5a8cae3b9e366b00c94333c6eab1ff07c6e13d705e6c9ef8d0df0672d9f3eff3",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "skill": {
+     "source": "G103_monsters-abyss-four-hosts/batch5-salt-silt-herald-original/abyss_rot_herald-skill-release.png",
+     "sha256": "577330dfd15edcaefdf22f9ab6e54792c56349dd0922e2f8b53958fd7b0b4dc6",
+     "size": [
+      1024,
+      1024
+     ]
+    }
+   }
+  },
+  "abyss_rot_grin_hulk": {
+   "standing": {
+    "source": "G103_monsters-abyss-four-hosts/batch6-salt-brine-colossus-original/abyss_rot_grin_hulk.png",
+    "sha256": "5821a059518e240f0ca99f1ac715c384e4687b94854d3680fbbe37eb1fada4cc",
+    "size": [
+     768,
+     1024
+    ],
+    "foot": 0.797,
+    "bboxWidthFrac": 0.88
+   },
+   "zipSha256": "4522047c9150cb665b0c252bca1120d4194992dc47af5cbfc77b561c5648d351",
+   "actions": {
+    "prepare": {
+     "source": "G103_monsters-abyss-four-hosts/batch6-salt-brine-colossus-original/abyss_rot_grin_hulk-basic-prepare.png",
+     "sha256": "1c15b0ece13bdfe0cbad48058b6f61e40cc073720b084098c4fe6a57458cb992",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "release": {
+     "source": "G103_monsters-abyss-four-hosts/batch6-salt-brine-colossus-original/abyss_rot_grin_hulk-basic-release.png",
+     "sha256": "1c67e490cdfa2eb3c16da877a2c07141e3874a312abc29aa1a2d0001482a0798",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "skill": {
+     "source": "G103_monsters-abyss-four-hosts/batch6-salt-brine-colossus-original/abyss_rot_grin_hulk-skill-release.png",
+     "sha256": "133c0c5f688272c1668799cafcbf3f4138ddddd8f175002c3b80e21ecf8ec0e4",
+     "size": [
+      1024,
+      1024
+     ]
+    }
+   }
+  },
+  "abyss_change_flame_mutant": {
+   "standing": {
+    "source": "G103_monsters-abyss-four-hosts/batch7-emberglass-mutant-original/abyss_change_flame_mutant.png",
+    "sha256": "7d5e66d5988bedd4426f6913b200c469d947ca658c77b00d491457c5f16634bd",
+    "size": [
+     768,
+     1024
+    ],
+    "foot": 0.939,
+    "bboxWidthFrac": 0.525
+   },
+   "zipSha256": "7389ad5def6c3afe84b8abeab2a91a8a6b4e230388de0c889bc84a7c3404ebb9",
+   "actions": {
+    "prepare": {
+     "source": "G103_monsters-abyss-four-hosts/batch7-emberglass-mutant-original/abyss_change_flame_mutant-basic-prepare.png",
+     "sha256": "9e6b92b60b2fe6002e996d63c1e8214644843de00a99d70c4efdadb35dc8f48e",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "release": {
+     "source": "G103_monsters-abyss-four-hosts/batch7-emberglass-mutant-original/abyss_change_flame_mutant-basic-release.png",
+     "sha256": "1dc301b7aafc428f58a2493a02f5eac7f49573d45b9251023e893227284481c8",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "skill": {
+     "source": "G103_monsters-abyss-four-hosts/batch7-emberglass-mutant-original/abyss_change_flame_mutant-skill-release.png",
+     "sha256": "3254f15cc54c5c50bae3c3eadc6679b22c71f05ab2e9d2c801aac3bed129e54d",
+     "size": [
+      1024,
+      1024
+     ]
+    }
+   }
+  },
+  "abyss_change_feather_sorcerer": {
+   "standing": {
+    "source": "G103_monsters-abyss-four-hosts/batch8-ceramic-plume-scribe-original/abyss_change_feather_sorcerer.png",
+    "sha256": "ccd4fe73e2d1c086e7846fa1b22ca46384128c5be397c7e6256b1d373494a8e5",
+    "size": [
+     768,
+     1024
+    ],
+    "foot": 0.939,
+    "bboxWidthFrac": 0.514
+   },
+   "zipSha256": "732084efe5cfee3d04a34622023ae727594f29834afa8d2179b99fd0d0ea6f8d",
+   "actions": {
+    "prepare": {
+     "source": "G103_monsters-abyss-four-hosts/batch8-ceramic-plume-scribe-original/abyss_change_feather_sorcerer-basic-prepare.png",
+     "sha256": "78e43a3df46c2dd018a050d08c14be2cc655ea831db561c47a8bbb324ae98091",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "release": {
+     "source": "G103_monsters-abyss-four-hosts/batch8-ceramic-plume-scribe-original/abyss_change_feather_sorcerer-basic-release.png",
+     "sha256": "9ef72968ab29aec344288d5bd97e9265d5e8220cd8ffe30b9abdd373f18a1f14",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "skill": {
+     "source": "G103_monsters-abyss-four-hosts/batch8-ceramic-plume-scribe-original/abyss_change_feather_sorcerer-skill-release.png",
+     "sha256": "dbf26ec8e378ffd4ce1770145652ee06b64c043537622fbddfb6ac3d31243169",
+     "size": [
+      1024,
+      1024
+     ]
+    }
+   }
+  },
+  "abyss_change_disc_rider": {
+   "standing": {
+    "source": "G103_monsters-abyss-four-hosts/batch9-skyglass-kite-rider-original/abyss_change_disc_rider.png",
+    "sha256": "06b20e18f7b737f38930eff83387466fa84735dfcdeca6a7dd78d1e595cb3ea8",
+    "size": [
+     768,
+     1024
+    ],
+    "foot": 0.702,
+    "bboxWidthFrac": 0.859
+   },
+   "zipSha256": "9755aaead351fb5bc281b413a0de7aa22188e9bf2e1b4a25ebb2504510f134e1",
+   "actions": {
+    "prepare": {
+     "source": "G103_monsters-abyss-four-hosts/batch9-skyglass-kite-rider-original/abyss_change_disc_rider-basic-prepare.png",
+     "sha256": "ef00b08453c9ba10b391a06b8fe87a6c309572abf2a6f167b9b78fc2dc075ccd",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "release": {
+     "source": "G103_monsters-abyss-four-hosts/batch9-skyglass-kite-rider-original/abyss_change_disc_rider-basic-release.png",
+     "sha256": "f71d98bc73fe5dc8c09f67feea6621d01a436cbab3c8f940053172f705a48008",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "skill": {
+     "source": "G103_monsters-abyss-four-hosts/batch9-skyglass-kite-rider-original/abyss_change_disc_rider-skill-release.png",
+     "sha256": "0af843a62ca16a6df7e871a58ee3fe8843f9df12f5cace1bb1d8876ee8df7476",
+     "size": [
+      1024,
+      1024
+     ]
+    }
+   }
+  }
+ }
+}

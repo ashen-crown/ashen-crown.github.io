@@ -1,0 +1,51 @@
+{
+ "note": "G54 원형 테두리 효과. 고리 두 장은 GPT 인계대로 안쪽 alpha=1 잡티를 지움(버프 r<300, 디버프 r<262, 1024 기준), 모든 장 alpha<4 제거.",
+ "applied": "2026-10-25 Claude",
+ "files": {
+  "buff-ring": {
+   "source": "G54_battle-ring-fx/buff-ring-v1-native.png",
+   "sourceSha256": "4b48a8f929641cd1cb8a52d69e920c6c5dac74bf6de5d4ea71b1a7d1119635da",
+   "runtimeSize": [
+    512,
+    512
+   ],
+   "runtimeSha256": "7d9a7e792a66083307ce0322c6ab80d0e27c6a39ba98f6b41fb5a21c817e53b9"
+  },
+  "debuff-ring": {
+   "source": "G54_battle-ring-fx/debuff-ring-v1-native.png",
+   "sourceSha256": "1caddb9117c952d68658d8d4f90977bf694b5ea52335014e5562282ba2d3de90",
+   "runtimeSize": [
+    512,
+    512
+   ],
+   "runtimeSha256": "27f5128127528ce99586a6c33142d64a8503e41901db51a4da0ce7c714b5ab50"
+  },
+  "status-particles": {
+   "source": "G54_battle-ring-fx/status-particles-v1-native.png",
+   "sourceSha256": "8603cb767339df1cd9ffdfafca1818c7a457041b56a4fc13bf5cef24465e6f05",
+   "runtimeSize": [
+    512,
+    256
+   ],
+   "runtimeSha256": "ed2053f9afa04192d9ba841816ae2c76f51976cb51c2ee73e3fab7ee2cb6de44"
+  },
+  "enemy-floor-normal": {
+   "source": "G54_battle-ring-fx/enemy-floor-circle-normal-v1-native.png",
+   "sourceSha256": "20c61beb467bbd92ce474c5a2d73344ac3337bbadff6f45f75b380c2944c065e",
+   "runtimeSize": [
+    1024,
+    342
+   ],
+   "runtimeSha256": "c78325a1a5af0e1a9b899698c4e5d57afc81bb20c9a873af65de056237687713"
+  },
+  "enemy-floor-boss": {
+   "source": "G54_battle-ring-fx/enemy-floor-circle-boss-v1-native.png",
+   "sourceSha256": "b960c21d6a73ff59aadb30228ec1246bc6f9828a188201a681166db9bcead5fb",
+   "runtimeSize": [
+    1024,
+    342
+   ],
+   "runtimeSha256": "fbee5d69d221c1fb0f1c9392337bf50ee3c39a261e1766c736bd382d8fd5cb65"
+  }
+ }
+}

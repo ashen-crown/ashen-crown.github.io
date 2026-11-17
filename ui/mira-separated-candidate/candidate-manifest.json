@@ -1,0 +1,58 @@
+{
+  "id": "npc_mira_ash",
+  "version": "semantic-candidate-v0",
+  "generatedAt": "2026-09-22T09:22:39.460681+00:00",
+  "source": "/ui/mira-independent/mira-cutout-tight-v1.png",
+  "sourceSha256": "3f52aadd02efd55e9a68f26e75b99e9a34d20afa4565a8070d8a559416ee69c3",
+  "canvas": [
+    2112,
+    2024
+  ],
+  "scaleFromRuntime": 4,
+  "humanReviewed": false,
+  "activationAllowed": false,
+  "eyesClosedSynthetic": true,
+  "semanticClaim": "staging-only approximate semantic partition from the approved transparent cutout; must not be activated without explicit human visual review",
+  "partitionPolicy": "source alpha pixels assigned to at most one open-eye layer to avoid painted duplicates under moving layers",
+  "layers": {
+    "body": {
+      "path": "public/ui/mira-separated-candidate/body.png",
+      "sha256": "f1d14b50fe2ad716b5279e5cb1516921c2a8408365f7e7421d02b98ab734afe0"
+    },
+    "backHair": {
+      "path": "public/ui/mira-separated-candidate/backHair.png",
+      "sha256": "06ee41146fdc9aa5d43d59c9840174e27e05140969c32af66fcd4ba3eb0f47a7"
+    },
+    "face": {
+      "path": "public/ui/mira-separated-candidate/face.png",
+      "sha256": "94e754e137152e190525ad4eefcfc02474307b64d32a5b8747a4d7c924e53147"
+    },
+    "eyesOpen": {
+      "path": "public/ui/mira-separated-candidate/eyesOpen.png",
+      "sha256": "f898d8a2e0236cf55100dabef9a15a445de762cddf1479baa25d80522a1c5c39"
+    },
+    "frontHair": {
+      "path": "public/ui/mira-separated-candidate/frontHair.png",
+      "sha256": "b7691d76b6494331bd81c8fe5e549244ab26032b0a214c5fe6b598bb95c79072"
+    },
+    "hand": {
+      "path": "public/ui/mira-separated-candidate/hand.png",
+      "sha256": "8ed49f23f5f5aa24a0b99aa8a8c7f4d5c339a0e89cc346898b43a4bcd67c426c"
+    },
+    "prop": {
+      "path": "public/ui/mira-separated-candidate/prop.png",
+      "sha256": "f706f5b347c60735ec0c16b3f7c9b05dd5422d4561ceb955e6525a434c5385a3"
+    },
+    "eyesClosed": {
+      "path": "public/ui/mira-separated-candidate/eyesClosed.png",
+      "sha256": "7b6c1b35e5c1ad253c286ec87402d80137091b4137080cc07c6e148e41756d86"
+    }
+  },
+  "reconstruction": {
+    "path": "public/ui/mira-separated-candidate/reconstruction-open.png",
+    "sha256": "09bd66b51e4669f1847d8a5cfdf32f0c476be5da54ecfc0945c0bc79ffed4fc1",
+    "differentPixels": 374,
+    "maxChannelDelta": 2,
+    "meanDeltaOverDifferentPixels": 1.0080213903743316
+  }
+}

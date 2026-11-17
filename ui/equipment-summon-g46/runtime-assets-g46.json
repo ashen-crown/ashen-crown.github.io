@@ -1,0 +1,41 @@
+{
+ "note": "G46 장비 봉인 꾸러미 개봉 4단계(2026-10-25 GPT 납품). 1400² → 700² webp. 장비 소환 결과 창이 열릴 때 1.5초 개봉 연출. 2026-10-25 Claude",
+ "files": {
+  "open-1-tremble": {
+   "source": "G46_equipment-bundle-open/open-1-tremble-v1-native.png",
+   "sourceSha256": "3fe1c3b70520cb74f7508719db8fe8d52f6e7e670009e44eaf7ff402a1be6a17",
+   "runtimeSha256": "bec63dba2b77728eefe6f2f99436db0aabaf0e9ee63140dd55e6f32e441f030f",
+   "size": [
+    700,
+    700
+   ]
+  },
+  "open-2-burst": {
+   "source": "G46_equipment-bundle-open/open-2-burst-v1-native.png",
+   "sourceSha256": "dc97c436fa8ec2e1ed67b35766ca9127719ce81e1ae1bfc5aa41fd735d132460",
+   "runtimeSha256": "1c2b278f569823679092758941d4bf66331d939127f57c9f3f6ee1df4ddc7ec7",
+   "size": [
+    700,
+    700
+   ]
+  },
+  "open-3-unwrap": {
+   "source": "G46_equipment-bundle-open/open-3-unwrap-v1-native.png",
+   "sourceSha256": "34f9800eb6e3d78e218a0e94f96c04bc8b083507be8deade450e5a09544c916b",
+   "runtimeSha256": "9ffb00cb367ba2cd23cbbe6bc80d7f68bf96fcc3956f07a5da5e24cf71f4ab61",
+   "size": [
+    700,
+    700
+   ]
+  },
+  "open-4-cloth": {
+   "source": "G46_equipment-bundle-open/open-4-cloth-v1-native.png",
+   "sourceSha256": "3e3ad157045dfc95e3d56ad6c32e09015ed9cbb1fe8039cea1421be58a07e3fc",
+   "runtimeSha256": "a2650578f3403ff2b59e5ad18861e5c2808c07127ecebbb1825f953b10e495bc",
+   "size": [
+    700,
+    700
+   ]
+  }
+ }
+}

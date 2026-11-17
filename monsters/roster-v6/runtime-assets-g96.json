@@ -1,0 +1,197 @@
+{
+ "group": "G96",
+ "standard": "ACO-MONSTER-01",
+ "reviewedAt": "2026-10-31",
+ "assets": {
+  "colossus_marsh_hydra": {
+   "standing": {
+    "source": "\\batch1-marsh-hydra\\colossus_marsh_hydra.png",
+    "sha256": "4b22ab9dc6be2ce6a5dbb822c79ad700b4d53dfce336016a9b36d7ca58855622",
+    "size": [
+     768,
+     1024
+    ],
+    "foot": 0.827,
+    "bboxWidthFrac": 0.88
+   },
+   "actions": {
+    "prepare": {
+     "source": "\\batch1-marsh-hydra\\colossus_marsh_hydra-basic-prepare.png",
+     "sha256": "5cc148ba2ca96b903721b774f4572f9fe1ee62403820751f8fb697ff192bd9c3",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "release": {
+     "source": "\\batch1-marsh-hydra\\colossus_marsh_hydra-basic-release.png",
+     "sha256": "0981e638777be86a390d6b2fa6402b2d336d75fe9a7343f68de7dbbb8165a675",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "skill-release": {
+     "source": "\\batch1-marsh-hydra\\colossus_marsh_hydra-skill-release.png",
+     "sha256": "3caee0f831d23780df8eb314e96c1a6109b2616c17b4ec6b4a0f105393ad6481",
+     "size": [
+      1024,
+      1024
+     ]
+    }
+   }
+  },
+  "colossus_crag_manticore": {
+   "standing": {
+    "source": "\\batch2-crag-manticore\\colossus_crag_manticore.png",
+    "sha256": "4867176f0fa03dff90b6ac96204cecfd1e045d10de6defc4b653cdfc027fea1d",
+    "size": [
+     768,
+     1024
+    ],
+    "foot": 0.818,
+    "bboxWidthFrac": 0.88
+   },
+   "actions": {
+    "prepare": {
+     "source": "\\batch2-crag-manticore\\colossus_crag_manticore-basic-prepare.png",
+     "sha256": "8e257f287c0c6961cc9dd3988fef56d6dbddd76ad6bc45e723c24873569d7fa3",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "release": {
+     "source": "\\batch2-crag-manticore\\colossus_crag_manticore-basic-release.png",
+     "sha256": "62c13332cef744fd0b817f93eac7d1092ce341d5adf8c0a4ec1d3e523a82751f",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "skill-release": {
+     "source": "\\batch2-crag-manticore\\colossus_crag_manticore-skill-release.png",
+     "sha256": "053b9bfad0478a5add0eef76b6a1802bc7afe832411a7f4959721cc075fca44a",
+     "size": [
+      1024,
+      1024
+     ]
+    }
+   }
+  },
+  "colossus_peak_griffon": {
+   "standing": {
+    "source": "\\batch3-peak-griffon\\colossus_peak_griffon.png",
+    "sha256": "49aa94df8703f7727d35bd70c84e50861a55a9196481973ebc451e732f52af50",
+    "size": [
+     768,
+     1024
+    ],
+    "foot": 0.817,
+    "bboxWidthFrac": 0.88
+   },
+   "actions": {
+    "prepare": {
+     "source": "\\batch3-peak-griffon\\colossus_peak_griffon-basic-prepare.png",
+     "sha256": "5375c7ae4d53c2a97764b52fcae878c106fee2c195e6092e3c3f98892b3190fe",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "release": {
+     "source": "\\batch3-peak-griffon\\colossus_peak_griffon-basic-release.png",
+     "sha256": "2320833737987e1f065b0e49e78436fcfdb291bba78784b6f3af55fd15bb1d0e",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "skill-release": {
+     "source": "\\batch3-peak-griffon\\colossus_peak_griffon-skill-release.png",
+     "sha256": "a8048abf4567f5113b50fe29794fb3641e264f95d096ae3fc2bbfce877c1202c",
+     "size": [
+      1024,
+      1024
+     ]
+    }
+   }
+  },
+  "colossus_venom_wyvern": {
+   "standing": {
+    "source": "\\batch4-venom-wyvern\\colossus_venom_wyvern.png",
+    "sha256": "fbccf07630481be8826f5938727e08e2dce164c377aa5d99936de425cfd8e14e",
+    "size": [
+     768,
+     1024
+    ],
+    "foot": 0.827,
+    "bboxWidthFrac": 0.88
+   },
+   "actions": {
+    "prepare": {
+     "source": "\\batch4-venom-wyvern\\colossus_venom_wyvern-basic-prepare.png",
+     "sha256": "f69768c44b0c3edc69aec4368c69c5657255b8c989ab7042f763a526e9494392",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "release": {
+     "source": "\\batch4-venom-wyvern\\colossus_venom_wyvern-basic-release.png",
+     "sha256": "50f6004747b9b8b44581524f473efe62205454a884733be9c0065a0a8137a2ca",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "skill-release": {
+     "source": "\\batch4-venom-wyvern\\colossus_venom_wyvern-skill-release.png",
+     "sha256": "127cb8b633284097d529df3cfbf09c331345ef688d8e172388858158a7626ccb",
+     "size": [
+      1024,
+      1024
+     ]
+    }
+   }
+  },
+  "colossus_spine_giant": {
+   "standing": {
+    "source": "\\batch5-drakespine-giant\\colossus_spine_giant.png",
+    "sha256": "fc941fb1fb14be2f056d0cf04fb4badc6accea21e8028b8100b3516d0a42b2f4",
+    "size": [
+     768,
+     1024
+    ],
+    "foot": 0.939,
+    "bboxWidthFrac": 0.794
+   },
+   "actions": {
+    "prepare": {
+     "source": "\\batch5-drakespine-giant\\colossus_spine_giant-basic-prepare.png",
+     "sha256": "12d706c676db807943b28ecd44dbb237e3c0d30d1055e839cac801a6879612a4",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "release": {
+     "source": "\\batch5-drakespine-giant\\colossus_spine_giant-basic-release.png",
+     "sha256": "6153cc4fb2832fbb22a1de49b7306c2d498ea4bb35b728d12f4401e5ab5ec601",
+     "size": [
+      1024,
+      1024
+     ]
+    },
+    "skill-release": {
+     "source": "\\batch5-drakespine-giant\\colossus_spine_giant-skill-release.png",
+     "sha256": "0edd0d2e66e9f9ef3c55b14762d060e2c07333fd078be5e05e2e5e8b5f64a542",
+     "size": [
+      1024,
+      1024
+     ]
+    }
+   }
+  }
+ }
+}

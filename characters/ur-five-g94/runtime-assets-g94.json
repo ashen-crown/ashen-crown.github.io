@@ -1,0 +1,49 @@
+{
+ "ur_gareth": {
+  "sourceSha256": "4f3f9571594a91febb9a37f60a7b1da9ed5efa8f3afff3a558450f939bcad55d",
+  "poseBox": [
+   38,
+   71,
+   601,
+   568
+  ],
+  "group": "G104_ur-gareth-brienne-regalia"
+ },
+ "ur_kaira": {
+  "sourceSha256": "640b7fe61af813daac5a6eeb8d36e1ca3578c1fa99aff9507c4da68c18701106",
+  "poseBox": [
+   41,
+   75,
+   598,
+   595
+  ]
+ },
+ "ur_marius": {
+  "sourceSha256": "e27106c6889df8b81dba1fed97f4a7c75d05e0cf11d38d62ad3946ffcbfcd1fe",
+  "poseBox": [
+   22,
+   24,
+   618,
+   600
+  ]
+ },
+ "ur_sheira": {
+  "sourceSha256": "bfc95a2a93003dd6eca9fdf0d241b4e19a979e379070ee17fc5b2d1b5b4bf7de",
+  "poseBox": [
+   22,
+   24,
+   618,
+   600
+  ]
+ },
+ "ur_brienne": {
+  "sourceSha256": "9a25762571b7e5918ebc40961d5f1c1d1a91446aabfca5835398a54a9bee1348",
+  "poseBox": [
+   38,
+   42,
+   601,
+   598
+  ],
+  "group": "G105_ur-brienne-rune-skald"
+ }
+}

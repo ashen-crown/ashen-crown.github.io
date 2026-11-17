@@ -1,0 +1,60 @@
+{
+ "blessed_enhancement_stone": {
+  "sourceSha256": "7fe20ea4cbee2c6eecaa285d1ee344f03a76d570fef31439a5ec5475f5dfb374",
+  "runtimeSha256": "2df9bf77e701d5ee1cc7af4977ea0347105c5ca8d0a063aba2336d0ee6891c9f",
+  "bytes": 19254
+ },
+ "ember_hone_stone": {
+  "sourceSha256": "3b7ad255753e22ca933a317cd46e29b4918d30ffcb3efcaa3f5c9a5d9f4976ef",
+  "runtimeSha256": "b5fd369e20c51a7eae592a822a63f6341bf82d5b5168b50f56200e06b2c15a10",
+  "bytes": 16984
+ },
+ "potion_ember_heal": {
+  "sourceSha256": "497be35f0d46e3c9a9261686b1f3c5c57df49a65e58370da7942b6962c6bd794",
+  "runtimeSha256": "457e455f61f0200e8a73761cf5f1a87a2d47755e0e366f82b89203189735dd50",
+  "bytes": 20420
+ },
+ "potion_ash_cleanse": {
+  "sourceSha256": "79038f955728b3d9576e8834fe3f21df08d41c5d668e5bec7e8cdca10e870961",
+  "runtimeSha256": "16ed9e12aed92d421c97d4ee7de74cd7e97cb455e629a02c4ebae8f77fbd6f68",
+  "bytes": 20268
+ },
+ "potion_gale_tempo": {
+  "sourceSha256": "45a2bafd415dbd51b61719b9c8f5a95a4c79bd6b4b96ad6b305b307a39a22db4",
+  "runtimeSha256": "bc4bbe12ceb568686b300956492ef128e3a9ace826842e8a1c2d1d416453ae5f",
+  "bytes": 22412
+ },
+ "supply_camp_kit": {
+  "sourceSha256": "9d575ce2aaee65e160f03e4ce3d3fafaa2a2ea0d80ef41fa5e794ae6d7a3f0ce",
+  "runtimeSha256": "3b6e72c003cdb9de9cc0316575fbb03b2e80b032b5d3608bf2140ceb3b109ca8",
+  "bytes": 20146
+ },
+ "supply_lockpick": {
+  "sourceSha256": "9cbc4bb52ec9aa419ef31e8ba7cc46e1ebf4c5a3deace3459b4e3b2004aaca2a",
+  "runtimeSha256": "f7ec7aa73351fa7c0bc05db53f95e96daa57ccbf0fb7f9248e805f960413415b",
+  "bytes": 30916
+ },
+ "supply_trap_incense": {
+  "sourceSha256": "7c283e6886b540309db2974c6b50c7da956cd7670be4abe2b8ae91b4cc937e66",
+  "runtimeSha256": "ec288243b7c334d69a772513a339e4ce732541ed0dd2e2d257b152b279d604a8",
+  "bytes": 18702
+ },
+ "equipment_summon_banner": {
+  "sourceSha256": "b2a5ca991f00e264b3983a2c0d9acc84ccd02efbf8cd931541666608593524a0",
+  "runtimeSha256": "f37f8d37db67c817da8105f7efd2aca470f528559c3b41a3fc442b6e3687ce3b",
+  "size": [
+   1774,
+   887
+  ],
+  "bytes": 223524
+ },
+ "standard_summon_banner": {
+  "sourceSha256": "3f22b8a334e11ed5abaf0bb2f01df1bf2dd88b8a01c40c137c7fa80eef63035d",
+  "runtimeSha256": "eecd9c7b1d285dc38b868c4af7d1f563317c4d7ecd06f85ac97fc3714a0a3569",
+  "size": [
+   1774,
+   887
+  ],
+  "bytes": 194112
+ }
+}

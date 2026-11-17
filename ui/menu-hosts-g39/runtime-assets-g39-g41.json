@@ -1,0 +1,120 @@
+{
+ "note": "G39~G41 메뉴 안내인 무릎 위 세로 원화. 투명 여백만 잘라 webp로 저장(축소 없음).",
+ "applied": "2026-10-25 Claude",
+ "files": {
+  "brook-basic": {
+   "source": "G39_menu-host-brook/native-assets/brook-basic-v1-native.png",
+   "sourceSha256": "39a4a970cbd6abc9b6721b5281a6f1cb5fb2021792c3639dfaaf3fbae6cbc26e",
+   "nativeSize": [
+    1024,
+    1536
+   ],
+   "crop": [
+    0,
+    0,
+    1024,
+    1536
+   ],
+   "runtimeSize": [
+    1024,
+    1536
+   ],
+   "runtimeSha256": "c3e62932cb75f8fe1231ed5c7a30786fba5a64e2102008609d06de871aa8d966"
+  },
+  "brook-smile": {
+   "source": "G39_menu-host-brook/native-assets/brook-smile-v1-native.png",
+   "sourceSha256": "6d529927ac684bfc458e821b3fc919448903f48d4a13d5eb818ab2162816d74d",
+   "nativeSize": [
+    1024,
+    1536
+   ],
+   "crop": [
+    0,
+    0,
+    1024,
+    1535
+   ],
+   "runtimeSize": [
+    1024,
+    1535
+   ],
+   "runtimeSha256": "3e9bcf9d074ea9cda9d3e8c9916a3c8a1778fc73d34571c81dd468f69517084f"
+  },
+  "ria-basic": {
+   "source": "G40_menu-host-ria/native-assets/ria-basic-v1-native.png",
+   "sourceSha256": "f33c26e094c1a6791b069fb57124c6e8061f02da5917e2f3313082a3d90b3d79",
+   "nativeSize": [
+    1024,
+    1536
+   ],
+   "crop": [
+    14,
+    0,
+    1024,
+    1536
+   ],
+   "runtimeSize": [
+    1010,
+    1536
+   ],
+   "runtimeSha256": "fa89017e5f29ee6b90f0b5e94609563ab8d99dba9f1187108fb8325835cb4a89"
+  },
+  "ria-smile": {
+   "source": "G40_menu-host-ria/native-assets/ria-smile-v1-native.png",
+   "sourceSha256": "fe5af28fa13954b737a32bc87072b0521ad75ca1018fdd527b774285f7a82cba",
+   "nativeSize": [
+    1024,
+    1536
+   ],
+   "crop": [
+    14,
+    0,
+    1024,
+    1536
+   ],
+   "runtimeSize": [
+    1010,
+    1536
+   ],
+   "runtimeSha256": "30d223b8c40e9258c295fb4320cc2610fba497bf8b08e94693ae26537132a7b0"
+  },
+  "ern-basic": {
+   "source": "G41_menu-host-ern/native-assets/ern-basic-v1-native.png",
+   "sourceSha256": "0fb83396202d43a1036225f0cd853a8f7f7a526fa785920408b9aef1d2110434",
+   "nativeSize": [
+    1024,
+    1536
+   ],
+   "crop": [
+    25,
+    0,
+    1024,
+    1536
+   ],
+   "runtimeSize": [
+    999,
+    1536
+   ],
+   "runtimeSha256": "0b41fdebc56df541467cce38cfa85a5d5490e1c85b01dd70c96ecb5edc6a2a3a"
+  },
+  "ern-smile": {
+   "source": "G41_menu-host-ern/native-assets/ern-smile-v1-native.png",
+   "sourceSha256": "1c4265d9a64423cedc161af561f51266809c9ed73f1e5706801d64f1abc5ce2f",
+   "nativeSize": [
+    1024,
+    1536
+   ],
+   "crop": [
+    25,
+    0,
+    1024,
+    1536
+   ],
+   "runtimeSize": [
+    999,
+    1536
+   ],
+   "runtimeSha256": "e8cb20feb85cca96a85d8546a1e006294f370b77b6d308f3e54cd89a39cb4bfd"
+  }
+ }
+}

@@ -1,0 +1,92 @@
+{
+ "reveal-backdrop.webp": {
+  "source": "G37_equipment-summon-reveal/native-assets/reveal-backdrop-v1-native.png",
+  "sourceSha256": "6d1b3b822caaa598a569e4bd9efad726e0a75170ee998d42b096ab29c78ca2af",
+  "runtimeSha256": "9fad1e2ff33d351c73f48eaa5229a7bb643907f2024ab305b53faed300a2cac2",
+  "size": [
+   1672,
+   941
+  ],
+  "bytes": 325928
+ },
+ "pillar-magic.webp": {
+  "source": "G37_equipment-summon-reveal/native-assets/pillar-magic-1024x2048-padded.png",
+  "sourceSha256": "8aa291bf5c94791815bec0b7b98682147777ad4a809c1138a3dbd4721264a353",
+  "runtimeSha256": "5b885f74e043ffa6af1bd957a17fa9f20144002b0cb9cb5badccfe83731193ed",
+  "size": [
+   256,
+   512
+  ],
+  "bytes": 18312
+ },
+ "pillar-rare.webp": {
+  "source": "G37_equipment-summon-reveal/native-assets/pillar-rare-1024x2048-padded.png",
+  "sourceSha256": "25313daeeb7791eaa13bf65fb9e55ad4df30254f287c757738b2fff0727f4a0f",
+  "runtimeSha256": "f81566e931cd07a9ffe5f5c2e2d856bf2c661947bc8fd39861432ca9f900b6d6",
+  "size": [
+   256,
+   512
+  ],
+  "bytes": 26710
+ },
+ "pillar-unique.webp": {
+  "source": "G37_equipment-summon-reveal/native-assets/pillar-unique-1024x2048-padded.png",
+  "sourceSha256": "28c5b3f906c2ce5bd12b0466c19b89750e18586fbdd682242e6e0761f92fa455",
+  "runtimeSha256": "a5ce52543d759265e502a8e504d1e5d36c5e3af8a8d1e0b83ea6b1a72fd41f87",
+  "size": [
+   256,
+   512
+  ],
+  "bytes": 31522
+ },
+ "pillar-epic.webp": {
+  "source": "G37_equipment-summon-reveal/native-assets/pillar-epic-1024x2048-padded.png",
+  "sourceSha256": "080cc654e85d2f14f2ab36d9bf5c2ac346e18bf590eb9e1ecd900374955fd055",
+  "runtimeSha256": "3305a8534ed4ab1171935ab9173779c958294f765a7c6bb8aca8c9b5126ee007",
+  "size": [
+   256,
+   512
+  ],
+  "bytes": 39518
+ },
+ "pillar-mythic.webp": {
+  "source": "G37_equipment-summon-reveal/native-assets/pillar-mythic-1024x2048-padded.png",
+  "sourceSha256": "1c27b221c17413aef84e3c7fd6ddaa7c4eae60d8ad1eb9ada5e0689c9b49751c",
+  "runtimeSha256": "3de1a1caf484486ea7a3dc5aa8f79374f55fd456dc96181a9953e2b47387e9f1",
+  "size": [
+   256,
+   512
+  ],
+  "bytes": 57502
+ },
+ "sealed-bundle.webp": {
+  "source": "G37_equipment-summon-reveal/native-assets/sealed-bundle-1400-padded.png",
+  "sourceSha256": "92f4c83b9e2de98d80ad6db9f97fe1edbe47d905e50de7af468e52eb5d0fc707",
+  "runtimeSha256": "8b5832884166b85cbd26f615fdb4857006edb372442fe7b9860671d676108dad",
+  "size": [
+   256,
+   256
+  ],
+  "bytes": 15962
+ },
+ "equipment-pity-epic.webp": {
+  "source": "G38_equipment-pity-icons/native-assets/equipment-pity-epic-512.png",
+  "sourceSha256": "34fb2984fa8542aba63e640cda88a77612b238f22cea531146fc5c19797ca12b",
+  "runtimeSha256": "a7b999ca6ffd237977987cfe4f4aff1b1e9f03f6365c5cb0d021c11b240b0b79",
+  "size": [
+   128,
+   128
+  ],
+  "bytes": 12768
+ },
+ "equipment-pity-mythic.webp": {
+  "source": "G38_equipment-pity-icons/native-assets/equipment-pity-mythic-512.png",
+  "sourceSha256": "7d52a4d3c4d37c2d00c0d4f95464d9f2bc55c62428105e9481ced8a07008e89e",
+  "runtimeSha256": "9e847499497b169bdadc42a5360511255b818d5b4f96f8ab1b01c29f143ce2da",
+  "size": [
+   128,
+   128
+  ],
+  "bytes": 14374
+ }
+}

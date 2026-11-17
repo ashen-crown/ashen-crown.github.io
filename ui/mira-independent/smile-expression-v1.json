@@ -1,0 +1,27 @@
+{
+  "id": "npc_mira_ash",
+  "version": "smile-expression-v2-localized",
+  "generatedAt": "2026-09-22T09:24:45.460483+00:00",
+  "neutral": "/ui/mira-independent/mira-cutout-tight-v1.png",
+  "smile": "/ui/mira-independent/mira-smile-cutout-v1.png",
+  "smileSha256": "026c305751be6e1a8b070f345e8d06741b034ee02856ec469b36a0befe0b73ff",
+  "canvas": [
+    528,
+    506
+  ],
+  "sourceCandidate": "/ui/mira-separated-candidate/candidate-manifest.json",
+  "eyesClosedSynthetic": true,
+  "realBlinkEligible": false,
+  "humanReviewedSemanticArt": false,
+  "localizedEyeReaction": true,
+  "changedPixelsVsNeutral": 1714,
+  "changedPixelPct": 0.6415,
+  "eyeMaskChangedPixels": 1714,
+  "differenceBBox": [
+    206,
+    81,
+    306,
+    117
+  ],
+  "usePolicy": "brief tap/click eye-expression reaction only; neutral pixels outside the registered eye mask remain unchanged; never treat synthetic closed eyes as blink or reviewed semantic art"
+}

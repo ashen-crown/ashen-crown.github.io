@@ -1,0 +1,225 @@
+{
+  "id": "npc_mira_ash",
+  "version": "mira-correction-v4",
+  "mode": "corrected-transparent-cutout",
+  "sourceCutout": "/ui/mira-independent/mira-cutout-corrected-v3.png",
+  "sourceCutoutSha256": "a881fbfa510a3bbfacb32c1919588c39e800d654edb5513d6b32dbc2f33cee13",
+  "sourceReviewedFullbody": "/characters/fullbody-reviewed/npc_mira_ash/d7c54956acba2667535e30b0d0f8179b9eb25c732e92959813e83a39701b5396.webp",
+  "sourceReviewedFullbodySha256": "d7c54956acba2667535e30b0d0f8179b9eb25c732e92959813e83a39701b5396",
+  "runtimeCutout": "/ui/mira-independent/mira-cutout-corrected-v4.png",
+  "runtimeCutoutSha256": "91a906350ef866d74ae4e9c134b8cd6c52908b195a1bfc5d224f735dbed3fbec",
+  "runtimeCanvas": [
+    1281,
+    1227
+  ],
+  "transparentBackground": true,
+  "independentFromLobbyBackground": true,
+  "edit": "Restored Mira right hand (viewer-left) by compositing the identity-reviewed hand/wrist from the approved fullbody artwork into the open sleeve of the corrected transparent lobby cutout.",
+  "derivation": {
+    "cropBox": [
+      190,
+      390,
+      390,
+      600
+    ],
+    "placement": [
+      120,
+      535
+    ],
+    "maskPolygon": [
+      [
+        165,
+        63
+      ],
+      [
+        151,
+        70
+      ],
+      [
+        142,
+        72
+      ],
+      [
+        134,
+        70
+      ],
+      [
+        126,
+        66
+      ],
+      [
+        117,
+        65
+      ],
+      [
+        111,
+        68
+      ],
+      [
+        111,
+        75
+      ],
+      [
+        118,
+        82
+      ],
+      [
+        124,
+        86
+      ],
+      [
+        115,
+        88
+      ],
+      [
+        104,
+        85
+      ],
+      [
+        94,
+        80
+      ],
+      [
+        85,
+        78
+      ],
+      [
+        77,
+        76
+      ],
+      [
+        70,
+        72
+      ],
+      [
+        62,
+        70
+      ],
+      [
+        56,
+        72
+      ],
+      [
+        52,
+        76
+      ],
+      [
+        54,
+        81
+      ],
+      [
+        62,
+        84
+      ],
+      [
+        68,
+        85
+      ],
+      [
+        61,
+        87
+      ],
+      [
+        53,
+        86
+      ],
+      [
+        46,
+        87
+      ],
+      [
+        40,
+        91
+      ],
+      [
+        43,
+        96
+      ],
+      [
+        53,
+        98
+      ],
+      [
+        63,
+        97
+      ],
+      [
+        74,
+        98
+      ],
+      [
+        84,
+        100
+      ],
+      [
+        94,
+        104
+      ],
+      [
+        105,
+        109
+      ],
+      [
+        117,
+        113
+      ],
+      [
+        129,
+        115
+      ],
+      [
+        139,
+        113
+      ],
+      [
+        147,
+        109
+      ],
+      [
+        154,
+        105
+      ],
+      [
+        161,
+        101
+      ],
+      [
+        169,
+        99
+      ],
+      [
+        176,
+        94
+      ],
+      [
+        181,
+        86
+      ],
+      [
+        179,
+        78
+      ],
+      [
+        173,
+        70
+      ]
+    ],
+    "maskFeatherPx": 1.2,
+    "resize": null,
+    "rotationDegrees": 0
+  },
+  "visualReview": {
+    "reviewer": "assistant visual inspection",
+    "rightHandVisible": true,
+    "leftHandPreserved": true,
+    "faceHairCostumePreserved": true,
+    "extraLowerLeftBootStillRemoved": true,
+    "alphaPresent": true,
+    "fullBodyClaim": false,
+    "notes": "The restored hand uses the already reviewed Mira fullbody as its identity source. The lobby cutout remains a cropped presentation asset, not a new fullbody approval.",
+    "extraLowerLeftBootRemoved": true
+  },
+  "semanticLayersReviewed": false,
+  "realBlinkEligible": false,
+  "createdAt": "2026-09-24T01:18:00Z"
+}

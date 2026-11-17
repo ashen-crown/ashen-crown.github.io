@@ -1,0 +1,171 @@
+{
+ "note": "G87(G67) 방벽·상쇄 시전 자세. 1024x1536 투명 원본을 512x768 webp로 줄임(G66 수호 자세와 같은 크기).",
+ "applied": "2026-10-29 Claude",
+ "characters": {
+  "fairy_support": {
+   "source": "G87_cast-poses/batch1-mir-dolgin-agnes/fairy_support-cast-v1.png",
+   "sourceSha256": "0063d9a091b87e348ef378a0e262dcc434b1ae6f139835d8716d1da08a33f8c4",
+   "runtime": {
+    "size": [
+     512,
+     768
+    ],
+    "sha256": "4e1238ac6d4899ef0116684b40e3bc9b566e2dcf3ed2e6cb9cb3570d0bd11ab4"
+   }
+  },
+  "r_rune_dwarf": {
+   "source": "G87_cast-poses/batch1-mir-dolgin-agnes/r_rune_dwarf-cast-v1.png",
+   "sourceSha256": "c8e308dff9bd1b1b9d1608d342d47f7d515ebc8fb147fe89485330c1346a272b",
+   "runtime": {
+    "size": [
+     512,
+     768
+    ],
+    "sha256": "98ebcfd46df7a5a6f9ccba550b9ce77e48e0fb95948c0653ebb174062bca7ded"
+   }
+  },
+  "sr_agnes": {
+   "source": "G87_cast-poses/batch1-mir-dolgin-agnes/sr_agnes-cast-v1.png",
+   "sourceSha256": "821825c20bc6030d6bb128ac9eaf8cda400035833dbf0c1778a441bcb003ee17",
+   "runtime": {
+    "size": [
+     512,
+     768
+    ],
+    "sha256": "5430de6c7e76147c69f773a4459bd67091228f9f3dd8551c4cf881ae04265060"
+   }
+  },
+  "sr_fairylady": {
+   "source": "G87_cast-poses/batch2-rue-lutern-sylvia/sr_fairylady-cast-v1.png",
+   "sourceSha256": "95d605a78ba1dfd5b50f35bfe2b5526c7bcb8b3da7eab6185ad96bfb2e14fa0a",
+   "runtime": {
+    "size": [
+     512,
+     768
+    ],
+    "sha256": "c0b9eb53f5de0d0b6312648f6e49ac83dcbdbcb64c9f10988ab52c6663816070"
+   }
+  },
+  "sr_lutern": {
+   "source": "G87_cast-poses/batch2-rue-lutern-sylvia/sr_lutern-cast-v1.png",
+   "sourceSha256": "0f7d2ace1edd3ed0c9795ff0c94daab28d178e911266fd0c2d07ee9333376e03",
+   "runtime": {
+    "size": [
+     512,
+     768
+    ],
+    "sha256": "1992160763e6e9eebb8baa9fb52fd68d32745d05420fdc21ba7dd668a776943b"
+   }
+  },
+  "sr_oracle": {
+   "source": "G87_cast-poses/batch2-rue-lutern-sylvia/sr_oracle-cast-v1.png",
+   "sourceSha256": "b1eec017b0ea16cfe1aff35baf7690172ae2f89036ecb9f1d3484ef8301b7d93",
+   "runtime": {
+    "size": [
+     512,
+     768
+    ],
+    "sha256": "9983f7249b81ecd7ac85a5637eb9afc1c87fdc9ec6bceef32992bbb422a88ff2"
+   }
+  },
+  "ssr_chorong": {
+   "source": "G87_cast-poses/batch3-lilliet-edda-flora/ssr_chorong-cast-v1.png",
+   "sourceSha256": "712eff17ff6eb5396bb4c0e66b7115be2501db0b4594b8ba897e24330c66084f",
+   "runtime": {
+    "size": [
+     512,
+     768
+    ],
+    "sha256": "97ff9c71b8881dd6277d50cb9e8703b6d7a49ef2b387b0034a8881285bd2da7a"
+   }
+  },
+  "ssr_edda": {
+   "source": "G87_cast-poses/batch3-lilliet-edda-flora/ssr_edda-cast-v1.png",
+   "sourceSha256": "84a176f6a6b688b74abe2353ccbefa7f08edbd84f3ba278193ea6384f5d341f6",
+   "runtime": {
+    "size": [
+     512,
+     768
+    ],
+    "sha256": "04dbfb44e5db7634fb478d52b2e88f54f5da26fe1fb268809b12a835c1f7acb5"
+   }
+  },
+  "ssr_harin": {
+   "source": "G87_cast-poses/batch3-lilliet-edda-flora/ssr_harin-cast-v1.png",
+   "sourceSha256": "2bb99c5114196e930588dc389ccba64165d642428b3f5e6be84fcd7983842f24",
+   "runtime": {
+    "size": [
+     512,
+     768
+    ],
+    "sha256": "5b46be0f939f93d0e8b685c1451f62948965475ba6803dfdacb885d608ff4221"
+   }
+  },
+  "ssr_mahen": {
+   "source": "G87_cast-poses/batch4-mahen-ordan-lira/ssr_mahen-cast-v1.png",
+   "sourceSha256": "075c08fbe04cbd034ca9f30ce78492e1a002689f0c5ef6a5f049022a12795284",
+   "runtime": {
+    "size": [
+     512,
+     768
+    ],
+    "sha256": "c789bbd4ff63a9c5f0062bdc1632e3e10d7fe52b11048a800878dce6d16d4f9c"
+   }
+  },
+  "ssr_ordan": {
+   "source": "G87_cast-poses/batch4-mahen-ordan-lira/ssr_ordan-cast-v1.png",
+   "sourceSha256": "24170203e5189acf01bd96f5c031e81d720f025a6ce11070b6ba2edb4730308b",
+   "runtime": {
+    "size": [
+     512,
+     768
+    ],
+    "sha256": "de1a2585751cdf88f26a304ea51be1f0236b115c4d66da296f829fe09e96fc32"
+   }
+  },
+  "ssr_seoyeon_ash": {
+   "source": "G87_cast-poses/batch4-mahen-ordan-lira/ssr_seoyeon_ash-cast-v1.png",
+   "sourceSha256": "40bae0dd4dfcca5062b337473ca22e1f56167277515a6fee58db01e148599940",
+   "runtime": {
+    "size": [
+     512,
+     768
+    ],
+    "sha256": "75fa22f3480b208b19c0b404858df5a8ef55583c7e6b1c2cd45f5953eac98b76"
+   }
+  },
+  "ur_lumi_fairy": {
+   "source": "G87_cast-poses/batch5-lumi-laia-coraline/ur_lumi_fairy-cast-v1.png",
+   "sourceSha256": "215c3a137dacbba37a5bffbc5b0332b91dfda8cf47fdcca6f516b93a492e0c76",
+   "runtime": {
+    "size": [
+     512,
+     768
+    ],
+    "sha256": "921b32d8a50fed108825547b1ed94397005a37cd2ef2a3a0535b8b9ad9e7b769"
+   }
+  },
+  "ur_nari_beast": {
+   "source": "G87_cast-poses/batch5-lumi-laia-coraline/ur_nari_beast-cast-v1.png",
+   "sourceSha256": "12ce3cfef99457e0131fae9b754428db316de467f6a30f801dd84367a7a70d9e",
+   "runtime": {
+    "size": [
+     512,
+     768
+    ],
+    "sha256": "38971f43b65031153a71ffb3ea26cf01ab207dfc23daab775334bf2e1e2da45d"
+   }
+  },
+  "ur_sora_deep": {
+   "source": "G87_cast-poses/batch5-lumi-laia-coraline/ur_sora_deep-cast-v1.png",
+   "sourceSha256": "4a6596d61be293dec715ef3589d668dba720e1b84b33982b16f8e45c6d9c5bc1",
+   "runtime": {
+    "size": [
+     512,
+     768
+    ],
+    "sha256": "da8b7c1d58639c4b7fe6cb115d88f8c50ed27616167047ad9d55b32d7842821f"
+   }
+  }
+ }
+}
