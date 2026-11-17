@@ -1,0 +1,45 @@
+{
+  "id": "npc_mira_ash",
+  "mode": "derived-transparent-cutout",
+  "source": "/ui/hub_npc_mira_stand.jpg",
+  "cutoutSource": "/ui/mira-independent/mira-cutout-v1.png",
+  "runtimeCutout": "/ui/mira-independent/mira-cutout-tight-v1.png",
+  "runtimeCutoutSha256": "3f52aadd02efd55e9a68f26e75b99e9a34d20afa4565a8070d8a559416ee69c3",
+  "sourceCanvas": [
+    900,
+    506
+  ],
+  "alphaBounds": [
+    250,
+    0,
+    778,
+    506
+  ],
+  "runtimeCanvas": [
+    528,
+    506
+  ],
+  "layers": {
+    "upper": {
+      "path": "/ui/mira-independent/mira-upper-independent-v1.png",
+      "sha256": "dfb491d1ef9b64712f732909c6684cd454bd786b79c44904b7e291704c0c5300"
+    },
+    "hair": {
+      "path": "/ui/mira-independent/mira-hair-independent-v1.png",
+      "sha256": "c6af8e3e83e391671a0e33690c77d23d23fb5310e5e38e25ee3a1fcb96f98e44"
+    },
+    "hand": {
+      "path": "/ui/mira-independent/mira-hand-independent-v1.png",
+      "sha256": "4566e2473c6767a66b88d7dfd6811d22f64bab864e7ebe120876df1c0f300068"
+    },
+    "prop": {
+      "path": "/ui/mira-independent/mira-prop-independent-v1.png",
+      "sha256": "d788ea25944a02ac907f2f39f725e9d37e124f38438a83104905cb97869f0d66"
+    }
+  },
+  "transparentBackground": true,
+  "independentFromLobbyBackground": true,
+  "semanticLayersReviewed": false,
+  "realBlinkEligible": false,
+  "claim": "character is now a transparent runtime object separated from the lobby background; semantic body/eye layers remain unreviewed"
+}

@@ -1,0 +1,29 @@
+{
+  "characterId": "npc_mira_ash",
+  "version": 5,
+  "mode": "independent-cutout",
+  "sourceCutout": "/ui/mira-independent/mira-cutout-corrected-v4.png",
+  "sourceSha256": "91a906350ef866d74ae4e9c134b8cd6c52908b195a1bfc5d224f735dbed3fbec",
+  "runtimeCutout": "/ui/mira-independent/mira-cutout-refined-v5.png",
+  "runtimeCutoutSha256": "d1fce6292aea8c17f2fedaf752b1ad0ff319f22946bf3d1f6a2b15c8a388d559",
+  "runtimeCanvas": [
+    1281,
+    1227
+  ],
+  "transparentBackground": true,
+  "independentFromLobbyBackground": true,
+  "semanticLayersReviewed": false,
+  "realBlinkEligible": false,
+  "fullBodyClaim": false,
+  "generationTool": "image_gen.imagegen",
+  "generationPrompt": "Edit this existing fantasy game character cutout with strict identity and costume preservation. Mira is an adult woman. Preserve her exact face, amber eyes, dark brown hair, hairstyle, gold flower ornament, orange ribbons, expression, elegant black/ivory/orange/gold embroidered dress, pose, body proportions, every garment detail, painterly anime illustration style, crop and composition. The ONLY anatomy change is to repair HER RIGHT HAND AND WRIST (on the viewer's LEFT, the outstretched palm around the left edge at mid-height). Replace the visibly pasted, doubled, jagged hand with ONE beautifully drawn anatomically natural right hand in a relaxed palm-up welcoming gesture: exactly five fingers including one correctly positioned thumb, gently curved fingers with distinct silhouettes and believable joints, a clearly readable open palm with subtle palm creases, correct wrist size, seamless connection to the existing sleeve and cuff, lighting and paint style matching her face and other hand. Preserve the right arm's overall gesture, do not shorten the arm or change her body pose. Remove old hand fragments, glow-colored edge contamination and composite seams. Keep the rest of the illustration as close to the original as possible. Deliver a clean high-resolution RGBA PNG character cutout with true transparent background, crisp clean alpha edges, no background scenery, no rays, no text, no extra objects, no duplicate limbs, no additional fingers. Preserve the full existing skirt crop; do not trim hair, sleeves or ribbons. This is a precise localized repair, not a redesign.",
+  "review": {
+    "date": "2026-10-02",
+    "scope": "Whole-character static cutout; visual inspection of palm anatomy, wrist/sleeve connection, identity, costume and integration with the lobby. Not a semantic-layer or blink review.",
+    "changes": [
+      "Repainted the right open palm and wrist (viewer left), removing the doubled pasted hand.",
+      "Preserved face, hairstyle, costume and existing skirt crop."
+    ],
+    "status": "visually-reviewed-desktop-and-mobile-browser"
+  }
+}

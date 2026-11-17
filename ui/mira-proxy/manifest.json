@@ -1,0 +1,56 @@
+{
+  "id": "npc_mira_ash",
+  "mode": "derived-proxy",
+  "source": "/ui/hub_npc_mira_stand.jpg",
+  "sourceSha256": "d0c738e02459436918dca686e95e7cd1f57da4007e3857c268f890b674f6ff79",
+  "sourceSize": [
+    900,
+    506
+  ],
+  "canvasSize": [
+    1800,
+    1012
+  ],
+  "scaleFromSource": 2,
+  "semanticClaim": "presentation-only derived masks; not reviewed separated artwork",
+  "realBlinkEligible": false,
+  "noPaintedDuplicateUnderMovingLayer": false,
+  "layers": [
+    {
+      "name": "upper",
+      "path": "/ui/mira-proxy/mira-upper-proxy.png",
+      "sha256": "feae9ef578a94edfcd39a35b5fee5a9eed75f9a75e1dd7cfd26682689ed3279f",
+      "width": 1800,
+      "height": 1012,
+      "source": "/ui/hub_npc_mira_stand.jpg",
+      "derivedProxy": true
+    },
+    {
+      "name": "hair",
+      "path": "/ui/mira-proxy/mira-hair-proxy.png",
+      "sha256": "f582cf8f32833552093dfeddc9060740648aaddf68180ccc60da125e9d887ac1",
+      "width": 1800,
+      "height": 1012,
+      "source": "/ui/hub_npc_mira_stand.jpg",
+      "derivedProxy": true
+    },
+    {
+      "name": "hand",
+      "path": "/ui/mira-proxy/mira-hand-proxy.png",
+      "sha256": "37fce0af38590c6089452a897929948f3df5a068f154a3826ec185bee0b8a2ec",
+      "width": 1800,
+      "height": 1012,
+      "source": "/ui/hub_npc_mira_stand.jpg",
+      "derivedProxy": true
+    },
+    {
+      "name": "prop",
+      "path": "/ui/mira-proxy/mira-prop-proxy.png",
+      "sha256": "efa1fb9c7cb9ca98a8fd1688bc7509d7dbaa603cf84812841c717200d1a45f43",
+      "width": 1800,
+      "height": 1012,
+      "source": "/ui/hub_npc_mira_stand.jpg",
+      "derivedProxy": true
+    }
+  ]
+}

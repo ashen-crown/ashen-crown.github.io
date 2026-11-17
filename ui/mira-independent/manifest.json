@@ -1,0 +1,18 @@
+{
+  "id": "npc_mira_ash",
+  "mode": "derived-transparent-cutout",
+  "source": "/ui/hub_npc_mira_stand.jpg",
+  "sourceSha256": "d0c738e02459436918dca686e95e7cd1f57da4007e3857c268f890b674f6ff79",
+  "cutout": "/ui/mira-independent/mira-cutout-v1.png",
+  "cutoutSha256": "9ebfb69bbfca8a14a6b2f47e04e8ec015762732a96d3f3aec89264edbf82ff27",
+  "model": "isnet-anime",
+  "canvas": [
+    900,
+    506
+  ],
+  "alphaPixelCount": 130151,
+  "opaquePixelCount": 109597,
+  "separateArtReviewed": false,
+  "realBlinkEligible": false,
+  "semanticClaim": "automatic transparent cutout from existing scene art; independent from background but not true separated semantic artwork"
+}

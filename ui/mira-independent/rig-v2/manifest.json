@@ -1,0 +1,45 @@
+{
+  "id": "npc_mira_ash",
+  "version": "seamless-derived-overlay-rig-v2",
+  "generatedAt": "2026-09-22T09:22:53.765705+00:00",
+  "base": {
+    "path": "/ui/mira-independent/rig-v2/base.png",
+    "sha256": "3f52aadd02efd55e9a68f26e75b99e9a34d20afa4565a8070d8a559416ee69c3"
+  },
+  "canvas": [
+    528,
+    506
+  ],
+  "overlays": {
+    "backHair": {
+      "path": "/ui/mira-independent/rig-v2/backHair.png",
+      "sha256": "cabf052b58170c8894eb25750ce1761166d87d18043ae4e0ea7241e084d49fe2"
+    },
+    "face": {
+      "path": "/ui/mira-independent/rig-v2/face.png",
+      "sha256": "b0372c1392e45cfbbf51ab385b379e5eb2dad15c5368c8d004702f30597cd766"
+    },
+    "eyesOpen": {
+      "path": "/ui/mira-independent/rig-v2/eyesOpen.png",
+      "sha256": "a324df0814d1989d49a406941208e2195ab4c96695d930acc4a481cd721e3f0a"
+    },
+    "frontHair": {
+      "path": "/ui/mira-independent/rig-v2/frontHair.png",
+      "sha256": "1a57dbbe657481db9169daff1e9c8902c97f4434be4042d0803411ebd3096914"
+    },
+    "hand": {
+      "path": "/ui/mira-independent/rig-v2/hand.png",
+      "sha256": "806292a047edeaec6ca5dfe774b8711a682cc5655cb4a55eb1fc33e859efe4dd"
+    },
+    "prop": {
+      "path": "/ui/mira-independent/rig-v2/prop.png",
+      "sha256": "a1f4dc8cf25df1b78d7429137aa1e3a7bdd1317418dadd327655a7538d0337a2"
+    }
+  },
+  "seamPolicy": "full transparent cutout remains as continuous underlay; independent motion overlays use feathered alpha and may overlap, so transforms cannot expose partition gaps",
+  "humanReviewed": false,
+  "semanticActivationAllowed": false,
+  "eyesClosedIncluded": false,
+  "realBlinkEligible": false,
+  "claim": "seam-safe derived motion rig over the approved transparent cutout; not human-reviewed semantic art"
+}

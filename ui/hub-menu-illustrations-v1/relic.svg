@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="280" viewBox="0 0 480 280"><defs>
+<linearGradient id="sky" x2="0" y2="1"><stop stop-color="#111b2b"/><stop offset="1" stop-color="#28201c"/></linearGradient>
+<linearGradient id="gold" x2=".3" y2="1"><stop stop-color="#f4dfaa"/><stop offset=".45" stop-color="#b48a47"/><stop offset="1" stop-color="#593c20"/></linearGradient>
+<linearGradient id="stone" x2=".9" y2="1"><stop stop-color="#536372"/><stop offset=".5" stop-color="#263540"/><stop offset="1" stop-color="#141a24"/></linearGradient>
+<linearGradient id="cloth" x2="1" y2="1"><stop stop-color="#612e30"/><stop offset=".6" stop-color="#351b26"/><stop offset="1" stop-color="#161723"/></linearGradient>
+<radialGradient id="aura"><stop stop-color="#dbb66a" stop-opacity=".32"/><stop offset=".65" stop-color="#986d30" stop-opacity=".09"/><stop offset="1" stop-color="#986d30" stop-opacity="0"/></radialGradient>
+<linearGradient id="crystal" x2="1" y2="1"><stop stop-color="#b9edf0"/><stop offset=".4" stop-color="#579aa7"/><stop offset="1" stop-color="#233a66"/></linearGradient>
+</defs><rect width="480" height="280" fill="url(#sky)"/><ellipse cx="240" cy="117" rx="237" ry="148" fill="url(#aura)"/><path d="M0 249 92 213h296l92 36v31H0Z" fill="#101721"/><path d="M-10 223 30 94 90 64l28 136m256 16 15-143 63-26 50 175" fill="#16202a" stroke="#33404e" stroke-width="3"/>
+<ellipse cx="240" cy="210" rx="162" ry="34" fill="none" stroke="#93733e" stroke-width="2" opacity=".7"/>
+<ellipse cx="240" cy="210" rx="133" ry="23" fill="none" stroke="#b89451" stroke-dasharray="3 14" stroke-width="3"/>
+<path d="M175 211h130l-15-23H190Zm17-23h96l-12-20h-72Z" fill="url(#stone)" stroke="#a18a60" stroke-width="2"/>
+<path d="m239 25 47 59-19 85h-53l-20-85Z" fill="url(#crystal)" stroke="#b7d3cb" stroke-width="2"/>
+<path d="m239 25-15 75 16 69 15-69Z" fill="#a2d6d2" opacity=".45"/>
+<path d="m194 84 46 17 46-17m-46 17v68" fill="none" stroke="#c8e1d3" stroke-width="2"/>
+<circle cx="240" cy="101" r="72" fill="none" stroke="#c9ab71" stroke-opacity=".45"/>
+<path d="M240 19v15m82 67h-15m-149 0h15m67 82v-15" stroke="#e3cb95" stroke-width="3"/>
+<path d="m115 151 18-38 22 36-7 50h-26Zm206 27 22-59 28 47-13 47h-29Z" fill="url(#crystal)" stroke="#8cbdc1" stroke-width="2"/><g fill="#e6c88a" opacity=".65"><circle cx="89" cy="46" r="1.4"/><circle cx="352" cy="43" r="1.6"/><circle cx="119" cy="120" r="1"/><circle cx="385" cy="102" r="1.3"/><circle cx="181" cy="25" r="1"/><circle cx="290" cy="18" r="1.3"/></g></svg>

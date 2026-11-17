@@ -1,0 +1,132 @@
+{
+  "source": "/ui/title_clean_generated.png",
+  "sourceSha256": "971401634ddaa6b1656d0da0005289e91332d85e6ebf91bffd91e438fd11dd92",
+  "canvas": [
+    1672,
+    941
+  ],
+  "layers": {
+    "flag-left": {
+      "path": "/ui/title-motion-v5/flag-left.png",
+      "sha256": "5a27dc3197cc43acbeca69d9318e9160d7aa49fc7db91f255b2dceab86c62e67",
+      "nonzeroAlphaPixels": 231610,
+      "blurPx": 14,
+      "polygon": [
+        [
+          0.0,
+          0.11
+        ],
+        [
+          0.215,
+          0.095
+        ],
+        [
+          0.255,
+          0.5
+        ],
+        [
+          0.175,
+          0.58
+        ],
+        [
+          0.015,
+          0.66
+        ]
+      ]
+    },
+    "flag-right": {
+      "path": "/ui/title-motion-v5/flag-right.png",
+      "sha256": "42d6c32a22b31ec393aff1980199bf78bceabd9509492fc5b48bd17e8290ca20",
+      "nonzeroAlphaPixels": 236304,
+      "blurPx": 14,
+      "polygon": [
+        [
+          0.775,
+          0.095
+        ],
+        [
+          1.0,
+          0.11
+        ],
+        [
+          0.985,
+          0.67
+        ],
+        [
+          0.825,
+          0.58
+        ],
+        [
+          0.745,
+          0.5
+        ]
+      ]
+    },
+    "hero-hair": {
+      "path": "/ui/title-motion-v5/hero-hair.png",
+      "sha256": "03f46c8f97899b6d8f914cc067e66148e8179bb1120bc566bf2d77e26f622db8",
+      "nonzeroAlphaPixels": 165728,
+      "blurPx": 11,
+      "polygon": [
+        [
+          0.17,
+          0.39
+        ],
+        [
+          0.39,
+          0.36
+        ],
+        [
+          0.46,
+          0.5
+        ],
+        [
+          0.42,
+          0.62
+        ],
+        [
+          0.24,
+          0.67
+        ],
+        [
+          0.11,
+          0.58
+        ]
+      ]
+    },
+    "hero-cape": {
+      "path": "/ui/title-motion-v5/hero-cape.png",
+      "sha256": "abd93fd856384277657a3462501eccb46f9a71e353821ef07905c7511ad3993e",
+      "nonzeroAlphaPixels": 463581,
+      "blurPx": 18,
+      "polygon": [
+        [
+          0.03,
+          0.49
+        ],
+        [
+          0.27,
+          0.43
+        ],
+        [
+          0.48,
+          0.57
+        ],
+        [
+          0.52,
+          0.96
+        ],
+        [
+          0.17,
+          1.0
+        ],
+        [
+          0.0,
+          0.91
+        ]
+      ]
+    }
+  },
+  "humanReviewed": false,
+  "purpose": "feathered presentation overlays for subtle title motion only; base artwork remains authoritative"
+}

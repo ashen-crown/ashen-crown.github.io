@@ -1,0 +1,41 @@
+{
+  "version": "hub-menu-illustrations-v1",
+  "artStyle": "dark-fantasy-premium-vector",
+  "items": {
+    "shop": "/ui/hub-menu-illustrations-v1/shop.svg",
+    "relic": "/ui/hub-menu-illustrations-v1/relic.svg",
+    "guild": "/ui/hub-menu-illustrations-v1/guild.svg",
+    "arena": "/ui/hub-menu-illustrations-v1/arena.svg"
+  },
+  "integrity": {
+    "shop": {
+      "sha256": "efeef9b12519afdab7f946b5998abb34858c4bc4f073a50c807d9698b777a7a8",
+      "width": 480,
+      "height": 280,
+      "format": "svg",
+      "recoveredFrom": "6-byte non-SVG binary"
+    },
+    "relic": {
+      "sha256": "ecc43330ce67776b823c88ac2cea4bafc7f4220e108b1a30ee5e05f34860bfc9",
+      "width": 480,
+      "height": 280,
+      "format": "svg",
+      "recoveredFrom": "6-byte non-SVG binary"
+    },
+    "guild": {
+      "sha256": "6e0048f0bff08dac40e7bc35fef928d4a13d1ef130c893ead8cffadfd3706d83",
+      "width": 480,
+      "height": 280,
+      "format": "svg",
+      "recoveredFrom": "6-byte non-SVG binary"
+    },
+    "arena": {
+      "sha256": "10ea4311084f1491766496513d9a6c47b5871758a42bc1995ae888d075980a59",
+      "width": 480,
+      "height": 280,
+      "format": "svg",
+      "recoveredFrom": "6-byte non-SVG binary"
+    }
+  },
+  "note": "Code-native vector scenes restored after invalid binary assets; uses the existing independent menu components."
+}
