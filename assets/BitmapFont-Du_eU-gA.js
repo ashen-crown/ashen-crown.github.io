@@ -1,1 +1,0 @@
-export{BitmapFont}from"./lib-BM7qZY_t.js";
