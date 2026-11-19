@@ -386,9 +386,9 @@ PRIVACY = {
     ),
 }
 
-PACKS = [  # data/crownGems.ts CROWN_GEM_PACKS (game 873d6b6): gems, bonus, first-purchase bonus, price KRW
-    (80, 0, 80, 1200), (320, 16, 320, 4900), (640, 48, 640, 9900),
-    (1280, 128, 1280, 19900), (3200, 400, 3200, 49900), (6400, 960, 6400, 99900),
+PACKS = [  # data/crownGems.ts CROWN_GEM_PACKS (game PR #685, 11/19 20% price cut): gems, bonus, first-purchase bonus, price KRW
+    (80, 0, 80, 990), (320, 16, 320, 3900), (640, 48, 640, 7900),
+    (1280, 128, 1280, 15900), (3200, 400, 3200, 39900), (6400, 960, 6400, 79900),
 ]
 PULL = 160  # data/gacha.ts PULL_COST (Crown Gems per companion pull)
 
@@ -413,7 +413,7 @@ STORE = {
         description="애션 크라운의 게임 안 유료 상품(왕관석 묶음, 월간 패스 ₩5,500, 잿빛 패스 ₩11,000)의 가격과 구성, 환불 안내입니다.",
         h1="상품 가격 안내",
         body=f"""<p class="lead">「{GAME_KO}」는 무료로 플레이하고, 원하면 게임 안에서 아래 상품을 살 수 있습니다. 확률로 결과가 정해지는 것은 <a href="/odds/">확률 공개표</a>에 모두 적었습니다.</p>
-<p class="meta">기준: 게임 빌드 {odds.SOURCE_COMMIT} ({odds.SOURCE_DATE}) · 원화(부가세 포함) · 지금은 출시 전이라 판매하지 않으며, 출시 때 바뀌면 이 페이지를 먼저 고칩니다.</p>
+<p class="meta">기준일 {UPDATED} · 원화(부가세 포함) · 지금은 출시 전이라 판매하지 않으며, 출시 때 바뀌면 이 페이지를 먼저 고칩니다.</p>
 
 <h2>1. 왕관석 (유료 재화)</h2>
 <p>왕관석으로 동료 소환(1회 160 · 10회 1,600)과 장비 소환(1회 100 · 10회 1,000)을 합니다. 무료로 받은 왕관석과 산 왕관석은 확률·천장이 같습니다.</p>
@@ -470,7 +470,7 @@ STORE = {
         description="Prices and contents of in-game purchases in Ashen Crown: Crown Gem packs, the Monthly Pass (₩5,500) and the Ashen Pass Premium (₩11,000), plus refunds.",
         h1="Prices",
         body=f"""<p class="lead">{GAME_EN} is free to play. These optional purchases are available in the game. Every random outcome is listed on the <a href="/en/odds/">odds page</a>.</p>
-<p class="meta">Source: game build {odds.SOURCE_COMMIT} ({odds.SOURCE_DATE}) · Korean won, VAT included · Not on sale yet (pre-release). If prices change at launch, this page is updated first. Prices in other currencies follow Steam's price table.</p>
+<p class="meta">As of {UPDATED} · Korean won, VAT included · Not on sale yet (pre-release). If prices change at launch, this page is updated first. Prices in other currencies follow Steam's price table.</p>
 
 <h2>1. Crown Gems (premium currency)</h2>
 <p>Crown Gems pay for companion summons (160 per pull, 1,600 for 10) and gear summons (100 per pull, 1,000 for 10). Free and purchased Crown Gems have the same odds and pity.</p>
