@@ -90,7 +90,7 @@ def faq_ld(soup):
     items = []
     for d in soup.select("#faq details"):
         q = d.summary.get_text(" ", strip=True)
-        a = " ".join(p.get_text(" ", strip=True) for p in d.find_all("p"))
+        a = re.sub(r"\s+([,.])", r"\1", " ".join(p.get_text(" ", strip=True) for p in d.find_all("p")))
         items.append({"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}})
     return {"@type": "FAQPage", "mainEntity": items}
 
@@ -193,7 +193,7 @@ pages.build_all(ROOT)
 
 # sitemap: every page that should appear in search (thank-you and 404 pages stay out)
 today = datetime.date.today().isoformat()
-entries = [("", "1.0"), ("privacy/", "0.3")]
+entries = [("", "1.0"), ("store/", "0.5"), ("odds/", "0.5"), ("privacy/", "0.3")]
 urls = []
 for path, prio in entries:
     alts = (f'    <xhtml:link rel="alternate" hreflang="ko" href="{BASE}{path}"/>\n'

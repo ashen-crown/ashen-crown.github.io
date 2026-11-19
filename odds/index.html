@@ -1,0 +1,793 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>확률 공개표 | Ashen Crown 애션 크라운</title>
+<meta name="description" content="애션 크라운의 동료 소환·장비 소환·신화 조합·장비 강화·장비 상자·봉인된 유물 확률과 천장(보장) 규칙을 게임 코드 기준으로 모두 공개합니다.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://ashen-crown.github.io/odds/">
+<link rel="alternate" hreflang="ko" href="https://ashen-crown.github.io/odds/">
+<link rel="alternate" hreflang="en" href="https://ashen-crown.github.io/en/odds/">
+<link rel="alternate" hreflang="x-default" href="https://ashen-crown.github.io/odds/">
+<meta property="og:site_name" content="Ashen Crown">
+<meta property="og:title" content="확률 공개표 | Ashen Crown 애션 크라운">
+<meta property="og:description" content="애션 크라운의 동료 소환·장비 소환·신화 조합·장비 강화·장비 상자·봉인된 유물 확률과 천장(보장) 규칙을 게임 코드 기준으로 모두 공개합니다.">
+<meta property="og:image" content="https://ashen-crown.github.io/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://ashen-crown.github.io/odds/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ko_KR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#14110f">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/img/icon-192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600&family=Cinzel:wght@600;700&display=swap">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "홈", "item": "https://ashen-crown.github.io/"}, {"@type": "ListItem", "position": 2, "name": "확률 공개표", "item": "https://ashen-crown.github.io/odds/"}]}</script>
+<style>
+:root{--ash:#14110f;--ash-2:#1d1915;--bone:#ece4d6;--dust:#a89c8a;--ember:#e0a24e;--ember-hot:#f0b965;--rule:#3a322a;
+--display:"Gowun Batang","Nanum Myeongjo",serif;--body:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;--latin:"Cinzel","Times New Roman",serif;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;word-break:keep-all;overflow-wrap:break-word;background:var(--ash);color:var(--bone);font:16px/1.75 var(--body)}
+a{color:var(--ember)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--ember-hot);outline-offset:3px}
+h1,h2{font-family:var(--display);font-weight:700;margin:0;text-wrap:balance}
+.wrap{max-width:820px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.skip{position:absolute;left:12px;top:-60px;background:var(--ember);color:#1a1209;padding:10px 14px;border-radius:6px;font-weight:600;text-decoration:none}
+.skip:focus{top:12px}
+.nav{border-bottom:1px solid var(--rule)}
+.nav .wrap{display:flex;align-items:center;gap:16px;height:56px;max-width:1080px}
+.brand{font-family:var(--latin);font-weight:700;letter-spacing:.14em;color:var(--bone);text-decoration:none;font-size:15px}
+.brand span{color:var(--ember)}
+.lang{margin-left:auto;display:flex;border:1px solid var(--rule);border-radius:999px;overflow:hidden}
+.lang a{color:var(--dust);font:600 12px/1 var(--body);padding:7px 10px;text-decoration:none}
+.lang a[aria-current="page"]{background:var(--ember);color:#1a1209}
+.crumbs ol{display:flex;flex-wrap:wrap;gap:6px;list-style:none;margin:0;padding:20px 0 0;font-size:13.5px;color:var(--dust)}
+.crumbs li+li::before{content:"›";margin-right:6px;color:#6b5f50}
+.crumbs a{color:var(--dust)}
+.crumbs [aria-current]{color:var(--bone)}
+main{padding-block:28px 24px}
+main h1{font-size:clamp(26px,4vw,36px);line-height:1.3;margin-bottom:10px}
+.lead{color:#d6ccbc;max-width:62ch}
+main h2{font-size:20px;margin:36px 0 10px}
+main p,main li{max-width:68ch}
+main p+p{margin-top:10px}
+main ul,main ol{padding-left:20px}
+.meta{color:var(--dust);font-size:14px;margin-top:6px}
+.tablewrap{overflow-x:auto;margin-top:8px}
+table{border-collapse:collapse;font-size:14px;min-width:560px}
+th,td{border:1px solid var(--rule);padding:8px 10px;text-align:left;vertical-align:top}
+th{background:var(--ash-2);font-weight:600}
+main h3{font-size:16.5px;margin:24px 0 8px;font-family:var(--display)}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+table.odds{min-width:0}
+table.wide{min-width:560px}
+table.wide th:first-child{position:sticky;left:0;background:var(--ash-2);z-index:1}
+table.wide.one{min-width:0;width:100%}
+details.fold{margin-top:12px;border:1px solid var(--rule);border-radius:10px;padding:10px 14px}
+details.fold summary{cursor:pointer;font-weight:600;color:var(--ember);min-height:32px;display:flex;align-items:center}
+.pick{display:flex;align-items:center;gap:8px;margin:10px 0 4px;font-size:14px;color:var(--dust)}
+.pick select{font:inherit;color:var(--bone);background:var(--ash);border:1px solid #5a4c3e;border-radius:6px;padding:6px 8px;max-width:60vw}
+.toc ol{display:flex;flex-wrap:wrap;gap:6px 16px;list-style:none;padding:0;margin:14px 0 0;font-size:14.5px}
+.todo{background:#4a3214;color:#ffd99a;border-radius:4px;padding:0 5px;font-weight:600}
+@media (max-width:480px){th,td{padding:6px 7px;font-size:13px}table:not(.wide){min-width:0;width:100%}}
+.box{background:var(--ash-2);border:1px solid var(--rule);border-radius:10px;padding:18px 20px;margin-top:22px}
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.btn{display:inline-flex;align-items:center;padding:12px 20px;border-radius:6px;font-weight:600;font-size:15px;text-decoration:none;border:1px solid transparent}
+.btn-primary{background:var(--ember);color:#1a1209}
+.btn-primary:hover{background:var(--ember-hot)}
+.btn-ghost{border-color:#5a4c3e;color:var(--bone)}
+.consent{position:fixed;left:max(16px,env(safe-area-inset-left,0px));right:max(16px,env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:25;max-width:560px;margin:0 auto;background:var(--ash-2);border:1px solid #5a4630;border-radius:10px;padding:16px;display:grid;gap:10px;box-shadow:0 16px 48px rgba(0,0,0,.5);font-size:14px}
+.consent .acts{display:flex;flex-wrap:wrap;gap:8px}
+.consent .btn{padding:9px 14px;font-size:14px;cursor:pointer;font-family:var(--body)}
+footer{margin-top:64px;border-top:1px solid var(--rule);padding-block:24px 40px;color:var(--dust);font-size:13.5px}
+footer .wrap{display:grid;gap:10px;max-width:1080px}
+.foot-links{display:flex;flex-wrap:wrap;gap:6px 18px;list-style:none;margin:0;padding:0}
+.foot-links a{color:var(--dust);text-decoration:none}
+.foot-links a:hover{color:var(--bone);text-decoration:underline}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">본문 바로가기</a>
+<header class="nav"><div class="wrap">
+  <a class="brand" href="/" translate="no">ASHEN <span>CROWN</span></a>
+  <div class="lang" role="group" aria-label="Language"><a href="/odds/" hreflang="ko" aria-current="page">한국어</a><a href="/en/odds/" hreflang="en">EN</a></div>
+</div></header>
+<div class="wrap"><nav class="crumbs" aria-label="현재 위치"><ol><li><a href="/">홈</a></li><li><span aria-current="page">확률 공개표</span></li></ol></nav></div>
+<main id="main" tabindex="-1"><div class="wrap">
+<h1>확률 공개표</h1>
+<p class="lead">게임 안에서 확률로 결과가 정해지는 모든 것과 그 확률입니다.</p>
+<p class="meta">기준: 게임 빌드 873d6b6 (2026-11-18) · 확률이 바뀌면 이 페이지를 먼저 고치고 바뀐 날짜를 적습니다.</p>
+<nav class="toc" aria-label="목차"><ol>
+<li><a href="#s1">동료 소환</a></li><li><a href="#s2">장비 소환</a></li><li><a href="#s3">신화 조합</a></li>
+<li><a href="#s4">장비 강화</a></li><li><a href="#s5">장비 상자</a></li><li><a href="#s6">봉인된 유물</a></li></ol></nav><p>이 표는 게임 코드에서 바로 계산해 만든 것입니다. 게임 안 소환 화면의 「확률 · 보장」 창과 같은 값입니다. 숫자는 천장(확률 상승·보장) 진행이 0일 때의 &quot;다음 1회&quot; 확률입니다.</p>
+<p>동료·장비 소환은 왕관석으로 합니다(1회 값 × 1). 무료로 얻은 왕관석과 구매한 왕관석은 확률과 천장이 같습니다. 잿불 결정(게임 재화)으로는 소환할 수 없습니다.</p>
+<h2 id="s1">1. 동료 소환</h2>
+<p>가격: 1회 160 · 10회 1600 (10회는 1회를 10번 한 것과 같음. 단, 계정의 첫 10회 소환 한 번은 SSR 이상 1명 확정)</p>
+<div class="tablewrap"><table class="odds">
+<thead><tr><th>등급</th><th class="num">기본 확률</th><th>나오는 것</th></tr></thead><tbody>
+<tr><td>UR</td><td class="num">0.8%</td><td>동료 32명 중 1명</td></tr>
+<tr><td>SSR</td><td class="num">9.2%</td><td>동료 30명 중 1명</td></tr>
+<tr><td>SR</td><td class="num">20%</td><td>동료 33명 중 1명</td></tr>
+<tr><td>R</td><td class="num">70%</td><td>동료 13명 중 1명</td></tr>
+<tr><td>합계</td><td class="num">100%</td><td></td></tr>
+</tbody></table></div>
+<h3>천장(보장 규칙)</h3>
+<ul><li>SSR 이상 없이 70회를 소환하면 그다음 회차부터 SSR·UR 확률이 오릅니다(아래 표). SSR 이상을 얻으면 처음부터 셉니다.</li><li>SSR 이상 없이 100회째 소환은 SSR이 확정됩니다.</li><li>UR 없이 180회째 소환은 UR이 확정됩니다.</li><li>계정의 첫 10회 소환(한 번만): 앞의 9회에 SSR 이상이 없으면 마지막 1회는 SSR로 확정됩니다(그 회차의 SSR 동료 비율 그대로). 이 보장을 쓰기 전에 이미 10회 소환을 한 계정은 해당하지 않습니다.</li></ul>
+<div class="tablewrap"><table class="odds">
+<thead><tr><th class="num">SSR 이상 없이 소환한 횟수</th><th class="num">SSR</th><th class="num">UR</th></tr></thead><tbody>
+<tr><td class="num">69회 뒤 다음 1회</td><td class="num">9.2%</td><td class="num">0.8%</td></tr>
+<tr><td class="num">70회 뒤 다음 1회</td><td class="num">13.4%</td><td class="num">2.6%</td></tr>
+<tr><td class="num">71회 뒤 다음 1회</td><td class="num">17.6%</td><td class="num">4.4%</td></tr>
+<tr><td class="num">72회 뒤 다음 1회</td><td class="num">21.8%</td><td class="num">6.2%</td></tr>
+<tr><td class="num">74회 뒤 다음 1회</td><td class="num">30.2%</td><td class="num">9.8%</td></tr>
+<tr><td class="num">79회 뒤 다음 1회</td><td class="num">50%</td><td class="num">15%</td></tr>
+<tr><td class="num">98회 뒤 다음 1회</td><td class="num">50%</td><td class="num">15%</td></tr>
+</tbody></table></div>
+<h3>픽업 배너</h3>
+<ul><li>UR이 나오면 50% 확률로 그 배너의 픽업 UR이고, 나머지 50%는 픽업이 아닌 UR 중 하나가 같은 확률로 나옵니다.</li><li>픽업이 아닌 UR이 나왔다면 다음 UR은 픽업 UR 확정입니다. 이 확정은 배너를 바꿔도 이어지며, 픽업 UR까지 최대 360회입니다.</li><li>SSR이 나오면 18.75% 확률로 그 배너의 함께 UP SSR이고, 나머지는 다른 SSR 중 하나가 같은 확률로 나옵니다. 등급 확률은 바뀌지 않습니다.</li></ul>
+<ul><li><b>블랑슈 배너</b>: 아스트리드(SSR) 1.725% · 블랑슈(UR) 0.4% (픽업 확정 상태면 블랑슈 0.8%)</li><li><b>에스텔 배너</b>: 엘린(SSR) 1.725% · 에스텔(UR) 0.4% (픽업 확정 상태면 에스텔 0.8%)</li><li><b>리라 배너</b>: 아샤(SSR) 1.725% · 리라(UR) 0.4% (픽업 확정 상태면 리라 0.8%)</li><li><b>바이칸 배너</b>: 루파(SSR) 1.725% · 바이칸(UR) 0.4% (픽업 확정 상태면 바이칸 0.8%)</li><li><b>루미 배너</b>: 릴리에트(SSR) 1.725% · 루미(UR) 0.4% (픽업 확정 상태면 루미 0.8%)</li><li><b>코랄린 배너</b>: 마리나(SSR) 1.725% · 코랄린(UR) 0.4% (픽업 확정 상태면 코랄린 0.8%)</li><li><b>라이아 배너</b>: 레나(SSR) 1.725% · 라이아(UR) 0.4% (픽업 확정 상태면 라이아 0.8%)</li><li><b>브리엔 배너</b>: 힐다(SSR) 1.725% · 브리엔(UR) 0.4% (픽업 확정 상태면 브리엔 0.8%)</li><li><b>녹티아 배너</b>: 릴리스(SSR) 1.725% · 녹티아(UR) 0.4% (픽업 확정 상태면 녹티아 0.8%)</li><li><b>셀레네 배너</b>: 리엔(SSR) 1.725% · 셀레네(UR) 0.4% (픽업 확정 상태면 셀레네 0.8%)</li><li><b>가레스 배너</b>: 세린(SSR) 1.725% · 가레스(UR) 0.4% (픽업 확정 상태면 가레스 0.8%)</li><li><b>셰이라 배너</b>: 카인(SSR) 1.725% · 셰이라(UR) 0.4% (픽업 확정 상태면 셰이라 0.8%)</li><li><b>카이라 배너</b>: 토르가(SSR) 1.725% · 카이라(UR) 0.4% (픽업 확정 상태면 카이라 0.8%)</li><li><b>드레이카 배너</b>: 유르나(SSR) 1.725% · 드레이카(UR) 0.4% (픽업 확정 상태면 드레이카 0.8%)</li><li><b>드라칸 배너</b>: 드라칸(UR) 0.4% · 카슈르(SSR) 1.725% (픽업 확정 상태면 드라칸 0.8%)</li><li><b>시온 배너</b>: 세라핀(SSR) 1.725% · 시온(UR) 0.4% (픽업 확정 상태면 시온 0.8%)</li><li><b>크로니르 배너</b>: 아델(SSR) 1.725% · 크로니르(UR) 0.4% (픽업 확정 상태면 크로니르 0.8%)</li><li><b>나이아 배너</b>: 나이아(UR) 0.4% · 테티(SSR) 1.725% (픽업 확정 상태면 나이아 0.8%)</li><li><b>마리우스 배너</b>: 마리우스(UR) 0.4% · 카이로(SSR) 1.725% (픽업 확정 상태면 마리우스 0.8%)</li><li><b>아비스 배너</b>: 아비스(UR) 0.4% · 바르토(SSR) 1.725% (픽업 확정 상태면 아비스 0.8%)</li><li><b>니르 배너</b>: 니르(UR) 0.4% · 에리스(SSR) 1.725% (픽업 확정 상태면 니르 0.8%)</li></ul>
+<h3>동료별 확률 (배너별)</h3>
+<p>지금 동료 소환은 모두 픽업 배너입니다. 칸마다 그 배너에서 다음 1회에 그 동료가 나올 확률입니다(픽업 확정이 아닌 처음 상태 기준, 굵게 = 그 배너의 픽업 동료).</p>
+<details class="fold" data-banner-table><summary>배너별 동료 확률 전체 보기 (108줄)</summary>
+<div class="tablewrap"><table class="odds wide">
+<thead><tr><th>동료</th><th>등급</th><th class="num">블랑슈 배너</th><th class="num">에스텔 배너</th><th class="num">리라 배너</th><th class="num">바이칸 배너</th><th class="num">루미 배너</th><th class="num">코랄린 배너</th><th class="num">라이아 배너</th><th class="num">브리엔 배너</th><th class="num">녹티아 배너</th><th class="num">셀레네 배너</th><th class="num">가레스 배너</th><th class="num">셰이라 배너</th><th class="num">카이라 배너</th><th class="num">드레이카 배너</th><th class="num">드라칸 배너</th><th class="num">시온 배너</th><th class="num">크로니르 배너</th><th class="num">나이아 배너</th><th class="num">마리우스 배너</th><th class="num">아비스 배너</th><th class="num">니르 배너</th></tr></thead><tbody>
+<tr><th>시엘</th><td>UR</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td></tr>
+<tr><th>나이아</th><td>UR</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num"><b>0.4%</b></td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td></tr>
+<tr><th>엘리나</th><td>UR</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td></tr>
+<tr><th>니르</th><td>UR</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num"><b>0.4%</b></td></tr>
+<tr><th>드라칸</th><td>UR</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num"><b>0.4%</b></td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td></tr>
+<tr><th>아비스</th><td>UR</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num"><b>0.4%</b></td><td class="num">0.0129%</td></tr>
+<tr><th>볼드린</th><td>UR</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td></tr>
+<tr><th>리라</th><td>UR</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num"><b>0.4%</b></td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td></tr>
+<tr><th>셀레네</th><td>UR</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num"><b>0.4%</b></td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td></tr>
+<tr><th>이그나</th><td>UR</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td></tr>
+<tr><th>엘로웬</th><td>UR</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td></tr>
+<tr><th>오르텐</th><td>UR</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td></tr>
+<tr><th>가레스</th><td>UR</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num"><b>0.4%</b></td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td></tr>
+<tr><th>카이라</th><td>UR</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num"><b>0.4%</b></td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td></tr>
+<tr><th>마리우스</th><td>UR</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num"><b>0.4%</b></td><td class="num">0.0129%</td><td class="num">0.0129%</td></tr>
+<tr><th>셰이라</th><td>UR</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num"><b>0.4%</b></td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td></tr>
+<tr><th>브리엔</th><td>UR</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num"><b>0.4%</b></td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td></tr>
+<tr><th>바이칸</th><td>UR</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num"><b>0.4%</b></td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td></tr>
+<tr><th>제니아</th><td>UR</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td></tr>
+<tr><th>크로니르</th><td>UR</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num"><b>0.4%</b></td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td></tr>
+<tr><th>이셀</th><td>UR</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td></tr>
+<tr><th>시온</th><td>UR</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num"><b>0.4%</b></td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td></tr>
+<tr><th>블랑슈</th><td>UR</td><td class="num"><b>0.4%</b></td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td></tr>
+<tr><th>에스텔</th><td>UR</td><td class="num">0.0129%</td><td class="num"><b>0.4%</b></td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td></tr>
+<tr><th>라이아</th><td>UR</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num"><b>0.4%</b></td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td></tr>
+<tr><th>루미</th><td>UR</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num"><b>0.4%</b></td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td></tr>
+<tr><th>코랄린</th><td>UR</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num"><b>0.4%</b></td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td></tr>
+<tr><th>드레이카</th><td>UR</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num"><b>0.4%</b></td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td></tr>
+<tr><th>녹티아</th><td>UR</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num"><b>0.4%</b></td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td></tr>
+<tr><th>하르온</th><td>UR</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td></tr>
+<tr><th>베르딘</th><td>UR</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td></tr>
+<tr><th>이오렌</th><td>UR</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td><td class="num">0.0129%</td></tr>
+<tr><th>리엔</th><td>SSR</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num"><b>1.725%</b></td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td></tr>
+<tr><th>미르</th><td>SSR</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td></tr>
+<tr><th>다렌</th><td>SSR</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td></tr>
+<tr><th>토르가</th><td>SSR</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num"><b>1.725%</b></td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td></tr>
+<tr><th>세린</th><td>SSR</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num"><b>1.725%</b></td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td></tr>
+<tr><th>실비아</th><td>SSR</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td></tr>
+<tr><th>카인</th><td>SSR</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num"><b>1.725%</b></td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td></tr>
+<tr><th>루에</th><td>SSR</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td></tr>
+<tr><th>그롬</th><td>SSR</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td></tr>
+<tr><th>아샤</th><td>SSR</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num"><b>1.725%</b></td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td></tr>
+<tr><th>아스트리드</th><td>SSR</td><td class="num"><b>1.725%</b></td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td></tr>
+<tr><th>엘린</th><td>SSR</td><td class="num">0.2578%</td><td class="num"><b>1.725%</b></td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td></tr>
+<tr><th>레나</th><td>SSR</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num"><b>1.725%</b></td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td></tr>
+<tr><th>루파</th><td>SSR</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num"><b>1.725%</b></td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td></tr>
+<tr><th>릴리에트</th><td>SSR</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num"><b>1.725%</b></td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td></tr>
+<tr><th>마리나</th><td>SSR</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num"><b>1.725%</b></td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td></tr>
+<tr><th>릴리스</th><td>SSR</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num"><b>1.725%</b></td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td></tr>
+<tr><th>힐다</th><td>SSR</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num"><b>1.725%</b></td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td></tr>
+<tr><th>유르나</th><td>SSR</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num"><b>1.725%</b></td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td></tr>
+<tr><th>카슈르</th><td>SSR</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num"><b>1.725%</b></td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td></tr>
+<tr><th>세라핀</th><td>SSR</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num"><b>1.725%</b></td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td></tr>
+<tr><th>아델</th><td>SSR</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num"><b>1.725%</b></td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td></tr>
+<tr><th>테티</th><td>SSR</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num"><b>1.725%</b></td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td></tr>
+<tr><th>카이로</th><td>SSR</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num"><b>1.725%</b></td><td class="num">0.2578%</td><td class="num">0.2578%</td></tr>
+<tr><th>바르토</th><td>SSR</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num"><b>1.725%</b></td><td class="num">0.2578%</td></tr>
+<tr><th>에리스</th><td>SSR</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num"><b>1.725%</b></td></tr>
+<tr><th>에다</th><td>SSR</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td></tr>
+<tr><th>타린</th><td>SSR</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td></tr>
+<tr><th>마헨</th><td>SSR</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td></tr>
+<tr><th>오르단</th><td>SSR</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td><td class="num">0.2578%</td></tr>
+<tr><th>카엘</th><td>SR</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td></tr>
+<tr><th>보른</th><td>SR</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td></tr>
+<tr><th>루크</th><td>SR</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td></tr>
+<tr><th>돌긴</th><td>SR</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td></tr>
+<tr><th>스칼</th><td>SR</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td></tr>
+<tr><th>이안</th><td>SR</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td></tr>
+<tr><th>브론웬</th><td>SR</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td></tr>
+<tr><th>나린</th><td>SR</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td></tr>
+<tr><th>세리온</th><td>SR</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td></tr>
+<tr><th>로건</th><td>SR</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td></tr>
+<tr><th>플로라</th><td>SR</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td></tr>
+<tr><th>이솔데</th><td>SR</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td></tr>
+<tr><th>메르나</th><td>SR</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td></tr>
+<tr><th>리세아</th><td>SR</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td></tr>
+<tr><th>세르반</th><td>SR</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td></tr>
+<tr><th>루테른</th><td>SR</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td></tr>
+<tr><th>이레트</th><td>SR</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td></tr>
+<tr><th>엘반</th><td>SR</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td></tr>
+<tr><th>베스라</th><td>SR</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td></tr>
+<tr><th>누르사</th><td>SR</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td></tr>
+<tr><th>오르네</th><td>SR</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td></tr>
+<tr><th>리오단</th><td>SR</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td></tr>
+<tr><th>베르카</th><td>SR</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td></tr>
+<tr><th>사히르</th><td>SR</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td></tr>
+<tr><th>클레아</th><td>SR</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td></tr>
+<tr><th>탈리아</th><td>SR</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td></tr>
+<tr><th>세르칸</th><td>SR</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td></tr>
+<tr><th>나이라</th><td>SR</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td></tr>
+<tr><th>로안</th><td>SR</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td></tr>
+<tr><th>브란트</th><td>SR</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td></tr>
+<tr><th>레온</th><td>SR</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td></tr>
+<tr><th>카일</th><td>SR</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td></tr>
+<tr><th>세이라</th><td>SR</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td><td class="num">0.6061%</td></tr>
+<tr><th>카르덴</th><td>R</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td></tr>
+<tr><th>바스틴</th><td>R</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td></tr>
+<tr><th>네리아</th><td>R</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td></tr>
+<tr><th>이슬</th><td>R</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td></tr>
+<tr><th>루셀</th><td>R</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td></tr>
+<tr><th>미엘</th><td>R</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td></tr>
+<tr><th>테오도르</th><td>R</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td></tr>
+<tr><th>벨라</th><td>R</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td></tr>
+<tr><th>도란</th><td>R</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td></tr>
+<tr><th>아그네스</th><td>R</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td></tr>
+<tr><th>라이크</th><td>R</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td></tr>
+<tr><th>카야</th><td>R</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td></tr>
+<tr><th>가론</th><td>R</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td><td class="num">5.3846%</td></tr>
+</tbody></table></div>
+</details>
+<h2 id="s2">2. 장비 소환</h2>
+<p>가격: 1회 100 · 10회 1000. 노말 장비는 나오지 않습니다.</p>
+<div class="tablewrap"><table class="odds">
+<thead><tr><th>등급</th><th class="num">기본 확률</th></tr></thead><tbody>
+<tr><td>신화</td><td class="num">0.5%</td></tr>
+<tr><td>에픽</td><td class="num">3.5%</td></tr>
+<tr><td>유니크</td><td class="num">18%</td></tr>
+<tr><td>레어</td><td class="num">33%</td></tr>
+<tr><td>매직</td><td class="num">45%</td></tr>
+</tbody></table></div>
+<ul><li>10회 소환에서 앞의 9개에 유니크 이상이 없으면 마지막 1개는 유니크 이상입니다(유니크·에픽·신화 비율 그대로).</li><li>에픽 이상 없이 40회째는 에픽 이상 확정. 에픽·신화를 얻으면 처음부터 셉니다.</li><li>신화가 나오면 50% 확률로 픽업 신화입니다. 픽업 신화 없이 200회째는 픽업 신화 확정.</li><li>장비 소환 1회마다 장비 교환 점수 1점, 120점이면 그때의 픽업 신화와 교환할 수 있습니다(천장 횟수는 그대로).</li><li>장비 소환 천장과 교환 점수는 동료 소환과 따로 셉니다.</li></ul>
+<details class="fold"><summary>장비별 확률 전체 보기 (428줄)</summary>
+<div class="tablewrap"><table class="odds">
+<thead><tr><th>장비</th><th>등급</th><th class="num">확률</th></tr></thead><tbody>
+<tr><td>정령검 실피드 (픽업)</td><td>신화</td><td class="num">0.25%</td></tr>
+<tr><td>트리아돈: 세 번 일어선 파수꾼</td><td>신화</td><td class="num">0.0074%</td></tr>
+<tr><td>솔레아: 이름 없는 소년의 여명</td><td>신화</td><td class="num">0.0074%</td></tr>
+<tr><td>에르칸: 백 년 화덕의 갑주</td><td>신화</td><td class="num">0.0074%</td></tr>
+<tr><td>셉텐나: 하룻밤의 일곱 불</td><td>신화</td><td class="num">0.0074%</td></tr>
+<tr><td>아라크넬: 세계를 꿰맨 실</td><td>신화</td><td class="num">0.0074%</td></tr>
+<tr><td>제미니아: 두 번 울리는 성좌</td><td>신화</td><td class="num">0.0074%</td></tr>
+<tr><td>울프리드: 서리 늑대왕의 마지막 사냥</td><td>신화</td><td class="num">0.0074%</td></tr>
+<tr><td>헵타르크: 일곱 땅을 묶은 반지</td><td>신화</td><td class="num">0.0074%</td></tr>
+<tr><td>레비아의 눈물: 심연 끝에서 잡은 손</td><td>신화</td><td class="num">0.0074%</td></tr>
+<tr><td>모르네아: 숨을 나누는 검은 진주</td><td>신화</td><td class="num">0.0074%</td></tr>
+<tr><td>아르케: 잿빛왕관의 심장</td><td>신화</td><td class="num">0.0074%</td></tr>
+<tr><td>레테: 이름을 태우는 등불</td><td>신화</td><td class="num">0.0074%</td></tr>
+<tr><td>콜던: 새벽을 부르는 자</td><td>신화</td><td class="num">0.0074%</td></tr>
+<tr><td>브론가르드: 일식을 막아선 성벽</td><td>신화</td><td class="num">0.0074%</td></tr>
+<tr><td>에일루안: 천공룡의 첫 시위</td><td>신화</td><td class="num">0.0074%</td></tr>
+<tr><td>상그리아: 불사궁의 첫 서약</td><td>신화</td><td class="num">0.0074%</td></tr>
+<tr><td>마리넬: 별 없는 바다의 항해록</td><td>신화</td><td class="num">0.0074%</td></tr>
+<tr><td>엘루네: 돌아올 자리를 지킨 고리</td><td>신화</td><td class="num">0.0074%</td></tr>
+<tr><td>드라크하임: 계곡을 지킨 화염비늘</td><td>신화</td><td class="num">0.0074%</td></tr>
+<tr><td>모르그림: 첫 모루를 녹인 도끼</td><td>신화</td><td class="num">0.0074%</td></tr>
+<tr><td>실바레인: 숲길을 여는 은창</td><td>신화</td><td class="num">0.0074%</td></tr>
+<tr><td>켄투리아: 백 명이 된 한 사람</td><td>신화</td><td class="num">0.0074%</td></tr>
+<tr><td>라칸: 무리를 먼저 먹인 발톱</td><td>신화</td><td class="num">0.0074%</td></tr>
+<tr><td>플로렌: 재 위에 핀 첫 봉오리</td><td>신화</td><td class="num">0.0074%</td></tr>
+<tr><td>루미나: 신이 침묵한 뒤의 빛</td><td>신화</td><td class="num">0.0074%</td></tr>
+<tr><td>타이달라: 바다가 양보한 날</td><td>신화</td><td class="num">0.0074%</td></tr>
+<tr><td>에테르나: 끝나지 않는 계약</td><td>신화</td><td class="num">0.0074%</td></tr>
+<tr><td>디아마: 두 피의 맹약</td><td>신화</td><td class="num">0.0074%</td></tr>
+<tr><td>루나르크: 열린 연회의 붉은 달</td><td>신화</td><td class="num">0.0074%</td></tr>
+<tr><td>움브라: 그늘에서 걸어 나온 왕녀</td><td>신화</td><td class="num">0.0074%</td></tr>
+<tr><td>아스칼리아: 하늘을 물려준 허물</td><td>신화</td><td class="num">0.0074%</td></tr>
+<tr><td>팔코라: 먼저 본 매</td><td>신화</td><td class="num">0.0074%</td></tr>
+<tr><td>스텔라리움: 만 권의 별</td><td>신화</td><td class="num">0.0074%</td></tr>
+<tr><td>프리마벨라: 비워 둔 자리의 첫꽃</td><td>신화</td><td class="num">0.0074%</td></tr>
+<tr><td>폭군의 처형 무기</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>폭군의 처형 장갑</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>폭군의 처형 반지</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>불굴의 성벽 투구</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>불굴의 성벽 갑옷</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>불굴의 성벽 허리띠</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>성좌의 예언 반지</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>성좌의 예언 목걸이</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>성좌의 예언 유물</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>역류하는 피 무기</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>역류하는 피 갑옷</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>역류하는 피 반지</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>망자의 반격 갑옷</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>망자의 반격 장갑</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>망자의 반격 허리띠</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>폭풍 전령 투구</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>폭풍 전령 장갑</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>폭풍 전령 목걸이</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>균열 개방 무기</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>균열 개방 목걸이</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>균열 개방 유물</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>새벽 기도 허리띠</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>새벽 기도 반지</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>새벽 기도 유물</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>악룡 송곳니 창</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>검은 비늘 갑옷</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>일식 숨결핵 목걸이</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>검은발톱의 유산</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>백야의 성찬봉</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>패군의 철퇴</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>무너진 탑의 칠문서</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>거짓을 꿰뚫는 첨성</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>별길의 인도자</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>심연을 울린 만종</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>불멸의 파성자</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>여명을 가르는 맹세</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>최후의 귀환</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>해방자의 철악</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>끝맺음의 심장</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>지워지지 않는 손</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>의지를 잇는 성창</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>겨울을 이긴 숨결</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>세 불씨의 계승자</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>왕관을 거부한 검</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>마지막 씨앗의 노래</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>추락을 거슬러 선 별</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>쌍월의 증명</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>무너짐을 버틴 천칭</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>삼광의 역설</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>금단을 연 두 맹세</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>천공의 마지막 의지</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>세 맹세의 증인</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>심연 위의 첫 발자국</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>불침의 종지기</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>후위의 불패</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>봉쇄를 찢는 서약</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>일곱 금인의 종결자</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>불멸의 여명</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>귀환종의 쇠활</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>빈 왕좌의 등불창</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>새 항로의 판갑</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>이름을 돌려준 수의</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>깨지지 않은 약속의 이마관</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>녹지 않는 눈송이 인장</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>새벽을 옮긴 유리병</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>지워진 도시의 종</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>아스테리아 맹세파쇄 대검</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>천룡천 비늘 발톱</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>별을 엮는 완드</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>침묵의 바다 진주 보주</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>영수림 신수갈기 가죽갑</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>무천 바람걸음 경갑</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>주술해안 혼령직조 로브</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>천룡천 뿔 보호구</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>모르테인 장례 행렬의 대검</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>실바렌 달그림자 장궁</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>청현 왕조 천문 마도서</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>카르둘 갱도 수비 석궁</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>그림자숲 사냥꾼의 쌍발톱</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>마렌디아 산호 해류 완드</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>나이젠 태양석 보주</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>청현 하늘 제단 법의</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>나이젠 모래바람 경갑</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>이슬꽃 요정 화관</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>영수림 사냥꾼 가죽모자</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>심장로의 계승망치</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>돌아온 이의 씨앗 목걸이</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>잿빛왕관의 칼날</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>마지막 모루의 맹세</td><td>에픽</td><td class="num">0.0393%</td></tr>
+<tr><td>외눈 약탈자의 안대</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>균열 삼킨 송곳니 반지</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>잊힌 맹세의 인장</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>황금 갑각 파편</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>젖은 사슬 손목띠</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>심해 수압 허리띠</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>용암 심장 대검</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>왕관 없는 자의 망토</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>적월의 의례검</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>흰갈기의 사냥활</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>봉인문 파수검</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>잔향 귀환홀</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>봉화 답신궁</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>귀환행렬의 방풍외투</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>잎맥 기억단검</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>되찾은 이름목걸이</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>교대종 망치</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>함께 교대반지</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>태양문 파수투구</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>행상대 맹약천갑</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>빈 판결인장</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>검은등대 구조허리띠</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>유령항로 갑판장갑</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>열린서고 관측목걸이</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>침몰기록관 기억종</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>지도밖 귀환외투</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>빌려쓰는문 공동반지</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>잿들판 감시투구</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>대표단 연락허리띠</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>열린자리 서약목걸이</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>부서진하늘 연결장갑</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>새벽씨앗 연결함</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>서리고개 가교창</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>귀환행렬 연락두건</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>우회배수 정비외투</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>바람우물 정비신호장갑</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>동력관 공동안전띠</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>교대종 귀환반지</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>백야 원관측경 홀</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>백야 수신기록 시계</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>돌아온 이름의 작업패 반지</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>중계성 피난문 갑옷</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>중계성 열린문 투구</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>열린방청석 작업패 목걸이</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>잔압 귀환순환 반지</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>수압심장 정비증언 장갑</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>원명령 대조밸브 유물</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>세마을 공동행렬 허리띠</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>완료납품 대조투구</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>내려놓은공구 휴식반지</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>귀환로 수신확인 인장목걸이</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>안전언덕 귀환호송 갑옷</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>대표단 원기록 장갑</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>공개심리 천막투구</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>원사건철 대조목걸이</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>정원 수평지지 유물</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>기억유리 대조장갑</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>원이의서 봉인반지</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>열린귀환 사다리띠</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>기억금고 냉각보관 유물</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>열린열람대 정비외투</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>여백수리 원기록 목걸이</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>가족유품 기억유리 목걸이</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>각자사건철 보관띠</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>설계연결구 대조장갑</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>수동제동 대조반지</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>열린대피문 구조투구</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>복구연결 구조외투</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>이의서행렬 전달궁</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>분산원본 보관갑옷</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>공개수리 보고유물</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>수동원본 보관투구</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>열두원본 대조유물</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>공동하중 열람장갑</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>세마을 우물정비 투구</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>두표기 원명부목걸이</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>실패대비 구조절차함</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>임시통행 귀환갑옷</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>두창구 원발급 대조반지</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>양안 공동구령 구조허리띠</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>공개기준 대조장갑</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>생활로 두지도 보관틀</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>예비용량 공동정비 투구</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>열린쉼터 귀환외투</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>두보호자 공동연락 목걸이</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>소리간격 중계정비 장갑</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>안팎길 공동길잡이 투구</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>생활연결 공동보급 기록함</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>두지역 원확인 대조반지</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>공개수정 원본대조 장갑</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>순번연락 공동순찰 목걸이</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>반대의견 원기록 보관틀</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>공동기준 귀환정비 투구</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>모두의이름 원본대조 반지</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>마지막귀환 공동확인 갑옷</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>새벽문을 두드린 검</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>일곱 계단의 길잡이</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>은목장의 마지막 외투</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>되찾은 봉인의 흉갑</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>오래된 동행의 후드</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>세 번 돌아온 매듭</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>마침표를 찍은 장갑</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>두 나루의 약속반지</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>빗장을 건넌 열쇠</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>마지막 출항의 돛조각</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>흑철 종소리 망치</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>용척 등뼈 대검</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>침묵의 바다 마도서</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>주술해안 혼령 마도서</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>실바렌 뿌리 지팡이</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>청현 구름 지팡이</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>모르테인 묘지기 도끼</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>영수림 전투 도끼</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>카르둘 공성 석궁</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>고구 성벽 석궁</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>영수림 범발톱</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>무천 철조 발톱</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>블라디온 새벽 완드</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>주술해안 물결 완드</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>운무 장막 보주</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>나이젠 신기루 보주</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>나이젠 모래걸음 가죽옷</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>실바렌 잎비늘 조끼</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>운무평원 질주 보호구</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>회색나루의 경계창</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>새벽봉화의 겹옷</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>나무결 의회의 인장</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>기억의 홀</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>의회의 수호의</td><td>유니크</td><td class="num">0.1395%</td></tr>
+<tr><td>동벽 계단날검</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>수문지기 들보대검</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>적토대 창기병창</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>거울회랑 삼면홀</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>고문서원 쇠잠금 마도서</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>광맥표식 대장간망치</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>검은능선 접이석궁</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>갈대바다 갈퀴건틀릿</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>버들정원 매듭보주</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>서문 아치판금갑</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>교량순찰대 갈래외투</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>지도탑 접지로브</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>가마조합 기와중갑</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>탁상산 부족 열린가죽갑</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>갈대정원 날개망토</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>북계단 기수투구</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>도해실 갈래후드</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>광석회관 육각투구</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>벼랑망루 갈기보호구</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>뿌리정원 격자화관</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>성문장부 버클띠</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>주조소 사슬허리갑</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>갈대바다 땋은허리띠</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>씨앗정원 겹허리끈</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>동부망루 능선장갑</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>광맥직공 관절장갑</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>탁상산 표식손갑</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>버들정원 두루마리장갑</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>서문 열쇠인장</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>지도탑 팔각반지</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>가마조합 검인반지</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>갈대바다 송곳니고리</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>뿌리정원 씨앗인장</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>교량장부 표찰목걸이</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>기록원 접지로켓</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>대장간회관 균형목걸이</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>버들정원 씨앗사슬</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>망루 시각표판</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>광석조합 표본우리</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>뿌리기록원 잎보관함</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>달껍질 손막이 단검</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>쌍맥 단검</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>운무평원 날개창</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>카르둘 모루 쇠메</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>실바렌 잎새 활</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>뿔등 짧은 활</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>등불방울 홀</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>소금바람 마도서</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>운무 지팡이</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>나이젠 초승달 도끼</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>톱니잠금 석궁</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>빛구리 완드</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>떠돌이나무 완드</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>이슬심 보주</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>능선주자 가죽갑</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>늑대귀 가죽두건</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>성채 기수의 대검</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>심층대장간 쌍날도끼</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>절벽부족 송곳니 건틀릿</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>수관 기록관의 지팡이</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>현무암 조합 중갑</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>갈대부족 비늘가죽옷</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>돌다리 수비대 문장투구</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>호박수관 학자의 관</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>모루조합 연결띠</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>모래부족 갈래허리띠</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>절벽부족 엮음장갑</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>수관 자수가의 장갑</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>돌다리 길드 인장</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>심층대장간 육각반지</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>별기록관 렌즈 목걸이</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>성채 서약 석판</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>심층대장간 저울추</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>수관 기록 씨앗함</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>균열 절단검</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>봉인수호 망토</td><td>레어</td><td class="num">0.4342%</td></tr>
+<tr><td>유리맥 외날검</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>빈방울 대검</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>해구슬 창</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>나선뿌리 지팡이</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>각유리 새장홀</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>접힌 하늘 마도서</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>구리심 망치</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>쌍문자 전투도끼</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>감은돌 석궁</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>연무유리 발톱</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>은실 사자주먹</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>갈라진 씨앗완드</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>꽃잎받침 보주</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>고사리등 활</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>별홈 흉갑</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>울림접판 경갑</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>등불안감 여행외투</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>각유리 자락로브</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>먹고리 마도외투</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>화덕기와 중갑</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>은선상감 대장간갑</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>흐린비늘 사냥조끼</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>반딧솔기 날개웃옷</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>씨앗레이스 긴로브</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>등잔틈 투구</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>유리이마 수비투구</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>별자리 주름후드</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>먹방울 학자후드</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>화로격자 투구</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>달빗 열린투구</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>꽃받침 서클릿</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>유리경첩 수비띠</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>문자접힘 마도띠</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>감은광석 버클띠</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>안개구슬 사냥띠</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>빛씨앗 허리끈</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>이슬격자 허리리본</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>각빛솔기 가죽장갑</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>빛여백 필사장갑</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>푸른선 마디장갑</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>연무구슬 열린장갑</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>잎빛실 장갑</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>씨앗레이스 손목장갑</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>등잔조각 반지</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>나선섬광 반지</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>각유리 단추반지</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>숯심 인장반지</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>철사우리 수정반지</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>안개뼈 초승반지</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>빛발자국 인장</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>이슬눈 가지반지</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>꽃잎막 반지</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>등불고리 펜던트</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>문자유리 로켓목걸이</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>불씨나선 목걸이</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>연무뼈 펜던트</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>꽃잎창 목걸이</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>빛금 측량자</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>각유리 씨앗표본</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>불씨틈 봉인석</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>나룻매듭 단검</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>소금유리 송곳단검</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>갈대줄 창</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>리벳심 망치</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>다리들보 대검</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>버들시위 활</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>장작패기 도끼</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>척후 가죽모자</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>추적자 이마 보호띠</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>불씨 홈날검</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>물결유리 홀</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>떠오른 문자 마도서</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>불꽃톱니 석궁</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>달잎 완드</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>청수정 보주</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>새벽실 로브</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>동문양 판금갑</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>안개물든 가죽갑</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>꽃맥 날개로브</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>불씨선 투구</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>빛바늘 후드</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>빛못 대장간 투구</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>이슬유리 서클릿</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>이끼빛 허리띠</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>문자버클 수비띠</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>푸른실 마도허리끈</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>불꽃땀 장갑</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>빛먹 필사장갑</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>수정마디 장갑</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>불씨조각 반지</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>푸른섬광 인장반지</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>이끼진주 반지</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>빛톱니 반지</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>안개송곳니 반지</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>달샘 물방울 펜던트</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>불씨모루 펜던트</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>안개발톱 토크</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>빛유리 나침반</td><td>매직</td><td class="num">0.4545%</td></tr>
+<tr><td>재의 망토</td><td>매직</td><td class="num">0.4545%</td></tr>
+</tbody></table></div>
+</details>
+<h2 id="s3">3. 신화 조합</h2>
+<p>성공 확률은 30%에서 시작해 실패할 때마다 그 신화만 +10%p 오릅니다. 최대 8번째 시도는 확정 성공이며, 만들면 처음으로 돌아갑니다.</p>
+<div class="tablewrap"><table class="odds">
+<thead><tr><th class="num">시도</th><th class="num">성공 확률</th></tr></thead><tbody>
+<tr><td class="num">1번째</td><td class="num">30%</td></tr>
+<tr><td class="num">2번째</td><td class="num">40%</td></tr>
+<tr><td class="num">3번째</td><td class="num">50%</td></tr>
+<tr><td class="num">4번째</td><td class="num">60%</td></tr>
+<tr><td class="num">5번째</td><td class="num">70%</td></tr>
+<tr><td class="num">6번째</td><td class="num">80%</td></tr>
+<tr><td class="num">7번째</td><td class="num">90%</td></tr>
+<tr><td class="num">8번째</td><td class="num">100%</td></tr>
+</tbody></table></div>
+<p>실패하면 원초의 불씨와 골드는 사라지고, 신화 조각·서사 재료는 50%를 돌려받습니다.</p>
+<h2 id="s4">4. 장비 강화</h2>
+<p>+1~+7는 100% 성공합니다. 축복받은 강화석을 쓰면 +15%p. 실패할 때마다 「기운」이 쌓이고 100%가 되면 다음 강화는 반드시 성공합니다.</p>
+<div class="tablewrap"><table class="odds">
+<thead><tr><th class="num">목표 단계</th><th class="num">성공 확률</th><th class="num">축복받은 강화석 사용</th></tr></thead><tbody>
+<tr><td class="num">+8</td><td class="num">95%</td><td class="num">100%</td></tr>
+<tr><td class="num">+9</td><td class="num">90%</td><td class="num">100%</td></tr>
+<tr><td class="num">+10</td><td class="num">85%</td><td class="num">100%</td></tr>
+<tr><td class="num">+11</td><td class="num">80%</td><td class="num">95%</td></tr>
+<tr><td class="num">+12</td><td class="num">70%</td><td class="num">85%</td></tr>
+<tr><td class="num">+13</td><td class="num">65%</td><td class="num">80%</td></tr>
+<tr><td class="num">+14</td><td class="num">60%</td><td class="num">75%</td></tr>
+<tr><td class="num">+15</td><td class="num">50%</td><td class="num">65%</td></tr>
+<tr><td class="num">+16</td><td class="num">45%</td><td class="num">60%</td></tr>
+<tr><td class="num">+17</td><td class="num">40%</td><td class="num">55%</td></tr>
+<tr><td class="num">+18</td><td class="num">35%</td><td class="num">50%</td></tr>
+<tr><td class="num">+19</td><td class="num">30%</td><td class="num">45%</td></tr>
+<tr><td class="num">+20</td><td class="num">25%</td><td class="num">40%</td></tr>
+</tbody></table></div>
+<h2 id="s5">5. 장비 상자</h2>
+<p>가방에서 열면 지금 진행 중인 챕터의 해당 등급 장비 중 1개가 같은 확률로 나옵니다. 상자는 주간 미션·챕터 별 목표·교환 같은 횟수 제한 보상에서만 얻습니다.</p>
+<div class="tablewrap"><table class="odds wide">
+<thead><tr><th>상자</th><th class="num">1장</th><th class="num">2장</th><th class="num">3장</th><th class="num">4장</th><th class="num">5장</th><th class="num">6장</th><th class="num">7장</th><th class="num">8장</th></tr></thead><tbody>
+<tr><th>레어 장비 상자</th><td class="num">74종 · 각 1.35%</td><td class="num">74종 · 각 1.35%</td><td class="num">74종 · 각 1.35%</td><td class="num">74종 · 각 1.35%</td><td class="num">74종 · 각 1.35%</td><td class="num">74종 · 각 1.35%</td><td class="num">74종 · 각 1.35%</td><td class="num">74종 · 각 1.35%</td></tr>
+<tr><th>유니크 장비 상자</th><td class="num">13종 · 각 7.69%</td><td class="num">13종 · 각 7.69%</td><td class="num">47종 · 각 2.13%</td><td class="num">31종 · 각 3.23%</td><td class="num">31종 · 각 3.23%</td><td class="num">31종 · 각 3.23%</td><td class="num">31종 · 각 3.23%</td><td class="num">30종 · 각 3.33%</td></tr>
+<tr><th>에픽 장비 상자</th><td class="num">4종 · 각 25%</td><td class="num">4종 · 각 25%</td><td class="num">19종 · 각 5.26%</td><td class="num">49종 · 각 2.04%</td><td class="num">23종 · 각 4.35%</td><td class="num">23종 · 각 4.35%</td><td class="num">23종 · 각 4.35%</td><td class="num">27종 · 각 3.7%</td></tr>
+</tbody></table></div>
+<p>봉인된 장비 상자(월간 패스·잿빛 패스 보상)는 열 때 먼저 등급을 정한 뒤, 위 표의 그 등급 장비 중 1개가 같은 확률로 나옵니다.</p>
+<div class="tablewrap"><table class="odds">
+<thead><tr><th>상자</th><th class="num">레어</th><th class="num">유니크</th><th class="num">에픽</th></tr></thead><tbody>
+<tr><td>봉인된 장비 상자</td><td class="num">80%</td><td class="num">18%</td><td class="num">2%</td></tr>
+</tbody></table></div>
+<h2 id="s6">6. 봉인된 유물</h2>
+<p>유물 던전(성소 탐험·유적 퍼즐·챕터 전투)에서만 얻습니다. 가방에서 열면 상자에 적힌 계열의 유물 칸 장비 1개가 아래 등급 확률로 나옵니다. 계열마다 등급별 장비는 1종입니다.</p>
+<div class="tablewrap"><table class="odds">
+<thead><tr><th>상자</th><th class="num">레어</th><th class="num">유니크</th><th class="num">에픽</th></tr></thead><tbody>
+<tr><td>봉인된 유물 · 잿빛 성소 얕은 층</td><td class="num">90%</td><td class="num">9.5%</td><td class="num">0.5%</td></tr>
+<tr><td>봉인된 유물 · 잿빛 성소 중간 층</td><td class="num">80%</td><td class="num">18%</td><td class="num">2%</td></tr>
+<tr><td>봉인된 유물 · 잿빛 성소 깊은 층</td><td class="num">68%</td><td class="num">28%</td><td class="num">4%</td></tr>
+<tr><td>봉인된 유물 · 핏빛 성소 얕은 층</td><td class="num">72%</td><td class="num">25%</td><td class="num">3%</td></tr>
+<tr><td>봉인된 유물 · 핏빛 성소 중간 층</td><td class="num">62%</td><td class="num">32%</td><td class="num">6%</td></tr>
+<tr><td>봉인된 유물 · 핏빛 성소 깊은 층</td><td class="num">50%</td><td class="num">40%</td><td class="num">10%</td></tr>
+<tr><td>봉인된 유물 · 거울 사막 기억 금고</td><td class="num">85%</td><td class="num">14%</td><td class="num">1%</td></tr>
+<tr><td>봉인된 유물 · 하늘 서고</td><td class="num">85%</td><td class="num">14%</td><td class="num">1%</td></tr>
+<tr><td>봉인된 유물 · 지도 밖 측량 유적</td><td class="num">85%</td><td class="num">14%</td><td class="num">1%</td></tr>
+<tr><td>봉인된 유물 · 단절된 합류 회랑</td><td class="num">85%</td><td class="num">14%</td><td class="num">1%</td></tr>
+<tr><td>봉인된 유물 · 북풍의 봉화</td><td class="num">85%</td><td class="num">14%</td><td class="num">1%</td></tr>
+<tr><td>봉인된 유물 · 철의 수로</td><td class="num">85%</td><td class="num">14%</td><td class="num">1%</td></tr>
+<tr><td>봉인된 유물 · 동료 고향 유적</td><td class="num">85%</td><td class="num">14%</td><td class="num">1%</td></tr>
+</tbody></table></div>
+<script>
+document.querySelectorAll("[data-banner-table]").forEach(function (box) {
+  var t = box.querySelector("table"); if (!t) return;
+  var heads = t.tHead.rows[0].cells; if (heads.length < 4) return;
+  var label = document.createElement("label"); label.className = "pick";
+  label.appendChild(document.createTextNode("배너 고르기 "));
+  var sel = document.createElement("select");
+  var all = document.createElement("option"); all.value = ""; all.textContent = "모든 배너"; sel.appendChild(all);
+  for (var i = 2; i < heads.length; i++) { var o = document.createElement("option"); o.value = i; o.textContent = heads[i].textContent; sel.appendChild(o); }
+  label.appendChild(sel);
+  box.insertBefore(label, box.querySelector(".tablewrap"));
+  sel.addEventListener("change", function () {
+    var pick = sel.value ? +sel.value : 0;
+    for (var r = 0; r < t.rows.length; r++) for (var c = 2; c < t.rows[r].cells.length; c++)
+      t.rows[r].cells[c].hidden = pick ? c !== pick : false;
+    t.classList.toggle("one", !!pick);
+  });
+});
+</script>
+</div></main>
+<footer><div class="wrap">
+  <nav aria-label="사이트 안내"><ul class="foot-links">
+    <li><a href="/">홈</a></li>
+    <li><a href="/#records">실제 플레이</a></li>
+    <li><a href="/#relic">유물 던전</a></li>
+    <li><a href="/#apply">외부 시험 신청</a></li>
+    <li><a href="/#faq">자주 묻는 질문</a></li>
+    <li><a href="/store/">상품 가격</a></li>
+    <li><a href="/odds/">확률 공개</a></li>
+    <li><a href="/privacy/">개인정보 처리방침</a></li>
+  </ul></nav>
+  <span>문의 · <a href="mailto:ashencrown.support@gmail.com">ashencrown.support@gmail.com</a> · 평일 기준 2일 이내 답장</span>
+  <span>© 2026 Ashen Crown · 모든 사진은 개발 중인 실제 게임 화면입니다.</span>
+</div></footer>
+<script src="/js/site.js" defer></script>
+</body>
+</html>
