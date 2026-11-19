@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Privacy Policy | Ashen Crown</title>
-<meta name="description" content="What the Ashen Crown website collects for playtest sign-ups, contact and visit statistics, how long it is kept, and how it is deleted.">
+<meta name="description" content="What the Ashen Crown website and the game Ashen Crown: Dawn of the Empty Throne collect (game account, server saves, chat, reports and blocks, playtest sign-ups), how long it is kept and how it is deleted.">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://ashen-crown.github.io/en/privacy/">
 <link rel="alternate" hreflang="ko" href="https://ashen-crown.github.io/privacy/">
@@ -12,7 +12,7 @@
 <link rel="alternate" hreflang="x-default" href="https://ashen-crown.github.io/privacy/">
 <meta property="og:site_name" content="Ashen Crown">
 <meta property="og:title" content="Privacy Policy | Ashen Crown">
-<meta property="og:description" content="What the Ashen Crown website collects for playtest sign-ups, contact and visit statistics, how long it is kept, and how it is deleted.">
+<meta property="og:description" content="What the Ashen Crown website and the game Ashen Crown: Dawn of the Empty Throne collect (game account, server saves, chat, reports and blocks, playtest sign-ups), how long it is kept and how it is deleted.">
 <meta property="og:image" content="https://ashen-crown.github.io/img/og-en.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -63,6 +63,19 @@ main ul,main ol{padding-left:20px}
 table{border-collapse:collapse;font-size:14px;min-width:560px}
 th,td{border:1px solid var(--rule);padding:8px 10px;text-align:left;vertical-align:top}
 th{background:var(--ash-2);font-weight:600}
+main h3{font-size:16.5px;margin:24px 0 8px;font-family:var(--display)}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+table.odds{min-width:0}
+table.wide{min-width:560px}
+table.wide th:first-child{position:sticky;left:0;background:var(--ash-2);z-index:1}
+table.wide.one{min-width:0;width:100%}
+details.fold{margin-top:12px;border:1px solid var(--rule);border-radius:10px;padding:10px 14px}
+details.fold summary{cursor:pointer;font-weight:600;color:var(--ember);min-height:32px;display:flex;align-items:center}
+.pick{display:flex;align-items:center;gap:8px;margin:10px 0 4px;font-size:14px;color:var(--dust)}
+.pick select{font:inherit;color:var(--bone);background:var(--ash);border:1px solid #5a4c3e;border-radius:6px;padding:6px 8px;max-width:60vw}
+.toc ol{display:flex;flex-wrap:wrap;gap:6px 16px;list-style:none;padding:0;margin:14px 0 0;font-size:14.5px}
+.todo{background:#4a3214;color:#ffd99a;border-radius:4px;padding:0 5px;font-weight:600}
+@media (max-width:480px){th,td{padding:6px 7px;font-size:13px}table:not(.wide){min-width:0;width:100%}}
 .box{background:var(--ash-2);border:1px solid var(--rule);border-radius:10px;padding:18px 20px;margin-top:22px}
 .actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
 .btn{display:inline-flex;align-items:center;padding:12px 20px;border-radius:6px;font-weight:600;font-size:15px;text-decoration:none;border:1px solid transparent}
@@ -88,53 +101,98 @@ footer .wrap{display:grid;gap:10px;max-width:1080px}
 <div class="wrap"><nav class="crumbs" aria-label="You are here"><ol><li><a href="/en/">Home</a></li><li><span aria-current="page">Privacy policy</span></li></ol></nav></div>
 <main id="main" tabindex="-1"><div class="wrap">
 <h1>Privacy policy</h1>
-<p class="lead">Ashen Crown ("we") collects only what the website needs and deletes it when the purpose is done.</p>
-<p class="meta">Effective 2026-11-11</p>
+<p class="lead">Ashen Crown Studio ("we") collects only what the website and the game Ashen Crown: Dawn of the Empty Throne (the "Game") need, and deletes it when the purpose is done. If this English text and the Korean version differ, the Korean version prevails.</p>
+<p class="meta">Website part effective 2026-11-11 · Game part effective 2026-12-01 · Last updated 2026-11-19</p>
 
 <h2>1. What we collect and why</h2>
+<h3>The Game</h3>
+<div class="tablewrap"><table>
+<tr><th>When</th><th>What</th><th>Why</th></tr>
+<tr><td>Sign-in (Steam)</td><td>Steam account ID (SteamID), Steam nickname</td><td>Identify your account, save and restore progress</td></tr>
+<tr><td>Sign-in (web version, Google)</td><td>Your Google sign-in user ID (Firebase user ID). Your Google email, name and photo stay with Google's sign-in service (Firebase Authentication); the game server does not store them.</td><td>Identify your account, save and restore progress</td></tr>
+<tr><td>Server saves</td><td>Game progress (save data), recovery copies, in-game name, purchase and delivery records, free Crown Gem records, access records (time and game version), error logs</td><td>Saving and restoring progress, purchase delivery and refunds, abuse prevention, bug fixing</td></tr>
+<tr><td>Chat (world, order, direct)</td><td>Messages you send, chat name, public ID (a number that cannot be traced back to your account), time sent, filter and spam checks, chat bans, your direct-message list and DM setting</td><td>Deliver chat, stop abuse, spam and harassment</td></tr>
+<tr><td>Reports and blocks</td><td>The reported message and its text, the reason, public IDs and names of the reporter and the reported player, your block list</td><td>Review reports and take action, hide blocked players</td></tr>
+<tr><td>Knight orders</td><td>Order name and crest, member roster (public ID, name, role), join and leave times</td><td>Run orders and order chat</td></tr>
+<tr><td>Arena ranking</td><td>In-game name, points, defense team</td><td>Rankings and matchmaking</td></tr>
+<tr><td>Surveys and bug reports</td><td>What you send, game version and device info</td><td>Improve the game, fix bugs</td></tr>
+<tr><td>Purchases</td><td>Order number, product, amount, time, status</td><td>Confirm delivery, prevent double delivery, handle refunds</td></tr>
+</table></div>
+<p>Card and bank details are handled by Valve (Steam) or the app store; we never receive them. We do not collect real names, phone numbers or national ID numbers.</p>
+<h3>The website</h3>
 <div class="tablewrap"><table>
 <tr><th>When</th><th>What</th><th>Why</th></tr>
 <tr><td>Playtest sign-up form</td><td>Required: nickname, email<br>Optional: your PC, favorite genres, message</td><td>To send test dates and instructions, and understand test hardware</td></tr>
 <tr><td>Email to us</td><td>Your email address and message</td><td>To reply</td></tr>
 <tr><td>Visit statistics (only if you allow)</td><td>Google Analytics cookies, pages viewed, rough location, device type</td><td>To see which content is read and improve the site</td></tr>
 </table></div>
-<p>Children under 14 may not sign up for playtests.</p>
 
-<h2>2. How long we keep it</h2>
+<h2 id="chat">2. What others see in chat, reports and blocks</h2>
 <ul>
-<li>Playtest sign-ups: deleted within 30 days after that playtest ends.</li>
-<li>Emails: kept for one year after we reply, then deleted.</li>
-<li>Visit statistics: Google Analytics retention setting (14 months).</li>
+<li>Chat opens at account level 10. Your chat name and messages are visible to other players in that room. Direct messages are visible only to you and the other player.</li>
+<li>The server checks every message first and blocks profanity, personal information (such as phone numbers) and advertising. Repeated hits lead to an automatic, temporary chat ban.</li>
+<li>You can report any message and block its sender at the same time. A message reported by three different players is hidden until we review it.</li>
+<li>We review reported messages and may hide them or ban chat. We do not open direct messages that have not been reported.</li>
+<li>Messages from players you block are hidden from you, and they cannot send you direct messages.</li>
+<li>Please do not post real names, phone numbers, addresses or other account details in chat.</li>
 </ul>
 
-<h2>3. Services that handle your data</h2>
-<p>We never sell or hand your data to others. We use these overseas services to run the site and email:</p>
+<h2>3. How long we keep it</h2>
+<div class="tablewrap"><table>
+<tr><th>Data</th><th>Retention</th></tr>
+<tr><td>Game account and server data</td><td>Deleted within 30 days of an account deletion request</td></tr>
+<tr><td>Save recovery copies</td><td>Rolling 7 days (older copies are overwritten)</td></tr>
+<tr><td>World chat messages</td><td>Deleted automatically 3 days after sending</td></tr>
+<tr><td>Order chat and direct messages</td><td>Deleted automatically 30 days after sending</td></tr>
+<tr><td>Report records</td><td>1 year after the case is closed</td></tr>
+<tr><td>Surveys and bug reports</td><td>1 year</td></tr>
+<tr><td>Payment records</td><td>5 years (Korean E-Commerce Act)</td></tr>
+<tr><td>Access records</td><td>3 months (Korean Protection of Communications Secrets Act)</td></tr>
+<tr><td>Playtest sign-ups</td><td>Within 30 days after that playtest ends</td></tr>
+<tr><td>Emails</td><td>1 year after we reply</td></tr>
+<tr><td>Website visit statistics</td><td>Google Analytics retention setting (14 months)</td></tr>
+</table></div>
+<p>Automatic deletion is carried out by the database after the period ends and may take about a day.</p>
+
+<h2>4. Sharing and services that handle your data</h2>
+<p>We never sell or hand your data to others, except where required by law or requested by investigative authorities through legal procedures. We use these services to run the Game and the website:</p>
 <div class="tablewrap"><table>
 <tr><th>Service (company, country)</th><th>Task</th><th>Data</th><th>Retention</th></tr>
-<tr><td>FormSubmit (Devro LABS, USA)</td><td>Forwards the form to our inbox</td><td>What you enter in the form</td><td>Per the service's policy</td></tr>
-<tr><td>Gmail (Google LLC, USA)</td><td>Stores and answers sign-ups and emails</td><td>Form and email content</td><td>As in section 2</td></tr>
-<tr><td>Google Analytics (Google LLC, USA)</td><td>Visit statistics (only if you allow)</td><td>Cookies, pages viewed, device info</td><td>14 months</td></tr>
-<tr><td>GitHub Pages (GitHub, Inc., USA)</td><td>Hosts the website</td><td>Access logs (such as IP address)</td><td>Per the service's policy</td></tr>
+<tr><td>Steam (Valve Corporation, USA)</td><td>Steam sign-in, payment, cloud saves</td><td>SteamID, payment info, saves</td><td>Per the service's policy</td></tr>
+<tr><td>Firebase (Google LLC, USA · data stored in Seoul, Korea)</td><td>Game server: saves, chat, knight orders, rankings, web Google sign-in</td><td>The game data in section 1</td><td>As in section 3</td></tr>
+<tr><td>ONE store (ONE store Co., Ltd., Korea)</td><td>Running the ONE store web version and payment (once payment opens)</td><td>ONE store account check, payment info</td><td>Per the service's policy</td></tr>
+<tr><td>FormSubmit (Devro LABS, USA)</td><td>Forwards the playtest form to our inbox</td><td>What you enter in the form</td><td>Per the service's policy</td></tr>
+<tr><td>Gmail (Google LLC, USA)</td><td>Stores and answers sign-ups and emails</td><td>Form and email content</td><td>As in section 3</td></tr>
+<tr><td>Google Analytics (Google LLC, USA)</td><td>Website visit statistics (only if you allow)</td><td>Cookies, pages viewed, device info</td><td>14 months</td></tr>
+<tr><td>GitHub Pages (GitHub, Inc., USA)</td><td>Hosts the website and web version</td><td>Access logs (such as IP address)</td><td>Per the service's policy</td></tr>
 </table></div>
+<p>Data is sent over an encrypted internet connection when you play, send the form or visit the site. If you do not want it sent overseas, you can skip online features (server saves, chat, orders, rankings, payment), email us instead of using the form, or decline analytics; those features will then be unavailable.</p>
 
-<h2 id="analytics">4. Cookies and visit statistics</h2>
-<p>On your first visit we ask whether we may use analytics cookies. Google Analytics runs only if you choose Allow, with IP addresses shortened. The site works the same if you decline.</p>
+<h2>5. Deletion</h2>
+<p>Electronic files are deleted so they cannot be recovered. Backups and recovery copies are overwritten when their period ends. To delete your game account, email us (section 7); an in-game delete button is in preparation.</p>
+
+<h2 id="analytics">6. Cookies and data on your device</h2>
+<p>The Game also stores saves and settings on your device (the game folder or browser storage) and uses no advertising or tracking cookies. On your first visit the website asks whether we may use analytics cookies. Google Analytics runs only if you choose Allow, with IP addresses shortened. The site works the same if you decline.</p>
 <p><a href="#" data-consent-reset>Change your analytics choice</a></p>
 
-<h2>5. Your rights</h2>
-<p>You can ask to see, correct or delete your data, or ask us to stop using it. Email <a href="mailto:ashencrown.support@gmail.com">ashencrown.support@gmail.com</a> and we will act within 10 days.</p>
+<h2>7. Your rights</h2>
+<p>You can ask to see, correct or delete your data (including account deletion), or ask us to stop using it. Email <a href="mailto:ashencrown.support@gmail.com">ashencrown.support@gmail.com</a> with your in-game account code (shown in Settings) and we will act within 10 days.</p>
 
-<h2>6. Keeping it safe</h2>
+<h2>8. Keeping it safe</h2>
 <ul>
+<li>Traffic between the Game and the server is encrypted (HTTPS). Only the server can read or write the database, and operator functions require an operator key.</li>
 <li>Sign-ups and emails are kept in an account only the operator can access, protected with two-step verification.</li>
 <li>Data is deleted within the periods above.</li>
 </ul>
 
-<h2>7. Contact</h2>
-<p>Privacy contact: Ashen Crown operator, <a href="mailto:ashencrown.support@gmail.com">ashencrown.support@gmail.com</a> (reply within 2 business days, Korean time).</p>
+<h2>9. Children under 14</h2>
+<p>Children under 14 may not sign up for playtests. The Game follows Steam's and Google's account rules. If a minor pays without a guardian's consent, the minor or the guardian may ask for cancellation.</p>
 
-<h2>8. Changes</h2>
-<p>If this policy changes, we will post the date and what changed on this page.</p>
+<h2>10. Contact</h2>
+<p>Privacy officer: Ashen Crown Studio, <a href="mailto:ashencrown.support@gmail.com">ashencrown.support@gmail.com</a> (reply within 2 business days, Korean time).</p>
+
+<h2>11. Changes</h2>
+<p>If this policy changes, we announce the date and the changes on this page and in the Game 7 days before they take effect (30 days if unfavorable to you).</p>
 </div></main>
 <footer><div class="wrap">
   <nav aria-label="Site"><ul class="foot-links">
@@ -143,6 +201,8 @@ footer .wrap{display:grid;gap:10px;max-width:1080px}
     <li><a href="/en/#relic">Relic dungeons</a></li>
     <li><a href="/en/#apply">Playtest sign-up</a></li>
     <li><a href="/en/#faq">FAQ</a></li>
+    <li><a href="/en/store/">Prices</a></li>
+    <li><a href="/en/odds/">Odds</a></li>
     <li><a href="/en/privacy/">Privacy policy</a></li>
   </ul></nav>
   <span>Contact · <a href="mailto:ashencrown.support@gmail.com">ashencrown.support@gmail.com</a> · reply within 2 business days</span>

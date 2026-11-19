@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>개인정보 처리방침 | Ashen Crown 애션 크라운</title>
-<meta name="description" content="애션 크라운 홈페이지가 외부 시험 신청과 문의, 방문 통계를 위해 어떤 정보를 받고, 얼마나 보관하며, 어떻게 지우는지 안내합니다.">
+<meta name="description" content="애션 크라운 홈페이지와 게임 「애션 크라운: 빈 왕좌의 새벽」이 받는 정보(게임 계정, 서버 저장, 채팅, 신고·차단, 외부 시험 신청)와 보관 기간, 지우는 방법을 안내합니다.">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://ashen-crown.github.io/privacy/">
 <link rel="alternate" hreflang="ko" href="https://ashen-crown.github.io/privacy/">
@@ -12,7 +12,7 @@
 <link rel="alternate" hreflang="x-default" href="https://ashen-crown.github.io/privacy/">
 <meta property="og:site_name" content="Ashen Crown">
 <meta property="og:title" content="개인정보 처리방침 | Ashen Crown 애션 크라운">
-<meta property="og:description" content="애션 크라운 홈페이지가 외부 시험 신청과 문의, 방문 통계를 위해 어떤 정보를 받고, 얼마나 보관하며, 어떻게 지우는지 안내합니다.">
+<meta property="og:description" content="애션 크라운 홈페이지와 게임 「애션 크라운: 빈 왕좌의 새벽」이 받는 정보(게임 계정, 서버 저장, 채팅, 신고·차단, 외부 시험 신청)와 보관 기간, 지우는 방법을 안내합니다.">
 <meta property="og:image" content="https://ashen-crown.github.io/img/og.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -63,6 +63,19 @@ main ul,main ol{padding-left:20px}
 table{border-collapse:collapse;font-size:14px;min-width:560px}
 th,td{border:1px solid var(--rule);padding:8px 10px;text-align:left;vertical-align:top}
 th{background:var(--ash-2);font-weight:600}
+main h3{font-size:16.5px;margin:24px 0 8px;font-family:var(--display)}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+table.odds{min-width:0}
+table.wide{min-width:560px}
+table.wide th:first-child{position:sticky;left:0;background:var(--ash-2);z-index:1}
+table.wide.one{min-width:0;width:100%}
+details.fold{margin-top:12px;border:1px solid var(--rule);border-radius:10px;padding:10px 14px}
+details.fold summary{cursor:pointer;font-weight:600;color:var(--ember);min-height:32px;display:flex;align-items:center}
+.pick{display:flex;align-items:center;gap:8px;margin:10px 0 4px;font-size:14px;color:var(--dust)}
+.pick select{font:inherit;color:var(--bone);background:var(--ash);border:1px solid #5a4c3e;border-radius:6px;padding:6px 8px;max-width:60vw}
+.toc ol{display:flex;flex-wrap:wrap;gap:6px 16px;list-style:none;padding:0;margin:14px 0 0;font-size:14.5px}
+.todo{background:#4a3214;color:#ffd99a;border-radius:4px;padding:0 5px;font-weight:600}
+@media (max-width:480px){th,td{padding:6px 7px;font-size:13px}table:not(.wide){min-width:0;width:100%}}
 .box{background:var(--ash-2);border:1px solid var(--rule);border-radius:10px;padding:18px 20px;margin-top:22px}
 .actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
 .btn{display:inline-flex;align-items:center;padding:12px 20px;border-radius:6px;font-weight:600;font-size:15px;text-decoration:none;border:1px solid transparent}
@@ -88,56 +101,99 @@ footer .wrap{display:grid;gap:10px;max-width:1080px}
 <div class="wrap"><nav class="crumbs" aria-label="현재 위치"><ol><li><a href="/">홈</a></li><li><span aria-current="page">개인정보 처리방침</span></li></ol></nav></div>
 <main id="main" tabindex="-1"><div class="wrap">
 <h1>개인정보 처리방침</h1>
-<p class="lead">애션 크라운(Ashen Crown, 이하 「운영자」)은 홈페이지에서 받는 개인정보를 꼭 필요한 만큼만 받고, 목적이 끝나면 지웁니다.</p>
-<p class="meta">시행일 2026-11-11</p>
+<p class="lead">Ashen Crown Studio(이하 「운영자」)는 홈페이지와 게임 「애션 크라운: 빈 왕좌의 새벽」(이하 「게임」)에서 받는 개인정보를 꼭 필요한 만큼만 받고, 목적이 끝나면 지웁니다.</p>
+<p class="meta">홈페이지 부분 시행 2026-11-11 · 게임 부분 시행 2026-12-01 · 마지막 수정 2026-11-19</p>
 
 <h2>1. 받는 정보와 이유</h2>
+<h3>게임</h3>
+<div class="tablewrap"><table>
+<tr><th>언제</th><th>받는 정보</th><th>이유</th></tr>
+<tr><td>로그인 (Steam판)</td><td>Steam 계정 번호(SteamID), Steam 닉네임</td><td>내 계정 확인, 진행 저장과 복구</td></tr>
+<tr><td>로그인 (웹판 구글 로그인)</td><td>구글 로그인 계정 번호(Firebase 사용자 번호). 구글 메일 주소·이름·프로필 사진은 Google의 로그인 서비스(Firebase 인증)에 보관되고, 게임 서버에는 저장하지 않습니다.</td><td>내 계정 확인, 진행 저장과 복구</td></tr>
+<tr><td>서버 저장</td><td>게임 진행 기록(세이브), 세이브 복구용 사본, 게임 안 이름, 구매·지급 기록, 무료 왕관석 지급 기록, 접속 기록(접속 시각·게임 버전), 오류 기록</td><td>진행 저장과 복구, 구매 지급 확인과 환불, 부정 이용 방지, 오류 수정</td></tr>
+<tr><td>채팅 (전체·기사단·1:1)</td><td>보낸 글, 채팅 이름, 공개 ID(계정을 거꾸로 찾을 수 없는 번호), 보낸 시각, 도배·금칙어 판정 기록, 채팅 금지 기록, 1:1 대화 상대 목록과 1:1 받기 설정</td><td>채팅 전달, 욕설·도배·괴롭힘 막기</td></tr>
+<tr><td>신고·차단</td><td>신고한 글과 그 내용, 신고 이유, 신고한 사람·신고된 사람의 공개 ID와 이름, 내 차단 목록</td><td>신고 확인과 조치, 차단한 사람의 글 숨기기</td></tr>
+<tr><td>기사단</td><td>기사단 이름·문장, 단원 명부(공개 ID·이름·역할), 가입·탈퇴 시각</td><td>기사단 운영, 기사단 채팅 방 정하기</td></tr>
+<tr><td>투기장 순위표</td><td>게임 안 이름, 점수, 방어 팀</td><td>순위표와 대전 상대 찾기</td></tr>
+<tr><td>설문·버그 제보</td><td>보내 주신 내용, 게임 버전과 기기 정보</td><td>게임 개선, 오류 수정</td></tr>
+<tr><td>결제</td><td>주문 번호, 상품, 금액, 결제 시각, 결제 상태</td><td>구매 지급 확인, 중복 지급·환불 처리</td></tr>
+</table></div>
+<p>결제 카드·계좌 정보는 Valve(Steam)나 앱 마켓이 처리하며 운영자는 받지 않습니다. 실명·전화번호·주민등록번호는 받지 않습니다.</p>
+<h3>홈페이지</h3>
 <div class="tablewrap"><table>
 <tr><th>언제</th><th>받는 정보</th><th>이유</th></tr>
 <tr><td>외부 시험 신청서</td><td>필수: 닉네임, 메일 주소<br>선택: 사용하는 PC, 즐겨 하는 장르, 하고 싶은 말</td><td>시험 일정과 참가 방법 안내, 시험 환경 파악</td></tr>
 <tr><td>메일 문의</td><td>메일 주소, 보내 주신 내용</td><td>문의 답변</td></tr>
 <tr><td>방문 통계 (허용한 경우만)</td><td>구글 애널리틱스 쿠키, 본 화면, 대략적인 지역, 기기 종류</td><td>어떤 내용을 많이 보는지 파악해 홈페이지 개선</td></tr>
 </table></div>
-<p>만 14세 미만은 외부 시험에 신청할 수 없습니다.</p>
 
-<h2>2. 보관 기간</h2>
+<h2 id="chat">2. 채팅에서 다른 사람에게 보이는 것과 신고·차단</h2>
 <ul>
-<li>외부 시험 신청 정보: 해당 외부 시험이 끝난 뒤 30일 이내에 지웁니다.</li>
-<li>문의 메일: 답변을 마친 뒤 1년 동안 보관하고 지웁니다.</li>
-<li>방문 통계: 구글 애널리틱스 보관 기간 설정(14개월)에 따릅니다.</li>
+<li>채팅은 계정 레벨 10부터 쓸 수 있습니다. 채팅 이름과 보낸 글은 그 방에 있는 다른 플레이어에게 보입니다. 1:1 대화는 나와 상대만 봅니다.</li>
+<li>보내는 글은 서버가 먼저 검사해 욕설·개인정보(전화번호 등)·광고로 보이는 글을 막습니다. 짧은 시간에 여러 번 걸리면 일정 시간 채팅이 자동으로 금지됩니다.</li>
+<li>글마다 신고할 수 있고, 신고하면서 그 사람을 바로 차단할 수 있습니다. 서로 다른 세 명이 신고한 글은 운영자가 확인하기 전까지 자동으로 가려집니다.</li>
+<li>운영자는 신고된 글과 그 신고 내용을 확인해 글을 가리거나 채팅을 금지할 수 있습니다. 신고가 없는 1:1 대화는 운영자가 열어 보지 않습니다.</li>
+<li>차단한 사람의 글과 1:1 대화는 내 화면에 보이지 않고, 그 사람은 나에게 1:1 대화를 보낼 수 없습니다.</li>
+<li>채팅에 실명, 전화번호, 주소, 다른 계정 정보 같은 개인정보를 적지 마세요.</li>
 </ul>
-<p>법에서 따로 보관을 요구하는 경우에는 그 기간 동안 보관합니다.</p>
 
-<h2>3. 다른 곳에 주는 경우</h2>
-<p>받은 개인정보를 다른 사람이나 회사에 팔거나 넘기지 않습니다. 다만 홈페이지와 메일을 운영하기 위해 아래 해외 서비스를 씁니다.</p>
+<h2>3. 보관 기간</h2>
+<div class="tablewrap"><table>
+<tr><th>정보</th><th>보관 기간</th></tr>
+<tr><td>게임 계정과 서버 저장 정보</td><td>계정 삭제를 요청하면 30일 안에 지웁니다.</td></tr>
+<tr><td>세이브 복구용 사본</td><td>최근 7일치만 돌려 가며 보관(지난 것은 자동으로 덮어씀)</td></tr>
+<tr><td>전체 채팅 글</td><td>보낸 뒤 3일이 지나면 자동으로 지움</td></tr>
+<tr><td>기사단 채팅·1:1 대화 글</td><td>보낸 뒤 30일이 지나면 자동으로 지움</td></tr>
+<tr><td>신고 기록</td><td>조치를 마친 뒤 1년</td></tr>
+<tr><td>설문·버그 제보</td><td>1년</td></tr>
+<tr><td>결제(계약·대금 지급) 기록</td><td>5년 (전자상거래법)</td></tr>
+<tr><td>접속 기록</td><td>3개월 (통신비밀보호법)</td></tr>
+<tr><td>외부 시험 신청 정보</td><td>해당 외부 시험이 끝난 뒤 30일 이내</td></tr>
+<tr><td>문의 메일</td><td>답변을 마친 뒤 1년</td></tr>
+<tr><td>홈페이지 방문 통계</td><td>구글 애널리틱스 보관 기간 설정(14개월)</td></tr>
+</table></div>
+<p>자동 삭제는 기간이 지난 뒤 데이터베이스가 처리하므로 하루 안팎 늦을 수 있습니다. 법에서 따로 보관을 요구하는 경우에는 그 기간 동안 보관합니다.</p>
+
+<h2>4. 다른 곳에 주는 경우와 맡기는 일</h2>
+<p>받은 개인정보를 다른 사람이나 회사에 팔거나 넘기지 않습니다. 법령에 근거가 있거나 수사기관이 법에 따른 절차로 요청한 경우만 예외입니다. 게임과 홈페이지를 운영하기 위해 아래 서비스에 일을 맡깁니다.</p>
 <div class="tablewrap"><table>
 <tr><th>서비스 (회사, 국가)</th><th>맡기는 일</th><th>전달되는 정보</th><th>보관 기간</th></tr>
-<tr><td>FormSubmit (Devro LABS, 미국)</td><td>신청서를 운영자 메일로 전달</td><td>신청서에 적은 내용</td><td>전달 후 해당 서비스 정책에 따름</td></tr>
-<tr><td>Gmail (Google LLC, 미국)</td><td>신청서와 문의 메일 보관·답장</td><td>신청서·메일 내용</td><td>위 2번 기간</td></tr>
-<tr><td>Google Analytics (Google LLC, 미국)</td><td>방문 통계 (허용한 경우만)</td><td>쿠키, 본 화면, 기기 정보</td><td>14개월</td></tr>
-<tr><td>GitHub Pages (GitHub, Inc., 미국)</td><td>홈페이지 호스팅</td><td>접속 기록 (IP 주소 등)</td><td>해당 서비스 정책에 따름</td></tr>
+<tr><td>Steam (Valve Corporation, 미국)</td><td>Steam판 로그인 확인, 결제, 클라우드 저장</td><td>SteamID, 결제 정보, 세이브</td><td>해당 서비스 정책에 따름</td></tr>
+<tr><td>Firebase (Google LLC, 미국 · 데이터는 대한민국 서울 지역 서버에 저장)</td><td>게임 서버: 진행 저장, 채팅, 기사단, 순위표, 웹판 구글 로그인</td><td>위 1번 게임 표의 정보</td><td>위 3번 기간</td></tr>
+<tr><td>원스토어 (원스토어 주식회사, 대한민국)</td><td>원스토어 웹판 실행과 결제 (결제는 열린 뒤부터)</td><td>원스토어 계정 확인 정보, 결제 정보</td><td>해당 서비스 정책에 따름</td></tr>
+<tr><td>FormSubmit (Devro LABS, 미국)</td><td>시험 신청서를 운영자 메일로 전달</td><td>신청서에 적은 내용</td><td>전달 후 해당 서비스 정책에 따름</td></tr>
+<tr><td>Gmail (Google LLC, 미국)</td><td>신청서와 문의 메일 보관·답장</td><td>신청서·메일 내용</td><td>위 3번 기간</td></tr>
+<tr><td>Google Analytics (Google LLC, 미국)</td><td>홈페이지 방문 통계 (허용한 경우만)</td><td>쿠키, 본 화면, 기기 정보</td><td>14개월</td></tr>
+<tr><td>GitHub Pages (GitHub, Inc., 미국)</td><td>홈페이지·웹판 호스팅</td><td>접속 기록 (IP 주소 등)</td><td>해당 서비스 정책에 따름</td></tr>
 </table></div>
-<p>정보는 신청서를 보내거나 홈페이지에 접속할 때 인터넷으로 전달됩니다. 해외로 전달되는 것을 원하지 않으면 신청서 대신 메일로 문의하거나, 방문 통계를 허용하지 않으면 됩니다.</p>
+<p>정보는 게임을 하거나 신청서를 보내거나 홈페이지에 접속할 때 인터넷(암호화 연결)으로 전달됩니다. 해외로 전달되는 것을 원하지 않으면 온라인 기능(서버 저장·채팅·기사단·순위표·결제)을 쓰지 않거나, 신청서 대신 메일로 문의하거나, 방문 통계를 허용하지 않으면 됩니다. 이때 해당 기능은 쓸 수 없습니다.</p>
 
-<h2 id="analytics">4. 쿠키와 방문 통계</h2>
-<p>처음 방문하면 방문 통계 쿠키를 써도 되는지 묻습니다. 「허용」을 누른 경우에만 구글 애널리틱스가 작동하고, IP 주소는 줄여서 보냅니다. 「허용 안 함」을 눌러도 홈페이지는 그대로 쓸 수 있습니다.</p>
+<h2>5. 지우는 방법</h2>
+<p>전자 파일은 되살릴 수 없는 방법으로 지웁니다. 백업과 복구용 사본은 보관 기간이 지나면 자동으로 덮어씁니다. 게임 계정 삭제는 아래 7번의 메일로 요청해 주세요(게임 안 삭제 단추는 준비 중입니다).</p>
+
+<h2 id="analytics">6. 쿠키와 이 기기에 저장하는 정보</h2>
+<p>게임은 세이브와 설정을 이 기기(실행 파일 폴더 또는 브라우저 저장소)에도 저장하고, 광고·추적용 쿠키는 쓰지 않습니다. 홈페이지는 처음 방문할 때 방문 통계 쿠키를 써도 되는지 묻습니다. 「허용」을 누른 경우에만 구글 애널리틱스가 작동하고, IP 주소는 줄여서 보냅니다. 「허용 안 함」을 눌러도 홈페이지는 그대로 쓸 수 있습니다.</p>
 <p><a href="#" data-consent-reset>방문 통계 허용 여부 다시 고르기</a></p>
 
-<h2>5. 내 정보에 대한 권리</h2>
-<p>내 정보를 보여 달라고, 고쳐 달라고, 지워 달라고, 그만 쓰라고 요청할 수 있습니다. <a href="mailto:ashencrown.support@gmail.com">ashencrown.support@gmail.com</a>로 보내 주시면 10일 이내에 처리하고 결과를 알려 드립니다.</p>
+<h2>7. 내 정보에 대한 권리</h2>
+<p>내 정보를 보여 달라고, 고쳐 달라고, 지워 달라고(계정 삭제 포함), 그만 쓰라고 요청할 수 있습니다. <a href="mailto:ashencrown.support@gmail.com">ashencrown.support@gmail.com</a>로 게임 안 계정 코드(설정에서 볼 수 있음)와 함께 보내 주시면 10일 이내에 처리하고 결과를 알려 드립니다.</p>
 
-<h2>6. 안전하게 지키는 방법</h2>
+<h2>8. 안전하게 지키는 방법</h2>
 <ul>
+<li>게임과 서버 사이의 전송은 암호화(HTTPS)합니다. 데이터베이스는 서버만 읽고 쓸 수 있고, 운영 기능은 운영자 키가 있어야 쓸 수 있습니다.</li>
 <li>신청서와 메일은 운영자만 볼 수 있는 계정에 보관하고, 계정에는 2단계 인증을 씁니다.</li>
 <li>목적이 끝난 정보는 위 기간 안에 지웁니다.</li>
 </ul>
 
-<h2>7. 개인정보 보호책임자와 문의</h2>
-<p>개인정보 보호책임자: 애션 크라운 운영자<br>연락처: <a href="mailto:ashencrown.support@gmail.com">ashencrown.support@gmail.com</a> (평일 기준 2일 이내 답장)</p>
-<p>개인정보 침해 신고와 상담은 개인정보침해신고센터(privacy.kisa.or.kr, 국번 없이 118)나 개인정보분쟁조정위원회(kopico.go.kr, 1833-6972)에서도 받을 수 있습니다.</p>
+<h2>9. 만 14세 미만 이용자</h2>
+<p>만 14세 미만은 외부 시험에 신청할 수 없습니다. 게임은 Steam·구글 계정 이용 규정에 따르며, 법정대리인의 동의 없이 미성년자가 결제한 경우 본인이나 법정대리인이 취소를 요청할 수 있습니다.</p>
 
-<h2>8. 바뀌는 경우</h2>
-<p>이 방침을 바꾸면 이 페이지에 바뀐 날짜와 내용을 적어 알립니다.</p>
+<h2>10. 개인정보 보호책임자와 문의</h2>
+<p>개인정보 보호책임자: Ashen Crown Studio<br>연락처: <a href="mailto:ashencrown.support@gmail.com">ashencrown.support@gmail.com</a> (평일 기준 2일 이내 답장)</p>
+<p>개인정보 침해 신고와 상담은 개인정보침해신고센터(privacy.kisa.or.kr, 국번 없이 118), 개인정보분쟁조정위원회(kopico.go.kr, 1833-6972), 대검찰청(국번 없이 1301), 경찰청(ecrm.police.go.kr, 국번 없이 182)에서도 받을 수 있습니다.</p>
+
+<h2>11. 바뀌는 경우</h2>
+<p>이 방침을 바꾸면 시행 7일 전(이용자에게 불리하면 30일 전)부터 이 페이지와 게임 안 공지로 바뀐 날짜와 내용을 알립니다.</p>
 </div></main>
 <footer><div class="wrap">
   <nav aria-label="사이트 안내"><ul class="foot-links">
@@ -146,6 +202,8 @@ footer .wrap{display:grid;gap:10px;max-width:1080px}
     <li><a href="/#relic">유물 던전</a></li>
     <li><a href="/#apply">외부 시험 신청</a></li>
     <li><a href="/#faq">자주 묻는 질문</a></li>
+    <li><a href="/store/">상품 가격</a></li>
+    <li><a href="/odds/">확률 공개</a></li>
     <li><a href="/privacy/">개인정보 처리방침</a></li>
   </ul></nav>
   <span>문의 · <a href="mailto:ashencrown.support@gmail.com">ashencrown.support@gmail.com</a> · 평일 기준 2일 이내 답장</span>
