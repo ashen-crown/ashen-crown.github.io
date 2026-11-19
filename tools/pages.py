@@ -181,10 +181,10 @@ def page(lang, slug, title, description, h1, body, *, index=True, crumbs=True, o
 """
 
 
-OPERATOR_KO = '<span class="todo">운영자 이름(출시 전 입력)</span>'
-OPERATOR_EN = '<span class="todo">Operator name (to be entered before release)</span>'
-EFFECTIVE_KO = '<span class="todo">시행일 미정</span>'
-EFFECTIVE_EN = '<span class="todo">effective date to be set</span>'
+OPERATOR_KO = 'Ashen Crown Studio'
+OPERATOR_EN = 'Ashen Crown Studio'
+EFFECTIVE_KO = '2026-12-01'
+EFFECTIVE_EN = 'effective 2026-12-01'
 GAME_KO = "애션 크라운: 빈 왕좌의 새벽"
 GAME_EN = "Ashen Crown: Dawn of the Empty Throne"
 
