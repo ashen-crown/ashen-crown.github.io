@@ -115,6 +115,11 @@ section{padding-block:72px 0}
 .sec-head p{color:var(--dust)}
 img.shot{width:100%}
 .split > *,.loot > *,.mgrid > *{min-width:0}
+.allies{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:10px;margin-top:24px}
+.allies figure{margin:0}
+.allies img{display:block;width:100%;height:auto;border-radius:8px;border:1px solid var(--rule)}
+.allies figcaption{text-align:center;color:var(--dust);font-size:14px;margin-top:6px}
+@media (max-width:760px){.allies{grid-template-columns:repeat(7,40%);overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:6px}.allies figure{scroll-snap-align:start}}
 .shot{border-radius:8px;border:1px solid var(--rule);overflow:hidden;background:var(--ash-2)}
 figure{margin:0;display:grid;gap:8px;min-width:0}
 figcaption{font-size:13.5px;color:var(--dust);line-height:1.55}
@@ -345,7 +350,7 @@ a,button,input,textarea,select,summary{touch-action:manipulation}
 <span lang="en">Platform <b>PC (Steam)</b></span>
 <span lang="en">Price <b>Free to play</b></span>
 <span lang="en">Players <b>1 (single-player)</b></span>
-<span lang="en">Companions <b>94</b></span>
+<span lang="en">Companions <b>115</b></span>
 <span lang="en">Story <b>8 chapters</b></span>
 </div>
 <ul class="pillars" style="margin-top:22px">
@@ -432,7 +437,7 @@ a,button,input,textarea,select,summary{touch-action:manipulation}
 <li><b lang="en">Evade</b><span lang="en">Scouts simply aren't there when it lands.</span></li>
 </ul>
 </div>
-<p class="note"><span lang="en">88 of the 94 companions react in their own way, and the odds of success can be raised with stats, skills and gear.</span></p>
+<p class="note"><span lang="en">Most companions react in their own way, and the odds of success can be raised with stats, skills and gear.</span></p>
 </div>
 </section>
 <section class="band" id="relic">
@@ -598,20 +603,37 @@ a,button,input,textarea,select,summary{touch-action:manipulation}
 <small>06 · MORE</small>
 <h2><span lang="en">More to take on</span></h2>
 
-<p lang="en">Pick today's destination from the lobby. Every mode has its own bosses and materials, so you'll rebuild your party by the day and week.</p>
+<p lang="en">There's plenty beyond the story. Every mode has its own bosses and materials, so you'll rebuild your party by the day and week.</p>
 </div>
 <div class="split rev">
 <figure>
-<img alt="Lobby: guide Mira, continue the story, weekday dungeons, weekly boss, raid, territory and relic dungeon" class="shot" height="900" loading="lazy" src="../img/lobby.webp" width="1600"/>
-<figcaption><span lang="en">The lobby leads to the story, weekday dungeons, weekly bosses, raids, territory and relic dungeons.</span></figcaption>
+<button class="zoom" data-en="Weekly boss select: flip through wanted-poster boss cards; the red wax seal shows wins left this week" data-ko="주간 보스 선택. 수배서처럼 걸린 보스 카드를 좌우로 넘기고, 붉은 밀랍 봉인이 이번 주 남은 승리 횟수를 알려 줍니다" type="button"><img alt="주간 보스 선택 화면: 가운데 큰 보스 카드와 좌우 화살표, 남은 승리 3회 봉인" class="shot" height="900" loading="lazy" src="../img/weekly-boss.webp" width="1600"/></button>
+<figcaption><span lang="en">Weekly bosses: flip through the bosses of seven lands and pick this week's target.</span></figcaption>
 </figure>
 <ul class="modes">
-<li><b lang="en">Weekly bosses</b><span lang="en">Six rotating weekly modifiers, clear ranks from C to SSS.</span></li>
+<li><b lang="en">Weekly bosses</b><span lang="en">One boss for each of the seven lands. Resets every Monday, and a win can drop a crown shard.</span></li>
 <li><b lang="en">Weekday dungeons</b><span lang="en">A different elemental king each day. Bring the right counters.</span></li>
 <li><b lang="en">Bounties</b><span lang="en">Trade named-hunt tokens for chapter-exclusive gear.</span></li>
-<li><b lang="en">Arena</b><span lang="en">Test your party against other line-ups. Matches against other players' defense teams are still being prepared.</span></li>
+<li><b lang="en">Arena</b><span lang="en">No XP or gold here: wins pay Arena Points, spent in the Arena Shop on enhancement stones, liberation stones and gear chests. Tougher opponents pay more.</span></li>
 </ul>
 </div>
+<div class="split" style="margin-top:28px">
+<figure>
+<button class="zoom" data-en="The Ashen Crown: forge the powers of seven lands; awaken them all to open the Gate of Transcendence" data-ko="재의 왕관. 일곱 땅의 권능을 벼리고, 모두 각성시키면 「초월의 문」이 열립니다" type="button"><img alt="재의 왕관 화면: 부서진 왕관 그림, 최종 목표 초월의 문, 일곱 땅의 권능 목록" class="shot" height="754" loading="lazy" src="../img/crown.webp" width="896"/></button>
+<figcaption><span lang="en">The Ashen Crown, with the road to the Gate of Transcendence on one screen.</span></figcaption>
+</figure>
+<div>
+<h3 style="margin:0 0 8px"><span lang="en">The Ashen Crown: powers of seven lands</span></h3>
+
+<p lang="en">Gather shards of the broken crown and forge one power for each land. Shards come from that land's missions (the 1st, 4th, 7th and 10th) and from weekly bosses; as your forged levels add up, the crown earns a new name and more power slots.</p>
+
+<p lang="en">Awaken all seven and the final goal, the Gate of Transcendence, opens: beyond it the bosses grow to endgame strength (in development).</p>
+</div>
+</div>
+<figure style="margin-top:28px">
+<button class="zoom" data-en="The Arena Shop, with weekly and monthly purchase limits" data-ko="투기장 상점. 이번 주·이번 달 살 수 있는 횟수가 정해져 있습니다" type="button"><img alt="투기장 상점: 결투자의 강화석 80, 레어 장비 상자 200, 해방석 250, 유니크 장비 상자 900 포인트" class="shot" height="268" loading="lazy" src="../img/arena-shop.webp" width="1840"/></button>
+<figcaption><span lang="en">The Arena Shop: stones 3 a week, a rare chest and a liberation stone once a week, unique chests twice a month.</span></figcaption>
+</figure>
 </div>
 </section>
 <section id="loot">
@@ -663,13 +685,22 @@ a,button,input,textarea,select,summary{touch-action:manipulation}
 <section id="companions">
 <div class="wrap">
 <div class="split rev">
-<img alt="Summon screen: featured companion art on the left, rate-up list on the right" class="shot" height="900" loading="lazy" src="../img/summon.webp" width="1600"/>
+<img alt="소환 화면: 픽업 동료 루미의 큰 원화와 오른쪽 소환 목록" class="shot" height="621" loading="lazy" src="../img/summon.webp" width="1600"/>
 <div class="sec-head" style="margin:0">
 <small>08 · COMPANIONS</small>
-<h2><span lang="en">94 companions</span></h2>
+<h2><span lang="en">115 companions</span></h2>
 
 <p lang="en">Every companion has a faction and a story, and bonds raise their stats. All summon rates and pity thresholds are published in-game, and Crown Gems can be earned steadily through missions, log-ins and achievements.</p>
 </div>
+</div>
+<div aria-label="새로 그린 동료 원화" class="allies">
+<figure><img alt="바이칸 전신 원화" height="720" loading="lazy" src="../img/ally-baikan.webp" width="480"/><figcaption><span lang="en">Baikan</span></figcaption></figure>
+<figure><img alt="브론웬 전신 원화" height="720" loading="lazy" src="../img/ally-bronwen.webp" width="480"/><figcaption><span lang="en">Bronwen</span></figcaption></figure>
+<figure><img alt="나린 전신 원화" height="720" loading="lazy" src="../img/ally-narin.webp" width="480"/><figcaption><span lang="en">Narin</span></figcaption></figure>
+<figure><img alt="이슬 전신 원화" height="720" loading="lazy" src="../img/ally-isla.webp" width="480"/><figcaption><span lang="en">Isla</span></figcaption></figure>
+<figure><img alt="레온 전신 원화" height="720" loading="lazy" src="../img/ally-leon.webp" width="480"/><figcaption><span lang="en">Leon</span></figcaption></figure>
+<figure><img alt="카일 전신 원화" height="720" loading="lazy" src="../img/ally-kail.webp" width="480"/><figcaption><span lang="en">Kail</span></figcaption></figure>
+<figure><img alt="세이라 전신 원화" height="720" loading="lazy" src="../img/ally-seira.webp" width="480"/><figcaption><span lang="en">Seira</span></figcaption></figure>
 </div>
 </div>
 </section>
