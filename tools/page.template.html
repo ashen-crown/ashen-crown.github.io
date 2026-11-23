@@ -117,6 +117,11 @@ section{padding-block:72px 0}
 .sec-head p{color:var(--dust)}
 img.shot{width:100%}
 .split > *,.loot > *,.mgrid > *{min-width:0}
+.allies{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:10px;margin-top:24px}
+.allies figure{margin:0}
+.allies img{display:block;width:100%;height:auto;border-radius:8px;border:1px solid var(--rule)}
+.allies figcaption{text-align:center;color:var(--dust);font-size:14px;margin-top:6px}
+@media (max-width:760px){.allies{grid-template-columns:repeat(7,40%);overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:6px}.allies figure{scroll-snap-align:start}}
 .shot{border-radius:8px;border:1px solid var(--rule);overflow:hidden;background:var(--ash-2)}
 figure{margin:0;display:grid;gap:8px;min-width:0}
 figcaption{font-size:13.5px;color:var(--dust);line-height:1.55}
@@ -352,7 +357,7 @@ a,button,input,textarea,select,summary{touch-action:manipulation}
       <span lang="ko">플랫폼 <b>PC (Steam)</b></span><span lang="en">Platform <b>PC (Steam)</b></span>
       <span lang="ko">가격 <b>무료</b></span><span lang="en">Price <b>Free to play</b></span>
       <span lang="ko">플레이 <b>1인</b></span><span lang="en">Players <b>1 (single-player)</b></span>
-      <span lang="ko">동료 <b>94명</b></span><span lang="en">Companions <b>94</b></span>
+      <span lang="ko">동료 <b>115명</b></span><span lang="en">Companions <b>115</b></span>
       <span lang="ko">스토리 <b>8장</b></span><span lang="en">Story <b>8 chapters</b></span>
     </div>
     <ul class="pillars" style="margin-top:22px">
@@ -442,7 +447,7 @@ a,button,input,textarea,select,summary{touch-action:manipulation}
         <li><b lang="ko">회피</b><b lang="en">Evade</b><span lang="ko">척후가 몸을 날려 피합니다.</span><span lang="en">Scouts simply aren't there when it lands.</span></li>
       </ul>
     </div>
-    <p class="note"><span lang="ko">동료 94명 중 88명이 저마다 다른 대응 방식을 가지고 있고, 막는 확률은 능력치·기술·장비로 키울 수 있습니다.</span><span lang="en">88 of the 94 companions react in their own way, and the odds of success can be raised with stats, skills and gear.</span></p>
+    <p class="note"><span lang="ko">동료 대부분이 저마다 다른 대응 방식을 가지고 있고, 막는 확률은 능력치·기술·장비로 키울 수 있습니다.</span><span lang="en">Most companions react in their own way, and the odds of success can be raised with stats, skills and gear.</span></p>
   </div>
 </section>
 
@@ -613,21 +618,38 @@ a,button,input,textarea,select,summary{touch-action:manipulation}
     <div class="sec-head">
       <small>06 · MORE</small>
       <h2><span lang="ko">그 밖의 도전</span><span lang="en">More to take on</span></h2>
-      <p lang="ko">로비에서 오늘 갈 곳을 고릅니다. 콘텐츠마다 보스의 성격과 얻는 재료가 달라, 요일과 주마다 파티를 다시 짜게 됩니다.</p>
-      <p lang="en">Pick today's destination from the lobby. Every mode has its own bosses and materials, so you'll rebuild your party by the day and week.</p>
+      <p lang="ko">이야기 밖에도 갈 곳이 많습니다. 콘텐츠마다 보스의 성격과 얻는 재료가 달라, 요일과 주마다 파티를 다시 짜게 됩니다.</p>
+      <p lang="en">There's plenty beyond the story. Every mode has its own bosses and materials, so you'll rebuild your party by the day and week.</p>
     </div>
     <div class="split rev">
       <figure>
-        <img class="shot" src="img/lobby.webp" alt="로비 화면: 안내인 미라, 모험 이어가기, 요일 던전, 주간 보스, 결전 레이드, 영토, 유물 던전 메뉴" loading="lazy" width="1600" height="900">
-        <figcaption><span lang="ko">로비. 모험, 요일 던전, 주간 보스, 레이드, 영토, 유물 던전으로 이어집니다.</span><span lang="en">The lobby leads to the story, weekday dungeons, weekly bosses, raids, territory and relic dungeons.</span></figcaption>
+        <button type="button" class="zoom" data-ko="주간 보스 선택. 수배서처럼 걸린 보스 카드를 좌우로 넘기고, 붉은 밀랍 봉인이 이번 주 남은 승리 횟수를 알려 줍니다" data-en="Weekly boss select: flip through wanted-poster boss cards; the red wax seal shows wins left this week"><img class="shot" src="img/weekly-boss.webp" alt="주간 보스 선택 화면: 가운데 큰 보스 카드와 좌우 화살표, 남은 승리 3회 봉인" loading="lazy" width="1600" height="900"></button>
+        <figcaption><span lang="ko">주간 보스. 일곱 땅의 보스 카드를 넘기며 이번 주 상대를 고릅니다.</span><span lang="en">Weekly bosses: flip through the bosses of seven lands and pick this week's target.</span></figcaption>
       </figure>
       <ul class="modes">
-        <li><b lang="ko">주간 보스</b><b lang="en">Weekly bosses</b><span lang="ko">매주 바뀌는 변조 6종, 토벌 등급은 C부터 SSS까지.</span><span lang="en">Six rotating weekly modifiers, clear ranks from C to SSS.</span></li>
+        <li><b lang="ko">주간 보스</b><b lang="en">Weekly bosses</b><span lang="ko">일곱 땅마다 보스가 한 명씩. 매주 월요일 새로 열리고, 이기면 왕관 파편을 얻을 수 있습니다.</span><span lang="en">One boss for each of the seven lands. Resets every Monday, and a win can drop a crown shard.</span></li>
         <li><b lang="ko">요일 던전</b><b lang="en">Weekday dungeons</b><span lang="ko">요일마다 다른 속성의 정령왕. 약점을 찌르는 편성이 필요합니다.</span><span lang="en">A different elemental king each day. Bring the right counters.</span></li>
         <li><b lang="ko">현상수배</b><b lang="en">Bounties</b><span lang="ko">네임드를 잡고 받은 증표를 그 장 전용 장비로 교환합니다.</span><span lang="en">Trade named-hunt tokens for chapter-exclusive gear.</span></li>
-        <li><b lang="ko">투기장</b><b lang="en">Arena</b><span lang="ko">키운 파티로 다른 편성과 겨룹니다. 다른 플레이어의 방어 팀과 겨루는 방식은 준비 중입니다.</span><span lang="en">Test your party against other line-ups. Matches against other players' defense teams are still being prepared.</span></li>
+        <li><b lang="ko">투기장</b><b lang="en">Arena</b><span lang="ko">경험치·골드 대신 투기장 포인트를 받아 투기장 상점에서 강화석·해방석·장비 상자로 바꿉니다. 상대 등급이 높을수록 포인트가 많습니다.</span><span lang="en">No XP or gold here: wins pay Arena Points, spent in the Arena Shop on enhancement stones, liberation stones and gear chests. Tougher opponents pay more.</span></li>
       </ul>
     </div>
+    <div class="split" style="margin-top:28px">
+      <figure>
+        <button type="button" class="zoom" data-ko="재의 왕관. 일곱 땅의 권능을 벼리고, 모두 각성시키면 「초월의 문」이 열립니다" data-en="The Ashen Crown: forge the powers of seven lands; awaken them all to open the Gate of Transcendence"><img class="shot" src="img/crown.webp" alt="재의 왕관 화면: 부서진 왕관 그림, 최종 목표 초월의 문, 일곱 땅의 권능 목록" loading="lazy" width="896" height="754"></button>
+        <figcaption><span lang="ko">재의 왕관. 최종 목표 「초월의 문」까지의 길이 한 화면에 보입니다.</span><span lang="en">The Ashen Crown, with the road to the Gate of Transcendence on one screen.</span></figcaption>
+      </figure>
+      <div>
+        <h3 style="margin:0 0 8px"><span lang="ko">재의 왕관: 일곱 땅의 권능</span><span lang="en">The Ashen Crown: powers of seven lands</span></h3>
+        <p lang="ko">부서진 왕관의 파편을 모아 땅마다 하나씩 권능을 벼립니다. 파편은 그 땅의 임무(1·4·7·10번째)와 주간 보스에서 나오고, 벼린 단계가 쌓이면 왕관 이름이 바뀌며 권능 칸이 늘어납니다.</p>
+        <p lang="en">Gather shards of the broken crown and forge one power for each land. Shards come from that land's missions (the 1st, 4th, 7th and 10th) and from weekly bosses; as your forged levels add up, the crown earns a new name and more power slots.</p>
+        <p lang="ko">일곱 권능을 모두 각성시키면 최종 목표 「초월의 문」이 열립니다. 문 너머에서는 보스들이 엔드 콘텐츠급으로 강해집니다(준비 중).</p>
+        <p lang="en">Awaken all seven and the final goal, the Gate of Transcendence, opens: beyond it the bosses grow to endgame strength (in development).</p>
+      </div>
+    </div>
+    <figure style="margin-top:28px">
+      <button type="button" class="zoom" data-ko="투기장 상점. 이번 주·이번 달 살 수 있는 횟수가 정해져 있습니다" data-en="The Arena Shop, with weekly and monthly purchase limits"><img class="shot" src="img/arena-shop.webp" alt="투기장 상점: 결투자의 강화석 80, 레어 장비 상자 200, 해방석 250, 유니크 장비 상자 900 포인트" loading="lazy" width="1840" height="268"></button>
+      <figcaption><span lang="ko">투기장 상점. 강화석 주 3회, 레어 상자·해방석 주 1회, 유니크 상자 월 2회.</span><span lang="en">The Arena Shop: stones 3 a week, a rare chest and a liberation stone once a week, unique chests twice a month.</span></figcaption>
+    </figure>
   </div>
 </section>
 
@@ -681,13 +703,22 @@ a,button,input,textarea,select,summary{touch-action:manipulation}
 <section id="companions">
   <div class="wrap">
     <div class="split rev">
-      <img class="shot" src="img/summon.webp" alt="소환 화면: 왼쪽에 큰 동료 원화, 오른쪽에 이번 픽업 목록" loading="lazy" width="1600" height="900">
+      <img class="shot" src="img/summon.webp" alt="소환 화면: 픽업 동료 루미의 큰 원화와 오른쪽 소환 목록" loading="lazy" width="1600" height="621">
       <div class="sec-head" style="margin:0">
         <small>08 · COMPANIONS</small>
-        <h2><span lang="ko">94명의 동료</span><span lang="en">94 companions</span></h2>
+        <h2><span lang="ko">115명의 동료</span><span lang="en">115 companions</span></h2>
         <p lang="ko">동료마다 세력과 이야기가 있고, 함께 지내며 쌓는 유대가 능력치를 올려 줍니다. 소환 확률과 천장은 게임 안에 모두 공개하고, 유료 재화 「왕관석」은 임무·출석·업적으로도 꾸준히 모을 수 있습니다.</p>
         <p lang="en">Every companion has a faction and a story, and bonds raise their stats. All summon rates and pity thresholds are published in-game, and Crown Gems can be earned steadily through missions, log-ins and achievements.</p>
       </div>
+    </div>
+    <div class="allies" aria-label="새로 그린 동료 원화">
+      <figure><img src="img/ally-baikan.webp" alt="바이칸 전신 원화" loading="lazy" width="480" height="720"><figcaption><span lang="ko">바이칸</span><span lang="en">Baikan</span></figcaption></figure>
+      <figure><img src="img/ally-bronwen.webp" alt="브론웬 전신 원화" loading="lazy" width="480" height="720"><figcaption><span lang="ko">브론웬</span><span lang="en">Bronwen</span></figcaption></figure>
+      <figure><img src="img/ally-narin.webp" alt="나린 전신 원화" loading="lazy" width="480" height="720"><figcaption><span lang="ko">나린</span><span lang="en">Narin</span></figcaption></figure>
+      <figure><img src="img/ally-isla.webp" alt="이슬 전신 원화" loading="lazy" width="480" height="720"><figcaption><span lang="ko">이슬</span><span lang="en">Isla</span></figcaption></figure>
+      <figure><img src="img/ally-leon.webp" alt="레온 전신 원화" loading="lazy" width="480" height="720"><figcaption><span lang="ko">레온</span><span lang="en">Leon</span></figcaption></figure>
+      <figure><img src="img/ally-kail.webp" alt="카일 전신 원화" loading="lazy" width="480" height="720"><figcaption><span lang="ko">카일</span><span lang="en">Kail</span></figcaption></figure>
+      <figure><img src="img/ally-seira.webp" alt="세이라 전신 원화" loading="lazy" width="480" height="720"><figcaption><span lang="ko">세이라</span><span lang="en">Seira</span></figcaption></figure>
     </div>
   </div>
 </section>
