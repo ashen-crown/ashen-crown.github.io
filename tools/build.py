@@ -142,10 +142,14 @@ def build(lang):
     data["url"] = m["url"]
     data["image"] = BASE + "img/" + img
     data["inLanguage"] = ["ko", "en"]
+    # 11/24 희망: 「애션 크라운은 Ashen Crown Studio가 만든 작품」
+    data["author"] = {"@type": "Organization", "name": "Ashen Crown Studio"}
+    data["copyrightHolder"] = {"@type": "Organization", "name": "Ashen Crown Studio"}
+    data["copyrightYear"] = 2026
     graph = [
         data,
         {"@type": "WebSite", "name": "Ashen Crown", "alternateName": "애션 크라운", "url": BASE, "inLanguage": lang},
-        {"@type": "Organization", "name": "Ashen Crown", "url": BASE, "logo": BASE + "img/icon-512.png",
+        {"@type": "Organization", "name": "Ashen Crown Studio", "url": BASE, "logo": BASE + "img/icon-512.png",
          "email": "ashencrown.support@gmail.com"},
         faq_ld(soup),
     ]
