@@ -1,0 +1,1 @@
+export{BitmapFont}from"./lib-Ccsj9Vs5.js";
