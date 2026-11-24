@@ -1,0 +1,1 @@
+export{BitmapFont}from"./lib-CQ4POEaF.js";
