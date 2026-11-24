@@ -140,6 +140,8 @@ def page(lang, slug, title, description, h1, body, *, index=True, crumbs=True, o
 <meta property="og:type" content="website">
 <meta property="og:locale" content="{u['locale']}">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="author" content="Ashen Crown Studio">
+<meta name="copyright" content="© 2026 Ashen Crown Studio. All rights reserved.">
 <meta name="theme-color" content="#14110f">
 <link rel="icon" href="/favicon.ico" sizes="32x32">
 <link rel="icon" href="/img/icon-192.png" type="image/png" sizes="192x192">
@@ -173,7 +175,7 @@ def page(lang, slug, title, description, h1, body, *, index=True, crumbs=True, o
     <li><a href="{h}privacy/">{u['privacy']}</a></li>
   </ul></nav>
   <span>{u['contact']} · <a href="mailto:{MAIL}">{MAIL}</a> · {u['reply']}</span>
-  <span>© 2026 Ashen Crown · {u['foot']}</span>
+  <span>© 2026 Ashen Crown Studio. All rights reserved. · {u['foot']}</span>
 </div></footer>
 <script src="/js/site.js" defer></script>
 </body>
