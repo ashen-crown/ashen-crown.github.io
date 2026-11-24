@@ -1,1 +1,0 @@
-export{BitmapFont}from"./lib-eQrrTm1s.js";
