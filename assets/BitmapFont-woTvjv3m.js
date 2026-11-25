@@ -1,1 +1,0 @@
-export{BitmapFont}from"./lib-D1_emVlw.js";
