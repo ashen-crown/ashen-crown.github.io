@@ -1,1 +1,0 @@
-import{Sr as e,VS as t}from"./GameContext-C6SKS7_O.js";var n=e();function r(){return(0,n.jsx)(`div`,{className:`iron-sluice-scene`,"aria-hidden":!0,style:{backgroundImage:`url(${t.open})`},children:(0,n.jsx)(`i`,{className:`iron-sluice-water`})})}export{r as t};
