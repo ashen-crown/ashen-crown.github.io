@@ -6,8 +6,8 @@ Ashen Crown(애션 크라운) 게임 소개 홈페이지입니다. GitHub Pages�
 - 문의: ashencrown.support@gmail.com
 
 이 저장소의 그림과 글은 Ashen Crown의 것이며, 허락 없이 다른 곳에 쓸 수 없습니다.
-© 2026 Ashen Crown Studio. All rights reserved.
-Ashen Crown(애션 크라운)은 Ashen Crown Studio가 만든 작품입니다. 이 사이트의 그림·글·게임 화면·웹판 파일은 허락 없이 복제·배포할 수 없습니다.
+© 2026 애션크라운 스튜디오(Ashen Crown Studio). All rights reserved.
+Ashen Crown(애션 크라운)은 애션크라운 스튜디오가 만든 작품입니다. 이 사이트의 그림·글·게임 화면·웹판 파일은 허락 없이 복제·배포할 수 없습니다.
 
 ## 처음 한 번 해야 하는 설정
 - **구글 애널리틱스**: GA4 측정 ID(`G-`로 시작)를 `js/site.js` 맨 위 `GA_ID = ""` 따옴표 안에 넣습니다. 비워 두면 통계도, 동의 배너도 나오지 않습니다.

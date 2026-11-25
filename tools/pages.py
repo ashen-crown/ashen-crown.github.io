@@ -86,10 +86,10 @@ footer .wrap{display:grid;gap:10px;max-width:1080px}
 UI = {
     "ko": {"home": "홈", "skip": "본문 바로가기", "privacy": "개인정보 처리방침", "faq": "자주 묻는 질문", "apply": "외부 시험 신청",
            "relic": "유물 던전", "records": "실제 플레이", "contact": "문의", "reply": "평일 기준 2일 이내 답장",
-           "foot": "모든 사진은 개발 중인 실제 게임 화면입니다.", "crumbs": "현재 위치", "store": "상품 가격", "odds": "확률 공개", "sitenav": "사이트 안내", "locale": "ko_KR"},
+           "copy": "© 2026 애션크라운 스튜디오(Ashen Crown Studio). All rights reserved.", "foot": "모든 사진은 개발 중인 실제 게임 화면입니다.", "crumbs": "현재 위치", "store": "상품 가격", "odds": "확률 공개", "sitenav": "사이트 안내", "locale": "ko_KR"},
     "en": {"home": "Home", "skip": "Skip to content", "privacy": "Privacy policy", "faq": "FAQ", "apply": "Playtest sign-up",
            "relic": "Relic dungeons", "records": "Play records", "contact": "Contact", "reply": "reply within 2 business days",
-           "foot": "All images are in-development game footage.", "crumbs": "You are here", "store": "Prices", "odds": "Odds", "sitenav": "Site", "locale": "en_US"},
+           "copy": "© 2026 Ashen Crown Studio. All rights reserved.", "foot": "All images are in-development game footage.", "crumbs": "You are here", "store": "Prices", "odds": "Odds", "sitenav": "Site", "locale": "en_US"},
 }
 
 
@@ -140,8 +140,8 @@ def page(lang, slug, title, description, h1, body, *, index=True, crumbs=True, o
 <meta property="og:type" content="website">
 <meta property="og:locale" content="{u['locale']}">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="author" content="Ashen Crown Studio">
-<meta name="copyright" content="© 2026 Ashen Crown Studio. All rights reserved.">
+<meta name="author" content="애션크라운 스튜디오 (Ashen Crown Studio)">
+<meta name="copyright" content="© 2026 애션크라운 스튜디오 (Ashen Crown Studio). All rights reserved.">
 <meta name="theme-color" content="#14110f">
 <link rel="icon" href="/favicon.ico" sizes="32x32">
 <link rel="icon" href="/img/icon-192.png" type="image/png" sizes="192x192">
@@ -175,7 +175,7 @@ def page(lang, slug, title, description, h1, body, *, index=True, crumbs=True, o
     <li><a href="{h}privacy/">{u['privacy']}</a></li>
   </ul></nav>
   <span>{u['contact']} · <a href="mailto:{MAIL}">{MAIL}</a> · {u['reply']}</span>
-  <span>© 2026 Ashen Crown Studio. All rights reserved. · {u['foot']}</span>
+  <span>{u['copy']} · {u['foot']}</span>
 </div></footer>
 <script src="/js/site.js" defer></script>
 </body>
@@ -183,7 +183,7 @@ def page(lang, slug, title, description, h1, body, *, index=True, crumbs=True, o
 """
 
 
-OPERATOR_KO = 'Ashen Crown Studio'
+OPERATOR_KO = '애션크라운 스튜디오'  # 11/25 희망: 정식 상호(한글), 2026 개업
 OPERATOR_EN = 'Ashen Crown Studio'
 EFFECTIVE_KO = '2026-12-01'
 EFFECTIVE_EN = 'effective 2026-12-01'
