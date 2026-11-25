@@ -142,9 +142,10 @@ def build(lang):
     data["url"] = m["url"]
     data["image"] = BASE + "img/" + img
     data["inLanguage"] = ["ko", "en"]
-    # 11/24 희망: 「애션 크라운은 Ashen Crown Studio가 만든 작품」
-    data["author"] = {"@type": "Organization", "name": "Ashen Crown Studio"}
-    data["copyrightHolder"] = {"@type": "Organization", "name": "Ashen Crown Studio"}
+    # 11/24 희망: 「애션 크라운은 Ashen Crown Studio가 만든 작품」 · 11/25 정식 상호 한글 「애션크라운 스튜디오」
+    studio = {"@type": "Organization", "name": "애션크라운 스튜디오" if lang == "ko" else "Ashen Crown Studio", "alternateName": "Ashen Crown Studio" if lang == "ko" else "애션크라운 스튜디오"}
+    data["author"] = studio
+    data["copyrightHolder"] = studio
     data["copyrightYear"] = 2026
     graph = [
         data,
