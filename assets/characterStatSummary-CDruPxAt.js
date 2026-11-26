@@ -1,0 +1,1 @@
+import{Hw as e,gp as t,o_ as n}from"./GameContext-XS9Jcsef.js";function r(r,i){let a=!!e[r]&&t({defId:r})===`magic`,o=Math.floor((i.atk+i.attributes.magicAtk)*n({equipmentPassives:i.passives})),s=i.def+i.attributes.magicDef;return{magic:a,attackLabel:a?`MATK`:`ATK`,attack:a?o:i.atk,magicDef:s}}export{r as t};
