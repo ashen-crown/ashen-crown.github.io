@@ -1,1 +1,0 @@
-export{BitmapFont}from"./lib-C6ovttI-.js";
