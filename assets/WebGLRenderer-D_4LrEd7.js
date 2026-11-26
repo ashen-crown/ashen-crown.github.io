@@ -1,1 +1,0 @@
-export{WebGLRenderer}from"./lib-DtPc7TAC.js";
