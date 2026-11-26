@@ -1,0 +1,1 @@
+export{WebGLRenderer}from"./lib-XS5zRPtN.js";

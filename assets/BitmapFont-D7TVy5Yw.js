@@ -1,0 +1,1 @@
+export{BitmapFont}from"./lib-XS5zRPtN.js";
