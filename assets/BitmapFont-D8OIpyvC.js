@@ -1,1 +1,0 @@
-export{BitmapFont}from"./lib-BZ_5YwUN.js";
