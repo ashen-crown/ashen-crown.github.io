@@ -1,0 +1,8 @@
+studio-crown-drop.ogg / .m4a — 실행 첫 화면 회사 로고 소리 (2026-11-24 희망 선택)
+
+원본: "Metal Drop in Garage" by loganzsound, Freesound #874472
+https://freesound.org/people/loganzsound/sounds/874472/
+라이선스: CC0 1.0 (Public Domain Dedication) — 표기 의무 없음, 상업 사용 가능
+https://creativecommons.org/publicdomain/zero/1.0/
+
+가공(Claude): 앞 55ms 무음 자름, 45Hz 아래 잡음 줄임, 가벼운 압축, 첫 0.6초(처음 「쾅」) +9dB·낮은 소리 보강(11/25 희망 요청), 대리석 홀 잔향(1.7초) 12%, 6.6초로 맞추고 끝 0.5초 페이드, 부드러운 제한 후 최고 -1dBFS.

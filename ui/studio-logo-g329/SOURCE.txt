@@ -1,0 +1,4 @@
+G329 회사 로고 (2026-11-26)
+원본: 희망이 Google Gemini 앱으로 만든 그림 1장 (PC outbox/gpt-illust/G329_studio-logo/Gemini_Generated_Image_d6my5jd6my5jd6my.png, 2752×1536).
+가공(Claude): 바탕의 옅은 얼룩을 순수 흰색(#FFFFFF)으로 고름, 같은 그림에서 왕관(studio-crown-emblem.webp 597×447)과 글자(studio-wordmark.webp 1426×296)를 잘라 나눔(합성 없음).
+철자 확인: ASHEN CROWN / STUDIO.

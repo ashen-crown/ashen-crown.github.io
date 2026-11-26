@@ -1,1 +1,0 @@
-export{BitmapFont}from"./lib-Cqy54HVM.js";

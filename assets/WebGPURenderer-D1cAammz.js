@@ -1,1 +1,0 @@
-export{WebGPURenderer}from"./lib-Cqy54HVM.js";
