@@ -1,1 +1,0 @@
-export{BitmapFont}from"./lib-DVm8qbFI.js";
