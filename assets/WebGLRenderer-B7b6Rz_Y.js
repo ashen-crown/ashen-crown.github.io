@@ -1,0 +1,1 @@
+export{WebGLRenderer}from"./lib-CnyYx_ig.js";
