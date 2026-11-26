@@ -1,1 +1,0 @@
-export{BitmapFont}from"./lib-DtPc7TAC.js";

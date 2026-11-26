@@ -1,0 +1,1 @@
+export{WebGPURenderer}from"./lib-C_yaibWX.js";
