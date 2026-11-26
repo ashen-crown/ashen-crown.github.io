@@ -1,1 +1,0 @@
-export{BitmapFont}from"./lib-C_yaibWX.js";
