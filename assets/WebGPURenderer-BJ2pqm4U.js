@@ -1,0 +1,1 @@
+export{WebGPURenderer}from"./lib-DtPc7TAC.js";
