@@ -1,1 +1,0 @@
-import{r as e}from"./GameContext-B1cPmE8M.js";import{t}from"./monsterIntel-2iUj2LqY.js";function n(){return e()?.save.bestiary??{}}function r(e){return t(n(),e)}export{r as n,n as t};
