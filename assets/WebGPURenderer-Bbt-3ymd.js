@@ -1,1 +1,0 @@
-export{WebGPURenderer}from"./lib-XS5zRPtN.js";
