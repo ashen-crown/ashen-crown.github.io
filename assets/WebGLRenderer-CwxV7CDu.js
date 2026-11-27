@@ -1,0 +1,1 @@
+export{WebGLRenderer}from"./lib-INfyvfj7.js";

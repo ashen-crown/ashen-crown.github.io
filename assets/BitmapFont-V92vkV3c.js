@@ -1,0 +1,1 @@
+export{BitmapFont}from"./lib-INfyvfj7.js";
