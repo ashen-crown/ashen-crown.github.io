@@ -1,1 +1,0 @@
-import{r as e}from"./GameContext-_60NJeSf.js";import{t}from"./monsterIntel-r-fp4_83.js";function n(){return e()?.save.bestiary??{}}function r(e){return t(n(),e)}export{r as n,n as t};
