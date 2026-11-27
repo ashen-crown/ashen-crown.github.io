@@ -1,1 +1,0 @@
-export{WebGLRenderer}from"./lib-Cq8I7u_Y.js";
