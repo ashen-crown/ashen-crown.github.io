@@ -1,0 +1,1 @@
+export{WebGLRenderer}from"./lib-BTX5KVXv.js";
