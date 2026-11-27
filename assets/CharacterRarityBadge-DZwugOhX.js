@@ -1,0 +1,1 @@
+/* empty css                      */import{s as e}from"./locale-UD9Bt4vg.js";import{Er as t}from"./GameContext-BHNqKJQT.js";var n=t();function r({rarity:t,compact:r=!1}){return(0,n.jsx)(`em`,{className:`character-rarity-emblem${r?` is-compact`:``}`,"data-rarity":t,"aria-label":e(`{a} 등급`,{a:t}),"data-tip":e(`{a} 등급`,{a:t}),children:(0,n.jsx)(`b`,{children:t})})}export{r as t};
